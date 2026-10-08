@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+PyYAML==6.0.3
+python-dotenv==1.2.4
+nbconvert==7.17.1
+ipykernel==7.4.0
+pytest==9.1.1
+ruff==0.16.10
+black==26.5.1

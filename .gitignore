@@ -1,9 +1,19 @@
+# Data: downloaded or derived, never committed (see data/README.md)
 data/raw/
 data/external/
 data/processed/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python and tool caches
 __pycache__/
+*.py[cod]
 *.egg-info/
 .ipynb_checkpoints/
 .pytest_cache/
 .ruff_cache/
-.env
+.mypy_cache/
+.venv/
