@@ -50,3 +50,45 @@ the clean file adds `tier` (`core` = semeval16, gwsd, climate_reddit; `auxiliary
   claim. Spot-check before using it as *against* training data.
 - GWSD repeats five crowd-sourcing screening sentences 50 times each; the clean file keeps one copy.
 - No source contains Hindi, YouTube comments, Romanized text, or code-mixing.
+
+## YouTube comments (unlabelled, for annotation)
+
+`data_prep/collect_youtube.py` collects Hindi and Bengali comments on climate-related videos
+through the official YouTube Data API v3 only, within YouTube's Terms of Service; nothing is
+scraped. Search queries and limits are in `configs/youtube.yaml`.
+
+```
+cp .env.example .env        # then set YT_API_KEY and YT_AUTHOR_SALT
+python data_prep/collect_youtube.py --dry-run
+python data_prep/collect_youtube.py
+python data_prep/youtube_counts.py
+```
+
+- Every API response is cached in `data/raw/youtube/cache/`; quota spent per Pacific-time day
+  is recorded in `data/raw/youtube/quota.json`. When the daily budget is reached the script
+  writes partial outputs, exits with status 75, and resumes from the cache on the next run.
+- Outputs: `data/processed/youtube_videos_v1.csv` and `data/processed/youtube_comments_v1.csv`.
+  `data_prep/youtube_counts.py` writes count tables (no text, no authors) to `results/youtube/`.
+- Privacy: outputs keep no usernames or commenter channel ids, only `author_hash`, a salted
+  SHA-256 used to cap comments per author. The salt is `YT_AUTHOR_SALT` in `.env`. The raw
+  cache does contain author names; like all of `data/raw/`, it is gitignored and never committed.
+- `script` is the writing system holding at least 80% of a comment's letters (`bengali`,
+  `devanagari`, `latin`, else `mixed`; `none` without letters). `latin` covers both English and
+  Romanized Hindi/Bengali. `duplicate` marks repeated copies of a text after normalisation.
+
+### Query types and annotation pools
+
+Every search query has a `query_type`, and every video and comment row carries the type of the
+queries that found its video:
+
+| `query_type` | meaning |
+|---|---|
+| `general` | found only by general climate queries |
+| `sceptic` | found only by queries aimed at sceptical content (e.g. "global warming is a lie") |
+| `both` | found by at least one general and at least one sceptic query |
+
+**Pool rule.** The RANDOM annotation pool draws only from `general` and `both` comments; it is
+meant to estimate what a general climate search surfaces, and a video a general query returns
+belongs to that population whether or not a sceptic query also returned it. `sceptic` comments
+may only enter the TARGETED pool, which over-samples likely *against* comments and is never used
+to estimate class priors.
