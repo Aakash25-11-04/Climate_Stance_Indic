@@ -32,8 +32,17 @@ CASE = "https://raw.githubusercontent.com/Salman1804102/CASE-EACL-2024/main/Data
 DHORONI = "https://raw.githubusercontent.com/ciol-researchlab/Dhoroni/main"
 
 COLUMNS = [
-    "uid", "text", "label", "source", "lang", "domain", "target",
-    "orig_label", "orig_split", "quality", "agreement",
+    "uid",
+    "text",
+    "label",
+    "source",
+    "lang",
+    "domain",
+    "target",
+    "orig_label",
+    "orig_split",
+    "quality",
+    "agreement",
 ]
 
 
@@ -60,18 +69,27 @@ def load_semeval(raw: Path) -> pd.DataFrame:
         text_lines = texts.read_text(encoding="utf-8").splitlines()
         label_lines = [int(x) for x in labels.read_text().split()]
         if len(text_lines) != len(label_lines):
-            raise ValueError(f"SemEval {split}: {len(text_lines)} texts vs {len(label_lines)} labels")
-        frames.append(pd.DataFrame({
-            "text": text_lines,
-            "orig_label": label_lines,
-            "orig_split": split,
-        }))
+            raise ValueError(
+                f"SemEval {split}: {len(text_lines)} texts vs {len(label_lines)} labels"
+            )
+        frames.append(
+            pd.DataFrame(
+                {
+                    "text": text_lines,
+                    "orig_label": label_lines,
+                    "orig_split": split,
+                }
+            )
+        )
     df = pd.concat(frames, ignore_index=True)
     df["label"] = df["orig_label"].map(id2label)
     return df.assign(
-        source="semeval16", lang="en", domain="tweet",
+        source="semeval16",
+        lang="en",
+        domain="tweet",
         target="Climate Change is a Real Concern (near-identical)",
-        quality="gold", agreement=float("nan"),
+        quality="gold",
+        agreement=float("nan"),
     )
 
 
@@ -86,24 +104,31 @@ def load_gwsd(raw: Path) -> pd.DataFrame:
     # annotator model for most rows; prefer them over raw majority vote.
     posterior = df[["agree", "disagree", "neutral"]]
     has_post = posterior.notna().all(axis=1)
-    post_label = posterior.fillna(-1.0).idxmax(axis=1).map(
-        {"agree": "agrees", "disagree": "disagrees", "neutral": "neutral"}
+    post_label = (
+        posterior.fillna(-1.0)
+        .idxmax(axis=1)
+        .map({"agree": "agrees", "disagree": "disagrees", "neutral": "neutral"})
     )
     orig = majority.where(~has_post, post_label)
     conf = vote_share.where(~has_post, posterior.max(axis=1))
 
-    out = pd.DataFrame({
-        "text": df["sentence"],
-        "orig_label": orig,
-        "orig_split": df["in_held_out_test"].map({True: "test", False: "train"}),
-        "agreement": conf,
-    })
+    out = pd.DataFrame(
+        {
+            "text": df["sentence"],
+            "orig_label": orig,
+            "orig_split": df["in_held_out_test"].map({True: "test", False: "train"}),
+            "agreement": conf,
+        }
+    )
     out["label"] = out["orig_label"].map(
         {"agrees": "favour", "disagrees": "against", "neutral": "none"}
     )
     return out.assign(
-        source="gwsd", lang="en", domain="news",
-        target="global warming is a serious concern (identical)", quality="gold",
+        source="gwsd",
+        lang="en",
+        domain="news",
+        target="global warming is a serious concern (identical)",
+        quality="gold",
     )
 
 
@@ -115,49 +140,72 @@ def load_climate_reddit(raw: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
         raise ValueError("ClimateReddit annotator files are not row-aligned")
     id2label = {1: "favour", -1: "against", 0: "none"}
     agree = a1["opinion-label"] == a2["opinion-label"]
-    gold = pd.DataFrame({
-        "text": a1.loc[agree, "body"],
-        "orig_label": a1.loc[agree, "opinion-label"],
-        "orig_split": "manual",
-        "agreement": 1.0,
-    })
+    gold = pd.DataFrame(
+        {
+            "text": a1.loc[agree, "body"],
+            "orig_label": a1.loc[agree, "opinion-label"],
+            "orig_split": "manual",
+            "agreement": 1.0,
+        }
+    )
     gold["label"] = gold["orig_label"].map(id2label)
     gold = gold.assign(
-        source="climate_reddit", lang="en", domain="reddit",
-        target="climate change prevention (related)", quality="gold",
+        source="climate_reddit",
+        lang="en",
+        domain="reddit",
+        target="climate change prevention (related)",
+        quality="gold",
     )
 
-    pseudo = pd.read_csv(fetch(f"{REDDIT}/Pseudo-labeled-Reddit.tsv", raw / "reddit_pseudo.tsv"), sep="\t")
-    silver = pd.DataFrame({
-        "text": pseudo["body"],
-        "orig_label": pseudo["opinion"],
-        "orig_split": "pseudo",
-        "agreement": float("nan"),
-    })
+    pseudo = pd.read_csv(
+        fetch(f"{REDDIT}/Pseudo-labeled-Reddit.tsv", raw / "reddit_pseudo.tsv"), sep="\t"
+    )
+    silver = pd.DataFrame(
+        {
+            "text": pseudo["body"],
+            "orig_label": pseudo["opinion"],
+            "orig_split": "pseudo",
+            "agreement": float("nan"),
+        }
+    )
     silver["label"] = silver["orig_label"].map(id2label)
     silver = silver.assign(
-        source="climate_reddit_pseudo", lang="en", domain="reddit",
-        target="climate change prevention (related)", quality="silver",
+        source="climate_reddit_pseudo",
+        lang="en",
+        domain="reddit",
+        target="climate change prevention (related)",
+        quality="silver",
     )
     return gold, silver
 
 
 def load_case2024(raw: Path) -> pd.DataFrame:
     train = pd.read_csv(fetch(f"{CASE}/SubTask-C-train.csv", raw / "case_c_train.csv"))
-    val_text = pd.read_csv(fetch(f"{CASE}/SubTask-C(indextweet)val.csv", raw / "case_c_val_text.csv"))
-    val_label = pd.read_csv(fetch(f"{CASE}/SubTask-C(indexlabel)val.csv", raw / "case_c_val_label.csv"))
+    val_text = pd.read_csv(
+        fetch(f"{CASE}/SubTask-C(indextweet)val.csv", raw / "case_c_val_text.csv")
+    )
+    val_label = pd.read_csv(
+        fetch(f"{CASE}/SubTask-C(indexlabel)val.csv", raw / "case_c_val_label.csv")
+    )
     val = val_text.merge(val_label, on="index", how="inner", validate="one_to_one")
-    df = pd.concat([train.assign(orig_split="train"), val.assign(orig_split="val")], ignore_index=True)
-    out = pd.DataFrame({
-        "text": df["tweet"],
-        "orig_label": df["label"],
-        "orig_split": df["orig_split"],
-        "agreement": float("nan"),
-    })
+    df = pd.concat(
+        [train.assign(orig_split="train"), val.assign(orig_split="val")], ignore_index=True
+    )
+    out = pd.DataFrame(
+        {
+            "text": df["tweet"],
+            "orig_label": df["label"],
+            "orig_split": df["orig_split"],
+            "agreement": float("nan"),
+        }
+    )
     out["label"] = out["orig_label"].map({1: "favour", 2: "against", 3: "none"})
     return out.assign(
-        source="case2024", lang="en", domain="tweet",
-        target="climate activism (related)", quality="gold",
+        source="case2024",
+        lang="en",
+        domain="tweet",
+        target="climate activism (related)",
+        quality="gold",
     )
 
 
@@ -175,32 +223,46 @@ def load_dhoroni(raw: Path) -> pd.DataFrame:
     if missing:
         log.warning("Dhoroni: %d articles have no text file", missing)
     meta = meta.dropna(subset=["body"])
-    out = pd.DataFrame({
-        "text": meta["Title"].fillna("") + "\n" + meta["body"],
-        "orig_label": meta["Stance Detection"],
-        "orig_split": "all",
-        "agreement": float("nan"),
-    })
+    out = pd.DataFrame(
+        {
+            "text": meta["Title"].fillna("") + "\n" + meta["body"],
+            "orig_label": meta["Stance Detection"],
+            "orig_split": "all",
+            "agreement": float("nan"),
+        }
+    )
     # "Problematic" is not a stance; it marks articles the annotators flagged.
-    out["label"] = out["orig_label"].map({"Positive": "favour", "Negative": "against", "Neutral": "none"})
+    out["label"] = out["orig_label"].map(
+        {"Positive": "favour", "Negative": "against", "Neutral": "none"}
+    )
     return out.assign(
-        source="dhoroni", lang="bn", domain="news",
-        target="climate change is real and pressing (close)", quality="gold",
+        source="dhoroni",
+        lang="bn",
+        domain="news",
+        target="climate change is real and pressing (close)",
+        quality="gold",
     )
 
 
 def build(raw: Path) -> pd.DataFrame:
     reddit_gold, reddit_silver = load_climate_reddit(raw)
     parts = [
-        load_semeval(raw), load_gwsd(raw), reddit_gold,
-        reddit_silver, load_case2024(raw), load_dhoroni(raw),
+        load_semeval(raw),
+        load_gwsd(raw),
+        reddit_gold,
+        reddit_silver,
+        load_case2024(raw),
+        load_dhoroni(raw),
     ]
     df = pd.concat(parts, ignore_index=True)
     df["text"] = df["text"].map(clean)
 
     unmapped = df["label"].isna()
-    log.info("dropping %d rows with no target label: %s",
-             unmapped.sum(), df.loc[unmapped, "orig_label"].value_counts().to_dict())
+    log.info(
+        "dropping %d rows with no target label: %s",
+        unmapped.sum(),
+        df.loc[unmapped, "orig_label"].value_counts().to_dict(),
+    )
     df = df[~unmapped & (df["text"].str.len() > 0)].copy()
 
     df["uid"] = df["source"] + "-" + df.groupby("source").cumcount().astype(str)
@@ -216,7 +278,7 @@ def main() -> None:
 
     df = build(args.raw_dir)
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(args.out, index=False)
+    df.to_csv(args.out, index=False, lineterminator="\n")
     log.info("wrote %d rows to %s", len(df), args.out)
     log.info("\n%s", pd.crosstab(df["source"], df["label"], margins=True))
 

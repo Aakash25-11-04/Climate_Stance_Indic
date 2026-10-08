@@ -16,6 +16,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from stance.preprocess import dedup_key
+
 log = logging.getLogger(__name__)
 
 # Sources whose original target matches the project claim closely.
@@ -33,11 +35,6 @@ RULES = {
     "conflicting_duplicates": "drop all copies of a text that carries different labels",
     "duplicates": "keep one copy of a repeated text within a source",
 }
-
-
-def dedup_key(text: str) -> str:
-    text = re.sub(r"https?://\S+|@\w+", "", text.lower())
-    return re.sub(r"\W+", " ", text).strip()
 
 
 def clean(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -77,7 +74,7 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
     cleaned, report = clean(pd.read_csv(args.inp))
-    cleaned.to_csv(args.out, index=False)
+    cleaned.to_csv(args.out, index=False, lineterminator="\n")
     log.info("rows removed per rule:\n%s", report.to_string())
     log.info("wrote %d rows to %s", len(cleaned), args.out)
 
