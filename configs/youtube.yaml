@@ -1,0 +1,13 @@
+# Optional real-data collection (needs YOUTUBE_API_KEY in .env). See MANUAL_TASKS.md section D.
+seed: 42
+youtube:
+  queries:
+    hi: ["जलवायु परिवर्तन", "ग्लोबल वार्मिंग सच या झूठ", "climate change hindi", "गर्मी बढ़ रही है क्यों", "जलवायु परिवर्तन भारत"]
+    bn: ["জলবায়ু পরিবর্তন", "বৈশ্বিক উষ্ণায়ন", "climate change bangla", "গরম বাড়ছে কেন", "জলবায়ু পরিবর্তন বাংলাদেশ"]
+  max_videos_per_query: 5
+  max_comments_per_video: 100
+  min_chars: 8
+  max_chars: 600
+  sample_for_labelling: 150
+  out_dir: data/raw/youtube
+  template: data/gold/test_real_TEMPLATE.csv

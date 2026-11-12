@@ -1,0 +1,374 @@
+{
+  "final": {
+    "type": "ensemble",
+    "path": "models/final",
+    "calibration": null,
+    "candidate": "avg_all",
+    "selection_score": 0.6615150813670299
+  },
+  "efficient": {
+    "type": "quantized",
+    "path": "models/muril_pair_claim-en_weighted_ce",
+    "calibration": null
+  },
+  "candidates": [
+    {
+      "candidate": "avg_all",
+      "members": "muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr",
+      "dev_macro_f1": 0.685577236206136,
+      "dev_ece": 0.0648930990412333,
+      "gold_macro_f1": 0.7662198784150004,
+      "gold_accuracy": 0.7712418300653595,
+      "gold_f1_hi": 0.8004687072347414,
+      "gold_f1_bn": 0.7319988879621908,
+      "challenge_fail_rate": 0.20940959409594095,
+      "calibrated": false,
+      "score": 0.6615150813670299
+    },
+    {
+      "candidate": "muril_pair_claim-en_weighted_ce",
+      "members": "muril_pair_claim-en_weighted_ce",
+      "dev_macro_f1": 0.6830403111572112,
+      "dev_ece": 0.08965301196942482,
+      "gold_macro_f1": 0.7366563885202969,
+      "gold_accuracy": 0.7418300653594772,
+      "gold_f1_hi": 0.7685033156896349,
+      "gold_f1_bn": 0.7035732022729179,
+      "challenge_fail_rate": 0.21955719557195572,
+      "calibrated": false,
+      "score": 0.626877790734319
+    },
+    {
+      "candidate": "muril_pair_claim-en_weighted_ce+cal",
+      "members": "muril_pair_claim-en_weighted_ce",
+      "dev_macro_f1": 0.685422199923281,
+      "dev_ece": 0.04636642258883818,
+      "gold_macro_f1": 0.7303886914864685,
+      "gold_accuracy": 0.7352941176470589,
+      "gold_f1_hi": 0.7622096452227566,
+      "gold_f1_bn": 0.6975267562345483,
+      "challenge_fail_rate": 0.2177121771217712,
+      "calibrated": true,
+      "score": 0.6215326029255829
+    },
+    {
+      "candidate": "weighted_dev+cal",
+      "members": "muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr",
+      "dev_macro_f1": 0.6993032371954503,
+      "dev_ece": 0.0314532727488971,
+      "gold_macro_f1": 0.7312983312983313,
+      "gold_accuracy": 0.7352941176470589,
+      "gold_f1_hi": 0.7688056619536262,
+      "gold_f1_bn": 0.6930890177364347,
+      "challenge_fail_rate": 0.22047970479704798,
+      "calibrated": true,
+      "score": 0.6210584788998074
+    },
+    {
+      "candidate": "avg_all+cal",
+      "members": "muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr",
+      "dev_macro_f1": 0.7002890915549221,
+      "dev_ece": 0.027815197488910294,
+      "gold_macro_f1": 0.7398153223143543,
+      "gold_accuracy": 0.7418300653594772,
+      "gold_f1_hi": 0.7687017674881753,
+      "gold_f1_bn": 0.7111733582321818,
+      "challenge_fail_rate": 0.24077490774907748,
+      "calibrated": true,
+      "score": 0.6194278684398156
+    },
+    {
+      "candidate": "weighted_dev",
+      "members": "muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr",
+      "dev_macro_f1": 0.699086057436649,
+      "dev_ece": 0.06378486452107245,
+      "gold_macro_f1": 0.7246103369901054,
+      "gold_accuracy": 0.7320261437908496,
+      "gold_f1_hi": 0.7601972201245181,
+      "gold_f1_bn": 0.6878522140090152,
+      "challenge_fail_rate": 0.21125461254612546,
+      "calibrated": false,
+      "score": 0.6189830307170426
+    },
+    {
+      "candidate": "muril_pair_claim-auto_focal",
+      "members": "muril_pair_claim-auto_focal",
+      "dev_macro_f1": 0.6717729213432976,
+      "dev_ece": 0.12138432017746732,
+      "gold_macro_f1": 0.73243677238057,
+      "gold_accuracy": 0.7352941176470589,
+      "gold_f1_hi": 0.735508652987277,
+      "gold_f1_bn": 0.7293968001464521,
+      "challenge_fail_rate": 0.27121771217712176,
+      "calibrated": false,
+      "score": 0.5968279162920092
+    },
+    {
+      "candidate": "tfidf_cnb",
+      "members": "tfidf_cnb",
+      "dev_macro_f1": 0.5781247070121059,
+      "dev_ece": 0.14422592211635274,
+      "gold_macro_f1": 0.7317780668936912,
+      "gold_accuracy": 0.7320261437908496,
+      "gold_f1_hi": 0.7266393442622952,
+      "gold_f1_bn": 0.7377580485336863,
+      "challenge_fail_rate": 0.28690036900369004,
+      "calibrated": false,
+      "score": 0.5883278823918462
+    },
+    {
+      "candidate": "emb_bgem3_lr",
+      "members": "emb_bgem3_lr",
+      "dev_macro_f1": 0.6342317387899435,
+      "dev_ece": 0.039361386300833856,
+      "gold_macro_f1": 0.7192702771421308,
+      "gold_accuracy": 0.7254901960784313,
+      "gold_f1_hi": 0.721654954116478,
+      "gold_f1_bn": 0.7157730628063232,
+      "challenge_fail_rate": 0.2656826568265683,
+      "calibrated": false,
+      "score": 0.5864289487288467
+    },
+    {
+      "candidate": "stack_dev",
+      "members": "muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr",
+      "dev_macro_f1": 0.6721683456856725,
+      "dev_ece": 0.04148056472419996,
+      "gold_macro_f1": 0.6836355014178741,
+      "gold_accuracy": 0.7026143790849673,
+      "gold_f1_hi": 0.7175351530190239,
+      "gold_f1_bn": 0.6510385660144115,
+      "challenge_fail_rate": 0.23247232472324722,
+      "calibrated": false,
+      "score": 0.5673993390562505
+    },
+    {
+      "candidate": "hybrid_baseline",
+      "members": "hybrid_baseline",
+      "dev_macro_f1": 0.6376481058854532,
+      "dev_ece": 0.028129472457934564,
+      "gold_macro_f1": 0.6704270083420089,
+      "gold_accuracy": 0.6862745098039216,
+      "gold_f1_hi": 0.7151404151404152,
+      "gold_f1_bn": 0.6248874222955519,
+      "challenge_fail_rate": 0.29981549815498154,
+      "calibrated": false,
+      "score": 0.520519259264518
+    }
+  ],
+  "accuracy_vs_cost": [
+    {
+      "model": "tfidf_cnb",
+      "gold_macro_f1": 0.7317780668936912,
+      "challenge_fail_rate": 0.28690036900369004,
+      "size_mb": 19.141933,
+      "cpu_ms_per_example": 0.17092399997636676
+    },
+    {
+      "model": "hybrid_baseline (j)",
+      "gold_macro_f1": 0.6704270083420089,
+      "challenge_fail_rate": 0.29981549815498154,
+      "size_mb": 23.129559,
+      "cpu_ms_per_example": 118.20655499992426
+    },
+    {
+      "model": "muril_pair_claim-en_weighted_ce (fp32 cpu)",
+      "gold_macro_f1": 0.7366563885202969,
+      "challenge_fail_rate": 0.21955719557195572,
+      "size_mb": 959.833431,
+      "cpu_ms_per_example": 17.02793799995561
+    },
+    {
+      "model": "muril_pair_claim-en_weighted_ce (int8 dynamic, attention layers)",
+      "gold_macro_f1": 0.7149154470084703,
+      "challenge_fail_rate": 0.22324723247232472,
+      "size_mb": NaN,
+      "cpu_ms_per_example": 14.318818000028841
+    },
+    {
+      "model": "ensemble (avg_all)",
+      "gold_macro_f1": 0.7662198784150004,
+      "challenge_fail_rate": 0.20940959409594095,
+      "size_mb": 1938.82309,
+      "cpu_ms_per_example": 196.77378099993803
+    }
+  ],
+  "final_gold": {
+    "macro_f1": 0.7662198784150004,
+    "accuracy": 0.7712418300653595,
+    "n": 306,
+    "per_class": {
+      "Favour": {
+        "precision": 0.84,
+        "recall": 0.5727272727272728,
+        "f1": 0.6810810810810811,
+        "support": 110
+      },
+      "Against": {
+        "precision": 0.7966101694915254,
+        "recall": 0.9038461538461539,
+        "f1": 0.8468468468468469,
+        "support": 104
+      },
+      "None": {
+        "precision": 0.6991150442477876,
+        "recall": 0.8586956521739131,
+        "f1": 0.7707317073170732,
+        "support": 92
+      }
+    },
+    "confusion_matrix": [
+      [
+        63,
+        21,
+        26
+      ],
+      [
+        2,
+        94,
+        8
+      ],
+      [
+        10,
+        3,
+        79
+      ]
+    ],
+    "confusion_labels": [
+      "Favour",
+      "Against",
+      "None"
+    ],
+    "per_language": {
+      "bn": {
+        "macro_f1": 0.7319988879621908,
+        "accuracy": 0.738562091503268,
+        "n": 153
+      },
+      "hi": {
+        "macro_f1": 0.8004687072347414,
+        "accuracy": 0.803921568627451,
+        "n": 153
+      }
+    }
+  },
+  "final_challenge": {
+    "overall_fail_rate": 0.20940959409594095,
+    "n_tests": 1084,
+    "per_category": {
+      "codemixed": {
+        "fail_rate": 0.2,
+        "n": 60
+      },
+      "conspiracy": {
+        "fail_rate": 0.3333333333333333,
+        "n": 60
+      },
+      "different_target": {
+        "fail_rate": 0.31666666666666665,
+        "n": 60
+      },
+      "dir_negation": {
+        "fail_rate": 0.3125,
+        "n": 64
+      },
+      "emoji": {
+        "fail_rate": 0.26666666666666666,
+        "n": 60
+      },
+      "implicit": {
+        "fail_rate": 0.5666666666666667,
+        "n": 60
+      },
+      "inv_elongation": {
+        "fail_rate": 0.06666666666666667,
+        "n": 30
+      },
+      "inv_emoji_append": {
+        "fail_rate": 0.03333333333333333,
+        "n": 30
+      },
+      "inv_mention_prepend": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "inv_punct_strip": {
+        "fail_rate": 0.03333333333333333,
+        "n": 30
+      },
+      "inv_roman_span": {
+        "fail_rate": 0.16666666666666666,
+        "n": 30
+      },
+      "inv_typo": {
+        "fail_rate": 0.16666666666666666,
+        "n": 30
+      },
+      "inv_url_append": {
+        "fail_rate": 0.1,
+        "n": 30
+      },
+      "inv_whitespace": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "long": {
+        "fail_rate": 0.0,
+        "n": 60
+      },
+      "negation": {
+        "fail_rate": 0.2,
+        "n": 60
+      },
+      "neutral_topic": {
+        "fail_rate": 0.13333333333333333,
+        "n": 60
+      },
+      "offtopic": {
+        "fail_rate": 0.0,
+        "n": 60
+      },
+      "romanized": {
+        "fail_rate": 0.3,
+        "n": 60
+      },
+      "sarcasm": {
+        "fail_rate": 0.4,
+        "n": 60
+      },
+      "short": {
+        "fail_rate": 0.2833333333333333,
+        "n": 60
+      },
+      "typos": {
+        "fail_rate": 0.16666666666666666,
+        "n": 60
+      }
+    },
+    "per_type": {
+      "directional": {
+        "fail_rate": 0.3125,
+        "n": 64
+      },
+      "invariance": {
+        "fail_rate": 0.07083333333333333,
+        "n": 240
+      },
+      "mft": {
+        "fail_rate": 0.24358974358974358,
+        "n": 780
+      }
+    },
+    "per_language": {
+      "bn": {
+        "fail_rate": 0.23062730627306274,
+        "n": 542
+      },
+      "hi": {
+        "fail_rate": 0.1881918819188192,
+        "n": 542
+      }
+    }
+  },
+  "note": "stacking meta-learner and calibration fitted on dev; gold/challenge are test-only"
+}

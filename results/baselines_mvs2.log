@@ -1,0 +1,35 @@
+train 19485  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+[resume] kept majority (gold 0.1763)
+[resume] kept stratified_random (gold 0.3342)
+[resume] kept lexicon (gold 0.5752)
+[resume] kept tfidf_lr (gold 0.6397)
+
+=== emb_labse_lr ===
+  fold 0: macro F1 0.6082 params={'C': 8.0}
+  fold 1: macro F1 0.5658 params={'C': 8.0}
+  fold 2: macro F1 0.6134 params={'C': 8.0}
+  fold 3: macro F1 0.6110 params={'C': 8.0}
+  fold 4: macro F1 0.6207 params={'C': 8.0}
+CV macro F1 0.6038 ± 0.0195 | dev 0.5928 | gold 0.6024 (hi 0.582 bn 0.624) | challenge fail 0.305 | 0.1 ms/ex
+macro F1 0.6024  acc 0.6242  n=306
+  Favour   P 0.696 R 0.291 F1 0.410 (n=110)
+  Against  P 0.590 R 0.817 F1 0.685 (n=104)
+  None     P 0.638 R 0.804 F1 0.712 (n=92)
+  [bn] macro F1 0.6241 acc 0.6471 n=153
+  [hi] macro F1 0.5819 acc 0.6013 n=153
+
+=== stack_best: tfidf_lr + emb_labse_lr ===
+stack CV(meta OOF) 0.6538 | dev 0.6393 | gold 0.6214 | challenge fail 0.307
+macro F1 0.6214  acc 0.6405  n=306
+  Favour   P 0.735 R 0.327 F1 0.453 (n=110)
+  Against  P 0.664 R 0.817 F1 0.733 (n=104)
+  None     P 0.581 R 0.815 F1 0.679 (n=92)
+  [bn] macro F1 0.5843 acc 0.6078 n=153
+  [hi] macro F1 0.6585 acc 0.6732 n=153
+Traceback (most recent call last):
+  File "c:\Users\aakas\Desktop\HTTP\scripts\run_baselines.py", line 273, in <module>
+    main()
+  File "c:\Users\aakas\Desktop\HTTP\scripts\run_baselines.py", line 263, in main
+    pickle.dump(stack, f)
+AttributeError: Can't pickle local object 'main.<locals>.<dictcomp>.<lambda>'
+EXIT=1

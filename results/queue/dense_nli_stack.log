@@ -1,0 +1,126 @@
+train 19278  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+[resume] kept majority (gold 0.1763)
+[resume] kept stratified_random (gold 0.3342)
+[resume] kept lexicon (gold 0.5752)
+[resume] kept tfidf_lr (gold 0.6349)
+[resume] kept tfidf_cnb (gold 0.7318)
+[resume] kept nbsvm (gold 0.6123)
+[resume] kept tfidf_lr_translit (gold 0.5495)
+[resume] kept nbsvm_translit (gold 0.5649)
+[resume] kept tfidf_svm (gold 0.6265)
+
+=== emb_labse_lr ===
+  fold 0: macro F1 0.6094 params={'C': 8.0}
+  fold 1: macro F1 0.6313 params={'C': 8.0}
+  fold 2: macro F1 0.6023 params={'C': 8.0}
+  fold 3: macro F1 0.6001 params={'C': 8.0}
+  fold 4: macro F1 0.6046 params={'C': 8.0}
+CV macro F1 0.6095 ± 0.0113 | dev 0.5884 | gold 0.6124 (hi 0.590 bn 0.635) | challenge fail 0.304 | 0.1 ms/ex
+macro F1 0.6124  acc 0.6340  n=306
+  Favour   P 0.733 R 0.300 F1 0.426 (n=110)
+  Against  P 0.597 R 0.827 F1 0.694 (n=104)
+  None     P 0.641 R 0.815 F1 0.718 (n=92)
+  [bn] macro F1 0.6354 acc 0.6601 n=153
+  [hi] macro F1 0.5896 acc 0.6078 n=153
+
+=== emb_e5base_lr ===
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--intfloat--multilingual-e5-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+  fold 0: macro F1 0.6239 params={'C': 2.0}
+  fold 1: macro F1 0.6197 params={'C': 2.0}
+  fold 2: macro F1 0.6229 params={'C': 2.0}
+  fold 3: macro F1 0.6121 params={'C': 2.0}
+  fold 4: macro F1 0.6225 params={'C': 2.0}
+CV macro F1 0.6202 ± 0.0043 | dev 0.6360 | gold 0.6410 (hi 0.648 bn 0.634) | challenge fail 0.310 | 146.3 ms/ex
+macro F1 0.6410  acc 0.6569  n=306
+  Favour   P 0.886 R 0.355 F1 0.506 (n=110)
+  Against  P 0.609 R 0.808 F1 0.694 (n=104)
+  None     P 0.629 R 0.848 F1 0.722 (n=92)
+  [bn] macro F1 0.6338 acc 0.6536 n=153
+  [hi] macro F1 0.6477 acc 0.6601 n=153
+
+=== emb_labse_target_lr ===
+  fold 0: macro F1 0.6035 params={'C': 2.0}
+  fold 1: macro F1 0.6391 params={'C': 2.0}
+  fold 2: macro F1 0.6047 params={'C': 2.0}
+  fold 3: macro F1 0.6058 params={'C': 2.0}
+  fold 4: macro F1 0.6019 params={'C': 2.0}
+CV macro F1 0.6110 ± 0.0141 | dev 0.6040 | gold 0.6434 (hi 0.637 bn 0.649) | challenge fail 0.296 | 0.2 ms/ex
+macro F1 0.6434  acc 0.6569  n=306
+  Favour   P 0.788 R 0.373 F1 0.506 (n=110)
+  Against  P 0.619 R 0.798 F1 0.697 (n=104)
+  None     P 0.642 R 0.837 F1 0.726 (n=92)
+  [bn] macro F1 0.6492 acc 0.6601 n=153
+  [hi] macro F1 0.6374 acc 0.6536 n=153
+
+=== emb_e5base_target_lr ===
+  fold 0: macro F1 0.6299 params={'C': 2.0}
+  fold 1: macro F1 0.6320 params={'C': 2.0}
+  fold 2: macro F1 0.6240 params={'C': 2.0}
+  fold 3: macro F1 0.6133 params={'C': 2.0}
+  fold 4: macro F1 0.6296 params={'C': 2.0}
+CV macro F1 0.6258 ± 0.0068 | dev 0.6355 | gold 0.6713 (hi 0.682 bn 0.661) | challenge fail 0.316 | 178.8 ms/ex
+macro F1 0.6713  acc 0.6830  n=306
+  Favour   P 0.882 R 0.409 F1 0.559 (n=110)
+  Against  P 0.649 R 0.817 F1 0.723 (n=104)
+  None     P 0.637 R 0.859 F1 0.731 (n=92)
+  [bn] macro F1 0.6610 acc 0.6732 n=153
+  [hi] macro F1 0.6822 acc 0.6928 n=153
+
+=== emb_bgem3_lr ===
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--BAAI--bge-m3. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+  fold 0: macro F1 0.6477 params={'C': 2.0}
+  fold 1: macro F1 0.6285 params={'C': 0.5}
+  fold 2: macro F1 0.6153 params={'C': 0.5}
+  fold 3: macro F1 0.6113 params={'C': 0.5}
+  fold 4: macro F1 0.6158 params={'C': 0.5}
+CV macro F1 0.6237 ± 0.0133 | dev 0.6342 | gold 0.7193 (hi 0.722 bn 0.716) | challenge fail 0.266 | 349.9 ms/ex
+macro F1 0.7193  acc 0.7255  n=306
+  Favour   P 0.770 R 0.518 F1 0.620 (n=110)
+  Against  P 0.734 R 0.875 F1 0.798 (n=104)
+  None     P 0.685 R 0.804 F1 0.740 (n=92)
+  [bn] macro F1 0.7158 acc 0.7190 n=153
+  [hi] macro F1 0.7217 acc 0.7320 n=153
+
+=== zeroshot_nli ===
+C:\Users\aakas\anaconda3\envs\stance\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+CV macro F1 0.4053 ± 0.0000 | dev 0.4154 | gold 0.4129 (hi 0.362 bn 0.432) | challenge fail 0.453 | nan ms/ex
+macro F1 0.4129  acc 0.4412  n=306
+  Favour   P 0.409 R 0.636 F1 0.498 (n=110)
+  Against  P 0.511 R 0.462 F1 0.485 (n=104)
+  None     P 0.415 R 0.185 F1 0.256 (n=92)
+  [bn] macro F1 0.4318 acc 0.4379 n=153
+  [hi] macro F1 0.3624 acc 0.4444 n=153
+
+=== stack_best: tfidf_lr_translit + emb_e5base_target_lr ===
+stack CV(meta OOF) 0.6686 | dev 0.6376 | gold 0.6704 | challenge fail 0.300
+macro F1 0.6704  acc 0.6863  n=306
+  Favour   P 0.857 R 0.382 F1 0.528 (n=110)
+  Against  P 0.690 R 0.837 F1 0.757 (n=104)
+  None     P 0.618 R 0.880 F1 0.726 (n=92)
+  [bn] macro F1 0.6249 acc 0.6471 n=153
+  [hi] macro F1 0.7151 acc 0.7255 n=153
+
+               model family  cv_macro_f1_mean  cv_macro_f1_std  oof_f1_hi  oof_f1_bn  dev_macro_f1  gold_macro_f1  gold_accuracy  gold_f1_hi  gold_f1_bn  challenge_fail_rate  train_seconds  cpu_ms_per_example                                                           params
+            majority sparse            0.2419           0.0008     0.2422     0.2417        0.2470         0.1763         0.3595      0.1763      0.1763               0.5415         0.5112              0.0002                                                               {}
+   stratified_random sparse            0.3363           0.0064     0.3359     0.3367        0.3152         0.3342         0.3562      0.3855      0.2833               0.5387         0.5172              0.0008                                                               {}
+             lexicon sparse            0.3371           0.0070     0.3331     0.3390        0.3175         0.5752         0.6078      0.5595      0.5907               0.3690         2.8977              0.0801                                                               {}
+            tfidf_lr sparse            0.6658           0.0085     0.6661     0.6657        0.6203         0.6349         0.6373      0.6644      0.6062               0.3201       846.8112              0.3380                                                       {"C": 1.0}
+           tfidf_cnb sparse            0.6265           0.0057     0.6272     0.6254        0.5781         0.7318         0.7320      0.7266      0.7378               0.2869       459.2294              0.3349                                                       {"C": 0.3}
+               nbsvm sparse            0.6533           0.0068     0.6491     0.6578        0.6181         0.6123         0.6111      0.6556      0.5684               0.3561       740.1892              0.3569                                                       {"C": 0.5}
+   tfidf_lr_translit sparse            0.6752           0.0053     0.6710     0.6799        0.5732         0.5495         0.5556      0.6792      0.3958               0.3911       175.1859              0.5166                                                               {}
+      nbsvm_translit sparse            0.6592           0.0064     0.6540     0.6649        0.5443         0.5649         0.5654      0.6639      0.4530               0.3958       169.3502              0.5870                                                               {}
+           tfidf_svm sparse            0.6580           0.0081     0.6567     0.6594        0.6082         0.6265         0.6307      0.5941      0.6588               0.3376       342.2450              0.1783                                                       {"C": 0.5}
+        emb_labse_lr  dense            0.6095           0.0113     0.6140     0.6048        0.5884         0.6124         0.6340      0.5896      0.6354               0.3044       155.0839              0.0757                                                       {"C": 8.0}
+       emb_e5base_lr  dense            0.6202           0.0043     0.6306     0.6096        0.6360         0.6410         0.6569      0.6477      0.6338               0.3100       281.9031            146.2913                                                       {"C": 2.0}
+ emb_labse_target_lr  dense            0.6110           0.0141     0.6161     0.6056        0.6040         0.6434         0.6569      0.6374      0.6492               0.2961       781.0423              0.2228                                                       {"C": 2.0}
+emb_e5base_target_lr  dense            0.6258           0.0068     0.6352     0.6161        0.6355         0.6713         0.6830      0.6822      0.6610               0.3164      1335.7879            178.7797                                                       {"C": 2.0}
+        emb_bgem3_lr  dense            0.6237           0.0133     0.6284     0.6189        0.6342         0.7193         0.7255      0.7217      0.7158               0.2657       731.9470            349.9452                                                       {"C": 0.5}
+        zeroshot_nli    nli            0.4053           0.0000     0.3944     0.4066        0.4154         0.4129         0.4412      0.3624      0.4318               0.4530      1988.8677                 NaN                                                               {}
+          stack_best hybrid            0.6686              NaN     0.6735     0.6637        0.6376         0.6704         0.6863      0.7151      0.6249               0.2998        42.2355              0.6589 {"sparse": "tfidf_lr_translit", "dense": "emb_e5base_target_lr"}
+
+BASELINE TO BEAT (by gold macro F1, tie-break CV): tfidf_cnb gold 0.7318 CV 0.6265

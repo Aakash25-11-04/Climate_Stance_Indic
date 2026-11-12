@@ -1,0 +1,257 @@
+{
+  "ablation": {
+    "name": "no_transliterated",
+    "remove": [
+      "transliterated"
+    ]
+  },
+  "cv": {
+    "fold_macro_f1": [
+      0.6066461495926676,
+      0.6415525582259741,
+      0.6299066596925119,
+      0.6382636678222658,
+      0.6545126576639315
+    ],
+    "cv_macro_f1_mean": 0.6341763385994701,
+    "cv_macro_f1_std": 0.015879686482826495,
+    "oof_metrics": {
+      "macro_f1": 0.6341510703189163,
+      "accuracy": 0.7042760503940917,
+      "n": 16113,
+      "per_class": {
+        "Favour": {
+          "precision": 0.7132226154823487,
+          "recall": 0.8619214740074578,
+          "f1": 0.7805532105080201,
+          "support": 9118
+        },
+        "Against": {
+          "precision": 0.6350954478707783,
+          "recall": 0.4477225672877847,
+          "f1": 0.525197328476017,
+          "support": 1932
+        },
+        "None": {
+          "precision": 0.7031082529474812,
+          "recall": 0.5182698005135296,
+          "f1": 0.5967026719727118,
+          "support": 5063
+        }
+      },
+      "confusion_matrix": [
+        [
+          7859,
+          345,
+          914
+        ],
+        [
+          873,
+          865,
+          194
+        ],
+        [
+          2287,
+          152,
+          2624
+        ]
+      ],
+      "confusion_labels": [
+        "Favour",
+        "Against",
+        "None"
+      ],
+      "per_language": {
+        "bn": {
+          "macro_f1": 0.6360842851167244,
+          "accuracy": 0.7062089853609288,
+          "n": 7924
+        },
+        "hi": {
+          "macro_f1": 0.6318389609062319,
+          "accuracy": 0.7024056661375015,
+          "n": 8189
+        }
+      }
+    },
+    "chosen_params": [],
+    "seconds": 24.37675929069519
+  },
+  "gold": {
+    "macro_f1": 0.7037345828729529,
+    "accuracy": 0.7026143790849673,
+    "n": 306,
+    "per_class": {
+      "Favour": {
+        "precision": 0.6578947368421053,
+        "recall": 0.6818181818181818,
+        "f1": 0.6696428571428571,
+        "support": 110
+      },
+      "Against": {
+        "precision": 0.6991150442477876,
+        "recall": 0.7596153846153846,
+        "f1": 0.728110599078341,
+        "support": 104
+      },
+      "None": {
+        "precision": 0.7721518987341772,
+        "recall": 0.6630434782608695,
+        "f1": 0.7134502923976608,
+        "support": 92
+      }
+    },
+    "confusion_matrix": [
+      [
+        75,
+        24,
+        11
+      ],
+      [
+        18,
+        79,
+        7
+      ],
+      [
+        21,
+        10,
+        61
+      ]
+    ],
+    "confusion_labels": [
+      "Favour",
+      "Against",
+      "None"
+    ],
+    "per_language": {
+      "bn": {
+        "macro_f1": 0.7252706630612017,
+        "accuracy": 0.7254901960784313,
+        "n": 153
+      },
+      "hi": {
+        "macro_f1": 0.6831648322263776,
+        "accuracy": 0.6797385620915033,
+        "n": 153
+      }
+    }
+  },
+  "challenge": {
+    "overall_fail_rate": 0.3025830258302583,
+    "n_tests": 1084,
+    "per_category": {
+      "codemixed": {
+        "fail_rate": 0.4166666666666667,
+        "n": 60
+      },
+      "conspiracy": {
+        "fail_rate": 0.48333333333333334,
+        "n": 60
+      },
+      "different_target": {
+        "fail_rate": 0.6833333333333333,
+        "n": 60
+      },
+      "dir_negation": {
+        "fail_rate": 0.59375,
+        "n": 64
+      },
+      "emoji": {
+        "fail_rate": 0.25,
+        "n": 60
+      },
+      "implicit": {
+        "fail_rate": 0.38333333333333336,
+        "n": 60
+      },
+      "inv_elongation": {
+        "fail_rate": 0.03333333333333333,
+        "n": 30
+      },
+      "inv_emoji_append": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "inv_mention_prepend": {
+        "fail_rate": 0.06666666666666667,
+        "n": 30
+      },
+      "inv_punct_strip": {
+        "fail_rate": 0.06666666666666667,
+        "n": 30
+      },
+      "inv_roman_span": {
+        "fail_rate": 0.26666666666666666,
+        "n": 30
+      },
+      "inv_typo": {
+        "fail_rate": 0.1,
+        "n": 30
+      },
+      "inv_url_append": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "inv_whitespace": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "long": {
+        "fail_rate": 0.06666666666666667,
+        "n": 60
+      },
+      "negation": {
+        "fail_rate": 0.3333333333333333,
+        "n": 60
+      },
+      "neutral_topic": {
+        "fail_rate": 0.45,
+        "n": 60
+      },
+      "offtopic": {
+        "fail_rate": 0.06666666666666667,
+        "n": 60
+      },
+      "romanized": {
+        "fail_rate": 0.31666666666666665,
+        "n": 60
+      },
+      "sarcasm": {
+        "fail_rate": 0.5666666666666667,
+        "n": 60
+      },
+      "short": {
+        "fail_rate": 0.21666666666666667,
+        "n": 60
+      },
+      "typos": {
+        "fail_rate": 0.3333333333333333,
+        "n": 60
+      }
+    },
+    "per_type": {
+      "directional": {
+        "fail_rate": 0.59375,
+        "n": 64
+      },
+      "invariance": {
+        "fail_rate": 0.06666666666666667,
+        "n": 240
+      },
+      "mft": {
+        "fail_rate": 0.35128205128205126,
+        "n": 780
+      }
+    },
+    "per_language": {
+      "bn": {
+        "fail_rate": 0.2933579335793358,
+        "n": 542
+      },
+      "hi": {
+        "fail_rate": 0.3118081180811808,
+        "n": 542
+      }
+    }
+  }
+}

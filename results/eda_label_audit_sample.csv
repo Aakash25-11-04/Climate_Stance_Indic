@@ -1,0 +1,51 @@
+id,text,language,source_type,label
+train_018667,"संयुक्त राष्ट्र जलवायु परिवर्तन सम्मेलन COP25 से पहले, इंटर IKEA समूह ने घोषणा की है कि वे जलवायु सकारात्मक व्यवसाय बनने के लिए परिवर्तन को तेज करने के लिए 200 मिलियन यूरो का निवेश करेंगे",hi,translated,Favour
+train_015574,आलू का मौसम आ रहा है।,hi,translated,None
+train_000351,क्या हम अब थोरियम एलएफटीआर का निर्माण कर सकते हैं गर्मियों में 200 डिग्री सेल्सियस से पहले।,hi,translated,Favour
+train_002408,"भाई मौसम में बदलाव कोई मज़ाक नहीं है, लखनऊ में मार्च में ही 42 डिग्री हो रहा है",hi,synthetic,Favour
+train_009020,"বিদ্যুৎ কেন্দ্র থেকে কার্বন দূষণ কমানোর জন্য ওবামা প্রশাসনের নতুন পরিকল্পনা কেবল জলবায়ু পরিবর্তন মোকাবেলা করবে না, বরং দ্রুত জনস্বাস্থ্যের উন্নতি করবে, এই নিয়ম কার্যকর হওয়ার প্রথম বছরে ১০০,০০০ পর্যন্ত অ্যাস্মা আক্রমণ এবং ২,১০০টি হার্ট অ্যাটাক প্রতিরোধ করবে।",bn,translated,Favour
+train_000257,"pahle bhi sukha aati thi, tab koi sajish nahin phailaataa tha",hi,synthetic,Against
+train_012574,"WRONG, jolbayu poriborton niye alochonay bishal probhab felechhe ebon etike ekti notun torun shrotar kachhe pounchhe diyechhe ya tader pur jibnke sorasri probhabit korbe! take nobel shanti puroskara deoya uchit chhil. take bishber sobocheye beshi proyjn!",bn,transliterated,Favour
+train_009124,"कृषि पर जलवायु परिवर्तन के प्रभावों का सामना करने के लिए खाद्य प्रणालियों को लचीला होने की आवश्यकता होगी। 20 कारकों को देखते हुए, शोधकर्ताओं को अब इस बारे में एक बड़ी तस्वीर मिल गई है कि कौन से देश सबसे अधिक खतरे में हैं।",hi,translated,Favour
+train_004342,Peole@ jalvayu parivartan par bharosaa nahin kiyaa jaa sakta,hi,transliterated,None
+train_000346,जलवायु परिवर्तन के बारे में लोगों को सोचने के लिए 'अल्पकालिक प्रोत्साहन विकसित करने' की आवश्यकता पर हावर्ड कुनरेथर,hi,translated,Favour
+train_017630,"ग्लोबल वार्मिंग को 1.5 डिग्री सेल्सियस तक सीमित करना एक समृद्ध, समावेशी और टिकाऊ दुनिया को आकार देने के साथ हाथ में जाता है। ऊर्जा परिवर्तन में निवेश के साथ, यह संभव हैः जलवायु कार्रवाई अब COP25",hi,translated,Favour
+train_015662,ग्लोबल वार्मिंग आपदा पृथ्वी तेज गति से गरम हो रही है थर्मोइलेक्ट्रॉनिक कोसोवो विशेषज्ञता,hi,translated,Favour
+train_015484,"ham jalwayu parivartan ke lie aasaa chunte hain aaie jalwayu parivartan ke prabhaawon ko kam karne ke lie ek yojnaa par sahmat hon ab 'aashaa chunein ya jalvaayu atmasmarpan, sanyukt raashtr pramukh' jalwaayu araajktaa jalvaayu hadtaal ke madhyam se",hi,transliterated,Favour
+train_018972,bro जलवायु sammelan की विफलता के fear से चिंतित संयुक्त राष्ट्र प्रमुख,hi,codemixed,Favour
+train_010240,ग्रेटा के लिए अच्छा है. आप जलवायु परिवर्तन में विश्वास करते हैं या नहीं. यह ठीक है. मुझे लगता है कि मध्य FL में जलवायु बदल गई है जब से मैं एक बच्चा था. यह ठीक है. चलो नफरत बंद करो. ग्रेटा महान है. वह निश्चित रूप से कुछ के बारे में नाराज है. मुझे उम्मीद है कि वह शांति पा सकता है.,hi,translated,None
+train_003425,mausam yuddh grinlaind mein barf pighalne ki gati badhane ke karan laakhon aur bhi baadh ke jokhim kaa saamnaa kar rahe hain - da taims - met-e-nechar mausam samaachaar echaenji dvaaraa kharida gaya - lyutan eksatinxan vidroh jalwayu kaarravae XYZ,hi,transliterated,Favour
+train_002221,afrikaa mein jalwaayu pariwartan ke prabhaav kaa ek chehraa.,hi,transliterated,Favour
+train_015922,bisbobyapi shokti byobosthake karbonhin korar jony ekhon theke shuru kore shotabdi jude ekti bishal procheshta proyjn.,bn,transliterated,Favour
+train_015734,"যেহেতু শিশুদের মধ্যে জলবায়ু পরিবর্তনের অনুভূতি বিশ্বব্যাপী দৃষ্টিভঙ্গি বা রাজনৈতিক প্রেক্ষাপটের প্রভাবের জন্য কম সংবেদনশীল বলে মনে হয়, তাই তারা প্রাপ্তবয়স্কদের জলবায়ু সংক্রান্ত উদ্বেগের আরও উচ্চ স্তরের দিকে অনুপ্রাণিত করতে পারে এবং ফলস্বরূপ, সম্মিলিত কর্মের দিকে অনুপ্রাণিত করতে পারে।",bn,translated,Favour
+train_002678,কমপক্ষে ৩০ বছর পর থেকে বিজ্ঞান জলবায়ু পরিবর্তনের ব্যাপারে সক্রিয়ভাবে সতর্ক করে দিয়েছে। এবং এটা খুবই মৃদু হয়েছে। প্রথম বৈজ্ঞানিক প্রকাশনা ১৯০১ সাল পর্যন্ত ছিল।,bn,translated,Favour
+train_004385,amra karbon kor arp korb na ebon amra kon nirgomn banijy byobostha arp korb na.,bn,transliterated,None
+train_000210,সুতরাং খ্রিস্টান এর... সৈকত ছাড়া আপনার ঈশ্বর বালি মানুষ তৈরি করতে যাচ্ছে কি?,bn,translated,Favour
+train_003702,vishv kap mein pradushan vivad badhata jaa raha hai.,hi,transliterated,None
+train_014420,"""আপনি দেখতে পাচ্ছেন যে আপনার দুর্বল আদর্শগুলি সত্যিকারের পরিবর্তনের জন্য খুব দৃঢ়ভাবে ধরে রাখা হয়েছে। তবুও, আপনার চেষ্টা করার নৈতিক বাধ্যবাধকতা রয়েছে।"" আপনার কী মনে হয়? ️ জলবায়ু পরিবর্তনের নতুন প্রবন্ধ",bn,translated,Favour
+train_002730,जलवायु परिवर्तन और यूरोपीय संघ के बजट पर ध्यान केंद्रित करने के लिए यूरोपीय संघ की परिषद का शिखर सम्मेलन EUCO जलवायु परिवर्तन यूरोपीय नेता आज (12 दिसंबर) और कल (13 दिसंबर) ब्रसेल्स में एक परिषद के शिखर सम्मेलन में मिल रहे हैं जहां चर्चा ब्लॉक के बजट और जलवायु परिवर्तन पर केंद्रित होगी।,hi,translated,Favour
+train_015721,"আগামী বছরগুলোতে জলবায়ু পরিবর্তনের বিরুদ্ধে লড়াইয়ে আরও কার্যকর কী হতে পারে, ফ্রান্সের উপকূলে একটি ছোট্ট দ্বীপ হিসেবে একাই চলতে হবে, যিনি জলবায়ু পরিবর্তনের অস্বীকারকারী মার্কিন প্রেসিডেন্টকে বা বিশ্বের বৃহত্তম একক বাজারের মূল সদস্য হিসেবে গ্রহণ করতে হবে?",bn,translated,Favour
+train_003725,"আমি climate change সম্পর্কে বেশি জানি না, কেউ বুঝিয়ে দিন",bn,synthetic,None
+train_000218,""" डेलावेयर विश्वविद्यालय के do. dewid legets bataate हैं... उच्च temperature से सीओ 2 सेमी एसटी के उच्च स्तर होते हैं no doubt",hi,codemixed,Favour
+train_008231,महालेखा परीक्षकःपेंसिल्वेनिया को जलवायु परिवर्तन से लड़ने के लिए प्रतिबद्ध होना चाहिए,hi,translated,Favour
+train_005595,"22 की जरूरत है, जंगल सिर्फ 4 प्रतिशत है।",hi,translated,None
+train_011505,"beshak, jalwayu pariwartan ke samarthak global waarming ki kami ki wyakhya karne ki puri koshish kar rahe hain.",hi,transliterated,Against
+train_011340,"मैंने पिछले दस साल mein भोपाल का weather बदलते देखा है, अक्टूबर में drought और गर्मी असहनीय हो गई है, धरती का गर्म होना को ड्रामा कहने वाले NGO वाले से पूछो कि उनके kids किस world में रहेंगे, हमें अभी कोयला बंद करने की ज़रूरत है।",hi,synthetic,Favour
+train_010062,matlab क्या climate change chhote dvip rajyon को गायब कर देगा?,hi,codemixed,Favour
+train_004375,বায়ুমণ্ডল থেকে কার্বন ডাই অক্সাইড বের করার উপায় সম্পর্কে। জলবায়ু পরিবর্তন,bn,translated,Favour
+train_005203,"প্রতিবারই যখন এই অদ্ভুত রাজনীতিবিদরা বলে যে টাকা নেই, তারা আসলে বলছে যে তারা খারাপ নীতি এবং ভুল বিনিয়োগের সাথে রাজনীতিবিদ হিসাবে ব্যর্থ হয়েছে! পুনর্নবীকরণযোগ্য শক্তি অন্য যে কোনও শক্তির উত্পাদনের চেয়ে অনেক সস্তা। জলবায়ু পরিবর্তন পুনর্নবীকরণযোগ্য শক্তি",bn,translated,Favour
+train_012660,"সবুজ নতুন চুক্তির জঘন্য প্রশ্নগুলো জলবায়ু পরিবর্তনের অস্বীকারকারীদের হাতে পড়েছে। একেবারে অপেশাদার সময়। এছাড়াও সবুজ নতুন চুক্তির সাধারণ বোকামি দেখে আমি জলবায়ু পরিবর্তনের বিরুদ্ধে লড়াইয়ের বিরোধী নই- এটা একটি অপরিহার্য বিষয় যা অপ্রতিরোধ্য, অপেশাদার উপস্থাপনের প্রয়োজন নেই।",bn,translated,Favour
+train_005980,ট্রাম্প আর বিশ্বাস koren na ye climate change একটি জালিয়াতি।,bn,codemixed,None
+train_009655,"मानव निर्मित जलवायु परिवर्तन एक वास्तविक और तत्काल खतरा है, जो पहले से ही बढ़ते समुद्रों और गर्म तापमान के रूप में खेल रहा है।",hi,translated,Favour
+train_006535,জলবায়ু মডেলগুলি বৈশ্বিক তাপমাত্রা সঠিকভাবে পূর্বাভাস দিতে ব্যর্থ হয়েছে।,bn,translated,Against
+train_006733,"কৃষিমন্ত্রী ড. মো. আব্দুর রাজ্জাক বলেছেন, নাইট্রোজেন ব্যবহার ফসলের উৎপাদন ৩০-৩৪ শতাংশ পর্যন্ত বাড়ায়।",bn,original,None
+train_003971,আমি দুঃখিত যে এই যুবতী মহিলা গ্লোবাল ওয়ার্মিং বা এখন এটিকে জলবায়ু পরিবর্তন হিসাবে উল্লেখ করা হয়েছে সে সম্পর্কে তার বাবা-মা সম্ভবত তার মস্তিষ্ক ধুয়ে ফেলছেন।,bn,translated,Against
+train_014025,"आने वाले दशकों में उन ईंधन से दूर होने से बर्फ का एक बड़ा हिस्सा बचाया जा सकता है, या कम से कम पिघलने को काफी धीमा कर सकता है।",hi,translated,Favour
+train_015676,bro ফরাসি “ফুড জায়ান্ট” ড্যানোন 2008 sale bodsd ekti প্রতিশ্রুতি দিয়েছিল।,bn,codemixed,None
+train_009238,बस आपकी इंस्टा स्टोरी देखी और यह देखकर खुशी हुई कि आप वास्तव में वहां गए थे इस गतिविधि का गवाह होने के लिए Ufone Tum Hi Tou Ho Say No to Plastic Climate Change,hi,translated,Favour
+train_013575,দেখুন আপনার শৈশব থেকেই জলবায়ু পরিবর্তনের প্রভাব বিশ্বকে কীভাবে প্রভাবিত করেছে - এবিসি নিউজ (অস্ট্রেলিয়ান ব্রডকাস্টিং কর্পোরেশন),bn,translated,Favour
+train_007474,शहरी स्वास्थ्य प्रणाली और बांग्लादेश,hi,translated,None
+train_002624,"বিদ্যুৎ কেন্দ্র থেকে carbon pollution কমানোর জন্য ওবামা প্রশাসনের নতুন পরিকল্পনা কেবল climate change মোকাবেলা করবে না, বরং দ্রুত জনস্বাস্থ্যের উন্নতি করবে, এই নিয়ম কার্যকর হওয়ার প্রথম বছরে ১০০,০০০ poryont ayasma akromn ebon ২,১০০টি হার্ট অ্যাটাক প্রতিরোধ করবে।",bn,codemixed,Favour
+train_008093,असली सवाल यह है कि क्या आप हैरिसन के माध्यम से एक Prius ड्राइविंग सुरक्षित महसूस करते हैं?,hi,translated,None
+train_012651,मैं गंभीरता से कह रहा था - मानव दुनिया behtar ho रही है - स्टीवन पिंकर से पूछें - सभी सहमत हैं कि हमें जलवायु परिवर्तन से निपटने की जरूरत है और मैं अगले साल काम में शामिल हूं कि हम इस पर भी गंभीरता से आशावादी हैं 🙏🙂 period.,hi,codemixed,Favour
+train_014646,ek samay mein jab unhein jivaashm indhan se bachana chaahie thaa niveshakon ke lie saamaany rup se iska vyavsay. sodi araamko ise jamin mein chhod dein jiwaashm mukt saur,hi,transliterated,Favour

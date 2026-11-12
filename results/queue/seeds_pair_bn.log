@@ -1,0 +1,67 @@
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-bn_weighted_ce_s43 ===
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[train] epoch 1 step 200/1205 loss 1.0874 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0626 1.6 min
+[train] epoch 1 step 600/1205 loss 1.0407 2.5 min
+[train] epoch 1 step 800/1205 loss 1.0113 3.3 min
+[train] epoch 1 step 1000/1205 loss 0.9880 4.1 min
+[train] epoch 1 step 1200/1205 loss 0.9625 4.9 min
+[train] muril_pair_claim-bn epoch 1: epoch=1 train_loss=0.9613 minutes=4.9267 dev_macro_f1=0.6042 dev_accuracy=0.7054
+[train] epoch 2 step 200/1205 loss 0.7813 5.8 min
+[train] epoch 2 step 400/1205 loss 0.7536 6.6 min
+[train] epoch 2 step 600/1205 loss 0.7296 7.4 min
+[train] epoch 2 step 800/1205 loss 0.7195 8.2 min
+[train] epoch 2 step 1000/1205 loss 0.7045 9.1 min
+[train] epoch 2 step 1200/1205 loss 0.6932 9.9 min
+[train] muril_pair_claim-bn epoch 2: epoch=2 train_loss=0.6924 minutes=9.8869 dev_macro_f1=0.6597 dev_accuracy=0.7261
+[train] epoch 3 step 200/1205 loss 0.5411 10.8 min
+[train] epoch 3 step 400/1205 loss 0.5355 11.6 min
+[train] epoch 3 step 600/1205 loss 0.5294 12.4 min
+[train] epoch 3 step 800/1205 loss 0.5296 13.2 min
+[train] epoch 3 step 1000/1205 loss 0.5237 14.0 min
+[train] epoch 3 step 1200/1205 loss 0.5175 14.8 min
+[train] muril_pair_claim-bn epoch 3: epoch=3 train_loss=0.5175 minutes=14.8420 dev_macro_f1=0.6690 dev_accuracy=0.7318
+dev macro F1 0.6690 | gold macro F1 0.7707 | challenge fail 0.231 | 15.1 min
+macro F1 0.7707  acc 0.7712  n=306
+  Favour   P 0.780 R 0.645 F1 0.706 (n=110)
+  Against  P 0.794 R 0.817 F1 0.806 (n=104)
+  None     P 0.741 R 0.870 F1 0.800 (n=92)
+  [bn] macro F1 0.7443 acc 0.7451 n=153
+  [hi] macro F1 0.7969 acc 0.7974 n=153
+
+=== muril_pair_claim-bn_weighted_ce_s44 ===
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[train] epoch 1 step 200/1205 loss 1.0893 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0657 1.6 min
+[train] epoch 1 step 600/1205 loss 1.0617 2.5 min
+[train] epoch 1 step 800/1205 loss 1.0573 3.3 min
+[train] epoch 1 step 1000/1205 loss 1.0548 4.1 min
+[train] epoch 1 step 1200/1205 loss 1.0528 4.9 min
+[train] muril_pair_claim-bn epoch 1: epoch=1 train_loss=1.0527 minutes=4.9503 dev_macro_f1=0.2470 dev_accuracy=0.5884
+[train] epoch 2 step 200/1205 loss 1.0476 5.8 min
+[train] epoch 2 step 400/1205 loss 1.0416 6.6 min
+[train] epoch 2 step 600/1205 loss 1.0420 7.4 min
+[train] epoch 2 step 800/1205 loss 1.0433 8.3 min
+[train] epoch 2 step 1000/1205 loss 1.0413 9.1 min
+[train] epoch 2 step 1200/1205 loss 1.0435 9.9 min
+[train] muril_pair_claim-bn epoch 2: epoch=2 train_loss=1.0435 minutes=9.9106 dev_macro_f1=0.2470 dev_accuracy=0.5884
+[train] epoch 3 step 200/1205 loss 1.0502 10.8 min
+[train] epoch 3 step 400/1205 loss 1.0466 11.6 min
+[train] epoch 3 step 600/1205 loss 1.0423 12.4 min
+[train] epoch 3 step 800/1205 loss 1.0439 13.2 min
+[train] epoch 3 step 1000/1205 loss 1.0438 14.0 min
+[train] epoch 3 step 1200/1205 loss 1.0397 14.8 min
+[train] muril_pair_claim-bn epoch 3: epoch=3 train_loss=1.0398 minutes=14.8589 dev_macro_f1=0.4549 dev_accuracy=0.6769
+dev macro F1 0.4549 | gold macro F1 0.2667 | challenge fail 0.522 | 15.0 min
+macro F1 0.2667  acc 0.3366  n=306
+  Favour   P 0.425 R 0.336 F1 0.376 (n=110)
+  Against  P 0.000 R 0.000 F1 0.000 (n=104)
+  None     P 0.301 R 0.717 F1 0.424 (n=92)
+  [bn] macro F1 0.2631 acc 0.3333 n=153
+  [hi] macro F1 0.2702 acc 0.3399 n=153
+
+seeds summary: dev 0.5620±0.1514 gold 0.5187±0.3564 challenge-fail 0.376±0.206

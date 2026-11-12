@@ -1,0 +1,241 @@
+id,text_a,text_b,language,category,label,source_mft
+inv_typo_hi_0000,"धरती का तापमान का डर दिखाकर वैज्ञानिक अरबों कमा रहे हैं, जागो।","धरती का तापमान का रड दिखाकर वैज्ञानिक अरबों कमा रेह हैं, जागो।",hi,inv_typo,Against,mft_conspiracy_hi_0678
+inv_emoji_append_hi_0001,"आम की फसल इस साल फिर मार्च की बारिश में बर्बाद, लगातार तीसरा साल।","आम की फसल इस साल फिर मार्च की बारिश में बर्बाद, लगातार तीसरा साल। 🙂",hi,inv_emoji_append,Favour,mft_implicit_hi_0126
+inv_url_append_hi_0002,"ये अमीर देश खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।","ये अमीर देश खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,None,mft_different_target_hi_0739
+inv_mention_prepend_hi_0003,धरती का तापमान के पीछे असली एजेंडा जनसंख्या नियंत्रण है।,@user123 धरती का तापमान के पीछे असली एजेंडा जनसंख्या नियंत्रण है।,hi,inv_mention_prepend,Against,mft_conspiracy_hi_0683
+inv_elongation_hi_0004,जिनको इलेक्ट्रिक कार बेचनी है वही जलवायु परिवर्तन चिल्ला रहे हैं।,जिििनको इलेक्ट्रिक कार बेचनी है वही जलवायु परिवर्तन चिल्ला रहे हैं।!!!,hi,inv_elongation,Against,mft_conspiracy_hi_0666
+inv_whitespace_hi_0005,"ये सब अमीर देश का खेल है, असली मकसद हमें गुलाम बनाना है।","  ये   सब   अमीर   देश   का   खेल   है,   असली   मकसद   हमें   गुलाम   बनाना   है।  ",hi,inv_whitespace,Against,mft_conspiracy_hi_0673
+inv_roman_span_hi_0006,नागपुर में कौन सा रेस्टोरेंट अच्छा है?,नागपुर में kaun saa रेस्टोरेंट अच्छा है?,hi,inv_roman_span,None,mft_offtopic_hi_0612
+inv_punct_strip_hi_0007,"हर दस साल में ओलावृष्टि आती रही है, इसमें नया क्या है।","हर दस साल में ओलावृष्टि आती रही है, इसमें नया क्या है",hi,inv_punct_strip,Against,mft_implicit_hi_0122
+inv_typo_hi_0008,ग्लोबल वार्मिंग मीडिया की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,ग्लोबल वार्मिंग मीडिया की ाचल है ताकि हम पर कार्नब टैक्स लगाया जा सके।,hi,inv_typo,Against,mft_conspiracy_hi_0660
+inv_emoji_append_hi_0009,जलवायु परिवर्तन अमीर देश की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,जलवायु परिवर्तन अमीर देश की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके। 🙏,hi,inv_emoji_append,Against,mft_conspiracy_hi_0685
+inv_url_append_hi_0010,"धरती का तापमान के नाम पर डरना बंद करो, कोई खतरा नहीं है।","धरती का तापमान के नाम पर डरना बंद करो, कोई खतरा नहीं है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Against,mft_negation_hi_0022
+inv_mention_prepend_hi_0011,दिल्ली से इंदौर जाने का सबसे अच्छा रास्ता कौन सा है?,@user123 दिल्ली से इंदौर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,inv_mention_prepend,None,mft_offtopic_hi_0625
+inv_elongation_hi_0012,"कार्बन टैक्स गरीबों पर बोझ है, पर ग्लोबल वार्मिंग से लड़ना ज़रूरी है।","कााार्बन टैक्स गरीबों पर बोझ है, पर ग्लोबल वार्मिंग से लड़ना ज़रूरी है।!!!",hi,inv_elongation,Favour,mft_different_target_hi_0733
+inv_whitespace_hi_0013,"कल चंडीगढ़ में क्रिकेट मैच है, टिकट मिल गया।","  कल   चंडीगढ़   में   क्रिकेट   मैच   है,   टिकट   मिल   गया।  ",hi,inv_whitespace,None,mft_offtopic_hi_0629
+inv_roman_span_hi_0014,ग्लोबल वार्मिंग पर इस हफ्ते इंदौर विश्वविद्यालय में व्याख्यान है।,ग्लोबल वार्मिंग पर इस haphte indaur विश्वविद्यालय में व्याख्यान है।,hi,inv_roman_span,None,mft_neutral_topic_hi_0565
+inv_punct_strip_hi_0015,"कल नागपुर में क्रिकेट मैच है, टिकट मिल गया।","कल नागपुर में क्रिकेट मैच है, टिकट मिल गया",hi,inv_punct_strip,None,mft_offtopic_hi_0621
+inv_typo_hi_0016,इंदौर में कौन सा रेस्टोरेंट अच्छा है?,इंदौर में कौन सा ेरस्टोरेंट अच्ाछ है?,hi,inv_typo,None,mft_offtopic_hi_0619
+inv_emoji_append_hi_0017,"ये वैज्ञानिक खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।","ये वैज्ञानिक खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं। 👍",hi,inv_emoji_append,None,mft_different_target_hi_0731
+inv_url_append_hi_0018,"हर दस साल में बाढ़ आती रही है, इसमें नया क्या है।","हर दस साल में बाढ़ आती रही है, इसमें नया क्या है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Against,mft_implicit_hi_0141
+inv_mention_prepend_hi_0019,"वाराणसी की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।","@user123 वाराणसी की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।",hi,inv_mention_prepend,Favour,mft_implicit_hi_0135
+inv_elongation_hi_0020,क्लाइमेट चेंज का सिलेबस में कौन सा अध्याय है?,क्लाााइमेट चेंज का सिलेबस में कौन सा अध्याय है?!!!,hi,inv_elongation,None,mft_neutral_topic_hi_0554
+inv_whitespace_hi_0021,नवंबर में कानपुर का औसत तापमान 28 डिग्री होता है।,  नवंबर   में   कानपुर   का   औसत   तापमान   28   डिग्री   होता   है।  ,hi,inv_whitespace,None,mft_neutral_topic_hi_0546
+inv_roman_span_hi_0022,"क्लाइमेट चेंज का डर दिखाकर मीडिया अरबों कमा रहे हैं, जागो।","क्लाइमेट chenj kaa डर दिखाकर मीडिया अरबों कमा रहे हैं, जागो।",hi,inv_roman_span,Against,mft_conspiracy_hi_0662
+inv_punct_strip_hi_0023,"नया लैपटॉप लिया, बहुत बढ़िया है।","नया लैपटॉप लिया, बहुत बढ़िया है",hi,inv_punct_strip,None,mft_offtopic_hi_0606
+inv_typo_hi_0024,"जलवायु परिवर्तन ढकोसला नहीं है, ये हकीकत है।","जलवायु परिवर्त नढकोलसा नहीं है, ये हकीकत है।",hi,inv_typo,Favour,mft_negation_hi_0013
+inv_emoji_append_hi_0025,"सरकार ग्लोबल वार्मिंग पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।","सरकार ग्लोबल वार्मिंग पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है। 🙏",hi,inv_emoji_append,Favour,mft_different_target_hi_0736
+inv_url_append_hi_0026,ग्लोबल वार्मिंग पर इस हफ्ते नागपुर विश्वविद्यालय में व्याख्यान है।,ग्लोबल वार्मिंग पर इस हफ्ते नागपुर विश्वविद्यालय में व्याख्यान है। https://youtu.be/dQw4w9WgXcQ,hi,inv_url_append,None,mft_neutral_topic_hi_0566
+inv_mention_prepend_hi_0027,"सरकार धरती का तापमान पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।","@user123 सरकार धरती का तापमान पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।",hi,inv_mention_prepend,Favour,mft_different_target_hi_0748
+inv_elongation_hi_0028,"कार्बन टैक्स गरीबों पर बोझ है, पर क्लाइमेट चेंज से लड़ना ज़रूरी है।","कााार्बन टैक्स गरीबों पर बोझ है, पर क्लाइमेट चेंज से लड़ना ज़रूरी है।!!!",hi,inv_elongation,Favour,mft_different_target_hi_0725
+inv_whitespace_hi_0029,"नेता चाहते हैं कि गरीब देश विकास न करें, इसलिए ग्लोबल वार्मिंग का नारा।","  नेता   चाहते   हैं   कि   गरीब   देश   विकास   न   करें,   इसलिए   ग्लोबल   वार्मिंग   का   नारा।  ",hi,inv_whitespace,Against,mft_conspiracy_hi_0674
+inv_roman_span_hi_0030,जलवायु परिवर्तन के पीछे असली एजेंडा जनसंख्या नियंत्रण है।,जलवायु परिवर्तन ke pichhe असली एजेंडा जनसंख्या नियंत्रण है।,hi,inv_roman_span,Against,mft_conspiracy_hi_0668
+inv_punct_strip_hi_0031,"मुझे क्लाइमेट चेंज की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।","मुझे क्लाइमेट चेंज की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला",hi,inv_punct_strip,Against,mft_negation_hi_0024
+inv_typo_hi_0032,"मुझे ये एक्टिविस्ट पसंद नहीं, पर धरती का तापमान को लेकर वो गलत नहीं हैं।","मुझे ये कए्टिविस्ट पसंद नहीं, पर धरीत का तापमान को लेकर वो गलत नहीं हैं।",hi,inv_typo,Favour,mft_different_target_hi_0737
+inv_emoji_append_hi_0033,"जलवायु परिवर्तन एक वैश्विक अफवाह है, डेटा के साथ छेड़छाड़ होती है।","जलवायु परिवर्तन एक वैश्विक अफवाह है, डेटा के साथ छेड़छाड़ होती है। 👍",hi,inv_emoji_append,Against,mft_conspiracy_hi_0665
+inv_url_append_hi_0034,"सब्सक्राइब और लाइक कर दिया, बेल भी दबा दी।","सब्सक्राइब और लाइक कर दिया, बेल भी दबा दी। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,None,mft_offtopic_hi_0607
+inv_mention_prepend_hi_0035,क्लाइमेट चेंज पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,@user123 क्लाइमेट चेंज पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,hi,inv_mention_prepend,None,mft_neutral_topic_hi_0558
+inv_elongation_hi_0036,"कार्बन टैक्स गरीबों पर बोझ है, पर जलवायु परिवर्तन से लड़ना ज़रूरी है।","कााार्बन टैक्स गरीबों पर बोझ है, पर जलवायु परिवर्तन से लड़ना ज़रूरी है।!!!",hi,inv_elongation,Favour,mft_different_target_hi_0735
+inv_whitespace_hi_0037,विदेशी ताकतें को हमारे देश में दखल नहीं देना चाहिए।,  विदेशी   ताकतें   को   हमारे   देश   में   दखल   नहीं   देना   चाहिए।  ,hi,inv_whitespace,None,mft_different_target_hi_0749
+inv_roman_span_hi_0038,"न जलवायु परिवर्तन असली है न नेता की चेतावनी, सब झूठ।","na jalvaayu परिवर्तन असली है न नेता की चेतावनी, सब झूठ।",hi,inv_roman_span,Against,mft_negation_hi_0011
+inv_punct_strip_hi_0039,"कार्बन टैक्स गरीबों पर बोझ है, पर धरती का तापमान से लड़ना ज़रूरी है।","कार्बन टैक्स गरीबों पर बोझ है, पर धरती का तापमान से लड़ना ज़रूरी है",hi,inv_punct_strip,Favour,mft_different_target_hi_0740
+inv_typo_hi_0040,"कोई नहीं कह सकता कि धरती का तापमान स्कैम है, सबूत साफ हैं।","कोई नहीं कह सकता कि धरती का ातपमान स्कैम है, सबूत ासफ हैं।",hi,inv_typo,Favour,mft_negation_hi_0027
+inv_emoji_append_hi_0041,"दीदी की शादी मार्च में है, बहुत काम है।","दीदी की शादी मार्च में है, बहुत काम है। ✨",hi,inv_emoji_append,None,mft_offtopic_hi_0605
+inv_url_append_hi_0042,"सरकार जलवायु परिवर्तन पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।","सरकार जलवायु परिवर्तन पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Favour,mft_different_target_hi_0724
+inv_mention_prepend_hi_0043,"अमीर देश को पहले से पता था, ये ओलावृष्टि प्लान किया हुआ है, ग्लोबल वार्मिंग बहाना है।","@user123 अमीर देश को पहले से पता था, ये ओलावृष्टि प्लान किया हुआ है, ग्लोबल वार्मिंग बहाना है।",hi,inv_mention_prepend,Against,mft_conspiracy_hi_0679
+inv_elongation_hi_0044,कानपुर में कौन सा रेस्टोरेंट अच्छा है?,कााानपुर में कौन सा रेस्टोरेंट अच्छा है?!!!,hi,inv_elongation,None,mft_offtopic_hi_0616
+inv_whitespace_hi_0045,आज इंदौर में 36 डिग्री है।,  आज   इंदौर   में   36   डिग्री   है।  ,hi,inv_whitespace,None,mft_implicit_hi_0127
+inv_roman_span_hi_0046,"न धरती का तापमान असली है न मीडिया की चेतावनी, सब ड्रामा।","न धरती का तापमान असली hai na मीडिया की चेतावनी, सब ड्रामा।",hi,inv_roman_span,Against,mft_negation_hi_0028
+inv_punct_strip_hi_0047,मौसम विभाग ने कानपुर के लिए लू की चेतावनी जारी की है।,मौसम विभाग ने कानपुर के लिए लू की चेतावनी जारी की है,hi,inv_punct_strip,None,mft_neutral_topic_hi_0543
+inv_typo_hi_0048,क्लाइमेट चेंज पर इस हफ्ते वाराणसी विश्वविद्यालय में व्याख्यान है।,क्लाइमेट चेंज प रइस हफ्ते वाराणसी विश्वविद्यालय में व्याख्यान ैह।,hi,inv_typo,None,mft_neutral_topic_hi_0562
+inv_emoji_append_hi_0049,ग्लोबल वार्मिंग पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,ग्लोबल वार्मिंग पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है। 🙏,hi,inv_emoji_append,None,mft_neutral_topic_hi_0545
+inv_url_append_hi_0050,"NGO को पहले से पता था, ये बाढ़ प्लान किया हुआ है, क्लाइमेट चेंज बहाना है।","NGO को पहले से पता था, ये बाढ़ प्लान किया हुआ है, क्लाइमेट चेंज बहाना है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Against,mft_conspiracy_hi_0664
+inv_mention_prepend_hi_0051,इंदौर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,@user123 इंदौर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,inv_mention_prepend,None,mft_offtopic_hi_0609
+inv_elongation_hi_0052,"मुझे जलवायु परिवर्तन की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।","मुुुझे जलवायु परिवर्तन की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।!!!",hi,inv_elongation,Against,mft_negation_hi_0005
+inv_whitespace_hi_0053,"ग्लोबल वार्मिंग पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।","  ग्लोबल   वार्मिंग   पर   मेरी   कोई   राय   नहीं   है,   मुझे   जानकारी   नहीं।  ",hi,inv_whitespace,None,mft_negation_hi_0017
+inv_roman_span_hi_0054,वाराणसी में कल अधिकतम तापमान 31 डिग्री रहेगा और हल्के बादल छाए रहेंगे।,vaaraansi mein कल अधिकतम तापमान 31 डिग्री रहेगा और हल्के बादल छाए रहेंगे।,hi,inv_roman_span,None,mft_neutral_topic_hi_0540
+inv_punct_strip_hi_0055,जलवायु परिवर्तन पर इस हफ्ते कानपुर विश्वविद्यालय में व्याख्यान है।,जलवायु परिवर्तन पर इस हफ्ते कानपुर विश्वविद्यालय में व्याख्यान है,hi,inv_punct_strip,None,mft_neutral_topic_hi_0568
+inv_typo_hi_0056,कानपुर से वाराणसी जाने का सबसे अच्छा रास्ता कौन सा है?,कानपुर से वाराणसी ाजने का सबसे अ्चछा रास्ता कौन सा है?,hi,inv_typo,None,mft_offtopic_hi_0617
+inv_emoji_append_hi_0057,"आम की फसल इस साल फिर फरवरी की बारिश में बर्बाद, लगातार तीसरा साल।","आम की फसल इस साल फिर फरवरी की बारिश में बर्बाद, लगातार तीसरा साल। 👍",hi,inv_emoji_append,Favour,mft_implicit_hi_0139
+inv_url_append_hi_0058,"अमीर देश चाहते हैं कि गरीब देश विकास न करें, इसलिए ग्लोबल वार्मिंग का नारा।","अमीर देश चाहते हैं कि गरीब देश विकास न करें, इसलिए ग्लोबल वार्मिंग का नारा। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Against,mft_conspiracy_hi_0680
+inv_mention_prepend_hi_0059,"पहले नवंबर में स्वेटर पहनते थे, अब पंखा चलता है।","@user123 पहले नवंबर में स्वेटर पहनते थे, अब पंखा चलता है।",hi,inv_mention_prepend,Favour,mft_implicit_hi_0136
+inv_elongation_hi_0060,"जलवायु परिवर्तन असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।","जलवााायु परिवर्तन असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।!!!",hi,inv_elongation,Favour,mft_different_target_hi_0738
+inv_whitespace_hi_0061,"कल एग्ज़ाम है, पढ़ाई नहीं हुई 😭","  कल   एग्ज़ाम   है,   पढ़ाई   नहीं   हुई   😭  ",hi,inv_whitespace,None,mft_offtopic_hi_0608
+inv_roman_span_hi_0062,"सोलर सब्सिडी में घोटाला है, जांच हो।","सोलर सब्सिडी mein ghotaalaa है, जांच हो।",hi,inv_roman_span,None,mft_different_target_hi_0723
+inv_punct_strip_hi_0063,"ये सब टैक्स बढ़ाने का बहाना है, और कुछ नहीं।","ये सब टैक्स बढ़ाने का बहाना है, और कुछ नहीं",hi,inv_punct_strip,Against,mft_implicit_hi_0130
+inv_typo_hi_0064,"प्लास्टिक बैन से छोटे दुकानदार परेशान हैं, पर पर्यावरण बचाना भी ज़रूरी है।","प्ला्सटिक बैन से छोटे दुकानदार परेशान हैं, पर पर्यावर णबचाना भी ज़रूरी है।",hi,inv_typo,Favour,mft_different_target_hi_0730
+inv_emoji_append_hi_0065,कानपुर से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है?,कानपुर से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है? 🙏,hi,inv_emoji_append,None,mft_offtopic_hi_0627
+inv_url_append_hi_0066,क्लाइमेट चेंज पर इस हफ्ते चंडीगढ़ विश्वविद्यालय में व्याख्यान है।,क्लाइमेट चेंज पर इस हफ्ते चंडीगढ़ विश्वविद्यालय में व्याख्यान है। https://youtu.be/dQw4w9WgXcQ,hi,inv_url_append,None,mft_neutral_topic_hi_0542
+inv_mention_prepend_hi_0067,ग्लोबल वार्मिंग का सिलेबस में कौन सा अध्याय है?,@user123 ग्लोबल वार्मिंग का सिलेबस में कौन सा अध्याय है?,hi,inv_mention_prepend,None,mft_neutral_topic_hi_0544
+inv_elongation_hi_0068,"न ग्लोबल वार्मिंग असली है न वैज्ञानिक की चेतावनी, सब ड्रामा।","न ग्लोबल वााार्मिंग असली है न वैज्ञानिक की चेतावनी, सब ड्रामा।!!!",hi,inv_elongation,Against,mft_negation_hi_0026
+inv_whitespace_hi_0069,अमीर देश की बैठक में क्लाइमेट चेंज एजेंडे में था।,  अमीर   देश   की   बैठक   में   क्लाइमेट   चेंज   एजेंडे   में   था।  ,hi,inv_whitespace,None,mft_neutral_topic_hi_0560
+inv_roman_span_hi_0070,पहाड़ों पर बर्फ अब नवंबर में ही पिघल जाती है।,पहाड़ों पर बर्फ ab navambar में ही पिघल जाती है।,hi,inv_roman_span,Favour,mft_implicit_hi_0131
+inv_punct_strip_hi_0071,पहाड़ों पर बर्फ अब मार्च में ही पिघल जाती है।,पहाड़ों पर बर्फ अब मार्च में ही पिघल जाती है,hi,inv_punct_strip,Favour,mft_implicit_hi_0142
+inv_typo_hi_0072,"इलेक्ट्रिक गाड़ियां अभी महंगी हैं, ये समाधान नहीं।","इलेक्ट्रिक गाड़िायं अभी महंगी हैं, ये समााधन नहीं।",hi,inv_typo,None,mft_different_target_hi_0727
+inv_emoji_append_hi_0073,"जलवायु परिवर्तन के नाम पर डरना बंद करो, कोई खतरा नहीं है।","जलवायु परिवर्तन के नाम पर डरना बंद करो, कोई खतरा नहीं है। 👍",hi,inv_emoji_append,Against,mft_negation_hi_0007
+inv_url_append_hi_0074,"चंडीगढ़ नगर निगम ने पेड़ काटे, ये गलत है, जलवायु परिवर्तन के दौर में ऐसा?","चंडीगढ़ नगर निगम ने पेड़ काटे, ये गलत है, जलवायु परिवर्तन के दौर में ऐसा? https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Favour,mft_different_target_hi_0728
+inv_mention_prepend_hi_0075,नागपुर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,@user123 नागपुर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,inv_mention_prepend,None,mft_offtopic_hi_0624
+inv_elongation_hi_0076,वैज्ञानिक की बैठक में क्लाइमेट चेंज एजेंडे में था।,वैज्ञााानिक की बैठक में क्लाइमेट चेंज एजेंडे में था।!!!,hi,inv_elongation,None,mft_neutral_topic_hi_0550
+inv_whitespace_hi_0077,"क्लाइमेट चेंज असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।","  क्लाइमेट   चेंज   असली   है,   पर   ये   ऑड-ईवन   नियम   बेकार   है,   सरकार   कुछ   ठोस   करे।  ",hi,inv_whitespace,Favour,mft_different_target_hi_0746
+inv_roman_span_hi_0078,भाई इस गाने का नाम क्या है?,भाई is gaane का नाम क्या है?,hi,inv_roman_span,None,mft_offtopic_hi_0601
+inv_punct_strip_hi_0079,"जलवायु परिवर्तन पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।","जलवायु परिवर्तन पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं",hi,inv_punct_strip,None,mft_negation_hi_0008
+inv_typo_hi_0080,ग्लोबल वार्मिंग शब्द पहली बार 1970 के दशक में इस्तेमाल हुआ था।,ग्लोबल वा्रमिंग शब्द पहली बार 1970 के दशक में इस्तेमाल ुहआ था।,hi,inv_typo,None,mft_neutral_topic_hi_0564
+inv_emoji_append_hi_0081,नेता की बैठक में धरती का तापमान एजेंडे में था।,नेता की बैठक में धरती का तापमान एजेंडे में था। ✨,hi,inv_emoji_append,None,mft_neutral_topic_hi_0559
+inv_url_append_hi_0082,"दीदी की शादी नवंबर में है, बहुत काम है।","दीदी की शादी नवंबर में है, बहुत काम है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,None,mft_offtopic_hi_0614
+inv_mention_prepend_hi_0083,"कल कानपुर में क्रिकेट मैच है, टिकट मिल गया।","@user123 कल कानपुर में क्रिकेट मैच है, टिकट मिल गया।",hi,inv_mention_prepend,None,mft_offtopic_hi_0618
+inv_elongation_hi_0084,मैं ये नहीं मानता कि जलवायु परिवर्तन कोई खतरा है।,मैं ये नहीीीं मानता कि जलवायु परिवर्तन कोई खतरा है।!!!,hi,inv_elongation,Against,mft_negation_hi_0029
+inv_whitespace_hi_0085,"जलवायु परिवर्तन को नकारने वाले गलत नहीं हैं, मौसम तो बदलता ही रहता है।","  जलवायु   परिवर्तन   को   नकारने   वाले   गलत   नहीं   हैं,   मौसम   तो   बदलता   ही   रहता   है।  ",hi,inv_whitespace,Against,mft_negation_hi_0003
+inv_roman_span_hi_0086,"लू से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।","लू से इस baar 40 गांव डूब गए, पहले ऐसा नहीं होता था।",hi,inv_roman_span,Favour,mft_implicit_hi_0129
+inv_punct_strip_hi_0087,दिल्ली से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है?,दिल्ली से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है,hi,inv_punct_strip,None,mft_offtopic_hi_0626
+inv_typo_hi_0088,विदेशी ताकतें की बैठक में जलवायु परिवर्तन एजेंडे में था।,विदेशी ताकेतं की बैठक में जलवायु परिवर्तन एेजंडे में था।,hi,inv_typo,None,mft_neutral_topic_hi_0557
+inv_emoji_append_hi_0089,"विदेशी ताकतें चाहते हैं कि गरीब देश विकास न करें, इसलिए जलवायु परिवर्तन का नारा।","विदेशी ताकतें चाहते हैं कि गरीब देश विकास न करें, इसलिए जलवायु परिवर्तन का नारा। 👍",hi,inv_emoji_append,Against,mft_conspiracy_hi_0688
+inv_url_append_hi_0090,मेरा इंटरनेट बहुत स्लो है आज।,मेरा इंटरनेट बहुत स्लो है आज। https://youtu.be/dQw4w9WgXcQ,hi,inv_url_append,None,mft_offtopic_hi_0604
+inv_mention_prepend_hi_0091,"सूखा से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।","@user123 सूखा से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।",hi,inv_mention_prepend,Favour,mft_implicit_hi_0144
+inv_elongation_hi_0092,वाराणसी में कौन सा रेस्टोरेंट अच्छा है?,वाााराणसी में कौन सा रेस्टोरेंट अच्छा है?!!!,hi,inv_elongation,None,mft_offtopic_hi_0600
+inv_whitespace_hi_0093,"मीडिया को पहले से पता था, ये ओलावृष्टि प्लान किया हुआ है, ग्लोबल वार्मिंग बहाना है।","  मीडिया   को   पहले   से   पता   था,   ये   ओलावृष्टि   प्लान   किया   हुआ   है,   ग्लोबल   वार्मिंग   बहाना   है।  ",hi,inv_whitespace,Against,mft_conspiracy_hi_0687
+inv_roman_span_hi_0094,आज कानपुर में 36 डिग्री है।,आज कानपुर में 36 digri hai.,hi,inv_roman_span,None,mft_implicit_hi_0133
+inv_punct_strip_hi_0095,"हर चक्रवात के बाद विदेशी ताकतें को फंड मिलता है, समझो गणित।","हर चक्रवात के बाद विदेशी ताकतें को फंड मिलता है, समझो गणित",hi,inv_punct_strip,Against,mft_conspiracy_hi_0669
+inv_typo_hi_0096,"पहले मार्च में स्वेटर पहनते थे, अब पंखा चलता है।","पहेल मार्च में स्वेटर पहनते थे, अब पंाख चलता है।",hi,inv_typo,Favour,mft_implicit_hi_0138
+inv_emoji_append_hi_0097,"क्लाइमेट चेंज एक वैश्विक ड्रामा है, डेटा के साथ छेड़छाड़ होती है।","क्लाइमेट चेंज एक वैश्विक ड्रामा है, डेटा के साथ छेड़छाड़ होती है। 💬",hi,inv_emoji_append,Against,mft_conspiracy_hi_0689
+inv_url_append_hi_0098,"हर दस साल में लू आती रही है, इसमें नया क्या है।","हर दस साल में लू आती रही है, इसमें नया क्या है। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,Against,mft_implicit_hi_0149
+inv_mention_prepend_hi_0099,"इस वीडियो में जलवायु परिवर्तन की बात नहीं हुई, सिर्फ खेती की।","@user123 इस वीडियो में जलवायु परिवर्तन की बात नहीं हुई, सिर्फ खेती की।",hi,inv_mention_prepend,None,mft_negation_hi_0015
+inv_elongation_hi_0100,"नागपुर की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।","नााागपुर की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।!!!",hi,inv_elongation,Favour,mft_implicit_hi_0143
+inv_whitespace_hi_0101,मैं ये नहीं मानता कि ग्लोबल वार्मिंग कोई खतरा है।,  मैं   ये   नहीं   मानता   कि   ग्लोबल   वार्मिंग   कोई   खतरा   है।  ,hi,inv_whitespace,Against,mft_negation_hi_0020
+inv_roman_span_hi_0102,"ये नहीं कह सकते कि अमीर देश गलत हैं, धरती सच में गर्म हो रही है।","ये नहीं कह सकते कि अमीर देश galat hain, धरती सच में गर्म हो रही है।",hi,inv_roman_span,Favour,mft_negation_hi_0014
+inv_punct_strip_hi_0103,"दीदी की शादी अक्टूबर में है, बहुत काम है।","दीदी की शादी अक्टूबर में है, बहुत काम है",hi,inv_punct_strip,None,mft_offtopic_hi_0623
+inv_typo_hi_0104,मौसम विभाग ने वाराणसी के लिए सूखा की चेतावनी जारी की है।,मौसम विभाग ने वाारणसी के लिए सूखा की चेतावनी जारी की ैह।,hi,inv_typo,None,mft_neutral_topic_hi_0556
+inv_emoji_append_hi_0105,"इस वीडियो में धरती का तापमान की बात नहीं हुई, सिर्फ खेती की।","इस वीडियो में धरती का तापमान की बात नहीं हुई, सिर्फ खेती की। 👍",hi,inv_emoji_append,None,mft_negation_hi_0009
+inv_url_append_hi_0106,"ये फोन अक्टूबर में लॉन्च होगा, कीमत कितनी होगी?","ये फोन अक्टूबर में लॉन्च होगा, कीमत कितनी होगी? https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,None,mft_offtopic_hi_0615
+inv_mention_prepend_hi_0107,"ये सब विदेशी ताकतें का खेल है, असली मकसद हमें गुलाम बनाना है।","@user123 ये सब विदेशी ताकतें का खेल है, असली मकसद हमें गुलाम बनाना है।",hi,inv_mention_prepend,Against,mft_conspiracy_hi_0661
+inv_elongation_hi_0108,"धरती का तापमान पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।","धरतीीी का तापमान पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।!!!",hi,inv_elongation,None,mft_negation_hi_0012
+inv_whitespace_hi_0109,"ग्लोबल वार्मिंग झूठ नहीं है, ये हकीकत है।","  ग्लोबल   वार्मिंग   झूठ   नहीं   है,   ये   हकीकत   है।  ",hi,inv_whitespace,Favour,mft_negation_hi_0016
+inv_roman_span_hi_0110,"आम की फसल इस साल फिर अक्टूबर की बारिश में बर्बाद, लगातार तीसरा साल।","आम की फसल is saal फिर अक्टूबर की बारिश में बर्बाद, लगातार तीसरा साल।",hi,inv_roman_span,Favour,mft_implicit_hi_0137
+inv_punct_strip_hi_0111,"पहले फरवरी में स्वेटर पहनते थे, अब पंखा चलता है।","पहले फरवरी में स्वेटर पहनते थे, अब पंखा चलता है",hi,inv_punct_strip,Favour,mft_implicit_hi_0148
+inv_typo_hi_0112,"ये विदेशी ताकतें खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।","ये विदेशी ातकतें खुद प्राइवेट जेट में घूमेत हैं, हमें उपदेश देते हैं।",hi,inv_typo,None,mft_different_target_hi_0732
+inv_emoji_append_hi_0113,जिनको इलेक्ट्रिक कार बेचनी है वही ग्लोबल वार्मिंग चिल्ला रहे हैं।,जिनको इलेक्ट्रिक कार बेचनी है वही ग्लोबल वार्मिंग चिल्ला रहे हैं। 💬,hi,inv_emoji_append,Against,mft_conspiracy_hi_0672
+inv_url_append_hi_0114,"इस वीडियो में ग्लोबल वार्मिंग की बात नहीं हुई, सिर्फ खेती की।","इस वीडियो में ग्लोबल वार्मिंग की बात नहीं हुई, सिर्फ खेती की। https://youtu.be/dQw4w9WgXcQ",hi,inv_url_append,None,mft_negation_hi_0021
+inv_mention_prepend_hi_0115,"कोई नहीं कह सकता कि धरती का तापमान ढकोसला है, सबूत साफ हैं।","@user123 कोई नहीं कह सकता कि धरती का तापमान ढकोसला है, सबूत साफ हैं।",hi,inv_mention_prepend,Favour,mft_negation_hi_0018
+inv_elongation_hi_0116,"इंदौर की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।","इंदौर कीीी झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।!!!",hi,inv_elongation,Favour,mft_implicit_hi_0140
+inv_whitespace_hi_0117,"हर बाढ़ के बाद NGO को फंड मिलता है, समझो गणित।","  हर   बाढ़   के   बाद   NGO   को   फंड   मिलता   है,   समझो   गणित।  ",hi,inv_whitespace,Against,mft_conspiracy_hi_0686
+inv_roman_span_hi_0118,"ऐसा नहीं है कि जलवायु परिवर्तन से कुछ नहीं होगा, बहुत कुछ होगा।","ऐसा नहीं है कि जलवायु परिवर्तन से कुछ नहीं होगा, बहुत kuchh hogaa.",hi,inv_roman_span,Favour,mft_negation_hi_0002
+inv_punct_strip_hi_0119,"चंडीगढ़ की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।","चंडीगढ़ की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार",hi,inv_punct_strip,Favour,mft_implicit_hi_0121
+inv_typo_bn_0000,পৃথিবীর তাপমাত্রা-এর পেছনে আসল এজেন্ডা জনসংখ্যা নিয়ন্ত্রণ।,পৃথিবীর তাপমাত্রা-এর পেনছে আসল এজে্নডা জনসংখ্যা নিয়ন্ত্রণ।,bn,inv_typo,Against,mft_conspiracy_bn_0708
+inv_emoji_append_bn_0001,"আমের ফলন এবারও মার্চ-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।","আমের ফলন এবারও মার্চ-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর। 👍",bn,inv_emoji_append,Favour,mft_implicit_bn_0156
+inv_url_append_bn_0002,"সরকার ক্লাইমেট চেঞ্জ নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে।","সরকার ক্লাইমেট চেঞ্জ নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Favour,mft_different_target_bn_0769
+inv_mention_prepend_bn_0003,"বিদেশি শক্তি চায় গরিব দেশ উন্নতি না করুক, তাই জলবায়ু পরিবর্তন-এর স্লোগান।","@user123 বিদেশি শক্তি চায় গরিব দেশ উন্নতি না করুক, তাই জলবায়ু পরিবর্তন-এর স্লোগান।",bn,inv_mention_prepend,Against,mft_conspiracy_bn_0713
+inv_elongation_bn_0004,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই পৃথিবীর তাপমাত্রা বলে চিৎকার করছে।,যাাাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই পৃথিবীর তাপমাত্রা বলে চিৎকার করছে।!!!,bn,inv_elongation,Against,mft_conspiracy_bn_0696
+inv_whitespace_bn_0005,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই গ্লোবাল ওয়ার্মিং বলে চিৎকার করছে।,  যাদের   ইলেকট্রিক   গাড়ি   বেচতে   হবে   তারাই   গ্লোবাল   ওয়ার্মিং   বলে   চিৎকার   করছে।  ,bn,inv_whitespace,Against,mft_conspiracy_bn_0703
+inv_roman_span_bn_0006,ঢাকা থেকে যশোর যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,dhaka theke যশোর যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,inv_roman_span,None,mft_offtopic_bn_0642
+inv_punct_strip_bn_0007,"প্রতি দশ বছরে তাপপ্রবাহ হয়ে এসেছে, এতে নতুন কী।","প্রতি দশ বছরে তাপপ্রবাহ হয়ে এসেছে, এতে নতুন কী",bn,inv_punct_strip,Against,mft_implicit_bn_0152
+inv_typo_bn_0008,পৃথিবীর তাপমাত্রা NGO-র চাল যাতে আমাদের উপর কার্বন ট্যাক্স বসানো যায়।,পৃথিবীর াতপমাত্রা NGO-র চাল যাতে আমাদের উপর কার্বন ট্যাক্স বাসনো যায়।,bn,inv_typo,Against,mft_conspiracy_bn_0690
+inv_emoji_append_bn_0009,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই ক্লাইমেট চেঞ্জ বলে চিৎকার করছে।,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই ক্লাইমেট চেঞ্জ বলে চিৎকার করছে। 🙏,bn,inv_emoji_append,Against,mft_conspiracy_bn_0715
+inv_url_append_bn_0010,"না পৃথিবীর তাপমাত্রা আসল, না মিডিয়া-র সতর্কতা, সব প্রোপাগান্ডা।","না পৃথিবীর তাপমাত্রা আসল, না মিডিয়া-র সতর্কতা, সব প্রোপাগান্ডা। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Against,mft_negation_bn_0052
+inv_mention_prepend_bn_0011,"এই ফোনটা মার্চ মাসে লঞ্চ হবে, দাম কত হবে?","@user123 এই ফোনটা মার্চ মাসে লঞ্চ হবে, দাম কত হবে?",bn,inv_mention_prepend,None,mft_offtopic_bn_0655
+inv_elongation_bn_0012,"এই নেতারা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়।","এই নেতাাারা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়।!!!",bn,inv_elongation,None,mft_different_target_bn_0763
+inv_whitespace_bn_0013,ময়মনসিংহ-তে কোন রেস্টুরেন্ট ভালো?,  ময়মনসিংহ-তে   কোন   রেস্টুরেন্ট   ভালো?  ,bn,inv_whitespace,None,mft_offtopic_bn_0659
+inv_roman_span_bn_0014,নেতারা-র বৈঠকে গ্লোবাল ওয়ার্মিং এজেন্ডায় ছিল।,netara-ro boithoke গ্লোবাল ওয়ার্মিং এজেন্ডায় ছিল।,bn,inv_roman_span,None,mft_neutral_topic_bn_0595
+inv_punct_strip_bn_0015,"কাল ঢাকা-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।","কাল ঢাকা-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি",bn,inv_punct_strip,None,mft_offtopic_bn_0651
+inv_typo_bn_0016,শিলিগুড়ি-তে কোন রেস্টুরেন্ট ভালো?,শিলিগুড়ি-তে কোন রে্সটুরেন্ টভালো?,bn,inv_typo,None,mft_offtopic_bn_0649
+inv_emoji_append_bn_0017,"এই বিজ্ঞানীরা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়।","এই বিজ্ঞানীরা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়। 📌",bn,inv_emoji_append,None,mft_different_target_bn_0761
+inv_url_append_bn_0018,পাহাড়ের বরফ এখন ফেব্রুয়ারি মাসেই গলে যায়।,পাহাড়ের বরফ এখন ফেব্রুয়ারি মাসেই গলে যায়। https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,Favour,mft_implicit_bn_0171
+inv_mention_prepend_bn_0019,"আগে অক্টোবর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।","@user123 আগে অক্টোবর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,inv_mention_prepend,Favour,mft_implicit_bn_0165
+inv_elongation_bn_0020,আবহাওয়া অফিস শিলিগুড়ি-র জন্য শিলাবৃষ্টি-এর সতর্কতা জারি করেছে।,আবহাাাওয়া অফিস শিলিগুড়ি-র জন্য শিলাবৃষ্টি-এর সতর্কতা জারি করেছে।!!!,bn,inv_elongation,None,mft_neutral_topic_bn_0584
+inv_whitespace_bn_0021,নভেম্বর মাসে যশোর-র গড় তাপমাত্রা ২৮ ডিগ্রি।,  নভেম্বর   মাসে   যশোর-র   গড়   তাপমাত্রা   ২৮   ডিগ্রি।  ,bn,inv_whitespace,None,mft_neutral_topic_bn_0576
+inv_roman_span_bn_0022,"গ্লোবাল ওয়ার্মিং-এর ভয় দেখিয়ে নেতারা শত শত কোটি কামাচ্ছে, জাগো।","গ্লোবাল ওয়ার্মিং-এর ভয় দেখিয়ে নেতারা shot shot কোটি কামাচ্ছে, জাগো।",bn,inv_roman_span,Against,mft_conspiracy_bn_0692
+inv_punct_strip_bn_0023,"নতুন ল্যাপটপ নিলাম, দারুণ।","নতুন ল্যাপটপ নিলাম, দারুণ",bn,inv_punct_strip,None,mft_offtopic_bn_0636
+inv_typo_bn_0024,"এটা বলা যায় না যে বিজ্ঞানীরা ভুল, পৃথিবী সত্যিই গরম হচ্ছে।","এটা বলা যায় না যে বি্জঞানীরা ভুল, পৃথিবী সত্যিই গরম হ্চছে।",bn,inv_typo,Favour,mft_negation_bn_0043
+inv_emoji_append_bn_0025,"আমার এই অ্যাক্টিভিস্টকে পছন্দ না, কিন্তু গ্লোবাল ওয়ার্মিং নিয়ে সে ভুল না।","আমার এই অ্যাক্টিভিস্টকে পছন্দ না, কিন্তু গ্লোবাল ওয়ার্মিং নিয়ে সে ভুল না। 💬",bn,inv_emoji_append,Favour,mft_different_target_bn_0766
+inv_url_append_bn_0026,পৃথিবীর তাপমাত্রা নিয়ে বিদেশি শক্তি-র নতুন রিপোর্ট মার্চ মাসে আসবে।,পৃথিবীর তাপমাত্রা নিয়ে বিদেশি শক্তি-র নতুন রিপোর্ট মার্চ মাসে আসবে। https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,None,mft_neutral_topic_bn_0596
+inv_mention_prepend_bn_0027,"শিলিগুড়ি সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?","@user123 শিলিগুড়ি সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?",bn,inv_mention_prepend,Favour,mft_different_target_bn_0778
+inv_elongation_bn_0028,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু ক্লাইমেট চেঞ্জ-এর সাথে লড়াই জরুরি।","কাাার্বন ট্যাক্স গরিবের বোঝা, কিন্তু ক্লাইমেট চেঞ্জ-এর সাথে লড়াই জরুরি।!!!",bn,inv_elongation,Favour,mft_different_target_bn_0755
+inv_whitespace_bn_0029,"মিডিয়া চায় গরিব দেশ উন্নতি না করুক, তাই জলবায়ু পরিবর্তন-এর স্লোগান।","  মিডিয়া   চায়   গরিব   দেশ   উন্নতি   না   করুক,   তাই   জলবায়ু   পরিবর্তন-এর   স্লোগান।  ",bn,inv_whitespace,Against,mft_conspiracy_bn_0704
+inv_roman_span_bn_0030,ক্লাইমেট চেঞ্জ-এর পেছনে আসল এজেন্ডা জনসংখ্যা নিয়ন্ত্রণ।,ক্লাইমেট চেঞ্জ-এর পেছনে asl ejenda জনসংখ্যা নিয়ন্ত্রণ।,bn,inv_roman_span,Against,mft_conspiracy_bn_0698
+inv_punct_strip_bn_0031,"এটা বলা যায় না যে নেতারা ভুল, পৃথিবী সত্যিই গরম হচ্ছে।","এটা বলা যায় না যে নেতারা ভুল, পৃথিবী সত্যিই গরম হচ্ছে",bn,inv_punct_strip,Favour,mft_negation_bn_0054
+inv_typo_bn_0032,"ক্লাইমেট চেঞ্জ আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।","্কলাইমেট েচঞ্জ আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।",bn,inv_typo,Favour,mft_different_target_bn_0767
+inv_emoji_append_bn_0033,"পৃথিবীর তাপমাত্রা একটা বৈশ্বিক গুজব, ডেটা নিয়ে কারসাজি হয়।","পৃথিবীর তাপমাত্রা একটা বৈশ্বিক গুজব, ডেটা নিয়ে কারসাজি হয়। 🙏",bn,inv_emoji_append,Against,mft_conspiracy_bn_0695
+inv_url_append_bn_0034,"সাবস্ক্রাইব আর লাইক করলাম, বেলও বাজিয়ে দিলাম।","সাবস্ক্রাইব আর লাইক করলাম, বেলও বাজিয়ে দিলাম। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,None,mft_offtopic_bn_0637
+inv_mention_prepend_bn_0035,মার্চ মাসে যশোর-র গড় তাপমাত্রা ২৮ ডিগ্রি।,@user123 মার্চ মাসে যশোর-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,inv_mention_prepend,None,mft_neutral_topic_bn_0588
+inv_elongation_bn_0036,"কুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, জলবায়ু পরিবর্তন-এর যুগে এমন?","কুুুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, জলবায়ু পরিবর্তন-এর যুগে এমন?!!!",bn,inv_elongation,Favour,mft_different_target_bn_0765
+inv_whitespace_bn_0037,NGO-র আমাদের দেশে নাক গলানো উচিত না।,  NGO-র   আমাদের   দেশে   নাক   গলানো   উচিত   না।  ,bn,inv_whitespace,None,mft_different_target_bn_0779
+inv_roman_span_bn_0038,"না পৃথিবীর তাপমাত্রা আসল, না বিজ্ঞানীরা-র সতর্কতা, সব মিথ্যা।","না পৃথিবীর তাপমাত্রা আসল, না বিজ্ঞানীরা-র সতর্কতা, sob mithya.",bn,inv_roman_span,Against,mft_negation_bn_0041
+inv_punct_strip_bn_0039,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু জলবায়ু পরিবর্তন-এর সাথে লড়াই জরুরি।","কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু জলবায়ু পরিবর্তন-এর সাথে লড়াই জরুরি",bn,inv_punct_strip,Favour,mft_different_target_bn_0770
+inv_typo_bn_0040,"কেউ বলতে পারবে না জলবায়ু পরিবর্তন ভাঁওতা, প্রমাণ পরিষ্কার।","কেউ বলেত পারবে না জলবায়ু পরিবর্তন ভাঁওতা, প্রমাণ পিরষ্কার।",bn,inv_typo,Favour,mft_negation_bn_0057
+inv_emoji_append_bn_0041,"আপুর বিয়ে ফেব্রুয়ারি মাসে, অনেক কাজ।","আপুর বিয়ে ফেব্রুয়ারি মাসে, অনেক কাজ। 💬",bn,inv_emoji_append,None,mft_offtopic_bn_0635
+inv_url_append_bn_0042,"সরকার পৃথিবীর তাপমাত্রা নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে।","সরকার পৃথিবীর তাপমাত্রা নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Favour,mft_different_target_bn_0754
+inv_mention_prepend_bn_0043,"জলবায়ু পরিবর্তন একটা বৈশ্বিক নাটক, ডেটা নিয়ে কারসাজি হয়।","@user123 জলবায়ু পরিবর্তন একটা বৈশ্বিক নাটক, ডেটা নিয়ে কারসাজি হয়।",bn,inv_mention_prepend,Against,mft_conspiracy_bn_0709
+inv_elongation_bn_0044,যশোর থেকে শিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,যশোর থেকে শিিিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?!!!,bn,inv_elongation,None,mft_offtopic_bn_0646
+inv_whitespace_bn_0045,আজ যশোর-তে ৩৬ ডিগ্রি।,  আজ   যশোর-তে   ৩৬   ডিগ্রি।  ,bn,inv_whitespace,None,mft_implicit_bn_0157
+inv_roman_span_bn_0046,"এই ভিডিওতে ক্লাইমেট চেঞ্জ নিয়ে কথা হয়নি, শুধু চাষের কথা।","এই ভিডিওতে ক্লাইমেট চেঞ্জ niye kotha হয়নি, শুধু চাষের কথা।",bn,inv_roman_span,None,mft_negation_bn_0058
+inv_punct_strip_bn_0047,আবহাওয়া অফিস শিলিগুড়ি-র জন্য বন্যা-এর সতর্কতা জারি করেছে।,আবহাওয়া অফিস শিলিগুড়ি-র জন্য বন্যা-এর সতর্কতা জারি করেছে,bn,inv_punct_strip,None,mft_neutral_topic_bn_0573
+inv_typo_bn_0048,মার্চ মাসে শিলিগুড়ি-র গড় তাপমাত্রা ২৮ ডিগ্রি।,মার্চ মাসে িশলিুগড়ি-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,inv_typo,None,mft_neutral_topic_bn_0592
+inv_emoji_append_bn_0049,গ্লোবাল ওয়ার্মিং নিয়ে একটা ডকুমেন্টারি নেটফ্লিক্সে এসেছে।,গ্লোবাল ওয়ার্মিং নিয়ে একটা ডকুমেন্টারি নেটফ্লিক্সে এসেছে। ✨,bn,inv_emoji_append,None,mft_neutral_topic_bn_0575
+inv_url_append_bn_0050,"মিডিয়া আগে থেকেই জানত, এই খরা প্ল্যান করা, পৃথিবীর তাপমাত্রা অজুহাত।","মিডিয়া আগে থেকেই জানত, এই খরা প্ল্যান করা, পৃথিবীর তাপমাত্রা অজুহাত। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Against,mft_conspiracy_bn_0694
+inv_mention_prepend_bn_0051,বগুড়া থেকে ঢাকা যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,@user123 বগুড়া থেকে ঢাকা যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,inv_mention_prepend,None,mft_offtopic_bn_0639
+inv_elongation_bn_0052,"জলবায়ু পরিবর্তন নিয়ে আমার কোনো চিন্তা নেই, কিছুই হবে না।","জলবাাায়ু পরিবর্তন নিয়ে আমার কোনো চিন্তা নেই, কিছুই হবে না।!!!",bn,inv_elongation,Against,mft_negation_bn_0035
+inv_whitespace_bn_0053,"ক্লাইমেট চেঞ্জ অস্বীকারকারীরা ভুল না, আবহাওয়া তো বদলায়ই।","  ক্লাইমেট   চেঞ্জ   অস্বীকারকারীরা   ভুল   না,   আবহাওয়া   তো   বদলায়ই।  ",bn,inv_whitespace,Against,mft_negation_bn_0047
+inv_roman_span_bn_0054,"ময়মনসিংহ-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে।","ময়মনসিংহ-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ digri thakbe, হালকা মেঘ থাকবে।",bn,inv_roman_span,None,mft_neutral_topic_bn_0570
+inv_punct_strip_bn_0055,"শিলিগুড়ি-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে।","শিলিগুড়ি-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে",bn,inv_punct_strip,None,mft_neutral_topic_bn_0598
+inv_typo_bn_0056,"এই ফোনটা ফেব্রুয়ারি মাসে লঞ্চ হবে, দাম কত হবে?","এ ইফোনটা েফব্রুয়ারি মাসে লঞ্চ হবে, দাম কত হবে?",bn,inv_typo,None,mft_offtopic_bn_0647
+inv_emoji_append_bn_0057,"বন্যা-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না।","বন্যা-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না। 💬",bn,inv_emoji_append,Favour,mft_implicit_bn_0169
+inv_url_append_bn_0058,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে ক্লাইমেট চেঞ্জ।,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে ক্লাইমেট চেঞ্জ। https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,Against,mft_conspiracy_bn_0710
+inv_mention_prepend_bn_0059,"আগে মার্চ মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।","@user123 আগে মার্চ মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,inv_mention_prepend,Favour,mft_implicit_bn_0166
+inv_elongation_bn_0060,"কুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?","কুুুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?!!!",bn,inv_elongation,Favour,mft_different_target_bn_0768
+inv_whitespace_bn_0061,"কাল পরীক্ষা, পড়া হয়নি 😭","  কাল   পরীক্ষা,   পড়া   হয়নি   😭  ",bn,inv_whitespace,None,mft_offtopic_bn_0638
+inv_roman_span_bn_0062,"সোলার ভর্তুকিতে কেলেঙ্কারি, তদন্ত হোক।","সোলার ভর্তুকিতে kele~nkari, todont হোক।",bn,inv_roman_span,None,mft_different_target_bn_0753
+inv_punct_strip_bn_0063,"এসব ট্যাক্স বাড়ানোর অজুহাত, আর কিছু না।","এসব ট্যাক্স বাড়ানোর অজুহাত, আর কিছু না",bn,inv_punct_strip,Against,mft_implicit_bn_0160
+inv_typo_bn_0064,"প্লাস্টিক নিষেধাজ্ঞায় ছোট দোকানদাররা বিপদে, কিন্তু পরিবেশ বাঁচানোও জরুরি।","্পলাস্টিক নিষেধাজ্ঞায় ছোট দোকানদাররা বিপদে, িকন্তু পরিবেশ বাঁচানোও জরুরি।",bn,inv_typo,Favour,mft_different_target_bn_0760
+inv_emoji_append_bn_0065,বগুড়া থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,বগুড়া থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা? ✨,bn,inv_emoji_append,None,mft_offtopic_bn_0657
+inv_url_append_bn_0066,গ্লোবাল ওয়ার্মিং নিয়ে এই সপ্তাহে ঢাকা বিশ্ববিদ্যালয়ে বক্তৃতা আছে।,গ্লোবাল ওয়ার্মিং নিয়ে এই সপ্তাহে ঢাকা বিশ্ববিদ্যালয়ে বক্তৃতা আছে। https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,None,mft_neutral_topic_bn_0572
+inv_mention_prepend_bn_0067,ক্লাইমেট চেঞ্জ সিলেবাসের কোন অধ্যায়ে আছে?,@user123 ক্লাইমেট চেঞ্জ সিলেবাসের কোন অধ্যায়ে আছে?,bn,inv_mention_prepend,None,mft_neutral_topic_bn_0574
+inv_elongation_bn_0068,"এমন না যে ক্লাইমেট চেঞ্জ-এ কিছু হবে না, অনেক কিছু হবে।","এমন নাাা যে ক্লাইমেট চেঞ্জ-এ কিছু হবে না, অনেক কিছু হবে।!!!",bn,inv_elongation,Favour,mft_negation_bn_0056
+inv_whitespace_bn_0069,এ বছর বর্ষা যশোর-তে তিন দিন দেরিতে এসেছে।,  এ   বছর   বর্ষা   যশোর-তে   তিন   দিন   দেরিতে   এসেছে।  ,bn,inv_whitespace,None,mft_neutral_topic_bn_0590
+inv_roman_span_bn_0070,পাহাড়ের বরফ এখন নভেম্বর মাসেই গলে যায়।,পাহাড়ের বরফ এখন nobhembor masei গলে যায়।,bn,inv_roman_span,Favour,mft_implicit_bn_0161
+inv_punct_strip_bn_0071,"প্রতি দশ বছরে শিলাবৃষ্টি হয়ে এসেছে, এতে নতুন কী।","প্রতি দশ বছরে শিলাবৃষ্টি হয়ে এসেছে, এতে নতুন কী",bn,inv_punct_strip,Against,mft_implicit_bn_0172
+inv_typo_bn_0072,"ইলেকট্রিক গাড়ি এখনো দামি, এটা সমাধান না।","ইলেটক্রিক গাড়ি এখনো দামি, এটা সামধান না।",bn,inv_typo,None,mft_different_target_bn_0757
+inv_emoji_append_bn_0073,"ক্লাইমেট চেঞ্জ-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।","ক্লাইমেট চেঞ্জ-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই। 🙂",bn,inv_emoji_append,Against,mft_negation_bn_0037
+inv_url_append_bn_0074,"ময়মনসিংহ সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?","ময়মনসিংহ সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন? https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Favour,mft_different_target_bn_0758
+inv_mention_prepend_bn_0075,ময়মনসিংহ থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,@user123 ময়মনসিংহ থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,inv_mention_prepend,None,mft_offtopic_bn_0654
+inv_elongation_bn_0076,আবহাওয়া অফিস বগুড়া-র জন্য তাপপ্রবাহ-এর সতর্কতা জারি করেছে।,আবহাাাওয়া অফিস বগুড়া-র জন্য তাপপ্রবাহ-এর সতর্কতা জারি করেছে।!!!,bn,inv_elongation,None,mft_neutral_topic_bn_0580
+inv_whitespace_bn_0077,"গ্লোবাল ওয়ার্মিং আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।","  গ্লোবাল   ওয়ার্মিং   আসল,   কিন্তু   এই   জোড়-বিজোড়   নিয়ম   অকেজো,   সরকার   কিছু   শক্ত   করুক।  ",bn,inv_whitespace,Favour,mft_different_target_bn_0776
+inv_roman_span_bn_0078,ভাই এই গানটার নাম কী?,ভাই এই gantar nam কী?,bn,inv_roman_span,None,mft_offtopic_bn_0631
+inv_punct_strip_bn_0079,"ক্লাইমেট চেঞ্জ নিয়ে আমার কোনো মত নেই, জানি না।","ক্লাইমেট চেঞ্জ নিয়ে আমার কোনো মত নেই, জানি না",bn,inv_punct_strip,None,mft_negation_bn_0038
+inv_typo_bn_0080,নভেম্বর মাসে ঢাকা-র গড় তাপমাত্রা ২৮ ডিগ্রি।,নভেম্বর মাসে াঢকা-র ডগ় তাপমাত্রা ২৮ ডিগ্রি।,bn,inv_typo,None,mft_neutral_topic_bn_0594
+inv_emoji_append_bn_0081,ক্লাইমেট চেঞ্জ নিয়ে এই সপ্তাহে যশোর বিশ্ববিদ্যালয়ে বক্তৃতা আছে।,ক্লাইমেট চেঞ্জ নিয়ে এই সপ্তাহে যশোর বিশ্ববিদ্যালয়ে বক্তৃতা আছে। 💬,bn,inv_emoji_append,None,mft_neutral_topic_bn_0589
+inv_url_append_bn_0082,বগুড়া থেকে শিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,বগুড়া থেকে শিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা? https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,None,mft_offtopic_bn_0644
+inv_mention_prepend_bn_0083,বগুড়া-তে কোন রেস্টুরেন্ট ভালো?,@user123 বগুড়া-তে কোন রেস্টুরেন্ট ভালো?,bn,inv_mention_prepend,None,mft_offtopic_bn_0648
+inv_elongation_bn_0084,আমি মানি না যে পৃথিবীর তাপমাত্রা কোনো বিপদ।,আমিিি মানি না যে পৃথিবীর তাপমাত্রা কোনো বিপদ।!!!,bn,inv_elongation,Against,mft_negation_bn_0059
+inv_whitespace_bn_0085,"পৃথিবীর তাপমাত্রা অস্বীকারকারীরা ভুল না, আবহাওয়া তো বদলায়ই।","  পৃথিবীর   তাপমাত্রা   অস্বীকারকারীরা   ভুল   না,   আবহাওয়া   তো   বদলায়ই।  ",bn,inv_whitespace,Against,mft_negation_bn_0033
+inv_roman_span_bn_0086,"তাপপ্রবাহ-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না।","তাপপ্রবাহ-এ এবার ৪০ গ্রাম ডুবে গেল, age emn হতো না।",bn,inv_roman_span,Favour,mft_implicit_bn_0159
+inv_punct_strip_bn_0087,"কাল বগুড়া-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।","কাল বগুড়া-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি",bn,inv_punct_strip,None,mft_offtopic_bn_0656
+inv_typo_bn_0088,জলবায়ু পরিবর্তন সিলেবাসের কোন অধ্যায়ে আছে?,জবলায়ু পরিবর্তন সিলেবাসের কোন অ্ধযায়ে আছে?,bn,inv_typo,None,mft_neutral_topic_bn_0587
+inv_emoji_append_bn_0089,"ক্লাইমেট চেঞ্জ-এর ভয় দেখিয়ে মিডিয়া শত শত কোটি কামাচ্ছে, জাগো।","ক্লাইমেট চেঞ্জ-এর ভয় দেখিয়ে মিডিয়া শত শত কোটি কামাচ্ছে, জাগো। 📌",bn,inv_emoji_append,Against,mft_conspiracy_bn_0718
+inv_url_append_bn_0090,আমার ইন্টারনেট আজ খুব স্লো।,আমার ইন্টারনেট আজ খুব স্লো। https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,None,mft_offtopic_bn_0634
+inv_mention_prepend_bn_0091,"প্রতি দশ বছরে ঘূর্ণিঝড় হয়ে এসেছে, এতে নতুন কী।","@user123 প্রতি দশ বছরে ঘূর্ণিঝড় হয়ে এসেছে, এতে নতুন কী।",bn,inv_mention_prepend,Against,mft_implicit_bn_0174
+inv_elongation_bn_0092,ঢাকা-তে কোন রেস্টুরেন্ট ভালো?,ঢাাাকা-তে কোন রেস্টুরেন্ট ভালো?!!!,bn,inv_elongation,None,mft_offtopic_bn_0630
+inv_whitespace_bn_0093,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে গ্লোবাল ওয়ার্মিং।,  মেশিন   দিয়ে   আবহাওয়া   বদলানো   হচ্ছে   আর   নাম   দেওয়া   হচ্ছে   গ্লোবাল   ওয়ার্মিং।  ,bn,inv_whitespace,Against,mft_conspiracy_bn_0717
+inv_roman_span_bn_0094,আজ বগুড়া-তে ৩৬ ডিগ্রি।,ajo boguda-te ৩৬ ডিগ্রি।,bn,inv_roman_span,None,mft_implicit_bn_0163
+inv_punct_strip_bn_0095,"প্রতিটা তাপপ্রবাহ-এর পর বিজ্ঞানীরা ফান্ড পায়, হিসাবটা বোঝো।","প্রতিটা তাপপ্রবাহ-এর পর বিজ্ঞানীরা ফান্ড পায়, হিসাবটা বোঝো",bn,inv_punct_strip,Against,mft_conspiracy_bn_0699
+inv_typo_bn_0096,"প্রতি দশ বছরে বন্যা হয়ে এসেছে, এতে নতুন কী।","প্রতি দশ বছরে বন্যা হয়ে এেসেছ, এতে নতুন কী।",bn,inv_typo,Against,mft_implicit_bn_0168
+inv_emoji_append_bn_0097,"পৃথিবীর তাপমাত্রা একটা বৈশ্বিক মিথ্যা, ডেটা নিয়ে কারসাজি হয়।","পৃথিবীর তাপমাত্রা একটা বৈশ্বিক মিথ্যা, ডেটা নিয়ে কারসাজি হয়। ✨",bn,inv_emoji_append,Against,mft_conspiracy_bn_0719
+inv_url_append_bn_0098,"আগে নভেম্বর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।","আগে নভেম্বর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Favour,mft_implicit_bn_0179
+inv_mention_prepend_bn_0099,"এমন না যে জলবায়ু পরিবর্তন-এ কিছু হবে না, অনেক কিছু হবে।","@user123 এমন না যে জলবায়ু পরিবর্তন-এ কিছু হবে না, অনেক কিছু হবে।",bn,inv_mention_prepend,Favour,mft_negation_bn_0045
+inv_elongation_bn_0100,আজ কুমিল্লা-তে ৩৬ ডিগ্রি।,আজ কুুুমিল্লা-তে ৩৬ ডিগ্রি।!!!,bn,inv_elongation,None,mft_implicit_bn_0173
+inv_whitespace_bn_0101,"পৃথিবীর তাপমাত্রা-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।","  পৃথিবীর   তাপমাত্রা-এর   নামে   ভয়   পাওয়া   বন্ধ   করো,   কোনো   বিপদ   নেই।  ",bn,inv_whitespace,Against,mft_negation_bn_0050
+inv_roman_span_bn_0102,"ক্লাইমেট চেঞ্জ প্রোপাগান্ডা না, এটা বাস্তব।","kloimet chenj প্রোপাগান্ডা না, এটা বাস্তব।",bn,inv_roman_span,Favour,mft_negation_bn_0044
+inv_punct_strip_bn_0103,"আপুর বিয়ে অক্টোবর মাসে, অনেক কাজ।","আপুর বিয়ে অক্টোবর মাসে, অনেক কাজ",bn,inv_punct_strip,None,mft_offtopic_bn_0653
+inv_typo_bn_0104,পৃথিবীর তাপমাত্রা নিয়ে NGO-র নতুন রিপোর্ট অক্টোবর মাসে আসবে।,পৃিথবীর তাপমাত্ার নিয়ে NGO-র নতুন রিপোর্ট অক্টোবর মাসে আসবে।,bn,inv_typo,None,mft_neutral_topic_bn_0586
+inv_emoji_append_bn_0105,"এই ভিডিওতে পৃথিবীর তাপমাত্রা নিয়ে কথা হয়নি, শুধু চাষের কথা।","এই ভিডিওতে পৃথিবীর তাপমাত্রা নিয়ে কথা হয়নি, শুধু চাষের কথা। 👍",bn,inv_emoji_append,None,mft_negation_bn_0039
+inv_url_append_bn_0106,কুমিল্লা-তে কোন রেস্টুরেন্ট ভালো?,কুমিল্লা-তে কোন রেস্টুরেন্ট ভালো? https://youtu.be/dQw4w9WgXcQ,bn,inv_url_append,None,mft_offtopic_bn_0645
+inv_mention_prepend_bn_0107,"এসব ধনী দেশ-র খেলা, আসল উদ্দেশ্য আমাদের গোলাম বানানো।","@user123 এসব ধনী দেশ-র খেলা, আসল উদ্দেশ্য আমাদের গোলাম বানানো।",bn,inv_mention_prepend,Against,mft_conspiracy_bn_0691
+inv_elongation_bn_0108,"কেউ বলতে পারবে না পৃথিবীর তাপমাত্রা প্রোপাগান্ডা, প্রমাণ পরিষ্কার।","কেউ বলতে পাাারবে না পৃথিবীর তাপমাত্রা প্রোপাগান্ডা, প্রমাণ পরিষ্কার।!!!",bn,inv_elongation,Favour,mft_negation_bn_0042
+inv_whitespace_bn_0109,"জলবায়ু পরিবর্তন-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।","  জলবায়ু   পরিবর্তন-এর   নামে   ভয়   পাওয়া   বন্ধ   করো,   কোনো   বিপদ   নেই।  ",bn,inv_whitespace,Against,mft_negation_bn_0046
+inv_roman_span_bn_0110,"আমের ফলন এবারও ফেব্রুয়ারি-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।","আমের pholn ebara ফেব্রুয়ারি-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।",bn,inv_roman_span,Favour,mft_implicit_bn_0167
+inv_punct_strip_bn_0111,"যশোর-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।","যশোর-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার",bn,inv_punct_strip,Favour,mft_implicit_bn_0178
+inv_typo_bn_0112,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু গ্লোবাল ওয়ার্মিং-এর সাথে লড়াই জরুরি।","কার্বন ট্যাক্স গরিবে রবোঝা, িকন্তু গ্লোবাল ওয়ার্মিং-এর সাথে লড়াই জরুরি।",bn,inv_typo,Favour,mft_different_target_bn_0762
+inv_emoji_append_bn_0113,"প্রতিটা তাপপ্রবাহ-এর পর বিদেশি শক্তি ফান্ড পায়, হিসাবটা বোঝো।","প্রতিটা তাপপ্রবাহ-এর পর বিদেশি শক্তি ফান্ড পায়, হিসাবটা বোঝো। 👍",bn,inv_emoji_append,Against,mft_conspiracy_bn_0702
+inv_url_append_bn_0114,"এমন না যে পৃথিবীর তাপমাত্রা-এ কিছু হবে না, অনেক কিছু হবে।","এমন না যে পৃথিবীর তাপমাত্রা-এ কিছু হবে না, অনেক কিছু হবে। https://youtu.be/dQw4w9WgXcQ",bn,inv_url_append,Favour,mft_negation_bn_0051
+inv_mention_prepend_bn_0115,"এই ঘূর্ণিঝড় অকারণে হচ্ছে না, পৃথিবীর তাপমাত্রা আসল।","@user123 এই ঘূর্ণিঝড় অকারণে হচ্ছে না, পৃথিবীর তাপমাত্রা আসল।",bn,inv_mention_prepend,Favour,mft_negation_bn_0048
+inv_elongation_bn_0116,পাহাড়ের বরফ এখন অক্টোবর মাসেই গলে যায়।,পাাাহাড়ের বরফ এখন অক্টোবর মাসেই গলে যায়।!!!,bn,inv_elongation,Favour,mft_implicit_bn_0170
+inv_whitespace_bn_0117,"বিদেশি শক্তি চায় গরিব দেশ উন্নতি না করুক, তাই গ্লোবাল ওয়ার্মিং-এর স্লোগান।","  বিদেশি   শক্তি   চায়   গরিব   দেশ   উন্নতি   না   করুক,   তাই   গ্লোবাল   ওয়ার্মিং-এর   স্লোগান।  ",bn,inv_whitespace,Against,mft_conspiracy_bn_0716
+inv_roman_span_bn_0118,"এমন না যে গ্লোবাল ওয়ার্মিং-এ কিছু হবে না, অনেক কিছু হবে।","এমন na ye গ্লোবাল ওয়ার্মিং-এ কিছু হবে না, অনেক কিছু হবে।",bn,inv_roman_span,Favour,mft_negation_bn_0032
+inv_punct_strip_bn_0119,"কুমিল্লা-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।","কুমিল্লা-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার",bn,inv_punct_strip,Favour,mft_implicit_bn_0151

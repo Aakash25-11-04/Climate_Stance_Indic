@@ -1,0 +1,381 @@
+{
+  "rows": {
+    "train": 19278,
+    "dev": 1402,
+    "gold": 306
+  },
+  "label_by_language": {
+    "bn": {
+      "Favour": 5397,
+      "Against": 1095,
+      "None": 2998
+    },
+    "hi": {
+      "Favour": 5585,
+      "Against": 1130,
+      "None": 3073
+    }
+  },
+  "label_by_source_type": {
+    "original": {
+      "Favour": 471,
+      "Against": 0,
+      "None": 827
+    },
+    "codemixed": {
+      "Favour": 1027,
+      "Against": 158,
+      "None": 535
+    },
+    "synthetic": {
+      "Favour": 619,
+      "Against": 610,
+      "None": 494
+    },
+    "transliterated": {
+      "Favour": 1864,
+      "Against": 293,
+      "None": 1008
+    },
+    "translated": {
+      "Favour": 7001,
+      "Against": 1164,
+      "None": 3207
+    }
+  },
+  "label_by_source": {
+    "tweet_eval_climate": {
+      "Favour": 666,
+      "Against": 45,
+      "None": 341
+    },
+    "template": {
+      "Favour": 619,
+      "Against": 610,
+      "None": 494
+    },
+    "dhoroni": {
+      "Favour": 1293,
+      "Against": 0,
+      "None": 2158
+    },
+    "gwsd": {
+      "Favour": 1867,
+      "Against": 819,
+      "None": 2216
+    },
+    "climatestance": {
+      "Favour": 6537,
+      "Against": 751,
+      "None": 862
+    }
+  },
+  "script": {
+    "train": {
+      "devanagari": 7279,
+      "bengali": 7088,
+      "latin": 3449,
+      "mixed": 1462
+    },
+    "gold": {
+      "devanagari": 119,
+      "bengali": 119,
+      "latin": 44,
+      "mixed": 22,
+      "other": 2
+    }
+  },
+  "train_len_median": 107.0,
+  "gold_len_median": 62.0,
+  "train_codemix_mean": 0.21281015576071258,
+  "gold_codemix_mean": 0.1718790935558525,
+  "top_ngrams": {
+    "hi/Favour": [
+      [
+        "जलव",
+        3564
+      ],
+      [
+        "वर",
+        3022
+      ],
+      [
+        "तन",
+        2729
+      ],
+      [
+        "वर तन",
+        2648
+      ],
+      [
+        "जलव वर",
+        2543
+      ],
+      [
+        "रह",
+        1553
+      ],
+      [
+        "करन",
+        1446
+      ],
+      [
+        "कर",
+        1357
+      ],
+      [
+        "ke",
+        1346
+      ],
+      [
+        "नह",
+        1205
+      ]
+    ],
+    "hi/Against": [
+      [
+        "नह",
+        473
+      ],
+      [
+        "जलव",
+        459
+      ],
+      [
+        "वर",
+        383
+      ],
+      [
+        "तन",
+        343
+      ],
+      [
+        "वर तन",
+        326
+      ],
+      [
+        "जलव वर",
+        309
+      ],
+      [
+        "रह",
+        281
+      ],
+      [
+        "बल",
+        270
+      ],
+      [
+        "इस",
+        209
+      ],
+      [
+        "hai",
+        205
+      ]
+    ],
+    "hi/None": [
+      [
+        "वर",
+        651
+      ],
+      [
+        "जलव",
+        607
+      ],
+      [
+        "रह",
+        541
+      ],
+      [
+        "ke",
+        537
+      ],
+      [
+        "तन",
+        518
+      ],
+      [
+        "वर तन",
+        482
+      ],
+      [
+        "जलव वर",
+        464
+      ],
+      [
+        "नह",
+        435
+      ],
+      [
+        "mein",
+        428
+      ],
+      [
+        "करन",
+        410
+      ]
+    ],
+    "bn/Favour": [
+      [
+        "পর",
+        4090
+      ],
+      [
+        "জলব",
+        3446
+      ],
+      [
+        "কর",
+        3298
+      ],
+      [
+        "বর",
+        3127
+      ],
+      [
+        "পর বর",
+        2749
+      ],
+      [
+        "তন",
+        2619
+      ],
+      [
+        "বর তন",
+        2561
+      ],
+      [
+        "জলব পর",
+        2530
+      ],
+      [
+        "এব",
+        1796
+      ],
+      [
+        "জন",
+        1676
+      ]
+    ],
+    "bn/Against": [
+      [
+        "পর",
+        559
+      ],
+      [
+        "কর",
+        481
+      ],
+      [
+        "বর",
+        448
+      ],
+      [
+        "জলব",
+        442
+      ],
+      [
+        "পর বর",
+        390
+      ],
+      [
+        "তন",
+        341
+      ],
+      [
+        "বর তন",
+        333
+      ],
+      [
+        "জলব পর",
+        310
+      ],
+      [
+        "আম",
+        297
+      ],
+      [
+        "ওয",
+        297
+      ]
+    ],
+    "bn/None": [
+      [
+        "পর",
+        1069
+      ],
+      [
+        "কর",
+        952
+      ],
+      [
+        "বর",
+        717
+      ],
+      [
+        "জলব",
+        586
+      ],
+      [
+        "পর বর",
+        517
+      ],
+      [
+        "তন",
+        478
+      ],
+      [
+        "বর তন",
+        467
+      ],
+      [
+        "এব",
+        446
+      ],
+      [
+        "জলব পর",
+        442
+      ],
+      [
+        "জন",
+        410
+      ]
+    ]
+  },
+  "surface_train": {
+    "emoji_share": 0.03153854134246291,
+    "url_share": 0.0,
+    "hashtag_share": 5.187260089220873e-05,
+    "mention_share": 0.00020749040356883493,
+    "romanized_indic_share": 0.0546218487394958,
+    "mean_len": 127.63263824048138
+  },
+  "surface_gold": {
+    "emoji_share": 0.0915032679738562,
+    "url_share": 0.0,
+    "hashtag_share": 0.0,
+    "mention_share": 0.0,
+    "romanized_indic_share": 0.0457516339869281,
+    "mean_len": 64.53921568627452
+  },
+  "leakage": {
+    "train_vs_dev": {
+      "exact": 0,
+      "near_or_exact": 0,
+      "n_other": 1402
+    },
+    "train_vs_gold": {
+      "exact": 0,
+      "near_or_exact": 0,
+      "n_other": 306
+    },
+    "train_vs_challenge_mft": {
+      "exact": 0,
+      "near_or_exact": 0,
+      "n_other": 780
+    }
+  },
+  "lexicon_train_agreement": 0.4021682747172943,
+  "short_texts_lt_15_chars": 17
+}

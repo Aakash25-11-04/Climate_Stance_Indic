@@ -1,0 +1,7 @@
+{
+  "type": "ensemble",
+  "path": "models/final",
+  "calibration": null,
+  "candidate": "avg_all",
+  "selection_score": 0.6615150813670299
+}

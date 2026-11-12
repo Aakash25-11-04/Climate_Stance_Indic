@@ -1,0 +1,59 @@
+{
+  "mft_total": 780,
+  "mft_per_category_language": {
+    "codemixed/bn": 30,
+    "codemixed/hi": 30,
+    "conspiracy/bn": 30,
+    "conspiracy/hi": 30,
+    "different_target/bn": 30,
+    "different_target/hi": 30,
+    "emoji/bn": 30,
+    "emoji/hi": 30,
+    "implicit/bn": 30,
+    "implicit/hi": 30,
+    "long/bn": 30,
+    "long/hi": 30,
+    "negation/bn": 30,
+    "negation/hi": 30,
+    "neutral_topic/bn": 30,
+    "neutral_topic/hi": 30,
+    "offtopic/bn": 30,
+    "offtopic/hi": 30,
+    "romanized/bn": 30,
+    "romanized/hi": 30,
+    "sarcasm/bn": 30,
+    "sarcasm/hi": 30,
+    "short/bn": 30,
+    "short/hi": 30,
+    "typos/bn": 30,
+    "typos/hi": 30
+  },
+  "mft_labels": {
+    "Against": 285,
+    "Favour": 249,
+    "None": 246
+  },
+  "mft_origin": {
+    "template": 500,
+    "seed_filled": 200,
+    "seed": 80
+  },
+  "invariance_total": 240,
+  "invariance_per_kind": {
+    "inv_typo": 30,
+    "inv_emoji_append": 30,
+    "inv_url_append": 30,
+    "inv_mention_prepend": 30,
+    "inv_elongation": 30,
+    "inv_whitespace": 30,
+    "inv_roman_span": 30,
+    "inv_punct_strip": 30
+  },
+  "directional_total": 64,
+  "train_rows_removed_for_leakage": 3,
+  "leakage_vs_train_mft": {
+    "exact": 0,
+    "near_or_exact": 0,
+    "n_other": 780
+  }
+}

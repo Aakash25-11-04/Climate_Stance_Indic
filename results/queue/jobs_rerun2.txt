@@ -1,0 +1,9 @@
+final_r2 | .venv\Scripts\python.exe -u scripts\build_final.py --config configs\final.yaml
+robustness_r2 | .venv\Scripts\python.exe -u scripts\run_robustness.py
+explain_r2 | .venv\Scripts\python.exe -u scripts\explain.py --model auto --sparse models\tfidf_lr.pkl
+errors_r2 | .venv\Scripts\python.exe -u scripts\error_analysis.py
+significance_r2 | .venv\Scripts\python.exe -u scripts\significance.py --reference auto
+ablations_r2 | .venv\Scripts\python.exe -u scripts\run_ablations.py --config configs\ablations.yaml
+tables_r2 | .venv\Scripts\python.exe -u scripts\make_tables.py
+model_card_r2 | .venv\Scripts\python.exe -u scripts\write_model_card.py
+report_r2 | .venv\Scripts\python.exe -u scripts\write_report.py

@@ -1,0 +1,90 @@
+train 19278  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+
+=== majority ===
+  fold 0: macro F1 0.2427 params={}
+  fold 1: macro F1 0.2408 params={}
+  fold 2: macro F1 0.2415 params={}
+  fold 3: macro F1 0.2429 params={}
+  fold 4: macro F1 0.2417 params={}
+CV macro F1 0.2419 ± 0.0008 | dev 0.2470 | gold 0.1763 (hi 0.176 bn 0.176) | challenge fail 0.542 | 0.0 ms/ex
+macro F1 0.1763  acc 0.3595  n=306
+  Favour   P 0.359 R 1.000 F1 0.529 (n=110)
+  Against  P 0.000 R 0.000 F1 0.000 (n=104)
+  None     P 0.000 R 0.000 F1 0.000 (n=92)
+  [bn] macro F1 0.1763 acc 0.3595 n=153
+  [hi] macro F1 0.1763 acc 0.3595 n=153
+
+=== stratified_random ===
+  fold 0: macro F1 0.3414 params={}
+  fold 1: macro F1 0.3252 params={}
+  fold 2: macro F1 0.3373 params={}
+  fold 3: macro F1 0.3435 params={}
+  fold 4: macro F1 0.3341 params={}
+CV macro F1 0.3363 ± 0.0064 | dev 0.3152 | gold 0.3342 (hi 0.386 bn 0.283) | challenge fail 0.539 | 0.0 ms/ex
+macro F1 0.3342  acc 0.3562  n=306
+  Favour   P 0.350 R 0.564 F1 0.432 (n=110)
+  Against  P 0.500 R 0.173 F1 0.257 (n=104)
+  None     P 0.312 R 0.315 F1 0.314 (n=92)
+  [bn] macro F1 0.2833 acc 0.3072 n=153
+  [hi] macro F1 0.3855 acc 0.4052 n=153
+
+=== lexicon ===
+  fold 0: macro F1 0.3253 params={}
+  fold 1: macro F1 0.3441 params={}
+  fold 2: macro F1 0.3339 params={}
+  fold 3: macro F1 0.3440 params={}
+  fold 4: macro F1 0.3382 params={}
+CV macro F1 0.3371 ± 0.0070 | dev 0.3175 | gold 0.5752 (hi 0.559 bn 0.591) | challenge fail 0.369 | 0.1 ms/ex
+macro F1 0.5752  acc 0.6078  n=306
+  Favour   P 0.673 R 0.655 F1 0.664 (n=110)
+  Against  P 0.839 R 0.250 F1 0.385 (n=104)
+  None     P 0.524 R 0.957 F1 0.677 (n=92)
+  [bn] macro F1 0.5907 acc 0.6209 n=153
+  [hi] macro F1 0.5595 acc 0.5948 n=153
+
+=== tfidf_lr ===
+  fold 0: macro F1 0.6592 params={'C': 1.0}
+  fold 1: macro F1 0.6688 params={'C': 1.0}
+  fold 2: macro F1 0.6799 params={'C': 1.0}
+  fold 3: macro F1 0.6553 params={'C': 1.0}
+  fold 4: macro F1 0.6656 params={'C': 1.0}
+CV macro F1 0.6658 ± 0.0085 | dev 0.6203 | gold 0.6349 (hi 0.664 bn 0.606) | challenge fail 0.320 | 0.3 ms/ex
+macro F1 0.6349  acc 0.6373  n=306
+  Favour   P 0.703 R 0.473 F1 0.565 (n=110)
+  Against  P 0.736 R 0.644 F1 0.687 (n=104)
+  None     P 0.539 R 0.826 F1 0.652 (n=92)
+  [bn] macro F1 0.6062 acc 0.6078 n=153
+  [hi] macro F1 0.6644 acc 0.6667 n=153
+
+=== tfidf_cnb ===
+  fold 0: macro F1 0.6214 params={'C': 0.3}
+  fold 1: macro F1 0.6334 params={'C': 0.3}
+  fold 2: macro F1 0.6266 params={'C': 0.3}
+  fold 3: macro F1 0.6188 params={'C': 0.3}
+  fold 4: macro F1 0.6320 params={'C': 0.3}
+CV macro F1 0.6265 ± 0.0057 | dev 0.5781 | gold 0.7318 (hi 0.727 bn 0.738) | challenge fail 0.287 | 0.3 ms/ex
+macro F1 0.7318  acc 0.7320  n=306
+  Favour   P 0.672 R 0.764 F1 0.715 (n=110)
+  Against  P 0.775 R 0.760 F1 0.767 (n=104)
+  None     P 0.772 R 0.663 F1 0.713 (n=92)
+  [bn] macro F1 0.7378 acc 0.7386 n=153
+  [hi] macro F1 0.7266 acc 0.7255 n=153
+
+=== nbsvm ===
+  fold 0: macro F1 0.6489 params={'C': 0.5}
+  fold 1: macro F1 0.6451 params={'C': 0.5}
+  fold 2: macro F1 0.6586 params={'C': 0.5}
+  fold 3: macro F1 0.6504 params={'C': 0.5}
+  fold 4: macro F1 0.6637 params={'C': 0.5}
+CV macro F1 0.6533 ± 0.0068 | dev 0.6181 | gold 0.6123 (hi 0.656 bn 0.568) | challenge fail 0.356 | 0.4 ms/ex
+macro F1 0.6123  acc 0.6111  n=306
+  Favour   P 0.582 R 0.582 F1 0.582 (n=110)
+  Against  P 0.794 R 0.519 F1 0.628 (n=104)
+  None     P 0.539 R 0.750 F1 0.627 (n=92)
+  [bn] macro F1 0.5684 acc 0.5686 n=153
+  [hi] macro F1 0.6556 acc 0.6536 n=153
+
+=== tfidf_lr_translit ===
+  fold 0: macro F1 0.6738 params={'C': 1.0}
+  fold 1: macro F1 0.6774 params={'C': 1.0}
+  fold 2: macro F1 0.6843 params={'C': 1.0}

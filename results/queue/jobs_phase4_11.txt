@@ -1,0 +1,16 @@
+# Runs after jobs_phase3.txt. One GPU job at a time. A failed job does not stop the queue.
+seeds_single | .venv\Scripts\python.exe -u scripts\train.py --config configs\transformer_muril_pair.yaml --set model.formulation=single seeds=[43,44] out.save_model=false
+seeds_pair_en | .venv\Scripts\python.exe -u scripts\train.py --config configs\transformer_muril_pair.yaml --set model.claim_lang=en seeds=[43,44] out.save_model=false
+seeds_pair_bn | .venv\Scripts\python.exe -u scripts\train.py --config configs\transformer_muril_pair.yaml --set model.claim_lang=bn seeds=[43,44] out.save_model=false
+llm | .venv\Scripts\python.exe -u scripts\run_llm.py --config configs\llm.yaml
+ablations | .venv\Scripts\python.exe -u scripts\run_ablations.py --config configs\ablations.yaml
+final | .venv\Scripts\python.exe -u scripts\build_final.py --config configs\final.yaml
+robustness | .venv\Scripts\python.exe -u scripts\run_robustness.py
+explain | .venv\Scripts\python.exe -u scripts\explain.py --model auto --sparse models\tfidf_lr.pkl
+errors | .venv\Scripts\python.exe -u scripts\error_analysis.py
+significance | .venv\Scripts\python.exe -u scripts\significance.py --reference auto
+eda | .venv\Scripts\python.exe -u scripts\eda.py
+eda_notebook | .venv\Scripts\python.exe -u scripts\make_eda_notebook.py --execute
+tables | .venv\Scripts\python.exe -u scripts\make_tables.py
+model_card | .venv\Scripts\python.exe -u scripts\write_model_card.py
+report | .venv\Scripts\python.exe -u scripts\write_report.py

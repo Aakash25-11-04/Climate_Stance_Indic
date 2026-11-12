@@ -1,0 +1,26 @@
+@page { size: A4; margin: 16mm 15mm 18mm 15mm; }
+:root { --ink:#1f1f1e; --muted:#5f5e58; --rule:#dcdbd4; --accent:#2a78d6; --soft:#f3f6fb; }
+html { font-size: 10.5pt; }
+body { font-family: "Segoe UI", "Nirmala UI", "Vrinda", Arial, sans-serif; color: var(--ink); line-height: 1.5; max-width: none; margin: 0; background: #fff; }
+header#title-block-header { border-bottom: 3px solid var(--accent); margin-bottom: 14pt; padding-bottom: 8pt; }
+h1.title { font-size: 22pt; margin: 0 0 4pt; }
+p.subtitle { font-size: 11pt; color: var(--muted); margin: 0; }
+p.date { color: var(--muted); font-size: 9pt; margin: 4pt 0 0; }
+nav#TOC { background: var(--soft); border: 1px solid var(--rule); border-radius: 6px; padding: 8pt 14pt; margin-bottom: 16pt; page-break-after: always; }
+nav#TOC::before { content: "Contents"; display: block; font-weight: 600; font-size: 12pt; margin-bottom: 4pt; }
+nav#TOC ul { list-style: none; padding-left: 12pt; margin: 2pt 0; }
+nav#TOC > ul { padding-left: 0; }
+nav#TOC a { color: var(--ink); text-decoration: none; }
+h2 { font-size: 15pt; color: var(--accent); border-bottom: 1px solid var(--rule); padding-bottom: 3pt; margin-top: 20pt; page-break-after: avoid; }
+h3 { font-size: 12pt; margin-top: 14pt; page-break-after: avoid; }
+hr { border: none; border-top: 1px solid var(--rule); margin: 16pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 8pt 0 12pt; font-size: 9pt; page-break-inside: auto; }
+tr { page-break-inside: avoid; }
+th { background: var(--soft); text-align: left; font-weight: 600; }
+th, td { border: 1px solid var(--rule); padding: 4pt 6pt; vertical-align: top; }
+blockquote { margin: 8pt 0; padding: 6pt 12pt; border-left: 4px solid var(--accent); background: var(--soft); }
+code { font-family: Consolas, monospace; font-size: 8.8pt; background: #f2f1ec; padding: 0 2pt; border-radius: 3px; }
+pre { background: #f2f1ec; padding: 8pt; border-radius: 6px; font-size: 8.5pt; overflow-x: hidden; white-space: pre-wrap; page-break-inside: avoid; }
+pre code { background: none; padding: 0; }
+img { max-width: 100%; display: block; margin: 8pt auto 2pt; page-break-inside: avoid; }
+p > em:only-child { color: var(--muted); font-size: 9pt; }

@@ -1,0 +1,13 @@
+train 19278  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+[resume] kept majority (gold 0.1763)
+[resume] kept stratified_random (gold 0.3342)
+[resume] kept lexicon (gold 0.5752)
+[resume] kept tfidf_lr (gold 0.6349)
+[resume] kept tfidf_cnb (gold 0.7318)
+[resume] kept nbsvm (gold 0.6123)
+
+=== tfidf_lr_translit ===
+  fold 0: macro F1 0.6738 params={'C': 1.0}
+  fold 1: macro F1 0.6774 params={'C': 1.0}
+  fold 2: macro F1 0.6843 params={'C': 1.0}
+  fold 3: macro F1 0.6695 params={'C': 1.0}

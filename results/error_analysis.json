@@ -1,0 +1,146 @@
+{
+  "n_errors_total_categorised": 150,
+  "n_gold_errors": 70,
+  "tag_counts": {
+    "translation_artefact?": 74,
+    "implicit": 62,
+    "negation": 45,
+    "romanized": 10,
+    "long": 9,
+    "sarcasm": 8,
+    "neutral_topic": 7,
+    "different_target": 5,
+    "codemixed": 4,
+    "typos": 3,
+    "emoji": 3,
+    "short": 3,
+    "other": 2,
+    "conspiracy": 1
+  },
+  "per_category_fixed_worsened": {
+    "codemixed": {
+      "n": 22,
+      "baseline_errors": 6,
+      "final_errors": 2,
+      "fixed_by_final": 5,
+      "broken_by_final": 1,
+      "disagree": 6
+    },
+    "conspiracy": {
+      "n": 14,
+      "baseline_errors": 7,
+      "final_errors": 1,
+      "fixed_by_final": 6,
+      "broken_by_final": 0,
+      "disagree": 6
+    },
+    "different_target": {
+      "n": 16,
+      "baseline_errors": 5,
+      "final_errors": 5,
+      "fixed_by_final": 4,
+      "broken_by_final": 4,
+      "disagree": 8
+    },
+    "emoji": {
+      "n": 16,
+      "baseline_errors": 2,
+      "final_errors": 3,
+      "fixed_by_final": 1,
+      "broken_by_final": 2,
+      "disagree": 4
+    },
+    "explicit": {
+      "n": 46,
+      "baseline_errors": 8,
+      "final_errors": 6,
+      "fixed_by_final": 4,
+      "broken_by_final": 2,
+      "disagree": 6
+    },
+    "implicit": {
+      "n": 30,
+      "baseline_errors": 10,
+      "final_errors": 17,
+      "fixed_by_final": 1,
+      "broken_by_final": 8,
+      "disagree": 15
+    },
+    "long": {
+      "n": 8,
+      "baseline_errors": 3,
+      "final_errors": 1,
+      "fixed_by_final": 3,
+      "broken_by_final": 1,
+      "disagree": 4
+    },
+    "negation": {
+      "n": 22,
+      "baseline_errors": 7,
+      "final_errors": 7,
+      "fixed_by_final": 4,
+      "broken_by_final": 4,
+      "disagree": 8
+    },
+    "neutral_topic": {
+      "n": 30,
+      "baseline_errors": 13,
+      "final_errors": 7,
+      "fixed_by_final": 6,
+      "broken_by_final": 0,
+      "disagree": 6
+    },
+    "offtopic": {
+      "n": 16,
+      "baseline_errors": 3,
+      "final_errors": 0,
+      "fixed_by_final": 3,
+      "broken_by_final": 0,
+      "disagree": 3
+    },
+    "romanized": {
+      "n": 32,
+      "baseline_errors": 8,
+      "final_errors": 9,
+      "fixed_by_final": 3,
+      "broken_by_final": 4,
+      "disagree": 8
+    },
+    "sarcasm": {
+      "n": 20,
+      "baseline_errors": 4,
+      "final_errors": 6,
+      "fixed_by_final": 2,
+      "broken_by_final": 4,
+      "disagree": 6
+    },
+    "short": {
+      "n": 18,
+      "baseline_errors": 5,
+      "final_errors": 3,
+      "fixed_by_final": 4,
+      "broken_by_final": 2,
+      "disagree": 6
+    },
+    "typos": {
+      "n": 16,
+      "baseline_errors": 1,
+      "final_errors": 3,
+      "fixed_by_final": 0,
+      "broken_by_final": 2,
+      "disagree": 2
+    }
+  },
+  "top_confusions_final": {
+    "Favour->None": 26,
+    "Favour->Against": 21,
+    "None->Favour": 10,
+    "Against->None": 8,
+    "None->Against": 3,
+    "Against->Favour": 2
+  },
+  "disagreement_rate_final_vs_baseline": 0.2875816993464052,
+  "both_wrong": 36,
+  "only_final_wrong": 34,
+  "only_baseline_wrong": 46
+}

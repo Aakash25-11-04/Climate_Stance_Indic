@@ -1,0 +1,383 @@
+{
+  "cv": {
+    "fold_macro_f1": [
+      0.6737615649632809,
+      0.67738929057136,
+      0.6843251384449051,
+      0.6695012161887148,
+      0.6712705892746276
+    ],
+    "cv_macro_f1_mean": 0.6752495598885777,
+    "cv_macro_f1_std": 0.00525422429789688,
+    "oof_metrics": {
+      "macro_f1": 0.6753733248166496,
+      "accuracy": 0.7225853304284677,
+      "n": 19278,
+      "per_class": {
+        "Favour": {
+          "precision": 0.7880643392432828,
+          "recall": 0.7851939537424877,
+          "f1": 0.7866265280058383,
+          "support": 10982
+        },
+        "Against": {
+          "precision": 0.5677892918825561,
+          "recall": 0.5910112359550562,
+          "f1": 0.5791675842325479,
+          "support": 2225
+        },
+        "None": {
+          "precision": 0.6631229235880398,
+          "recall": 0.6575522978092572,
+          "f1": 0.6603258622115623,
+          "support": 6071
+        }
+      },
+      "confusion_matrix": [
+        [
+          8623,
+          627,
+          1732
+        ],
+        [
+          614,
+          1315,
+          296
+        ],
+        [
+          1705,
+          374,
+          3992
+        ]
+      ],
+      "confusion_labels": [
+        "Favour",
+        "Against",
+        "None"
+      ],
+      "per_language": {
+        "bn": {
+          "macro_f1": 0.6799129872500677,
+          "accuracy": 0.7266596417281349,
+          "n": 9490
+        },
+        "hi": {
+          "macro_f1": 0.6709609464708084,
+          "accuracy": 0.7186350633428689,
+          "n": 9788
+        }
+      }
+    },
+    "chosen_params": [],
+    "seconds": 144.79020237922668,
+    "final_params": {}
+  },
+  "dev": {
+    "macro_f1": 0.5732383837496532,
+    "accuracy": 0.6412268188302425,
+    "n": 1402,
+    "per_class": {
+      "Favour": {
+        "precision": 0.8115015974440895,
+        "recall": 0.6157575757575757,
+        "f1": 0.7002067539627843,
+        "support": 825
+      },
+      "Against": {
+        "precision": 0.4336283185840708,
+        "recall": 0.3769230769230769,
+        "f1": 0.40329218106995884,
+        "support": 130
+      },
+      "None": {
+        "precision": 0.5158371040723982,
+        "recall": 0.7651006711409396,
+        "f1": 0.6162162162162163,
+        "support": 447
+      }
+    },
+    "confusion_matrix": [
+      [
+        508,
+        44,
+        273
+      ],
+      [
+        33,
+        49,
+        48
+      ],
+      [
+        85,
+        20,
+        342
+      ]
+    ],
+    "confusion_labels": [
+      "Favour",
+      "Against",
+      "None"
+    ],
+    "per_language": {
+      "bn": {
+        "macro_f1": 0.4975081573988831,
+        "accuracy": 0.5768115942028985,
+        "n": 690
+      },
+      "hi": {
+        "macro_f1": 0.6294533637261942,
+        "accuracy": 0.7036516853932584,
+        "n": 712
+      }
+    }
+  },
+  "gold": {
+    "macro_f1": 0.5495036649073766,
+    "accuracy": 0.5555555555555556,
+    "n": 306,
+    "per_class": {
+      "Favour": {
+        "precision": 0.671875,
+        "recall": 0.39090909090909093,
+        "f1": 0.4942528735632184,
+        "support": 110
+      },
+      "Against": {
+        "precision": 0.7272727272727273,
+        "recall": 0.46153846153846156,
+        "f1": 0.5647058823529412,
+        "support": 104
+      },
+      "None": {
+        "precision": 0.44886363636363635,
+        "recall": 0.8586956521739131,
+        "f1": 0.5895522388059702,
+        "support": 92
+      }
+    },
+    "confusion_matrix": [
+      [
+        43,
+        17,
+        50
+      ],
+      [
+        9,
+        48,
+        47
+      ],
+      [
+        12,
+        1,
+        79
+      ]
+    ],
+    "confusion_labels": [
+      "Favour",
+      "Against",
+      "None"
+    ],
+    "per_language": {
+      "bn": {
+        "macro_f1": 0.39582927819790986,
+        "accuracy": 0.43137254901960786,
+        "n": 153
+      },
+      "hi": {
+        "macro_f1": 0.6792110639635393,
+        "accuracy": 0.6797385620915033,
+        "n": 153
+      }
+    }
+  },
+  "gold_by_category": {
+    "codemixed": {
+      "macro_f1": 0.774825174825175,
+      "accuracy": 0.7727272727272727,
+      "n": 22
+    },
+    "conspiracy": {
+      "macro_f1": 0.08333333333333333,
+      "accuracy": 0.14285714285714285,
+      "n": 14
+    },
+    "different_target": {
+      "macro_f1": 0.2986425339366516,
+      "accuracy": 0.4375,
+      "n": 16
+    },
+    "emoji": {
+      "macro_f1": 0.6349206349206349,
+      "accuracy": 0.625,
+      "n": 16
+    },
+    "explicit": {
+      "macro_f1": 0.43349231584525705,
+      "accuracy": 0.5,
+      "n": 46
+    },
+    "implicit": {
+      "macro_f1": 0.29523809523809524,
+      "accuracy": 0.3,
+      "n": 30
+    },
+    "long": {
+      "macro_f1": 0.48888888888888893,
+      "accuracy": 0.5,
+      "n": 8
+    },
+    "negation": {
+      "macro_f1": 0.47719298245614034,
+      "accuracy": 0.5,
+      "n": 22
+    },
+    "neutral_topic": {
+      "macro_f1": 0.2962962962962963,
+      "accuracy": 0.8,
+      "n": 30
+    },
+    "offtopic": {
+      "macro_f1": 0.3333333333333333,
+      "accuracy": 1.0,
+      "n": 16
+    },
+    "romanized": {
+      "macro_f1": 0.5521693121693122,
+      "accuracy": 0.5625,
+      "n": 32
+    },
+    "sarcasm": {
+      "macro_f1": 0.2193362193362193,
+      "accuracy": 0.3,
+      "n": 20
+    },
+    "short": {
+      "macro_f1": 0.6555555555555556,
+      "accuracy": 0.6666666666666666,
+      "n": 18
+    },
+    "typos": {
+      "macro_f1": 0.6940170940170941,
+      "accuracy": 0.6875,
+      "n": 16
+    }
+  },
+  "challenge": {
+    "overall_fail_rate": 0.39114391143911437,
+    "n_tests": 1084,
+    "per_category": {
+      "codemixed": {
+        "fail_rate": 0.4166666666666667,
+        "n": 60
+      },
+      "conspiracy": {
+        "fail_rate": 0.6833333333333333,
+        "n": 60
+      },
+      "different_target": {
+        "fail_rate": 0.65,
+        "n": 60
+      },
+      "dir_negation": {
+        "fail_rate": 0.65625,
+        "n": 64
+      },
+      "emoji": {
+        "fail_rate": 0.5166666666666667,
+        "n": 60
+      },
+      "implicit": {
+        "fail_rate": 0.7,
+        "n": 60
+      },
+      "inv_elongation": {
+        "fail_rate": 0.1,
+        "n": 30
+      },
+      "inv_emoji_append": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "inv_mention_prepend": {
+        "fail_rate": 0.1,
+        "n": 30
+      },
+      "inv_punct_strip": {
+        "fail_rate": 0.06666666666666667,
+        "n": 30
+      },
+      "inv_roman_span": {
+        "fail_rate": 0.06666666666666667,
+        "n": 30
+      },
+      "inv_typo": {
+        "fail_rate": 0.16666666666666666,
+        "n": 30
+      },
+      "inv_url_append": {
+        "fail_rate": 0.03333333333333333,
+        "n": 30
+      },
+      "inv_whitespace": {
+        "fail_rate": 0.0,
+        "n": 30
+      },
+      "long": {
+        "fail_rate": 0.38333333333333336,
+        "n": 60
+      },
+      "negation": {
+        "fail_rate": 0.5,
+        "n": 60
+      },
+      "neutral_topic": {
+        "fail_rate": 0.25,
+        "n": 60
+      },
+      "offtopic": {
+        "fail_rate": 0.0,
+        "n": 60
+      },
+      "romanized": {
+        "fail_rate": 0.25,
+        "n": 60
+      },
+      "sarcasm": {
+        "fail_rate": 0.8166666666666667,
+        "n": 60
+      },
+      "short": {
+        "fail_rate": 0.5166666666666667,
+        "n": 60
+      },
+      "typos": {
+        "fail_rate": 0.4166666666666667,
+        "n": 60
+      }
+    },
+    "per_type": {
+      "directional": {
+        "fail_rate": 0.65625,
+        "n": 64
+      },
+      "invariance": {
+        "fail_rate": 0.06666666666666667,
+        "n": 240
+      },
+      "mft": {
+        "fail_rate": 0.46923076923076923,
+        "n": 780
+      }
+    },
+    "per_language": {
+      "bn": {
+        "fail_rate": 0.47232472324723246,
+        "n": 542
+      },
+      "hi": {
+        "fail_rate": 0.30996309963099633,
+        "n": 542
+      }
+    }
+  }
+}
