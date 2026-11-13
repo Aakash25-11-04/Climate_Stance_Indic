@@ -35,7 +35,6 @@ EXAMPLES = [
     ["ये कहना गलत है कि जलवायु परिवर्तन एक झूठ है।"],
 ]
 
-
 def _load_model():
     from predict import FinalModel
 
