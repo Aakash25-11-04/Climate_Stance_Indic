@@ -37,15 +37,12 @@ EXAMPLES = [
 
 
 def _load_model():
-    repo = os.environ.get("STANCE_MODEL_REPO")
-    if repo:
-        from huggingface_hub import snapshot_download
-
-        from stance.models.transformer import TransformerStanceModel
-
-        path = snapshot_download(repo)
-        return TransformerStanceModel.load(path, device="auto"), "transformer"
     from predict import FinalModel
+
+    repo = os.environ.get("STANCE_MODEL_REPO")
+    if repo:  # e.g. on a new computer: set STANCE_MODEL_REPO=Aakash25-11-04/Climate_Stance_Indic
+        fm = FinalModel("final", device="auto", hub=repo)
+        return fm, fm.spec["type"]
 
     for kind in ("final", "efficient"):
         try:

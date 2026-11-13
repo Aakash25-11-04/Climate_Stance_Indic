@@ -3,6 +3,10 @@
 
     python scripts/predict.py --input my.csv --output preds.csv --model final
     python scripts/predict.py --input my.csv --output preds.csv --model efficient --device cpu
+    python scripts/predict.py --input my.csv --output preds.csv --hub Aakash25-11-04/Climate_Stance_Indic
+
+--hub REPO         : download the final model from the Hugging Face Hub (use this on a new computer,
+                     where models/ is empty). A private repo needs `hf auth login` first.
 
 --model final      : the final submission model (models/final/ -> see models/final/MODEL.json)
 --model efficient  : the hybrid sparse+dense baseline (models/hybrid_baseline.pkl) or the
@@ -44,8 +48,11 @@ def guess_language(text: str) -> str:
 class FinalModel:
     """Loads whatever models/final/MODEL.json points to (transformer, ensemble, or hybrid)."""
 
-    def __init__(self, kind: str = "final", device: str = "auto"):
+    def __init__(self, kind: str = "final", device: str = "auto", hub: str | None = None):
         self.kind = kind
+        if hub:
+            self._load_from_hub(hub, device)
+            return
         spec_path = abs_path(f"models/{kind}/MODEL.json")
         if kind == "efficient" and not spec_path.exists():
             self.spec = {"type": "hybrid", "path": "models/hybrid_baseline.pkl"}
@@ -79,6 +86,21 @@ class FinalModel:
             raise ValueError(f"unknown model type {t}")
         self.calibration = self.spec.get("calibration")  # {"temperature": T, "thresholds": [..]} optional
 
+    def _load_from_hub(self, repo: str, device: str) -> None:
+        from huggingface_hub import snapshot_download
+
+        root = Path(snapshot_download(repo))
+        self.spec = json.loads((root / "MODEL.json").read_text(encoding="utf-8"))
+        if (root / "ensemble" / "ensemble.json").exists():
+            from stance.models.ensemble import EnsembleModel
+
+            self.model = EnsembleModel.from_dir(root, device=device)
+        else:
+            from stance.models.transformer import TransformerStanceModel
+
+            self.model = TransformerStanceModel.load(root, device=device)
+        self.calibration = self.spec.get("calibration")
+
     def predict_proba(self, texts, languages):
         texts = [t if isinstance(t, str) else "" for t in texts]
         texts = [t if t.strip() else "." for t in texts]
@@ -101,6 +123,7 @@ def main() -> None:
     ap.add_argument("--model", default="final", choices=["final", "efficient"])
     ap.add_argument("--device", default="auto")
     ap.add_argument("--batch_size", type=int, default=32)
+    ap.add_argument("--hub", default=None, help="Hugging Face repo id to download the final model from")
     args = ap.parse_args()
 
     df = read_data(args.input)
@@ -111,7 +134,9 @@ def main() -> None:
     df["text"] = df["text"].fillna("").astype(str)
     if "language" not in df.columns or (df["language"] == "").all():
         df["language"] = df["text"].map(guess_language)
-    fm = FinalModel(args.model, device=args.device)
+    if not args.hub and not abs_path(f"models/{args.model}/MODEL.json").exists():
+        raise SystemExit("No local model found. On a new computer use --hub Aakash25-11-04/Climate_Stance_Indic")
+    fm = FinalModel(args.model, device=args.device, hub=args.hub)
     probs = []
     for b in range(0, len(df), args.batch_size):
         chunk = df.iloc[b : b + args.batch_size]
@@ -121,7 +146,7 @@ def main() -> None:
     for i, l in enumerate(LABELS):
         out[f"p_{l}"] = probs[:, i]
     out.to_csv(args.output, index=False, encoding="utf-8")
-    print(f"wrote {args.output} ({len(out)} rows) with model={args.model} type={fm.spec['type']}")
+    print(f"wrote {args.output} ({len(out)} rows) with model={args.hub or args.model} type={fm.spec['type']}")
     print(out["label"].value_counts().to_dict())
 
 
