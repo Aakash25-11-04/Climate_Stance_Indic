@@ -19,12 +19,11 @@ from stance.utils import LABELS, load_config
 
 
 def test_detect_script():
-    assert detect_script("जलवायु परिवर्तन") == "devanagari"
-    assert detect_script("জলবায়ু পরিবর্তন") == "bengali"
-    assert detect_script("climate change is real") == "latin"
-    assert detect_script("climate change असली है भाई") == "mixed"
-    assert detect_script("😂😂") == "other"
-
+    assert detect_script("पर्यावरण और जलवायु") == "devanagari"
+    assert detect_script("আজ আবহাওয়া কেমন") == "bengali"
+    assert detect_script("global warming is a major crisis") == "latin"
+    assert detect_script("global warming एक गंभीर समस्या है") == "mixed"
+    assert detect_script("👍👍 🔥🔥") == "other"
 
 def test_preprocessor_keeps_negation_and_handles_noise():
     p = Preprocessor()
