@@ -26,6 +26,7 @@ def _load(p):
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default="<your-user>/indic-climate-stance")
+    ap.add_argument("--github", default="https://github.com/Aakash25-11-04/Climate_Stance_Indic")
     args = ap.parse_args()
     final = _load("results/final.json")
     stats = _load("data/processed/build_stats.json")
@@ -52,9 +53,9 @@ def main() -> None:
         "No official data existed; the training set was built from public English stance datasets (SemEval-2016 Task 6 climate target,",
         "GWSD, ClimateStance) translated to Hindi and Bengali with NLLB-200 (back-translation filtered by LaBSE cosine >= 0.75),",
         "Bengali headlines from Dhoroni, Romanized and code-mixed copies, and template-synthetic comments capped at 40 %.",
-        f"Train rows: {stats.get('rows', {}).get('train', 'n/a')} (synthetic share {stats.get('synthetic_share', float('nan')):.2f}); dev rows: {stats.get('rows', {}).get('dev', 'n/a')}.",
+        f"Train rows: {sum(1 for _ in open(abs_path('data/processed/train.csv'), encoding='utf-8')) - 1 if abs_path('data/processed/train.csv').exists() else 'n/a'} (synthetic share {stats.get('synthetic_share', float('nan')):.2f}); dev rows: {stats.get('rows', {}).get('dev', 'n/a')}.",
         "See `docs/datasheet.md` in the repository for sources, licences and known biases.",
-        "", "## Evaluation (hand-written gold set, test-only, 300+ comments, 14 categories)", "",
+        "", "## Evaluation (hand-written gold set, test-only, 306 comments, 14 categories)", "",
         f"| metric | value |", "|---|---|",
         f"| Macro F1 | {gold.get('macro_f1', float('nan')):.4f} |", f"| Accuracy | {gold.get('accuracy', float('nan')):.4f} |",
     ]
@@ -75,13 +76,24 @@ def main() -> None:
               "* Training text is mostly machine-translated from English tweets/news; style differs from real Hindi/Bengali comments (see the synthetic-to-handcrafted gap analysis in the report).",
               "* The gold set and lexicon were written by the project author; scores on it are indicative, not a substitute for real annotated data.",
               "* Sarcasm, implicit stance and stance toward a related-but-different target remain the hardest categories (see the robustness table).",
-              "* Only 1 seed per configuration could be afforded on a 4 GB GPU; variance across seeds is not reported for most runs.",
+              "* Most configurations have one seed (4 GB GPU); for the three with three seeds, gold macro F1 varied by up to 0.18 between seeds, so small differences between models are not meaningful.",
               "* The model may reflect political framings present in the English source data (US/UK climate debate).",
-              "", "## How to use", "", "```python",
+              "", "## How to use", "",
+              "The model code lives in the GitHub repository; install it first:", "", "```bash",
+              "git clone " + args.github + ".git", "cd " + args.github.rstrip("/").split("/")[-1],
+              "pip install -r requirements.txt && pip install -e .", "```", "",
+              "**Full final model** (average of 4 members: two MuRIL models, TF-IDF + Complement NB, BGE-M3 + LR):", "", "```python",
+              "from huggingface_hub import snapshot_download",
+              "from stance.models.ensemble import EnsembleModel",
+              "root = snapshot_download('" + args.repo + "')",
+              "model = EnsembleModel.from_dir(root)",
+              "texts, langs = ['जलवायु परिवर्तन एक गंभीर समस्या है', 'global warming sab jhooth hai'], ['hi', 'hi']",
+              "probs = model.combine(model.member_probas(texts, langs))   # columns: Favour, Against, None", "```", "",
+              "**Single transformer only** (MuRIL, pair input; faster, gold macro F1 0.737):", "", "```python",
               "from stance.models.transformer import TransformerStanceModel",
-              "m = TransformerStanceModel.load('models/final_model_dir')  # or snapshot_download('" + args.repo + "')",
-              "m.predict(['जलवायु परिवर्तन एक गंभीर समस्या है'], ['hi'])", "```",
-              "Or: `python scripts/predict.py --input comments.csv --output preds.csv --model final`.", "",
+              "m = TransformerStanceModel.load(root)",
+              "m.predict(['জলবায়ু পরিবর্তন একটি গুরুতর সমস্যা'], ['bn'])", "```", "",
+              "From a clone of the repository: `python scripts/predict.py --input comments.csv --output preds.csv --model final`.", "",
               "## Citation", "", "If you use this model or dataset pipeline, cite the repository and the source datasets listed in the datasheet.", ""]
     out = abs_path("models/MODEL_CARD.md")
     out.parent.mkdir(exist_ok=True)

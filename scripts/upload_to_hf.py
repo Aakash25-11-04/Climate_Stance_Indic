@@ -52,12 +52,24 @@ def main() -> None:
             if f.is_file():
                 plan.append((f, f.name))
     if spec.get("type") == "ensemble":
-        ens_dir = ROOT / spec["path"]
-        plan.append((ens_dir / "ensemble.json", "ensemble/ensemble.json"))
-        ens = json.loads((ens_dir / "ensemble.json").read_text(encoding="utf-8"))
+        # Every member is uploaded; the uploaded ensemble.json uses paths relative to the Hub repo root,
+        # so `EnsembleModel.from_dir(snapshot_download(repo))` works on any machine.
+        ens = json.loads((ROOT / spec["path"] / "ensemble.json").read_text(encoding="utf-8"))
+        hub_members = []
         for m in ens["members"]:
-            if m["type"] == "pickle":
-                plan.append((ROOT / m["path"], f"ensemble/{Path(m['path']).name}"))
+            src = ROOT / m["path"]
+            if m["type"] == "transformer" and tdir is not None and src.resolve() == tdir.resolve():
+                hub_path = "."  # already uploaded at the repo root
+            elif m["type"] == "transformer":
+                hub_path = f"ensemble/{src.name}"
+                plan.extend((f, f"{hub_path}/{f.name}") for f in src.iterdir() if f.is_file())
+            else:
+                hub_path = f"ensemble/{src.name}"
+                plan.append((src, hub_path))
+            hub_members.append({**m, "path": hub_path})
+        hub_spec = ROOT / "results" / "hub_ensemble.json"
+        hub_spec.write_text(json.dumps({**ens, "members": hub_members}, indent=2), encoding="utf-8")
+        plan.append((hub_spec, "ensemble/ensemble.json"))
     if spec.get("type") == "hybrid":
         plan.append((ROOT / spec["path"], Path(spec["path"]).name))
     plan.append((spec_path, "MODEL.json"))

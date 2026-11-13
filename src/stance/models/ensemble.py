@@ -56,6 +56,16 @@ class EnsembleModel:
         self.name = spec.get("name", "ensemble")
         self._members: dict[str, object] = {}
 
+    @classmethod
+    def from_dir(cls, root: str | Path, device: str = "auto") -> "EnsembleModel":
+        """Load the ensemble from a downloaded Hugging Face snapshot (or any folder) whose
+        `ensemble/ensemble.json` stores member paths relative to that folder."""
+        root = Path(root)
+        spec = json.loads((root / "ensemble" / "ensemble.json").read_text(encoding="utf-8"))
+        for m in spec["members"]:
+            m["path"] = str((root / m["path"]).resolve())
+        return cls(spec, device=device)
+
     def member(self, s: dict):
         if s["name"] not in self._members:
             self._members[s["name"]] = _load_member(s, self.device)
