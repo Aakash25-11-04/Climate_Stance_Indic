@@ -28,12 +28,23 @@ AUXILIARY = {"case2024", "dhoroni"}
 SPAM_TEMPLATE = "you've been fooled"
 NON_CONTENT = re.compile(r"#\w+|https?://\S+|@\w+")
 
+# defining data cleaning rules and their descriptions as a structured dictionary
 RULES = {
-    "silver_labels": "drop model-generated (pseudo) labels",
-    "spam_template": "drop CASE rows built on one repeated spam template",
-    "no_content": "drop rows with < 3 words once hashtags, URLs, mentions are removed",
-    "conflicting_duplicates": "drop all copies of a text that carries different labels",
-    "duplicates": "keep one copy of a repeated text within a source",
+    "silver_labels": {
+        "description": "drop model-generated (pseudo) labels"
+    },
+    "spam_template": {
+        "description": "drop CASE rows built on one repeated spam template"
+    },
+    "no_content": {
+        "description": "drop rows with < 3 words once hashtags, URLs, mentions are removed"
+    },
+    "conflicting_duplicates": {
+        "description": "drop all copies of a text that carries different labels"
+    },
+    "duplicates": {
+        "description": "keep one copy of a repeated text within a source"
+    },
 }
 
 
