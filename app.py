@@ -107,4 +107,6 @@ with gr.Blocks(title="Indic Climate Stance") as demo:
                 "**None** = neutral, unrelated or no clear stance. See the model card for limitations.")
 
 if __name__ == "__main__":
-    demo.launch(server_name=os.environ.get("GRADIO_SERVER_NAME", "127.0.0.1"), share=False)
+    # GRADIO_SHARE=1 prints a temporary public link (needed in Google Colab)
+    demo.launch(server_name=os.environ.get("GRADIO_SERVER_NAME", "127.0.0.1"),
+                share=os.environ.get("GRADIO_SHARE", "0") == "1")

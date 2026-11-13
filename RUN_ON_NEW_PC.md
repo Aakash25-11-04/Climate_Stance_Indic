@@ -107,6 +107,16 @@ model = EnsembleModel.from_dir(snapshot_download("Aakash25-11-04/Climate_Stance_
 probs = model.predict_proba(["जलवायु परिवर्तन एक गंभीर समस्या है"], ["hi"])  # columns: Favour, Against, None
 ```
 
+## Google Colab (no installation on your computer)
+
+Open the ready-made notebook in Colab and run the cells top to bottom:
+
+https://colab.research.google.com/github/Aakash25-11-04/Climate_Stance_Indic/blob/main/notebooks/use_in_colab.ipynb
+
+It clones this repo, installs the packages, loads the model from Hugging Face, labels example comments or an
+uploaded CSV, and can start the web demo with a public link. While the model is private, add your token as a Colab
+secret named `HF_TOKEN` (key icon in the left sidebar) or paste it when asked.
+
 ## Retraining everything from scratch (optional, needs an NVIDIA GPU)
 
 ```powershell
