@@ -4,7 +4,7 @@ The code is on GitHub and the trained model is on Hugging Face, so a new compute
 from this laptop.
 
 - Code: https://github.com/Aakash25-11-04/Climate_Stance_Indic
-- Model: https://huggingface.co/Aakash25-11-04/Climate_Stance_Indic (private: log in first, or make it public)
+- Model: https://huggingface.co/Aakash25-11-04/Climate_Stance_Indic (public: no login needed)
 
 ## What the computer needs
 
@@ -63,16 +63,7 @@ pip install -e .
 This takes 5–15 minutes. If PowerShell refuses to run `activate` ("running scripts is disabled"), run
 `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, then try again.
 
-## Step 4. Log in to Hugging Face (only while the model is private)
-
-```powershell
-hf auth login
-```
-
-Paste a token from https://huggingface.co/settings/tokens (a **Read** token is enough for downloading).
-Skip this step if you made the model public.
-
-## Step 5. Label comments
+## Step 4. Label comments
 
 Put your comments in a CSV file with columns `id,text` (like `test_text_only.csv`), then:
 
@@ -86,7 +77,7 @@ python scripts/predict.py --input my_comments.csv --output my_results.csv --hub 
 - Optional: add a `language` column (`hi` or `bn`). Without it, the language is guessed from the script and words.
 - Force CPU with `--device cpu`.
 
-## Step 6 (optional). The demo web app
+## Step 5 (optional). The demo web app
 
 ```powershell
 $env:PYTHONUTF8 = "1"
@@ -114,8 +105,7 @@ Open the ready-made notebook in Colab and run the cells top to bottom:
 https://colab.research.google.com/github/Aakash25-11-04/Climate_Stance_Indic/blob/main/notebooks/use_in_colab.ipynb
 
 It clones this repo, installs the packages, loads the model from Hugging Face, labels example comments or an
-uploaded CSV, and can start the web demo with a public link. While the model is private, add your token as a Colab
-secret named `HF_TOKEN` (key icon in the left sidebar) or paste it when asked.
+uploaded CSV, and can start the web demo with a public link. No login is needed: the model is public.
 
 ## Retraining everything from scratch (optional, needs an NVIDIA GPU)
 
@@ -129,7 +119,7 @@ secret named `HF_TOKEN` (key icon in the left sidebar) or paste it when asked.
 | Problem | Fix |
 |---|---|
 | `python` not found | reinstall Python with "Add Python to PATH", then open a new terminal |
-| `401` / "Repository not found" when downloading | the model is private: run `hf auth login`, or make the repo public on Hugging Face |
+| `401` / "Repository not found" when downloading | check the repo name is exactly `Aakash25-11-04/Climate_Stance_Indic`; if the model was made private again, run `hf auth login` |
 | Garbled Hindi/Bengali text or `UnicodeEncodeError` | run `$env:PYTHONUTF8 = "1"` first |
 | `CUDA out of memory` | add `--device cpu` |
 | Very slow first run | it is downloading about 4 GB once; later runs are fast |

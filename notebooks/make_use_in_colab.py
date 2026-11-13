@@ -29,17 +29,7 @@ if not os.path.isdir("/content/Climate_Stance_Indic"):
     rapidfuzz datasketch captum lime gradio
 !pip install -q -e . --no-deps
 print("setup done")"""),
-    md("""## 2. Log in to Hugging Face (only while the model is private)
-
-Either add a Colab **secret** named `HF_TOKEN` (key icon in the left sidebar → *Add new secret* → paste a **Read**
-token from https://huggingface.co/settings/tokens → switch on *Notebook access*), or paste the token into the
-box that appears below. Skip this cell if the model is public."""),
-    code("""from huggingface_hub import whoami, notebook_login
-try:
-    print("Logged in as", whoami()["name"])
-except Exception:
-    notebook_login()"""),
-    md("## 3. Load the model (first time: a few minutes of downloading)"),
+    md("## 2. Load the model (first time: a few minutes of downloading)"),
     code(f"""import os, sys
 os.chdir("/content/Climate_Stance_Indic")
 os.environ["PYTHONUTF8"] = "1"
@@ -67,7 +57,7 @@ def stance(texts, languages=None):
     return out
 
 print("model ready:", model.spec.get("candidate", model.spec["type"]))"""),
-    md("## 4. Try it"),
+    md("## 3. Try it"),
     code("""stance([
     "जलवायु परिवर्तन एक गंभीर समस्या है, हमें अभी कदम उठाने चाहिए।",
     "ग्लोबल वार्मिंग सब झूठ है भाई, पैसा कमाने का धंधा है",
@@ -77,7 +67,7 @@ print("model ready:", model.spec.get("candidate", model.spec["type"]))"""),
 ])"""),
     md("Type your own comment here:"),
     code("""stance("यहाँ अपना कमेंट लिखें")"""),
-    md("""## 5. Label a whole CSV file
+    md("""## 4. Label a whole CSV file
 
 The file needs a `text` column (an `id` column and a `language` column with `hi`/`bn` are optional).
 Run the cell, choose the file, and the results download automatically as `<name>_result.csv`."""),
@@ -94,7 +84,7 @@ for name in uploaded:
     res.to_csv(out, index=False, encoding="utf-8-sig")   # utf-8-sig: opens correctly in Excel
     print(out, res["stance"].value_counts().to_dict())
     files.download(out)"""),
-    md("""## 6. (Optional) Web demo with a public link
+    md("""## 5. (Optional) Web demo with a public link
 
 Starts the Gradio app and prints a `https://….gradio.live` link you can open on any device (valid about 72 hours
 while this notebook runs). Stop it with the ■ button."""),
