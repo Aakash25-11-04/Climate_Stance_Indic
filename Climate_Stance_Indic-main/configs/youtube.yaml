@@ -1,0 +1,42 @@
+# YouTube comment collection (data_prep/collect_youtube.py).
+#
+# Quota: the default project quota is 10,000 units/day. search = 100 units per page of 50
+# videos; videos.list = 1 unit per 50 videos; commentThreads = 1 unit per page of 100.
+# `python data_prep/collect_youtube.py --dry-run` prints the worst-case cost of this file.
+
+budget_per_day: 9500        # stop below the 10,000 hard limit, leaving room for retries
+
+search:
+  pages_per_query: 1        # 50 videos per page
+  order: relevance
+  published_after: "2015-01-01T00:00:00Z"
+  # lang -> relevanceLanguage; region -> regionCode.
+  # query_type decides which annotation pools a comment may enter (data/README.md):
+  #   general -> RANDOM or TARGETED pool;  sceptic -> TARGETED pool only.
+  # Romanized queries are general queries aimed at Latin-script Hindi/Bengali comments.
+  queries:
+    # Hindi
+    - {q: "जलवायु परिवर्तन", lang: hi, region: IN, query_type: general}
+    - {q: "ग्लोबल वार्मिंग", lang: hi, region: IN, query_type: general}
+    - {q: "जलवायु संकट भारत", lang: hi, region: IN, query_type: general}
+    - {q: "हीटवेव जलवायु परिवर्तन", lang: hi, region: IN, query_type: general}
+    - {q: "global warming kya hai", lang: hi, region: IN, query_type: general}   # romanized
+    - {q: "climate change hindi", lang: hi, region: IN, query_type: general}     # romanized
+    - {q: "ग्लोबल वार्मिंग झूठ", lang: hi, region: IN, query_type: sceptic}
+    - {q: "जलवायु परिवर्तन सच या झूठ", lang: hi, region: IN, query_type: sceptic}
+    # Bengali
+    - {q: "জলবায়ু পরিবর্তন", lang: bn, region: BD, query_type: general}
+    - {q: "জলবায়ু পরিবর্তন", lang: bn, region: IN, query_type: general}
+    - {q: "গ্লোবাল ওয়ার্মিং", lang: bn, region: BD, query_type: general}
+    - {q: "বৈশ্বিক উষ্ণায়ন", lang: bn, region: BD, query_type: general}
+    - {q: "জলবায়ু পরিবর্তন বন্যা ঘূর্ণিঝড়", lang: bn, region: BD, query_type: general}
+    - {q: "global warming bangla", lang: bn, region: BD, query_type: general}    # romanized
+    - {q: "climate change bangla", lang: bn, region: BD, query_type: general}    # romanized
+    - {q: "গ্লোবাল ওয়ার্মিং মিথ্যা", lang: bn, region: BD, query_type: sceptic}
+
+videos:
+  min_comments: 20          # skip videos with too few comments to be worth a request
+
+comments:
+  pages_per_video: 3        # up to 300 top-level comments (plus inline replies) per video
+  order: relevance

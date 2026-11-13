@@ -1,0 +1,31 @@
+# Phase 8: ensemble, calibration, efficiency, final-model selection.
+#   python scripts/build_final.py --config configs/final.yaml
+seed: 42
+data:
+  train: data/processed/train.csv
+  dev: data/processed/dev.csv
+  gold: data/gold/test_handcrafted.csv
+  challenge_dir: data/challenge
+candidates:
+  transformers: auto          # auto = top-N saved transformer dirs by dev macro F1 from results/transformers.csv; or a list of dirs
+  top_n_transformers: 2
+  sparse: auto                # auto = best sparse pickle from results/baselines.csv
+  dense: auto                 # auto = best dense pickle
+  include_llm: false
+ensemble:
+  methods: [average, weighted, stack]
+  weight_grid: [0.0, 0.25, 0.5, 0.75, 1.0]
+calibration:
+  temperature: true
+  class_bias: true
+selection:
+  # score = gold_macro_f1 - lambda * challenge_fail_rate (both on TEST-ONLY data, reported transparently)
+  lambda: 0.5
+efficiency:
+  quantize_transformer: true   # dynamic int8 quantisation (torch) of the best transformer for CPU
+  latency_rows: 100
+out:
+  final_dir: models/final
+  efficient_dir: models/efficient
+  report: results/final.json
+  table: results/final_candidates.csv

@@ -1,0 +1,23 @@
+# Phase 4: the transformer comparison matrix. Each entry overrides configs/transformer_muril_pair.yaml.
+#   python scripts/run_transformers.py --config configs/transformers_all.yaml
+base_config: configs/transformer_muril_pair.yaml
+seed: 42
+max_total_minutes: 600          # stop launching new runs after this budget
+runs:
+  # --- formulation / claim language (key innovation), MuRIL
+  - {name: muril, formulation: single}
+  - {name: muril, formulation: pair, claim_lang: auto}
+  - {name: muril, formulation: pair, claim_lang: en}
+  - {name: muril, formulation: pair, claim_lang: hi}
+  - {name: muril, formulation: pair, claim_lang: bn}
+  # --- loss
+  - {name: muril, formulation: pair, claim_lang: auto, loss: focal}
+  # --- backbones (pair, auto claim)
+  - {name: indicbert, formulation: pair, claim_lang: auto}
+  - {name: xlmr, formulation: pair, claim_lang: auto}
+  - {name: mbert, formulation: pair, claim_lang: auto}
+  - {name: banglabert, formulation: pair, claim_lang: auto, languages: [bn]}
+  # --- fine-tuned NLI checkpoint (compare with zero-shot baseline h)
+  - {name: mdeberta-xnli, formulation: pair, claim_lang: auto, lr: 1.0e-5}
+out:
+  table: results/transformers.csv

@@ -1,0 +1,33 @@
+# Phase 6: augmentation / data ablations, one change at a time, on the baseline to beat (sparse)
+# and on the best transformer. Kept only if BOTH CV macro F1 and the challenge suite improve.
+#   python scripts/run_ablations.py --config configs/ablations.yaml
+seed: 42
+data:
+  train: data/processed/train.csv
+  dev: data/processed/dev.csv
+  gold: data/gold/test_handcrafted.csv
+  train_en: data/processed/train_en.csv
+  challenge_dir: data/challenge
+sparse_model: tfidf_lr            # the baseline to beat (overridden automatically from results/baselines.csv if present)
+transformer:
+  run: true
+  base_config: configs/transformer_muril_pair.yaml
+  epochs: 2                       # shorter runs for ablations
+  cv: false                       # transformer: dev + gold + challenge only (CV too expensive on 4 GB)
+  extra_set: [model.formulation=single]   # best single-seed config on gold (results/tables.md); 2 epochs
+ablations:
+  - {name: none, remove: []}                           # reference = current train.csv
+  - {name: no_synthetic, remove: [synthetic]}
+  - {name: no_transliterated, remove: [transliterated]}
+  - {name: no_codemixed, remove: [codemixed]}
+  - {name: plus_char_noise, add: char_noise, share: 0.3}
+  - {name: plus_drop_matras, add: drop_matras, share: 0.3}
+  - {name: plus_repeat_chars, add: repeat_chars, share: 0.3}
+  - {name: plus_negation_flip, add: negation_flip}
+  - {name: plus_backtranslate, add: backtranslate, share: 0.3}
+  - {name: plus_english, add_file: data/processed/train_en.csv}   # cross-lingual transfer
+  - {name: plus_synthetic_x3, add_synthetic: 1000}                 # ~3x more template data (still < 40 % cap)
+cv:
+  n_splits: 5
+out:
+  table: results/ablations.csv

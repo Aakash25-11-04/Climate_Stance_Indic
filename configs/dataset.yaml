@@ -1,0 +1,40 @@
+# Phase 1: dataset construction. `python scripts/build_dataset.py --config configs/dataset.yaml`
+seed: 42
+dataset:
+  sources: [tweet_eval_climate, gwsd, climatestance, dhoroni]
+  gwsd_min_agreement: 0.5
+  # translation
+  translation:
+    backend: auto            # auto -> indictrans2 if HF token present, else nllb
+    batch_size: 16
+    max_length: 200
+    num_beams: 4
+    bt_threshold: 0.75       # LaBSE cosine between English source and back-translation
+    translate_dhoroni_to_hi: true
+    max_source_rows: null    # debugging: cap English rows (e.g. 50)
+  # text hygiene applied to English sources BEFORE translation (social media noise)
+  pre_translation:
+    drop_urls: true
+    drop_mentions: true
+    strip_hashtag_symbol: true
+    min_chars: 12
+    max_chars: 600
+  # social-media realism layers (train groups only)
+  transliterate_share: 0.25   # share of native-script train rows that get a Romanized copy
+  codemix_share: 0.20         # share that get a synthetic code-mixed copy
+  # template synthetic data
+  synthetic:
+    enabled: true
+    max_share: 0.40           # cap: synthetic rows <= 40% of final train
+    n_per_label_lang: 400     # requested before capping
+  # splits
+  dev_share: 0.10
+  dedup:
+    near_threshold: 0.85
+  out:
+    train: data/processed/train.csv
+    dev: data/processed/dev.csv
+    train_en: data/processed/train_en.csv       # English originals for the cross-lingual ablation
+    gold: data/gold/test_handcrafted.csv
+    stats: data/processed/build_stats.json
+    translations_all: data/cache/translations_all.csv

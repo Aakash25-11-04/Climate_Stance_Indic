@@ -1,0 +1,151 @@
+split,id,language,category,source_type,label,pred_final,pred_baseline,tags,text,justification
+gold,gold_hi_0008,hi,explicit,handcrafted,Favour,None,Favour,['implicit'],"ग्लेशियर पिघल रहे हैं, समुद्र का स्तर बढ़ रहा है, कितना सबूत चाहिए आपको?",cites evidence rhetorically against doubters
+gold,gold_hi_0017,hi,explicit,handcrafted,Against,None,None,"['negation', 'implicit']","थोड़ा सा कार्बन डाइऑक्साइड बढ़ने से कुछ नहीं होता, पौधों के लिए अच्छा है।",minimises CO2 impact; classic denial argument
+gold,gold_hi_0020,hi,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],जलवायु परिवर्तन पर संयुक्त राष्ट्र की बैठक अगले हफ्ते दुबई में होगी।,"news about a climate meeting, no stance"
+gold,gold_hi_0025,hi,neutral_topic,handcrafted,None,Favour,Favour,"['neutral_topic', 'codemixed']",जलवायु परिवर्तन शब्द का अंग्रेज़ी में मतलब climate change होता है।,"definition/translation, no stance"
+gold,gold_hi_0026,hi,negation,handcrafted,Favour,Against,Favour,['negation'],ये कहना बिल्कुल गलत है कि जलवायु परिवर्तन एक झूठ है।,negation of denial = supports the claim
+gold,gold_hi_0030,hi,negation,handcrafted,Favour,Against,Against,['negation'],कोई भी ईमानदार वैज्ञानिक ये नहीं कहेगा कि ग्लोबल वार्मिंग झूठ है।,negated denial supports claim
+gold,gold_hi_0039,hi,sarcasm,handcrafted,Favour,Against,Against,['sarcasm'],"हाँ भाई, 48 डिग्री में भी ग्लोबल वार्मिंग झूठ है, AC चालू करके बोल रहे हो ना?","sarcasm mocks deniers, so supports the claim"
+gold,gold_hi_0041,hi,sarcasm,handcrafted,Favour,Against,Favour,"['sarcasm', 'negation']","जलवायु परिवर्तन झूठ है, ये बात वही लोग कहते हैं जिन्हें बाढ़ में अपना घर नहीं खोना पड़ा।",ironic jab at deniers; supports seriousness
+gold,gold_hi_0044,hi,implicit,handcrafted,Favour,None,Against,['implicit'],"जब मैं बच्चा था तो मई में भी शाम को ठंडी हवा चलती थी, अब मार्च से ही पसीना निकलता है।",personal observation of warming over time
+gold,gold_hi_0047,hi,implicit,handcrafted,Favour,Against,Against,['implicit'],"हिमालय के ग्लेशियर 20 साल में इतने पीछे चले गए हैं, डर लगता है।",fear about glacier retreat implies concern
+gold,gold_hi_0049,hi,implicit,handcrafted,Favour,None,Against,['implicit'],"इस बार आम की फसल फिर खराब हो गई, बेमौसम बारिश ने सब बर्बाद कर दिया, हर साल यही हो रहा है।",repeated unseasonal weather damage implies real change
+gold,gold_hi_0053,hi,implicit,handcrafted,None,Against,None,['implicit'],"गर्मी में AC और सर्दी में हीटर, बस यही ज़िंदगी है।","everyday remark, no stance on the claim"
+gold,gold_hi_0057,hi,romanized,handcrafted,Favour,Against,Favour,"['romanized', 'negation', 'implicit']","garmi har saal badh rahi hai, ye koi mazak nahi hai, dharti sach me garam ho rahi hai",Romanized: affirms warming is real and serious
+gold,gold_hi_0063,hi,romanized,handcrafted,Favour,Against,Against,"['romanized', 'negation', 'implicit']","bachpan me jo thand padti thi ab wo nahi padti, kuch to badal raha hai",Romanized implicit observation of change
+gold,gold_hi_0075,hi,codemixed,handcrafted,Favour,None,Favour,"['codemixed', 'implicit']","जो भी हो, carbon emissions कम करना हम सबकी responsibility है।",accepts responsibility to cut emissions
+gold,gold_hi_0079,hi,typos,handcrafted,Favour,Against,Favour,"['typos', 'implicit']","गर्मि बहोत बढ रहि है हर साल, कुछ तो गडबड है",misspelt implicit observation of warming
+gold,gold_hi_0081,hi,typos,handcrafted,Favour,None,None,"['typos', 'implicit', 'romanized']",climet chnge ki wajah se hmare khet barbad ho gye,misspelt: crops ruined by climate change
+gold,gold_hi_0090,hi,emoji,handcrafted,Favour,Against,Favour,"['emoji', 'negation', 'implicit']","🌡️📈 हर साल यही ग्राफ, और लोग कहते हैं कुछ नहीं हो रहा 😔",thermometer/graph emojis plus sadness at deniers
+gold,gold_hi_0096,hi,short,handcrafted,Favour,None,Favour,"['short', 'implicit']",जागो।,'wake up' call in climate context
+gold,gold_hi_0107,hi,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],जलवायु परिवर्तन पर IPCC की नई रिपोर्ट 3000 पन्नों की है।,factual statement about a report
+gold,gold_hi_0110,hi,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],COP28 में 190 से ज्यादा देशों ने हिस्सा लिया।,conference attendance fact
+gold,gold_hi_0123,hi,conspiracy,handcrafted,Against,Favour,Favour,['conspiracy'],HAARP से मौसम बदला जा रहा है और नाम क्लाइमेट चेंज का दे रहे हैं।,weather control conspiracy denies natural/climate explanation
+gold,gold_hi_0126,hi,different_target,handcrafted,Favour,None,Favour,"['different_target', 'negation', 'implicit']","ग्रेटा का तरीका मुझे पसंद नहीं, लेकिन जिस समस्या की वो बात करती है वो असली है।","dislikes the activist, affirms the problem"
+gold,gold_hi_0130,hi,different_target,handcrafted,None,Against,Against,['different_target'],"सोलर पैनल की सब्सिडी बंद कर देनी चाहिए, बहुत भ्रष्टाचार है इसमें।",policy criticism only; stance on the claim unclear
+gold,gold_hi_0133,hi,implicit,handcrafted,Against,Favour,None,['implicit'],अगर ग्लोबल वार्मिंग सच होती तो अब तक मुंबई डूब चुका होता।,counterfactual mocking of predictions
+gold,gold_hi_0134,hi,negation,handcrafted,Favour,Against,Favour,['negation'],"लोग कहते हैं क्लाइमेट चेंज झूठ है, फिर हर साल नया टेम्परेचर रिकॉर्ड क्यों बन रहा है?",rhetorical rebuttal of deniers
+gold,gold_hi_0136,hi,implicit,handcrafted,Favour,None,Favour,"['implicit', 'negation']","मेरी मां कहती है कि उनके बचपन में हमारे शहर में बर्फ गिरती थी, अब दिसंबर में भी स्वेटर नहीं पहनना पड़ता।",anecdotal warming evidence
+gold,gold_hi_0138,hi,romanized,handcrafted,None,Favour,Favour,['romanized'],"ab to roz news me climate change, bore ho gaye",boredom with coverage; no stance on the claim
+gold,gold_hi_0149,hi,implicit,handcrafted,Favour,None,Against,"['implicit', 'negation']","मैं पर्यावरणविद नहीं हूं, पर इतना समझता हूं कि ये आग खुद नहीं लगी, हमने लगाई है।",metaphor: humans caused the fire
+gold,gold_hi_0152,hi,implicit,handcrafted,Favour,None,Favour,['implicit'],"जो लोग आज हंस रहे हैं, उनके पोते पूछेंगे कि तुमने क्या किया था।",future generations will blame inaction
+gold,gold_bn_0004,bn,explicit,handcrafted,Favour,None,Favour,['implicit'],আমার সন্তানদের ভবিষ্যতের জন্য আমি চাই আমরা কার্বন নিঃসরণ কমাই।,wants emission cuts for children's future
+gold,gold_bn_0007,bn,explicit,handcrafted,Favour,None,None,"['negation', 'implicit']","কয়লা ছেড়ে সৌরশক্তির দিকে যেতেই হবে, অন্য কোনো পথ নেই।",energy transition is unavoidable
+gold,gold_bn_0008,bn,explicit,handcrafted,Favour,None,None,['implicit'],"সুন্দরবন ডুবছে, সমুদ্রের পানি বাড়ছে, আর কত প্রমাণ লাগবে আপনাদের?",cites Sundarbans evidence against doubters
+gold,gold_bn_0017,bn,explicit,handcrafted,Against,None,None,['implicit'],"একটু কার্বন ডাই অক্সাইড বাড়লে কিছু হয় না, গাছের জন্য ভালো।",minimises CO2 impact
+gold,gold_bn_0020,bn,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],জলবায়ু পরিবর্তন নিয়ে জাতিসংঘের বৈঠক আগামী সপ্তাহে দুবাইয়ে হবে।,news about meeting
+gold,gold_bn_0026,bn,negation,handcrafted,Favour,Against,Favour,['negation'],এটা বলা একদম ভুল যে জলবায়ু পরিবর্তন একটা মিথ্যা।,negated denial = support
+gold,gold_bn_0030,bn,negation,handcrafted,Favour,Against,Against,['negation'],কোনো সৎ বিজ্ঞানী বলবে না যে গ্লোবাল ওয়ার্মিং মিথ্যা।,negated denial supports claim
+gold,gold_bn_0032,bn,negation,handcrafted,Favour,Against,Against,"['negation', 'implicit']","না ভাই, এটা কোনো ষড়যন্ত্র না, তাপমাত্রা সত্যিই বাড়ছে।","rejects conspiracy, affirms warming"
+gold,gold_bn_0037,bn,sarcasm,handcrafted,Against,None,Against,['sarcasm'],"বাহ, একটু বৃষ্টি হলো আর এরা ক্লাইমেট চেঞ্জ বলে চিৎকার শুরু করল।",mocks attribution of rain
+gold,gold_bn_0039,bn,sarcasm,handcrafted,Favour,Against,Favour,['sarcasm'],"হ্যাঁ ভাই, ৪৫ ডিগ্রিতেও গ্লোবাল ওয়ার্মিং মিথ্যা, AC চালিয়ে বলছেন তো?",mocks deniers = supports claim
+gold,gold_bn_0041,bn,sarcasm,handcrafted,Favour,Against,Favour,['sarcasm'],"জলবায়ু পরিবর্তন মিথ্যা, এটা তারাই বলে যাদের বন্যায় ঘর হারাতে হয়নি।",ironic jab at deniers
+gold,gold_bn_0044,bn,implicit,handcrafted,Favour,None,None,['implicit'],"ছোটবেলায় মে মাসেও সন্ধ্যায় ঠান্ডা বাতাস বইত, এখন মার্চ থেকেই ঘাম ঝরে।",personal observation of warming
+gold,gold_bn_0045,bn,implicit,handcrafted,Favour,None,Favour,"['implicit', 'negation']","আমাদের গ্রামের পুকুর শুকিয়ে গেছে, টিউবওয়েলে পানি নেই, মুরুব্বিরা বলেন এমন কখনো দেখেননি।",unprecedented change
+gold,gold_bn_0047,bn,implicit,handcrafted,Favour,Against,None,['implicit'],"উপকূলে লবণাক্ত পানি ঢুকে ধানক্ষেত নষ্ট হচ্ছে, প্রতি বছর আরো ভেতরে আসছে, ভয় লাগে।",salinity intrusion concern
+gold,gold_bn_0049,bn,implicit,handcrafted,Favour,None,Against,['implicit'],"এবারও আমের ফলন নষ্ট, অসময়ের বৃষ্টি সব শেষ করে দিল, প্রতি বছর একই ঘটনা।",repeated unseasonal damage
+gold,gold_bn_0061,bn,romanized,handcrafted,Against,None,Against,"['romanized', 'negation', 'implicit']","scientist ra funding er jonno bhoy dekhay, kichu hobe na",Banglish: funding motive
+gold,gold_bn_0063,bn,romanized,handcrafted,Favour,None,Against,"['romanized', 'implicit']","chotobelay je thanda porto ekhon ar pore na, kichu ekta bodlacche",Banglish implicit observation
+gold,gold_bn_0064,bn,romanized,handcrafted,Against,None,Against,"['romanized', 'implicit']","abhawa bodlay bhai, ete eto panic keno",Banglish dismisses panic
+gold,gold_bn_0065,bn,romanized,handcrafted,Favour,None,None,"['romanized', 'negation', 'implicit']",Sundarban dube jacche ar amra ekhono bhabchi sotti na mittha 😢,Banglish evidence plus frustration
+gold,gold_bn_0075,bn,codemixed,handcrafted,Favour,None,None,"['codemixed', 'implicit']","যাই হোক, carbon emission কমানো আমাদের সবার responsibility।",accepts responsibility
+gold,gold_bn_0079,bn,typos,handcrafted,Favour,Against,Favour,"['typos', 'implicit']","গরম খুব বারছে প্রতি বছর, কিছু একটা গরবর আছে",misspelt implicit observation
+gold,gold_bn_0088,bn,emoji,handcrafted,Against,None,Favour,"['emoji', 'sarcasm']",🙄🙄 আবার সেই ক্লাইমেট চেঞ্জের কান্না,eye-roll dismissal
+gold,gold_bn_0090,bn,emoji,handcrafted,Favour,Against,Favour,"['emoji', 'negation', 'implicit']","🌡️📈 প্রতি বছর একই গ্রাফ, আর মানুষ বলে কিছু হচ্ছে না 😔",thermometer/graph plus sadness at deniers
+gold,gold_bn_0094,bn,short,handcrafted,Favour,Against,Against,"['short', 'implicit']","একদম ঠিক, বিপদ আসল।",short affirmation
+gold,gold_bn_0096,bn,short,handcrafted,Favour,None,Favour,"['short', 'implicit']",জাগো।,wake-up call
+gold,gold_bn_0101,bn,long,handcrafted,Favour,Against,Favour,"['long', 'negation']","আমি একজন কৃষক, গত ত্রিশ বছর ধরে চাষ করছি। আগে বর্ষা সময়মতো আসত, জুনের প্রথম সপ্তাহে বীজ বোনা হয়ে যেত। এখন কখনো জুলাই পর্যন্ত বৃষ্টি হয় না, আবার কখনো অক্টোবরে এত বৃষ্টি হয় যে পাকা ধান পচে যায়। যারা শহরে বসে বলে জলবায়ু পরিবর্তন মিথ্যা, তাদের এক বছর আমার ক্ষেতে এসে থাকা উচিত। এটা কোনো বইয়ের কথা না, আমাদের প্রতিদিনের জীবন।",long farmer narrative supporting the claim
+gold,gold_bn_0107,bn,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],জলবায়ু পরিবর্তন নিয়ে IPCC-র নতুন রিপোর্ট ৩০০০ পাতার।,report fact
+gold,gold_bn_0110,bn,neutral_topic,handcrafted,None,Favour,Favour,['neutral_topic'],COP28-এ ১৯০টির বেশি দেশ অংশ নিয়েছে।,conference fact
+gold,gold_bn_0126,bn,different_target,handcrafted,Favour,None,Favour,"['different_target', 'implicit']","গ্রেটার পদ্ধতি আমার পছন্দ না, কিন্তু যে সমস্যার কথা সে বলে সেটা আসল।","dislikes activist, affirms problem"
+gold,gold_bn_0130,bn,different_target,handcrafted,None,Against,None,['different_target'],"সোলার প্যানেলের ভর্তুকি বন্ধ করা উচিত, এতে অনেক দুর্নীতি।",policy criticism only
+gold,gold_bn_0132,bn,different_target,handcrafted,Favour,None,Favour,"['different_target', 'implicit']","প্রধানমন্ত্রী COP-এ ভালো বক্তৃতা দিয়েছেন, কিন্তু মাঠে কাজও হতে হবে, সময় কম।",demands action because time is short
+gold,gold_bn_0133,bn,implicit,handcrafted,Against,None,None,['implicit'],গ্লোবাল ওয়ার্মিং সত্যি হলে এতদিনে ঢাকা ডুবে যেত।,counterfactual mocking
+gold,gold_bn_0134,bn,negation,handcrafted,Favour,Against,Favour,['negation'],"মানুষ বলে ক্লাইমেট চেঞ্জ মিথ্যা, তাহলে প্রতি বছর নতুন তাপমাত্রার রেকর্ড হয় কেন?",rhetorical rebuttal
+gold,gold_bn_0135,bn,sarcasm,handcrafted,None,Favour,Favour,['sarcasm'],"জলবায়ু পরিবর্তন? হাহা, আগে নিজের শহরের ময়লা তো পরিষ্কার করো।","deflects to another issue, stance unclear"
+gold,gold_bn_0136,bn,implicit,handcrafted,Favour,None,Favour,['implicit'],"আমার মা বলেন তার ছোটবেলায় আমাদের এলাকায় শীতে লেপ ছাড়া ঘুমানো যেত না, এখন ডিসেম্বরেও সোয়েটার লাগে না।",anecdotal warming evidence
+gold,gold_bn_0138,bn,romanized,handcrafted,None,Favour,Favour,['romanized'],"ekhon to roj news e climate change, bore hoye gelam","boredom with coverage, no stance"
+gold,gold_bn_0140,bn,implicit,handcrafted,Against,None,Against,"['implicit', 'negation']","আমাদের এখানে তো এবার বেশি শীত পড়ল, জানি না এরা কোন গরমের কথা বলে 🤷",local cold used to doubt
+gold,gold_bn_0146,bn,romanized,handcrafted,Favour,None,Favour,"['romanized', 'implicit']","ekhon proti gorome mone hoy chulay bose achi, kichu ekta korte hobe","Banglish: unbearable heat, must act"
+gold,gold_bn_0149,bn,implicit,handcrafted,Favour,None,Favour,['implicit'],"আমি পরিবেশবিদ না, কিন্তু এটুকু বুঝি এই আগুন নিজে লাগেনি, আমরা লাগিয়েছি।",metaphor: humans caused the fire
+gold,gold_bn_0152,bn,implicit,handcrafted,Favour,None,Favour,['implicit'],"যারা আজ হাসছে, তাদের নাতিরা জিজ্ঞেস করবে তোমরা কী করেছিলে।",future generations will blame inaction
+dev,dev_00628,bn,,translated,Favour,None,,"['negation', 'translation_artefact?']",গ্লোবাল ওয়ার্মিংয়ের জন্য যুক্তরাষ্ট্রের মতো ধনী দেশগুলো নৈতিকভাবে দায়ী এবং দরিদ্র দেশগুলোকে তাদের অর্থনীতি গড়ে তোলার সুযোগ থেকে বঞ্চিত করা উচিত নয়।,
+dev,dev_00106,hi,,translated,Favour,None,,['translation_artefact?'],"कई शोधकर्ता अगले सदी के भीतर बड़े पैमाने पर, विनाशकारी ग्लोबल वार्मिंग की भविष्यवाणी करते हैं।",
+dev,dev_00043,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",शार्लोट में इस तिथि के लिए रिक उच्च तापमान 101* है। यह 1926 में निर्धारित किया गया था। खतरनाक उत्सर्जन के लिए टी-मॉडल सबसे खराब थे।,
+dev,dev_01205,bn,,original,None,Favour,,['other'],শুকিয়ে যাচ্ছে পৃথিবীর বড় বড় মিঠা পানির উৎস,
+dev,dev_00180,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",नॉर्वे को अपने लोगों के बीच मांग को कम करने के बजाय जीवाश्म ईंधन की आपूर्ति को कम करना चाहिए।,
+dev,dev_01107,bn,,translated,Favour,Against,,"['negation', 'translation_artefact?']",জলবায়ু পরিবর্তনের সঙ্গে আগুনের কোন সম্পর্ক নেই,
+dev,dev_00241,hi,,translated,None,Against,,['translation_artefact?'],"वैश्विक जलवायु पैटर्न जो आमतौर पर सर्दियों के मौसम पैटर्न को प्रभावित करते हैं, इस वर्ष कमजोर हैं, जिससे जटिल भविष्यवाणियां होती हैं।",
+dev,dev_00458,hi,,translated,Favour,Against,,['translation_artefact?'],"हाँ, अपने जादुई हरे लालटेन के अंगूठे के साथ उसने ऐसा करना चाहिए था और ग्लोबल वार्मिंग को हल करना चाहिए था और रॉक हिल्स को सोने में बदल देना चाहिए था और चांद को 51 वां राज्य बनाना चाहिए था।",
+dev,dev_01052,bn,,translated,None,Favour,,['translation_artefact?'],একটি পাখি প্রজাতির বিস্তারকে জলবায়ু পরিবর্তনের সঙ্গে যুক্ত করে একটি ভাল নিবন্ধ।,
+dev,dev_00479,hi,,translated,None,Favour,,"['long', 'translation_artefact?']","मैंने एमटीवी शो का एक हिस्सा देखा जहां दोस्त अपने दोस्तों के लिए टैटू चुनते हैं और अचानक मैं तेजी से बढ़ते जलवायु परिवर्तन और टॉरीज की जीत, ब्रेक्सिट, ट्रम्प, बोस्नियाई नीच राजनीति, सब कुछ के साथ शांति में हूं। हम वास्तव में विलुप्त होने का हकदार हैं।",
+dev,dev_00831,bn,,translated,Favour,None,,['translation_artefact?'],স্কটল্যান্ডের ডিপোজিট রিটার্ন স্কিম জলবায়ু পরিবর্তন মোকাবেলায় খুচরা বিক্রেতাদের একটি গুরুত্বপূর্ণ ভূমিকা দেবে।,
+dev,dev_00122,hi,,translated,Favour,None,,['translation_artefact?'],मानव के पास ग्लोबल वार्मिंग को कम चरम स्तर तक कम करने के लिए नवाचारों में बड़ी छलांग लगाने के लिए केवल 12 साल हैं - या इसके बड़े परिणाम भुगतते हैं।,
+dev,dev_01031,bn,,translated,Favour,None,,"['implicit', 'translation_artefact?']",জীবাশ্মহীন পুনর্নবীকরণযোগ্য শক্তির জন্য বিনিয়োগের জন্য একটি জীবাশ্ম জ্বালানী মুক্ত তহবিল খুঁজছেন?,
+dev,dev_00176,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']","2030 तक, वैश्विक औसत समुद्र स्तर 2000 के स्तर पर तीन से नौ इंच के बीच बढ़ सकता है, 2050 तक छह इंच से दो फीट तक, और 2100 तक 19 से 55 इंच तक।",
+dev,dev_01103,bn,,translated,Against,Favour,,['translation_artefact?'],"উত্তরঃ সবগুলোই! সিএনএন-এর আবহাওয়া চ্যানেলের প্রতিষ্ঠাতা জন কোলেমন বলেছেন, ""জলবায়ু পরিবর্তন হল বালোনি""",
+dev,dev_01131,bn,,original,Favour,None,,"['negation', 'implicit']","চলছে না যানবাহন, কমেছে দূষণ",
+dev,dev_00001,hi,,translated,None,Favour,,['translation_artefact?'],"इन दिनों यह मैं जानता हूँ! मैं इसे लागू किया साल पहले और बस चला गया लेकिन मैं जानता हूँ, के बारे में डियोन शांति लोकतंत्र! लक्ष्य? Sem ST",
+dev,dev_00827,bn,,translated,Favour,Against,,"['negation', 'long', 'translation_artefact?']","আপনি কি মনে করেন যে জিনগত রোগের বিলুপ্তি জনসংখ্যা বৃদ্ধিকে প্রভাবিত করবে? জিনগত ব্যাধিগুলির কারণে কম মৃত্যু = আরও বেশি মানুষ। শেষবার আমি যাচাই করেছি, জলবায়ু পরিবর্তনের প্রধান কারণ কি অত্যধিক জনসংখ্যা নয়? যদি না আপনি আমাদের জিনগতভাবে পরিবর্তন করতে সক্ষম হন যাতে আমরা সম্পদ ব্যবহার না করি",
+dev,dev_01261,bn,,original,Favour,None,,['implicit'],শুধু অর্থ দিয়ে পরিবেশের ক্ষতিপূরণ সম্ভব?,
+dev,dev_00377,hi,,translated,None,Favour,,['translation_artefact?'],जलवायु परिवर्तन एरिक एक पीओएस है!,
+dev,dev_00019,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",हाँ लेकिन सिलिकॉन धूल के उत्सर्जन में वृद्धि हुई है और राज्य स्तर पर इसके बारे में बहुत कम किया गया है और यह सेम एसटी को प्रभावित करता है,
+dev,dev_00676,bn,,translated,Favour,None,,"['implicit', 'translation_artefact?']",বরফের বিলুপ্তির পরিণতিও অনুভূত হবে মেরু থেকে অনেক দূরে।,
+dev,dev_00227,hi,,translated,None,Favour,,['translation_artefact?'],"चूंकि जलवायु परिवर्तन हमारी अर्थव्यवस्था को प्रभावित करता है, इसलिए आपके बैंक की अनुकूलन और mitigation रणनीतियों को समझना महत्वपूर्ण है।",
+dev,dev_00854,bn,,translated,Favour,Against,,"['negation', 'long', 'translation_artefact?']","সম্ভবত জলবায়ু পরিবর্তনের সূচনা অংশটি এই কারণে হতে পারেঃ সূর্যটি অবশ্যই ২০০০ সালের চেয়ে শক্তিশালী হতে হবে, সাম্প্রতিক বছরগুলিতে চাঁদটি উজ্জ্বল, হলুদ এবং লাল হয়ে উঠেছে। লিমাতে, যে দিনগুলিতে এটির অতিবেগুনী রশ্মি ছিল, চাঁদটি এটিকে ঘিরে একটি রেইনবাউ দিয়ে দেখা গেছে",
+dev,dev_00977,bn,,translated,Against,Favour,,['translation_artefact?'],"এমএসএনবিসি অনুমান করেছে জাতিসংঘের প্রতিবেদন, গ্লোবাল ওয়ার্মিংয়ের বিষয়ে আশঙ্কা",
+dev,dev_00532,hi,,translated,Against,Favour,,['translation_artefact?'],मुझे लगता है कि बेनी भूल गया कि पत्रिकाएं अब डिजिटल में आती हैं और उसने उच्च बुद्धि की खोज में जलवायु परिवर्तन के आंदोलन का विरोध करते हुए अधिक पेड़ मारे हैं,
+dev,dev_01219,bn,,original,Favour,None,,['implicit'],লোডশেডিং: দুর্বিষহ এ অবস্থা কতদিন চলবে প্রশ্ন দিনাজপুরবাসীর,
+dev,dev_00660,bn,,translated,Favour,Against,,"['implicit', 'translation_artefact?']",বিশ্ব এখনও বৈশ্বিক শক্তি ব্যবস্থাকে আরও টেকসই পথে নিয়ে যেতে ব্যর্থ হচ্ছে।,
+dev,dev_00583,bn,,translated,Against,Favour,,"['codemixed', 'translation_artefact?']",গ্লাবল ওয়ার্মিং নিউজ এবং দাঁতের কিংবদন্তি বাচ্চাদের দাঁত হারাতে পারে! carbontaxscam Chemtrails Sem ST,
+dev,dev_01389,hi,,translated,Favour,None,,['translation_artefact?'],जलवायु वैज्ञानिकों का कहना है कि दुनिया में 2023 या 2024 में औसत तापमान का एक नया रिकॉर्ड हो सकता है।,
+dev,dev_00088,hi,,translated,None,Favour,,['translation_artefact?'],वे कोपेनहेगन वार्ता में घरेलू जलवायु कानून और वैश्विक कार्बन समझौते को पारित करने के कगार पर हैं।,
+dev,dev_00399,hi,,translated,Favour,Against,,"['negation', 'translation_artefact?']",जलवायु परिवर्तन झूठी खबर नहीं है,
+dev,dev_00144,hi,,translated,None,Against,,"['negation', 'translation_artefact?']",समुद्र के स्तर की नीति और तटीय प्रबंधन विनियमन को निर्णायक या अर्ध-अनुभवात्मक समुद्री स्तर मॉडलिंग के परिणामों पर आधारित रखने के लिए कोई औचित्य नहीं है।,
+dev,dev_01358,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",मौसम विभाग ने कहा कि देश के इतिहास में 76 वर्षों में सबसे तेज गर्मी का प्रकोप जारी है।,
+dev,dev_00589,bn,,translated,Against,Favour,,['translation_artefact?'],"বিশিষ্ট জলবায়ুবিদ, সামুদ্রিক জীববিজ্ঞানী এবং মহাসাগরবিদ টেড ড্যানসন আমাদের ২৭ বছর আগে বলেছিলেন যে ১০ বছরের মধ্যে মহাসাগরগুলো মরে যাবে।",
+dev,dev_00444,hi,,translated,None,Against,,['translation_artefact?'],जलवायु परिवर्तन की वजह से भीड़ का आकार अतिरंजित लगता है।,
+dev,dev_00203,hi,,translated,None,Against,,['translation_artefact?'],"कुछ लोगों का मानना है कि वैश्विक अभिजात वर्ग दावोस जाता है और विश्व प्रभुत्व की योजना बनाता है, लेकिन यह इससे भी ज्यादा डरावना है।",
+dev,dev_00073,hi,,translated,None,Against,,"['negation', 'translation_artefact?']","पृथ्वी के भूवैज्ञानिक इतिहास में आखिरी बार जब कार्बन डाइऑक्साइड इतना अधिक है, तो अंटार्कटिका में साल भर कोई समुद्री बर्फ नहीं है।",
+dev,dev_00585,bn,,translated,None,Favour,,['translation_artefact?'],"ইউএনজিএ সেম এসটি-তে ফ্যাবিয়াস বলেন, '২০১৫-এর জন্য আর্থিক সহযোগিতা ও স্বচ্ছতা প্রয়োজন।",
+dev,dev_00669,bn,,translated,Favour,Against,,['translation_artefact?'],"সেখানে যা ঘটছে তা বৈশ্বিক প্রবণতার একটি ক্ষুদ্র মহাবিশ্বঃ ২০৩০ সালের মধ্যে বিশ্বের ৯০ শতাংশ প্রবাল বিলুপ্তির ঝুঁকিতে থাকবে, মূলত মহাসাগরের অ্যাসাইডাইজেশন এবং গ্লোবাল ওয়ার্মিংয়ের কারণে, উভয়ই মানব ক্রিয়াকলাপ দ্বারা নির্গত গ্রিনহাউস গ্যাসের পণ্য।",
+dev,dev_00923,bn,,translated,Favour,Against,,"['negation', 'translation_artefact?']","""আপনি যদি গ্রহটি ধ্বংস করেন তবে এটি কোনও বিনিয়োগ নয়।"" এটি ছিল GLFLuxembourg2019: যদিও দীর্ঘদিন ধরে বলা হয়েছে যে অর্থ পৃথিবীকে ঘূর্ণায়মান করে তোলে, জলবায়ু পরিবর্তন গ্রহের চারপাশে নয় বরং এটিতে অর্থ প্রেরণ করার প্রয়োজন বাড়ছে।",
+dev,dev_01004,bn,,translated,None,Favour,,"['negation', 'long', 'translation_artefact?']",গ্রেটা থানবার্গ মার্কিন যুক্তরাষ্ট্র থেকে তিন সপ্তাহের যাত্রা শেষে লিসবনে পৌঁছেছেন - জলবায়ু কর্মী পরিবারের নৌকায় আটলান্টিক পার হয়ে মাদ্রিদে COP25-এ যাচ্ছেন জলবায়ু জরুরী শুক্রবার ভবিষ্যতের জন্য আমাদের সময় নেই জলবায়ু পরিবর্তন বিলুপ্তি বিদ্রোহ COP25 মাদ্রিদ,
+dev,dev_00097,hi,,translated,None,Against,,"['negation', 'translation_artefact?']","ग्लोबल वार्मिंग, यानी जलवायु परिवर्तन, पर्यावरण या राजनीति के बारे में नहीं है।",
+dev,dev_00786,bn,,translated,None,Favour,,['translation_artefact?'],"""জলবায়ু পরিবর্তনের আঙুলের ছাপ সেখানে ছিল এবং এটি উদ্বেগজনক"", বলেন প্রতিবেদনের নির্বাহী সম্পাদক ডঃ নিক ওয়াটস, যোগ করে বলেন, পরবর্তী তাপ তরঙ্গগুলি 'দশ হাজার মৃত্যুর দিকে পরিচালিত করেছে।'",
+dev,dev_00400,hi,,translated,Favour,Against,,"['negation', 'translation_artefact?']",कुछ राजनेताओं को लगता है कि जलवायु परिवर्तन स्वाभाविक है क्योंकि उन्हें व्यवसाय के धोखेबाजों द्वारा वित्त पोषित किया जाता है जो अपनी गड़बड़ी को साफ नहीं करते हैं,
+dev,dev_00474,hi,,translated,Against,Favour,,"['negation', 'translation_artefact?']","Bjorn Lomborg का साक्षात्कारः ""हम जलवायु परिवर्तन के लिए गलत समाधानों पर पैसा फेंक रहे हैं""",
+dev,dev_00318,hi,,translated,Favour,Against,,"['long', 'translation_artefact?']","तो अब आप समाज के एक अराजकतावादी रूप के लोकप्रिय होने की संभावना ला रहे हैं, जो एक पूरी तरह से अलग समस्या है जो स्पष्ट रूप से चीजों को और अधिक जटिल बनाता है। यह ग्लोबल वार्मिंग के बारे में बहस करने के समान है और फिर ""ठीक है, तीसरे विश्व युद्ध के बारे में क्या?",
+dev,dev_00179,hi,,translated,None,Favour,,['translation_artefact?'],ग्लोबल वार्मिंग के कारण परिवर्तन होने की संभावना है।,
+dev,dev_00011,hi,,translated,Favour,Against,,"['implicit', 'translation_artefact?']",यह बहुत दुर्भाग्यपूर्ण है कि हमारे ग्रह का व्यवस्थित विनाश कुछ लोगों के लिए केवल एक राजनीतिक मुद्दा के रूप में देखा जाता है।,
+dev,dev_00149,hi,,translated,Favour,None,,['translation_artefact?'],"जबकि कई वैज्ञानिक किसी विशेष तूफान और जलवायु परिवर्तन के बीच ठोस संबंध बनाने से डरते हैं, समुद्र के स्तर में वृद्धि तूफान की लहरों की विनाशकारी क्षमता को बढ़ाती है, और गर्म वातावरण में अधिक नमी होती है, जिससे अधिक बारिश होती है।",
+dev,dev_00860,bn,,translated,None,Favour,,"['long', 'translation_artefact?']","""এই সময় [জলবায়ু] দ্রুত পরিবর্তিত হচ্ছে কারণ এন্থ্রোপোজেনিক গ্যাস নির্গমন"" গ্লোবাল উষ্ণায়নের 93% সমুদ্রের তাপমাত্রার পরিবর্তনে প্রকাশিত হয়। ১৯৯৪ সাল থেকে সমুদ্র প্রতি বছর ০.০০১ ডিগ্রি সেলসিয়াস গরম হয়েছে। আপনি একজন সামুদ্রিক রসায়নবিদ। ব্যাখ্যা করুন কেন আপনি বিশ্বাস করেন যে CO2 পানিকে গরম করে।",
+dev,dev_00570,hi,,translated,Against,Favour,,"['negation', 'translation_artefact?']","एंगस टेलर नकली दस्तावेजों का उपयोग कर रहे हैं, यहाँ देखने के लिए कुछ भी नहीं है टेलर गेट, यह जलवायु परिवर्तन के बारे में बात करने का समय नहीं है, NSWFires के बचे लोगों के लिए विचार और प्रार्थनाएं,",
+dev,dev_01093,bn,,translated,Against,Favour,,"['negation', 'translation_artefact?']",কারণ জলবায়ু পরিবর্তন কেবল একটি কৌশল এবং বাস্তবতা নয়!!!! তার হৃদয়কে আশীর্বাদ করুন।,
+dev,dev_00780,bn,,translated,None,Favour,,['translation_artefact?'],"এর্নম্যান এবং রেনচোগ জলবায়ু পরিবর্তনের বিরুদ্ধে লড়াইয়ের জন্য জাতীয় সরকারগুলির বিরুদ্ধে ""নীচে থেকে উপরে"" পদক্ষেপের আহ্বান জানিয়ে ড্যাগেনস নাইথারে একটি মতামতের সম্পাদনায় স্বাক্ষর করেছেন।",
+dev,dev_00754,bn,,translated,Against,Favour,,['translation_artefact?'],গ্লোবাল ওয়ার্মিং প্রতিরোধে প্রণীত নীতি অর্থনীতির ক্ষতি করবে।,
+dev,dev_01312,hi,,translated,Favour,None,,"['sarcasm', 'implicit', 'translation_artefact?']",मौसम विभाग ने कहा कि ढाका सहित चार क्षेत्रों में हल्के से मध्यम तापमान के प्रवाह को तीन दिनों के लिए जारी रखा जाएगा।,
+dev,dev_00339,hi,,translated,Favour,Against,,"['negation', 'long', 'translation_artefact?']","मैं जलवायु परिवर्तन के बारे में बहुत संदिग्ध हूं जो मानव सभ्यता को जन्म देता है। जैसा कि जीन रॉडेनबरी ने सही ढंग से कहा था, रोमन साम्राज्य गिर गया और सभ्यता को एक हजार साल के लिए बहुत अच्छी तरह से वापस कर दिया, किसी भी विनाशकारी घटना की आवश्यकता नहीं थी।",
+dev,dev_00009,hi,,translated,Favour,None,,"['negation', 'implicit', 'translation_artefact?']","चिंता मत करो, जमाव के कोर साबित करते हैं कि शेलफ़िश और कोरल केवल 160,000 वर्षों में ठीक हो जाएंगे।",
+dev,dev_00713,bn,,translated,None,Against,,"['negation', 'translation_artefact?']",সমুদ্রপৃষ্ঠের নীতি এবং উপকূলীয় ব্যবস্থাপনা নিয়ন্ত্রণের ভিত্তি নির্ধারণমূলক বা অর্ধ-অভিজ্ঞ সমুদ্রপৃষ্ঠের মডেলিংয়ের ফলাফলের উপর ভিত্তি করে চালিয়ে যাওয়ার কোন কারণ নেই।,
+dev,dev_00242,hi,,translated,Against,Favour,,['translation_artefact?'],जलवायु कार्यकर्ताओं का कहना है कि जलवायु परिवर्तन वैश्विक या क्षेत्रीय फसल विनाश का कारण बन रहा है।,
+dev,dev_00511,hi,,translated,None,Favour,,['translation_artefact?'],बड़े तेल जलवायु परिवर्तन पर धुआं उड़ाते हैं युकन न्यूज़,
+dev,dev_01117,bn,,translated,Against,Favour,,"['negation', 'translation_artefact?']","এঙ্গুস টেইলর ভুয়া ডকুমেন্টস ব্যবহার করে, এখানে দেখতে কিছুই নেই টেইলর গেট, এখন জলবায়ু পরিবর্তনের কথা বলার সময় নয়, এনএসডব্লিউফায়ার থেকে বেঁচে যাওয়াদের জন্য চিন্তা ও প্রার্থনা,",
+dev,dev_00259,hi,,translated,None,Favour,,['translation_artefact?'],"सही होने के लिए, एंजेला रेनर कुछ रात पहले प्रश्न समय पर थी रेबेका लॉन्ग बेली ने चैनल 4 पर जलवायु परिवर्तन बहस की।",
+dev,dev_00150,hi,,translated,None,Against,,"['negation', 'translation_artefact?']","कार्बन की वैश्विक कीमत जैसी नीतियां, प्रौद्योगिकियां और प्रोत्साहन अब लागू हैं, और दुनिया वास्तव में आज जमीन पर चल रही है।",
+dev,dev_01259,bn,,original,None,Favour,,['negation'],করোনাভাইরাসের সঙ্গে লড়াই-সংগ্রাম করতে করতে আমরা জলবায়ু পরিবর্তনের কথা যেন অনেকটা ভুলতেই বসেছি।,
+dev,dev_00235,hi,,translated,None,Favour,,['translation_artefact?'],"हमारी अर्थव्यवस्था जीवाश्म ईंधन पर बहुत निर्भर है, और फिर भी हमारा परिदृश्य अपेक्षाकृत जलवायु परिवर्तन के संपर्क में है।",
+dev,dev_00905,bn,,translated,Favour,Against,,['translation_artefact?'],"আমি খুব সংশয়ী যে জলবায়ু পরিবর্তনই মানব সভ্যতার মূল কারণ। যেমন জিন রডেনবেরি সঠিকভাবে উল্লেখ করেছেন, রোমান সাম্রাজ্য ধসে পড়েছিল এবং সভ্যতাকে এক হাজার বছর পিছনে ফেলেছিল।",
+dev,dev_00587,bn,,translated,None,Favour,,['translation_artefact?'],"আমাদের ৩০০ জন অনুগামীদের ধন্যবাদ, যারা আমাদেরকে মানবাধিকার সচেতনতা বাড়াতে সাহায্য করেছেন।",
+dev,dev_00755,bn,,translated,Favour,None,,"['negation', 'implicit', 'translation_artefact?']","মানুষের দ্বারা সৃষ্ট কার্বন নির্গমন কেবল রেকর্ড তাপমাত্রা এবং শুষ্কতা নয়, পরবর্তী কয়েক মাসের মধ্যে রেকর্ড শীতলতা এবং বৃষ্টিপাতের কারণও ছিল।",
+dev,dev_00287,hi,,translated,Favour,None,,['translation_artefact?'],मुझे लगता है कि मैंने हाल ही में समाचार पर एक राजनेता को जलवायु परिवर्तन के बारे में बात करते हुए देखा है! धन्यवाद,
+dev,dev_00354,hi,,translated,None,Favour,,"['negation', 'translation_artefact?']",मुझे लगता है कि इस सदी की सबसे अजीब चीजों में से एक यह है कि जलवायु परिवर्तन किसी तरह के धर्म में बदल रहा है आप या तो विश्वास करते हैं या नहीं,
+dev,dev_00718,bn,,translated,Favour,None,,['translation_artefact?'],"যদিও অনেক বিজ্ঞানী কোন বিশেষ ঝড় এবং জলবায়ু পরিবর্তনের মধ্যে দৃঢ় সম্পর্ক তৈরি করতে উদ্বিগ্ন, সমুদ্রপৃষ্ঠের বৃদ্ধি ঝড়ের তরঙ্গগুলির ধ্বংসাত্মকতার সাথে যোগ করে, এবং উষ্ণায়নের বায়ুমণ্ডল আরও আর্দ্রতা ধরে রাখে, যা আরও বৃষ্টিপাতের দিকে পরিচালিত করে।",
+dev,dev_01329,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",वियतनाम में उच्चतम तापमान का रिकॉर्ड,
+dev,dev_01198,bn,,original,None,Favour,,['other'],নিউইয়র্ক সিটির বন্যা ও জলবায়ু পরিবর্তন,
+dev,dev_01324,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",दुनिया भर में एक विशाल गर्मी की लहर चल रही है।,
+dev,dev_00714,bn,,translated,Favour,None,,['translation_artefact?'],দীর্ঘমেয়াদী গ্লোবাল ওয়ার্মিংকে সহ্যযোগ্য সীমাবদ্ধতার মধ্যে আনার জন্য অনেক বেশি প্রচেষ্টা প্রয়োজন হবে।,
+dev,dev_00240,hi,,translated,Against,None,,['translation_artefact?'],"इसके विपरीत साहित्य की मात्रा के बावजूद, 1950 के दशक के बाद से उष्णता और 1990 के दशक के अंत से शीतलन दोनों प्राकृतिक जलवायु परिवर्तन के साथ पूरी तरह से संगत हैं।",
+dev,dev_00295,hi,,translated,None,Favour,,"['long', 'translation_artefact?']","""इस बार [जलवायु] तेजी से बदल रहा है क्योंकि मानव निर्मित जीएचजी उत्सर्जन"" 93% ग्लोबल वार्मिंग महासागरों के तापमान में बदलाव में प्रकट होती है। 1994 के बाद से, महासागर प्रति वर्ष 0.001 डिग्री सेल्सियस की दर से गर्म हो रहे हैं। आप एक समुद्री रसायनज्ञ हैं। समझाएं कि आप क्यों मानते हैं कि CO2 पानी को गर्म करता है।",
+dev,dev_01359,hi,,translated,Favour,None,,"['implicit', 'translation_artefact?']",लोडशीडिंग: दिनजपुर के लोगों ने पूछा कि यह स्थिति कब तक चलेगी।,
+dev,dev_00047,hi,,translated,None,Favour,,['translation_artefact?'],"दुनिया के कुछ हिस्सों में, जैसे कि कैलिफोर्निया के तट में, समुद्र का स्तर गिर गया।",

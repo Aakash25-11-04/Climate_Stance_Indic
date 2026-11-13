@@ -1,0 +1,42 @@
+id,text,label,llm_pred,rationale
+gold_bn_0029,"জলবায়ু পরিবর্তনে কিছুই হবে না, এসব ভয় দেখানোর কথা।",Against,Favour,"""Nothing will happen in climate change, showing fear."""
+gold_bn_0001,"বৈশ্বিক উষ্ণায়ন সত্যি এবং আমরা সবাই এর জন্য দায়ী, এখনো না জাগলে কবে জাগব?",Favour,Favour,"""Climate change and global warming is a serious concern."""
+gold_hi_0111,कार्बन डाइऑक्साइड का रासायनिक सूत्र CO2 है।,None,None,None
+gold_bn_0050,"এসব ভয় দেখানোর ব্যবসা, কার্বন ট্যাক্স বসাতে হবে শুধু।",Against,Favour,"""এসব ভয় দেখানোর ব্যবসা"" (This is just fearmongering) and ""কার্বন ট্যাক"
+gold_hi_0060,jo log climate change ko jhooth bolte hai unko ek baar rajasthan ki garmi me bhejo,Favour,Favour,"""climate change ko jhooth bolte hai"" - ""those who talk about climate change"""
+gold_hi_0009,"बहुत अच्छा वीडियो, लोगों को जलवायु परिवर्तन की गंभीरता समझनी चाहिए 🙏",Favour,Favour,"""बहुत अच्छा वीडियो"" (Very good video) and ""जलवायु परिवर्तन की गंभीर"
+gold_hi_0119,क्लाइमेट चेंज वर्ल्ड बैंक और एलीट लोगों की साजिश है ताकि गरीबों का विकास रोका जा सके।,Against,Favour,"""Klimate change and global warming is a serious concern."""
+gold_bn_0004,আমার সন্তানদের ভবিষ্যতের জন্য আমি চাই আমরা কার্বন নিঃসরণ কমাই।,Favour,Favour,"""আমার সন্তানদের ভবিষ্যতের জন্য আমি চাই আমরা কার্�"
+gold_bn_0014,"সূর্যের কার্যকলাপে তাপমাত্রা বদলায়, মানুষের এতে কোনো ভূমিকা নেই।",Against,None,"The comment does not provide clear evidence for either agreeing with or disagreeing with the claim about climate change being a serious concern. It simply states that solar activity affects temperature but does not address the issue of human impact on climate change. Therefore,"
+gold_hi_0033,ग्लोबल वार्मिंग से इनकार करना अब संभव नहीं है।,Favour,Favour,"""Glacial warming must be addressed now."""
+gold_hi_0005,"पेड़ काटना बंद करो, प्लास्टिक छोड़ो, वरना अगली पीढ़ी हमें माफ नहीं करेगी।",Favour,Favour,"""Stop cutting trees, stop using plastic, we won't let our children down."""
+gold_hi_0101,"मैं एक किसान हूं और पिछले तीस साल से खेती कर रहा हूं। पहले मानसून समय पर आता था, जून के पहले हफ्ते में बुवाई हो जाती थी। अब कभी जुलाई तक बारिश नहीं होती और कभी अक्टूबर में इतनी बारिश होती है कि तैयार फसल सड़ जाती है। जो लोग शहरों में बैठकर कहते हैं कि जलवायु परिवर्तन झूठ है, उन्हें एक साल मेरे खेत पर आकर देखना चाहिए। ये कोई किताब की बात नहीं, हमारी रोज़ की ज़िंदगी है।",Favour,Favour,"""अब कभी जुलाई तक बारिश नहीं होती और कभी अक्टूबर में"
+gold_hi_0045,"हमारे गांव का तालाब सूख गया, कुएं खाली हैं, बुज़ुर्ग कहते हैं ऐसा कभी नहीं देखा।",Favour,None,The comment expresses frustration about water shortages in their village but does not directly address climate change or global warming. It focuses on local issues rather than broader environmental concerns.
+gold_bn_0024,"গ্লোবাল ওয়ার্মিং নিয়ে স্কুলে রচনা লিখতে হবে, কেউ পয়েন্ট দিন।",None,Favour,"""climate change and global warming is a serious concern."""
+gold_hi_0118,"आवाज़ थोड़ी कम है वीडियो में, ठीक कर लो।",None,Favour,"""आवाज़ थोड़ी कम है"" (The voice is slightly quieter)"
+gold_hi_0046,"पहले भी बाढ़ आती थी, पहले भी गर्मी पड़ती थी, बस अब टीवी पर ज्यादा दिखाते हैं।",Against,Favour,"""पहले भी बाढ़ आती थी, पहले भी गर्मी पड़ती थी, बस"
+gold_hi_0125,"जलवायु परिवर्तन गंभीर है, लेकिन ये कार्बन टैक्स गरीबों पर बोझ है, सरकार को दूसरा रास्ता निकालना चाहिए।",Favour,Favour,"""जलवायु परिवर्तन गंभीर है"" (climate change is severe) - This directly states that climate change is a serious issue.
+""ये का�"
+gold_bn_0042,"বাহ, ২০০০ সালে বলেছিল ২০১০-এ দুনিয়া ডুববে, এখন বলে ২০৫০, কী সায়েন্স।",Against,None,"The comment does not clearly express an opinion on climate change or global warming. It seems to be expressing skepticism about predictions made in the past regarding future events, without taking a clear stance either for or against the claim."
+gold_bn_0098,ক্লাইমেট চেঞ্জ সত্যি,Favour,Favour,"""ক্লাইমেট চেঞ্জ সত্যি"" (Climate change is true)"
+gold_hi_0143,जलवायु परिवर्तन को लेकर जो डर फैलाया जा रहा है वो हकीकत से कोसों दूर है।,Against,None,None
+gold_bn_0079,"গরম খুব বারছে প্রতি বছর, কিছু একটা গরবর আছে",Favour,Favour,"""প্রতি বছর, কিছু একটা গরবর আছে"" (meaning ""the temperature has been rising every year"")"
+gold_bn_0119,ক্লাইমেট চেঞ্জ বিশ্বব্যাংক আর এলিটদের ষড়যন্ত্র যাতে গরিবদের উন্নতি আটকানো যায়।,Against,None,"The comment does not clearly express an opinion on climate change or global warming being a serious concern. It instead expresses skepticism about human influence on climate through natural cycles. Therefore, it falls under the 'None' category."
+gold_bn_0095,সব নাটক।,Against,Favour,"""সব নাটক"" translates to ""It's all nonsense,"" which aligns with the Favour label by agreeing that climate change and global warming is not taken seriously."
+gold_hi_0025,जलवायु परिवर्तन शब्द का अंग्रेज़ी में मतलब climate change होता है।,None,Favour,climate change
+gold_hi_0147,"in NGO walo ko bas videsh se paisa chahiye, climate wimate kuch nahi",Against,Against,"""climate wimate kuch nahi"" (there's nothing about climate) supports the label ""Against."""
+gold_bn_0071,"Actually আমি এই topic নিয়ে বেশি জানি না, ভালো source দাও।",None,None,None
+gold_hi_0003,"वैज्ञानिक दशकों से चेतावनी दे रहे हैं, हमें उनकी बात सुननी चाहिए।",Favour,Favour,"""Vaijantrik dashon se chetavani de rahi hai, humne unki bat suhnii chaahin."""
+gold_hi_0073,"Climate change को लेकर इतना panic unnecessary है, earth हमेशा से change हो रही है।",Against,None,"""climate change को लेकर इतना panic unnecessary है"""
+gold_bn_0132,"প্রধানমন্ত্রী COP-এ ভালো বক্তৃতা দিয়েছেন, কিন্তু মাঠে কাজও হতে হবে, সময় কম।",Favour,Favour,"""Pradhan Mantri COP-এ ভালো বক্তৃতা দিয়েছেন"" (Prime Minister gave good speech at COP)"
+gold_hi_0109,ग्लोबल वार्मिंग पर कक्षा 10 की किताब में एक पूरा अध्याय है।,None,None,None
+gold_hi_0140,"हमारे यहां तो इस साल ज्यादा ठंड पड़ी, पता नहीं ये लोग किस गर्मी की बात करते हैं 🤷",Against,Against,"Words cue: ""ज्यादा ठंड"" (more dry), ""पता नहीं"" (they don't know), ""किस गर्मी की �"
+gold_bn_0134,"মানুষ বলে ক্লাইমেট চেঞ্জ মিথ্যা, তাহলে প্রতি বছর নতুন তাপমাত্রার রেকর্ড হয় কেন?",Favour,None,"The comment does not clearly express an opinion on climate change being a serious concern. It dismisses the idea by calling it a myth and mentions that temperature records have increased annually, but it doesn't explicitly state whether it favors or opposes the seriousness"
+gold_bn_0058,amar mone hoy na ei global warming farming kono asol jinish,Against,Favour,"""am ar mone hoy na ei global warming"" - This phrase indicates agreement with the claim that climate change and global warming is a serious concern. The use of ""am ar mone hoy"" means ""I don't believe it,"""
+gold_hi_0042,"वाह, 2000 में बोला था 2010 तक दुनिया डूब जाएगी, अब 2050 बोल रहे हैं, कमाल की साइंस है।",Against,Favour,"""वाह"" (ah!) expresses agreement and enthusiasm for the statement about climate change, indicating that the speaker views it as a serious concern. The repetition of ""जाएगी"" (will be) emphasizes the urgency implied"
+gold_hi_0017,"थोड़ा सा कार्बन डाइऑक्साइड बढ़ने से कुछ नहीं होता, पौधों के लिए अच्छा है।",Against,Favour,"""Thou shalt not suffer the increase of carbon dioxide for some good."""
+gold_bn_0129,"প্যারিস চুক্তি অকেজো, এতে কিছুই হবে না।",None,None,"The comment does not provide any clear indication of agreement, disagreement, or lack of stance on climate change or global warming. It simply dismisses an unnamed Paris Agreement without elaborating further. Therefore, it cannot be classified under Favour, Against"
+gold_hi_0076,जलवायु परिवरतन बहुत गम्भिर समसया है हमे अभि कुछ करना चाहिऐ,Favour,Favour,"""जलवायु परिवर्तन बहुत गम्भिर समसया है"" (Climate change is a very serious issue for us)."
+gold_hi_0090,"🌡️📈 हर साल यही ग्राफ, और लोग कहते हैं कुछ नहीं हो रहा 😔",Favour,None,"The comment does not clearly express an opinion on climate change or global warming. It appears to be expressing sadness about a graph showing temperature changes over time without mentioning any specific concerns related to climate change. Therefore, it cannot be classified under either the"
+gold_hi_0024,"ग्लोबल वार्मिंग पर स्कूल में निबंध लिखना है, कोई पॉइंट्स बताओ।",None,Favour,"""Climate change and global warming is a serious concern."""
+gold_hi_0057,"garmi har saal badh rahi hai, ye koi mazak nahi hai, dharti sach me garam ho rahi hai",Favour,Favour,"""ye koi mazak nahi hai"" (there's nothing wrong with it) and ""dharti sach me garam ho rahi hai"" (the earth gets hotter in general) support the Favour label."

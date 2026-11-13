@@ -1,0 +1,65 @@
+id,text_a,text_b,language,category,label_a,label_b
+dir_negation_hi_00_0,क्लाइमेट चेंज एक गंभीर खतरा है।,क्लाइमेट चेंज कोई गंभीर खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_00_1,ग्लोबल वार्मिंग एक गंभीर खतरा है।,ग्लोबल वार्मिंग कोई गंभीर खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_00_2,धरती का तापमान एक गंभीर खतरा है।,धरती का तापमान कोई गंभीर खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_00_3,जलवायु परिवर्तन एक गंभीर खतरा है।,जलवायु परिवर्तन कोई गंभीर खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_01_0,धरती का तापमान स्कैम है।,धरती का तापमान स्कैम नहीं है।,hi,dir_negation,Against,Favour
+dir_negation_hi_01_1,ग्लोबल वार्मिंग झूठ है।,ग्लोबल वार्मिंग झूठ नहीं है।,hi,dir_negation,Against,Favour
+dir_negation_hi_01_2,जलवायु परिवर्तन ड्रामा है।,जलवायु परिवर्तन ड्रामा नहीं है।,hi,dir_negation,Against,Favour
+dir_negation_hi_01_3,ग्लोबल वार्मिंग स्कैम है।,ग्लोबल वार्मिंग स्कैम नहीं है।,hi,dir_negation,Against,Favour
+dir_negation_hi_02_0,मैं मानता हूं कि धरती गर्म हो रही है।,मैं नहीं मानता कि धरती गर्म हो रही है।,hi,dir_negation,Favour,Against
+dir_negation_hi_02_1,मैं मानता हूं कि धरती गर्म हो रही है।,मैं नहीं मानता कि धरती गर्म हो रही है।,hi,dir_negation,Favour,Against
+dir_negation_hi_02_2,मैं मानता हूं कि धरती गर्म हो रही है।,मैं नहीं मानता कि धरती गर्म हो रही है।,hi,dir_negation,Favour,Against
+dir_negation_hi_02_3,मैं मानता हूं कि धरती गर्म हो रही है।,मैं नहीं मानता कि धरती गर्म हो रही है।,hi,dir_negation,Favour,Against
+dir_negation_hi_03_0,"अमीर देश सही कह रहे हैं, जलवायु परिवर्तन असली है।","अमीर देश गलत कह रहे हैं, जलवायु परिवर्तन असली नहीं है।",hi,dir_negation,Favour,Against
+dir_negation_hi_03_1,"अमीर देश सही कह रहे हैं, धरती का तापमान असली है।","अमीर देश गलत कह रहे हैं, धरती का तापमान असली नहीं है।",hi,dir_negation,Favour,Against
+dir_negation_hi_03_2,"नेता सही कह रहे हैं, क्लाइमेट चेंज असली है।","नेता गलत कह रहे हैं, क्लाइमेट चेंज असली नहीं है।",hi,dir_negation,Favour,Against
+dir_negation_hi_03_3,"NGO सही कह रहे हैं, जलवायु परिवर्तन असली है।","NGO गलत कह रहे हैं, जलवायु परिवर्तन असली नहीं है।",hi,dir_negation,Favour,Against
+dir_negation_hi_04_0,लू जलवायु परिवर्तन की वजह से बढ़ रही है।,"लू जलवायु परिवर्तन की वजह से नहीं बढ़ रही, ये हमेशा से होती है।",hi,dir_negation,Favour,Against
+dir_negation_hi_04_1,ओलावृष्टि क्लाइमेट चेंज की वजह से बढ़ रही है।,"ओलावृष्टि क्लाइमेट चेंज की वजह से नहीं बढ़ रही, ये हमेशा से होती है।",hi,dir_negation,Favour,Against
+dir_negation_hi_04_2,बाढ़ क्लाइमेट चेंज की वजह से बढ़ रही है।,"बाढ़ क्लाइमेट चेंज की वजह से नहीं बढ़ रही, ये हमेशा से होती है।",hi,dir_negation,Favour,Against
+dir_negation_hi_04_3,चक्रवात क्लाइमेट चेंज की वजह से बढ़ रही है।,"चक्रवात क्लाइमेट चेंज की वजह से नहीं बढ़ रही, ये हमेशा से होती है।",hi,dir_negation,Favour,Against
+dir_negation_hi_05_0,हमें जलवायु परिवर्तन पर अभी कदम उठाने चाहिए।,हमें जलवायु परिवर्तन पर कोई कदम उठाने की ज़रूरत नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_05_1,हमें ग्लोबल वार्मिंग पर अभी कदम उठाने चाहिए।,हमें ग्लोबल वार्मिंग पर कोई कदम उठाने की ज़रूरत नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_05_2,हमें ग्लोबल वार्मिंग पर अभी कदम उठाने चाहिए।,हमें ग्लोबल वार्मिंग पर कोई कदम उठाने की ज़रूरत नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_05_3,हमें क्लाइमेट चेंज पर अभी कदम उठाने चाहिए।,हमें क्लाइमेट चेंज पर कोई कदम उठाने की ज़रूरत नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_06_0,जलवायु परिवर्तन से डरना सही है।,जलवायु परिवर्तन से डरना बेवकूफी है।,hi,dir_negation,Favour,Against
+dir_negation_hi_06_1,धरती का तापमान से डरना सही है।,धरती का तापमान से डरना बेवकूफी है।,hi,dir_negation,Favour,Against
+dir_negation_hi_06_2,जलवायु परिवर्तन से डरना सही है।,जलवायु परिवर्तन से डरना बेवकूफी है।,hi,dir_negation,Favour,Against
+dir_negation_hi_06_3,जलवायु परिवर्तन से डरना सही है।,जलवायु परिवर्तन से डरना बेवकूफी है।,hi,dir_negation,Favour,Against
+dir_negation_hi_07_0,क्लाइमेट चेंज हमारे बच्चों के भविष्य के लिए खतरा है।,क्लाइमेट चेंज हमारे बच्चों के भविष्य के लिए कोई खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_07_1,ग्लोबल वार्मिंग हमारे बच्चों के भविष्य के लिए खतरा है।,ग्लोबल वार्मिंग हमारे बच्चों के भविष्य के लिए कोई खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_07_2,ग्लोबल वार्मिंग हमारे बच्चों के भविष्य के लिए खतरा है।,ग्लोबल वार्मिंग हमारे बच्चों के भविष्य के लिए कोई खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_hi_07_3,क्लाइमेट चेंज हमारे बच्चों के भविष्य के लिए खतरा है।,क्लाइमेट चेंज हमारे बच्चों के भविष्य के लिए कोई खतरा नहीं है।,hi,dir_negation,Favour,Against
+dir_negation_bn_00_0,ক্লাইমেট চেঞ্জ একটা গুরুতর বিপদ।,ক্লাইমেট চেঞ্জ কোনো গুরুতর বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_00_1,গ্লোবাল ওয়ার্মিং একটা গুরুতর বিপদ।,গ্লোবাল ওয়ার্মিং কোনো গুরুতর বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_00_2,পৃথিবীর তাপমাত্রা একটা গুরুতর বিপদ।,পৃথিবীর তাপমাত্রা কোনো গুরুতর বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_00_3,জলবায়ু পরিবর্তন একটা গুরুতর বিপদ।,জলবায়ু পরিবর্তন কোনো গুরুতর বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_01_0,পৃথিবীর তাপমাত্রা স্ক্যাম।,পৃথিবীর তাপমাত্রা স্ক্যাম না।,bn,dir_negation,Against,Favour
+dir_negation_bn_01_1,গ্লোবাল ওয়ার্মিং মিথ্যা।,গ্লোবাল ওয়ার্মিং মিথ্যা না।,bn,dir_negation,Against,Favour
+dir_negation_bn_01_2,জলবায়ু পরিবর্তন নাটক।,জলবায়ু পরিবর্তন নাটক না।,bn,dir_negation,Against,Favour
+dir_negation_bn_01_3,গ্লোবাল ওয়ার্মিং স্ক্যাম।,গ্লোবাল ওয়ার্মিং স্ক্যাম না।,bn,dir_negation,Against,Favour
+dir_negation_bn_02_0,আমি মানি পৃথিবী গরম হচ্ছে।,আমি মানি না পৃথিবী গরম হচ্ছে।,bn,dir_negation,Favour,Against
+dir_negation_bn_02_1,আমি মানি পৃথিবী গরম হচ্ছে।,আমি মানি না পৃথিবী গরম হচ্ছে।,bn,dir_negation,Favour,Against
+dir_negation_bn_02_2,আমি মানি পৃথিবী গরম হচ্ছে।,আমি মানি না পৃথিবী গরম হচ্ছে।,bn,dir_negation,Favour,Against
+dir_negation_bn_02_3,আমি মানি পৃথিবী গরম হচ্ছে।,আমি মানি না পৃথিবী গরম হচ্ছে।,bn,dir_negation,Favour,Against
+dir_negation_bn_03_0,"ধনী দেশ ঠিক বলছে, জলবায়ু পরিবর্তন আসল।","ধনী দেশ ভুল বলছে, জলবায়ু পরিবর্তন আসল না।",bn,dir_negation,Favour,Against
+dir_negation_bn_03_1,"ধনী দেশ ঠিক বলছে, পৃথিবীর তাপমাত্রা আসল।","ধনী দেশ ভুল বলছে, পৃথিবীর তাপমাত্রা আসল না।",bn,dir_negation,Favour,Against
+dir_negation_bn_03_2,"নেতারা ঠিক বলছে, ক্লাইমেট চেঞ্জ আসল।","নেতারা ভুল বলছে, ক্লাইমেট চেঞ্জ আসল না।",bn,dir_negation,Favour,Against
+dir_negation_bn_03_3,"NGO ঠিক বলছে, জলবায়ু পরিবর্তন আসল।","NGO ভুল বলছে, জলবায়ু পরিবর্তন আসল না।",bn,dir_negation,Favour,Against
+dir_negation_bn_04_0,তাপপ্রবাহ জলবায়ু পরিবর্তন-এর কারণে বাড়ছে।,"তাপপ্রবাহ জলবায়ু পরিবর্তন-এর কারণে বাড়ছে না, এটা সবসময়ই হয়।",bn,dir_negation,Favour,Against
+dir_negation_bn_04_1,শিলাবৃষ্টি ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে।,"শিলাবৃষ্টি ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে না, এটা সবসময়ই হয়।",bn,dir_negation,Favour,Against
+dir_negation_bn_04_2,বন্যা ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে।,"বন্যা ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে না, এটা সবসময়ই হয়।",bn,dir_negation,Favour,Against
+dir_negation_bn_04_3,ঘূর্ণিঝড় ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে।,"ঘূর্ণিঝড় ক্লাইমেট চেঞ্জ-এর কারণে বাড়ছে না, এটা সবসময়ই হয়।",bn,dir_negation,Favour,Against
+dir_negation_bn_05_0,আমাদের জলবায়ু পরিবর্তন নিয়ে এখনই পদক্ষেপ নেওয়া উচিত।,আমাদের জলবায়ু পরিবর্তন নিয়ে কোনো পদক্ষেপ নেওয়ার দরকার নেই।,bn,dir_negation,Favour,Against
+dir_negation_bn_05_1,আমাদের গ্লোবাল ওয়ার্মিং নিয়ে এখনই পদক্ষেপ নেওয়া উচিত।,আমাদের গ্লোবাল ওয়ার্মিং নিয়ে কোনো পদক্ষেপ নেওয়ার দরকার নেই।,bn,dir_negation,Favour,Against
+dir_negation_bn_05_2,আমাদের গ্লোবাল ওয়ার্মিং নিয়ে এখনই পদক্ষেপ নেওয়া উচিত।,আমাদের গ্লোবাল ওয়ার্মিং নিয়ে কোনো পদক্ষেপ নেওয়ার দরকার নেই।,bn,dir_negation,Favour,Against
+dir_negation_bn_05_3,আমাদের ক্লাইমেট চেঞ্জ নিয়ে এখনই পদক্ষেপ নেওয়া উচিত।,আমাদের ক্লাইমেট চেঞ্জ নিয়ে কোনো পদক্ষেপ নেওয়ার দরকার নেই।,bn,dir_negation,Favour,Against
+dir_negation_bn_06_0,জলবায়ু পরিবর্তন-কে ভয় পাওয়া ঠিক।,জলবায়ু পরিবর্তন-কে ভয় পাওয়া বোকামি।,bn,dir_negation,Favour,Against
+dir_negation_bn_06_1,পৃথিবীর তাপমাত্রা-কে ভয় পাওয়া ঠিক।,পৃথিবীর তাপমাত্রা-কে ভয় পাওয়া বোকামি।,bn,dir_negation,Favour,Against
+dir_negation_bn_06_2,জলবায়ু পরিবর্তন-কে ভয় পাওয়া ঠিক।,জলবায়ু পরিবর্তন-কে ভয় পাওয়া বোকামি।,bn,dir_negation,Favour,Against
+dir_negation_bn_06_3,জলবায়ু পরিবর্তন-কে ভয় পাওয়া ঠিক।,জলবায়ু পরিবর্তন-কে ভয় পাওয়া বোকামি।,bn,dir_negation,Favour,Against
+dir_negation_bn_07_0,ক্লাইমেট চেঞ্জ আমাদের সন্তানদের ভবিষ্যতের জন্য বিপদ।,ক্লাইমেট চেঞ্জ আমাদের সন্তানদের ভবিষ্যতের জন্য কোনো বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_07_1,গ্লোবাল ওয়ার্মিং আমাদের সন্তানদের ভবিষ্যতের জন্য বিপদ।,গ্লোবাল ওয়ার্মিং আমাদের সন্তানদের ভবিষ্যতের জন্য কোনো বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_07_2,গ্লোবাল ওয়ার্মিং আমাদের সন্তানদের ভবিষ্যতের জন্য বিপদ।,গ্লোবাল ওয়ার্মিং আমাদের সন্তানদের ভবিষ্যতের জন্য কোনো বিপদ না।,bn,dir_negation,Favour,Against
+dir_negation_bn_07_3,ক্লাইমেট চেঞ্জ আমাদের সন্তানদের ভবিষ্যতের জন্য বিপদ।,ক্লাইমেট চেঞ্জ আমাদের সন্তানদের ভবিষ্যতের জন্য কোনো বিপদ না।,bn,dir_negation,Favour,Against

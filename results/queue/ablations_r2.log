@@ -1,0 +1,398 @@
+sparse baseline to beat: tfidf_cnb {'C': 0.3}
+
+=== ablation none: 19278 rows (train 19278) ===
+  fold 0: macro F1 0.6214 params={}
+  fold 1: macro F1 0.6334 params={}
+  fold 2: macro F1 0.6266 params={}
+  fold 3: macro F1 0.6188 params={}
+  fold 4: macro F1 0.6320 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_none.csv model.epochs=2 run_tag=ablation_none out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_none_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0821 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0470 1.7 min
+[train] epoch 1 step 600/1205 loss 1.0186 2.5 min
+[train] epoch 1 step 800/1205 loss 0.9893 3.3 min
+[train] epoch 1 step 1000/1205 loss 0.9591 4.1 min
+[train] epoch 1 step 1200/1205 loss 0.9337 5.0 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9330 minutes=4.9828 dev_macro_f1=0.6031 dev_accuracy=0.6933
+[train] epoch 2 step 200/1205 loss 0.7603 5.8 min
+[train] epoch 2 step 400/1205 loss 0.7406 6.7 min
+[train] epoch 2 step 600/1205 loss 0.7242 7.5 min
+[train] epoch 2 step 800/1205 loss 0.7109 8.3 min
+[train] epoch 2 step 1000/1205 loss 0.7031 9.1 min
+[train] epoch 2 step 1200/1205 loss 0.6958 9.9 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6954 minutes=9.9327 dev_macro_f1=0.6738 dev_accuracy=0.7340
+dev macro F1 0.6738 | gold macro F1 0.7166 | challenge fail 0.272 | 10.2 min
+macro F1 0.7166  acc 0.7222  n=306
+  Favour   P 0.846 R 0.500 F1 0.629 (n=110)
+  Against  P 0.776 R 0.798 F1 0.787 (n=104)
+  None     P 0.619 R 0.902 F1 0.735 (n=92)
+  [bn] macro F1 0.7095 acc 0.7124 n=153
+  [hi] macro F1 0.7230 acc 0.7320 n=153
+
+=== ablation no_synthetic: 17555 rows (train 19278) ===
+  fold 0: macro F1 0.5434 params={}
+  fold 1: macro F1 0.5477 params={}
+  fold 2: macro F1 0.5222 params={}
+  fold 3: macro F1 0.5579 params={}
+  fold 4: macro F1 0.5124 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_no_synthetic.csv model.epochs=2 run_tag=ablation_no_synthetic out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 17555 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_no_synthetic_s42 ===
+[train] epoch 1 step 200/1098 loss 1.0752 0.8 min
+[train] epoch 1 step 400/1098 loss 1.0321 1.6 min
+[train] epoch 1 step 600/1098 loss 1.0180 2.4 min
+[train] epoch 1 step 800/1098 loss 1.0022 3.3 min
+[train] epoch 1 step 1000/1098 loss 0.9795 4.1 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9685 minutes=4.4682 dev_macro_f1=0.6179 dev_accuracy=0.6983
+[train] epoch 2 step 200/1098 loss 0.8321 5.3 min
+[train] epoch 2 step 400/1098 loss 0.8176 6.1 min
+[train] epoch 2 step 600/1098 loss 0.8024 7.0 min
+[train] epoch 2 step 800/1098 loss 0.7948 7.8 min
+[train] epoch 2 step 1000/1098 loss 0.7857 8.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.7810 minutes=8.9839 dev_macro_f1=0.6495 dev_accuracy=0.7104
+dev macro F1 0.6495 | gold macro F1 0.5038 | challenge fail 0.385 | 9.2 min
+macro F1 0.5038  acc 0.5131  n=306
+  Favour   P 0.467 R 0.318 F1 0.378 (n=110)
+  Against  P 0.640 R 0.462 F1 0.536 (n=104)
+  None     P 0.474 R 0.804 F1 0.597 (n=92)
+  [bn] macro F1 0.4936 acc 0.5033 n=153
+  [hi] macro F1 0.5135 acc 0.5229 n=153
+
+=== ablation no_transliterated: 16113 rows (train 19278) ===
+  fold 0: macro F1 0.6066 params={}
+  fold 1: macro F1 0.6416 params={}
+  fold 2: macro F1 0.6299 params={}
+  fold 3: macro F1 0.6383 params={}
+  fold 4: macro F1 0.6545 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_no_transliterated.csv model.epochs=2 run_tag=ablation_no_transliterated out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 16113 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_no_transliterated_s42 ===
+[train] epoch 1 step 200/1008 loss 1.0781 0.8 min
+[train] epoch 1 step 400/1008 loss 1.0380 1.6 min
+[train] epoch 1 step 600/1008 loss 0.9957 2.4 min
+[train] epoch 1 step 800/1008 loss 0.9558 3.3 min
+[train] epoch 1 step 1000/1008 loss 0.9213 4.1 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9205 minutes=4.1072 dev_macro_f1=0.6147 dev_accuracy=0.7040
+[train] epoch 2 step 200/1008 loss 0.7111 5.0 min
+[train] epoch 2 step 400/1008 loss 0.6890 5.8 min
+[train] epoch 2 step 600/1008 loss 0.6755 6.6 min
+[train] epoch 2 step 800/1008 loss 0.6631 7.4 min
+[train] epoch 2 step 1000/1008 loss 0.6561 8.2 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6557 minutes=8.2492 dev_macro_f1=0.6577 dev_accuracy=0.7211
+dev macro F1 0.6577 | gold macro F1 0.7410 | challenge fail 0.214 | 8.5 min
+macro F1 0.7410  acc 0.7484  n=306
+  Favour   P 0.875 R 0.509 F1 0.644 (n=110)
+  Against  P 0.763 R 0.865 F1 0.811 (n=104)
+  None     P 0.669 R 0.902 F1 0.769 (n=92)
+  [bn] macro F1 0.7246 acc 0.7320 n=153
+  [hi] macro F1 0.7574 acc 0.7647 n=153
+
+=== ablation no_codemixed: 17558 rows (train 19278) ===
+  fold 0: macro F1 0.6288 params={}
+  fold 1: macro F1 0.6378 params={}
+  fold 2: macro F1 0.6388 params={}
+  fold 3: macro F1 0.6074 params={}
+  fold 4: macro F1 0.6387 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_no_codemixed.csv model.epochs=2 run_tag=ablation_no_codemixed out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 17558 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_no_codemixed_s42 ===
+[train] epoch 1 step 200/1098 loss 1.0818 0.8 min
+[train] epoch 1 step 400/1098 loss 1.0439 1.6 min
+[train] epoch 1 step 600/1098 loss 1.0032 2.4 min
+[train] epoch 1 step 800/1098 loss 0.9699 3.3 min
+[train] epoch 1 step 1000/1098 loss 0.9433 4.1 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9302 minutes=4.4868 dev_macro_f1=0.6268 dev_accuracy=0.6983
+[train] epoch 2 step 200/1098 loss 0.7363 5.3 min
+[train] epoch 2 step 400/1098 loss 0.7225 6.2 min
+[train] epoch 2 step 600/1098 loss 0.7169 7.0 min
+[train] epoch 2 step 800/1098 loss 0.7016 7.8 min
+[train] epoch 2 step 1000/1098 loss 0.6955 8.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6912 minutes=8.9987 dev_macro_f1=0.6754 dev_accuracy=0.7375
+dev macro F1 0.6754 | gold macro F1 0.7477 | challenge fail 0.259 | 9.2 min
+macro F1 0.7477  acc 0.7516  n=306
+  Favour   P 0.884 R 0.555 F1 0.682 (n=110)
+  Against  P 0.775 R 0.827 F1 0.800 (n=104)
+  None     P 0.659 R 0.902 F1 0.761 (n=92)
+  [bn] macro F1 0.7268 acc 0.7320 n=153
+  [hi] macro F1 0.7685 acc 0.7712 n=153
+
+=== ablation plus_char_noise: 23079 rows (train 19278) ===
+  fold 0: macro F1 0.6000 params={}
+  fold 1: macro F1 0.6204 params={}
+  fold 2: macro F1 0.6082 params={}
+  fold 3: macro F1 0.6075 params={}
+  fold 4: macro F1 0.6203 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_char_noise.csv model.epochs=2 run_tag=ablation_plus_char_noise out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 23079 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_char_noise_s42 ===
+[train] epoch 1 step 200/1443 loss 1.0868 0.8 min
+[train] epoch 1 step 400/1443 loss 1.0533 1.6 min
+[train] epoch 1 step 600/1443 loss 1.0234 2.4 min
+[train] epoch 1 step 800/1443 loss 0.9928 3.3 min
+[train] epoch 1 step 1000/1443 loss 0.9609 4.1 min
+[train] epoch 1 step 1200/1443 loss 0.9319 4.9 min
+[train] epoch 1 step 1400/1443 loss 0.9100 5.7 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9049 minutes=5.8777 dev_macro_f1=0.6602 dev_accuracy=0.7304
+[train] epoch 2 step 200/1443 loss 0.7048 6.7 min
+[train] epoch 2 step 400/1443 loss 0.6928 7.5 min
+[train] epoch 2 step 600/1443 loss 0.6789 8.4 min
+[train] epoch 2 step 800/1443 loss 0.6657 9.2 min
+[train] epoch 2 step 1000/1443 loss 0.6559 10.0 min
+[train] epoch 2 step 1200/1443 loss 0.6509 10.8 min
+[train] epoch 2 step 1400/1443 loss 0.6382 11.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6361 minutes=11.7963 dev_macro_f1=0.6805 dev_accuracy=0.7404
+dev macro F1 0.6805 | gold macro F1 0.7391 | challenge fail 0.229 | 12.0 min
+macro F1 0.7391  acc 0.7386  n=306
+  Favour   P 0.722 R 0.636 F1 0.676 (n=110)
+  Against  P 0.758 R 0.721 F1 0.739 (n=104)
+  None     P 0.736 R 0.880 F1 0.802 (n=92)
+  [bn] macro F1 0.7521 acc 0.7516 n=153
+  [hi] macro F1 0.7262 acc 0.7255 n=153
+
+=== ablation plus_drop_matras: 23076 rows (train 19278) ===
+  fold 0: macro F1 0.5994 params={}
+  fold 1: macro F1 0.6262 params={}
+  fold 2: macro F1 0.6194 params={}
+  fold 3: macro F1 0.6109 params={}
+  fold 4: macro F1 0.6189 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_drop_matras.csv model.epochs=2 run_tag=ablation_plus_drop_matras out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 23076 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_drop_matras_s42 ===
+[train] epoch 1 step 200/1443 loss 1.0825 0.8 min
+[train] epoch 1 step 400/1443 loss 1.0519 1.6 min
+[train] epoch 1 step 600/1443 loss 1.0244 2.4 min
+[train] epoch 1 step 800/1443 loss 1.0045 3.3 min
+[train] epoch 1 step 1000/1443 loss 0.9813 4.1 min
+[train] epoch 1 step 1200/1443 loss 0.9554 4.9 min
+[train] epoch 1 step 1400/1443 loss 0.9346 5.7 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9296 minutes=5.8839 dev_macro_f1=0.6469 dev_accuracy=0.6969
+[train] epoch 2 step 200/1443 loss 0.7246 6.7 min
+[train] epoch 2 step 400/1443 loss 0.7177 7.6 min
+[train] epoch 2 step 600/1443 loss 0.6947 8.4 min
+[train] epoch 2 step 800/1443 loss 0.6875 9.2 min
+[train] epoch 2 step 1000/1443 loss 0.6790 10.0 min
+[train] epoch 2 step 1200/1443 loss 0.6694 10.8 min
+[train] epoch 2 step 1400/1443 loss 0.6627 11.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6611 minutes=11.8053 dev_macro_f1=0.6746 dev_accuracy=0.7311
+dev macro F1 0.6746 | gold macro F1 0.7456 | challenge fail 0.259 | 12.1 min
+macro F1 0.7456  acc 0.7484  n=306
+  Favour   P 0.775 R 0.564 F1 0.653 (n=110)
+  Against  P 0.739 R 0.817 F1 0.776 (n=104)
+  None     P 0.739 R 0.891 F1 0.808 (n=92)
+  [bn] macro F1 0.7259 acc 0.7320 n=153
+  [hi] macro F1 0.7653 acc 0.7647 n=153
+
+=== ablation plus_repeat_chars: 23079 rows (train 19278) ===
+  fold 0: macro F1 0.6042 params={}
+  fold 1: macro F1 0.6192 params={}
+  fold 2: macro F1 0.6115 params={}
+  fold 3: macro F1 0.6084 params={}
+  fold 4: macro F1 0.6195 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_repeat_chars.csv model.epochs=2 run_tag=ablation_plus_repeat_chars out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 23079 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_repeat_chars_s42 ===
+[train] epoch 1 step 200/1443 loss 1.0871 0.8 min
+[train] epoch 1 step 400/1443 loss 1.0484 1.6 min
+[train] epoch 1 step 600/1443 loss 1.0085 2.4 min
+[train] epoch 1 step 800/1443 loss 0.9755 3.3 min
+[train] epoch 1 step 1000/1443 loss 0.9478 4.1 min
+[train] epoch 1 step 1200/1443 loss 0.9193 4.9 min
+[train] epoch 1 step 1400/1443 loss 0.8989 5.7 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.8936 minutes=5.8836 dev_macro_f1=0.6512 dev_accuracy=0.7183
+[train] epoch 2 step 200/1443 loss 0.6854 6.7 min
+[train] epoch 2 step 400/1443 loss 0.6760 7.6 min
+[train] epoch 2 step 600/1443 loss 0.6616 8.4 min
+[train] epoch 2 step 800/1443 loss 0.6461 9.2 min
+[train] epoch 2 step 1000/1443 loss 0.6355 10.0 min
+[train] epoch 2 step 1200/1443 loss 0.6282 10.8 min
+[train] epoch 2 step 1400/1443 loss 0.6170 11.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6145 minutes=11.8032 dev_macro_f1=0.6682 dev_accuracy=0.7325
+dev macro F1 0.6682 | gold macro F1 0.6987 | challenge fail 0.257 | 12.1 min
+macro F1 0.6987  acc 0.6993  n=306
+  Favour   P 0.741 R 0.545 F1 0.628 (n=110)
+  Against  P 0.822 R 0.712 F1 0.763 (n=104)
+  None     P 0.593 R 0.870 F1 0.705 (n=92)
+  [bn] macro F1 0.6851 acc 0.6863 n=153
+  [hi] macro F1 0.7122 acc 0.7124 n=153
+
+=== ablation plus_negation_flip: 19292 rows (train 19278) ===
+  fold 0: macro F1 0.6214 params={}
+  fold 1: macro F1 0.6345 params={}
+  fold 2: macro F1 0.6269 params={}
+  fold 3: macro F1 0.6191 params={}
+  fold 4: macro F1 0.6314 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_negation_flip.csv model.epochs=2 run_tag=ablation_plus_negation_flip out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19292 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_negation_flip_s42 ===
+[train] epoch 1 step 200/1206 loss 1.0776 0.8 min
+[train] epoch 1 step 400/1206 loss 1.0458 1.6 min
+[train] epoch 1 step 600/1206 loss 1.0122 2.4 min
+[train] epoch 1 step 800/1206 loss 0.9817 3.3 min
+[train] epoch 1 step 1000/1206 loss 0.9515 4.1 min
+[train] epoch 1 step 1200/1206 loss 0.9264 4.9 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9257 minutes=4.9142 dev_macro_f1=0.6408 dev_accuracy=0.7133
+[train] epoch 2 step 200/1206 loss 0.7211 5.8 min
+[train] epoch 2 step 400/1206 loss 0.7222 6.6 min
+[train] epoch 2 step 600/1206 loss 0.7092 7.4 min
+[train] epoch 2 step 800/1206 loss 0.6974 8.2 min
+[train] epoch 2 step 1000/1206 loss 0.6919 9.0 min
+[train] epoch 2 step 1200/1206 loss 0.6861 9.8 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6863 minutes=9.8691 dev_macro_f1=0.6555 dev_accuracy=0.7168
+dev macro F1 0.6555 | gold macro F1 0.6947 | challenge fail 0.287 | 10.1 min
+macro F1 0.6947  acc 0.7026  n=306
+  Favour   P 0.773 R 0.464 F1 0.580 (n=110)
+  Against  P 0.719 R 0.788 F1 0.752 (n=104)
+  None     P 0.651 R 0.891 F1 0.752 (n=92)
+  [bn] macro F1 0.6909 acc 0.6993 n=153
+  [hi] macro F1 0.6987 acc 0.7059 n=153
+translate hi->en [nllb]:   0%|          | 0/22 [00:00<?, ?batch/s]translate hi->en [nllb]:   5%|▍         | 1/22 [00:01<00:23,  1.11s/batch]translate hi->en [nllb]:   9%|▉         | 2/22 [00:01<00:13,  1.48batch/s]translate hi->en [nllb]:  14%|█▎        | 3/22 [00:01<00:11,  1.66batch/s]translate hi->en [nllb]:  18%|█▊        | 4/22 [00:02<00:09,  1.88batch/s]translate hi->en [nllb]:  23%|██▎       | 5/22 [00:02<00:08,  1.92batch/s]translate hi->en [nllb]:  27%|██▋       | 6/22 [00:03<00:08,  1.83batch/s]translate hi->en [nllb]:  32%|███▏      | 7/22 [00:04<00:08,  1.87batch/s]translate hi->en [nllb]:  36%|███▋      | 8/22 [00:04<00:07,  1.77batch/s]translate hi->en [nllb]:  41%|████      | 9/22 [00:05<00:07,  1.79batch/s]translate hi->en [nllb]:  45%|████▌     | 10/22 [00:05<00:07,  1.68batch/s]translate hi->en [nllb]:  50%|█████     | 11/22 [00:06<00:06,  1.63batch/s]translate hi->en [nllb]:  55%|█████▍    | 12/22 [00:07<00:06,  1.59batch/s]translate hi->en [nllb]:  59%|█████▉    | 13/22 [00:07<00:06,  1.49batch/s]translate hi->en [nllb]:  64%|██████▎   | 14/22 [00:08<00:05,  1.42batch/s]translate hi->en [nllb]:  68%|██████▊   | 15/22 [00:09<00:05,  1.37batch/s]translate hi->en [nllb]:  73%|███████▎  | 16/22 [00:10<00:04,  1.26batch/s]translate hi->en [nllb]:  77%|███████▋  | 17/22 [00:11<00:04,  1.22batch/s]translate hi->en [nllb]:  82%|████████▏ | 18/22 [00:12<00:03,  1.12batch/s]translate hi->en [nllb]:  86%|████████▋ | 19/22 [00:13<00:02,  1.06batch/s]translate hi->en [nllb]:  91%|█████████ | 20/22 [00:14<00:01,  1.02batch/s]translate hi->en [nllb]:  95%|█████████▌| 21/22 [00:15<00:01,  1.10s/batch]translate hi->en [nllb]: 100%|██████████| 22/22 [00:18<00:00,  1.40s/batch]translate hi->en [nllb]: 100%|██████████| 22/22 [00:18<00:00,  1.22batch/s]
+translate en->hi [nllb]:   0%|          | 0/119 [00:00<?, ?batch/s]translate en->hi [nllb]:   1%|          | 1/119 [00:00<00:40,  2.93batch/s]translate en->hi [nllb]:   2%|▏         | 2/119 [00:00<00:43,  2.67batch/s]translate en->hi [nllb]:   3%|▎         | 3/119 [00:01<00:46,  2.52batch/s]translate en->hi [nllb]:   3%|▎         | 4/119 [00:01<00:52,  2.18batch/s]translate en->hi [nllb]:   4%|▍         | 5/119 [00:02<00:53,  2.14batch/s]translate en->hi [nllb]:   5%|▌         | 6/119 [00:02<00:55,  2.04batch/s]translate en->hi [nllb]:   6%|▌         | 7/119 [00:03<00:59,  1.88batch/s]translate en->hi [nllb]:   7%|▋         | 8/119 [00:03<01:01,  1.79batch/s]translate en->hi [nllb]:   8%|▊         | 9/119 [00:04<00:58,  1.88batch/s]translate en->hi [nllb]:   8%|▊         | 10/119 [00:04<00:58,  1.88batch/s]translate en->hi [nllb]:   9%|▉         | 11/119 [00:05<00:55,  1.93batch/s]translate en->hi [nllb]:  10%|█         | 12/119 [00:06<00:57,  1.87batch/s]translate en->hi [nllb]:  11%|█         | 13/119 [00:06<00:57,  1.83batch/s]translate en->hi [nllb]:  12%|█▏        | 14/119 [00:07<01:00,  1.74batch/s]translate en->hi [nllb]:  13%|█▎        | 15/119 [00:07<00:57,  1.80batch/s]translate en->hi [nllb]:  13%|█▎        | 16/119 [00:08<01:00,  1.71batch/s]translate en->hi [nllb]:  14%|█▍        | 17/119 [00:09<01:03,  1.62batch/s]translate en->hi [nllb]:  15%|█▌        | 18/119 [00:09<01:05,  1.55batch/s]translate en->hi [nllb]:  16%|█▌        | 19/119 [00:10<01:11,  1.40batch/s]translate en->hi [nllb]:  17%|█▋        | 20/119 [00:11<01:11,  1.39batch/s]translate en->hi [nllb]:  18%|█▊        | 21/119 [00:12<01:14,  1.32batch/s]translate en->hi [nllb]:  18%|█▊        | 22/119 [00:13<01:12,  1.33batch/s]translate en->hi [nllb]:  19%|█▉        | 23/119 [00:13<01:10,  1.36batch/s]translate en->hi [nllb]:  20%|██        | 24/119 [00:14<01:09,  1.37batch/s]translate en->hi [nllb]:  21%|██        | 25/119 [00:15<01:08,  1.36batch/s]translate en->hi [nllb]:  22%|██▏       | 26/119 [00:15<01:09,  1.33batch/s]translate en->hi [nllb]:  23%|██▎       | 27/119 [00:16<01:08,  1.35batch/s]translate en->hi [nllb]:  24%|██▎       | 28/119 [00:17<01:07,  1.35batch/s]translate en->hi [nllb]:  24%|██▍       | 29/119 [00:18<01:05,  1.38batch/s]translate en->hi [nllb]:  25%|██▌       | 30/119 [00:18<01:05,  1.37batch/s]translate en->hi [nllb]:  26%|██▌       | 31/119 [00:19<01:04,  1.36batch/s]translate en->hi [nllb]:  27%|██▋       | 32/119 [00:20<01:08,  1.28batch/s]translate en->hi [nllb]:  28%|██▊       | 33/119 [00:21<01:08,  1.26batch/s]translate en->hi [nllb]:  29%|██▊       | 34/119 [00:22<01:09,  1.23batch/s]translate en->hi [nllb]:  29%|██▉       | 35/119 [00:22<01:07,  1.24batch/s]translate en->hi [nllb]:  30%|███       | 36/119 [00:23<01:07,  1.23batch/s]translate en->hi [nllb]:  31%|███       | 37/119 [00:24<01:06,  1.23batch/s]translate en->hi [nllb]:  32%|███▏      | 38/119 [00:25<01:07,  1.20batch/s]translate en->hi [nllb]:  33%|███▎      | 39/119 [00:26<01:06,  1.21batch/s]translate en->hi [nllb]:  34%|███▎      | 40/119 [00:27<01:05,  1.21batch/s]translate en->hi [nllb]:  34%|███▍      | 41/119 [00:27<01:05,  1.20batch/s]translate en->hi [nllb]:  35%|███▌      | 42/119 [00:28<01:05,  1.18batch/s]translate en->hi [nllb]:  36%|███▌      | 43/119 [00:29<01:05,  1.16batch/s]translate en->hi [nllb]:  37%|███▋      | 44/119 [00:30<01:05,  1.14batch/s]translate en->hi [nllb]:  38%|███▊      | 45/119 [00:31<01:10,  1.05batch/s]translate en->hi [nllb]:  39%|███▊      | 46/119 [00:32<01:09,  1.06batch/s]translate en->hi [nllb]:  39%|███▉      | 47/119 [00:33<01:13,  1.02s/batch]translate en->hi [nllb]:  40%|████      | 48/119 [00:34<01:13,  1.03s/batch]translate en->hi [nllb]:  41%|████      | 49/119 [00:36<01:12,  1.04s/batch]translate en->hi [nllb]:  42%|████▏     | 50/119 [00:37<01:15,  1.09s/batch]translate en->hi [nllb]:  43%|████▎     | 51/119 [00:38<01:14,  1.09s/batch]translate en->hi [nllb]:  44%|████▎     | 52/119 [00:39<01:11,  1.07s/batch]translate en->hi [nllb]:  45%|████▍     | 53/119 [00:40<01:08,  1.03s/batch]translate en->hi [nllb]:  45%|████▌     | 54/119 [00:41<01:05,  1.02s/batch]translate en->hi [nllb]:  46%|████▌     | 55/119 [00:42<01:10,  1.11s/batch]translate en->hi [nllb]:  47%|████▋     | 56/119 [00:43<01:09,  1.11s/batch]translate en->hi [nllb]:  48%|████▊     | 57/119 [00:44<01:09,  1.12s/batch]translate en->hi [nllb]:  49%|████▊     | 58/119 [00:46<01:10,  1.16s/batch]translate en->hi [nllb]:  50%|████▉     | 59/119 [00:47<01:14,  1.24s/batch]translate en->hi [nllb]:  50%|█████     | 60/119 [00:48<01:11,  1.20s/batch]translate en->hi [nllb]:  51%|█████▏    | 61/119 [00:49<01:10,  1.22s/batch]translate en->hi [nllb]:  52%|█████▏    | 62/119 [00:51<01:08,  1.19s/batch]translate en->hi [nllb]:  53%|█████▎    | 63/119 [00:52<01:06,  1.18s/batch]translate en->hi [nllb]:  54%|█████▍    | 64/119 [00:53<01:06,  1.20s/batch]translate en->hi [nllb]:  55%|█████▍    | 65/119 [00:54<01:06,  1.23s/batch]translate en->hi [nllb]:  55%|█████▌    | 66/119 [00:55<01:05,  1.24s/batch]translate en->hi [nllb]:  56%|█████▋    | 67/119 [00:57<01:04,  1.25s/batch]translate en->hi [nllb]:  57%|█████▋    | 68/119 [00:58<01:04,  1.26s/batch]translate en->hi [nllb]:  58%|█████▊    | 69/119 [00:59<01:06,  1.32s/batch]translate en->hi [nllb]:  59%|█████▉    | 70/119 [01:01<01:06,  1.36s/batch]translate en->hi [nllb]:  60%|█████▉    | 71/119 [01:02<01:04,  1.35s/batch]translate en->hi [nllb]:  61%|██████    | 72/119 [01:04<01:06,  1.42s/batch]translate en->hi [nllb]:  61%|██████▏   | 73/119 [01:05<01:06,  1.44s/batch]translate en->hi [nllb]:  62%|██████▏   | 74/119 [01:07<01:04,  1.44s/batch]translate en->hi [nllb]:  63%|██████▎   | 75/119 [01:08<01:02,  1.42s/batch]translate en->hi [nllb]:  64%|██████▍   | 76/119 [01:10<01:00,  1.41s/batch]translate en->hi [nllb]:  65%|██████▍   | 77/119 [01:11<00:58,  1.40s/batch]translate en->hi [nllb]:  66%|██████▌   | 78/119 [01:12<00:56,  1.38s/batch]translate en->hi [nllb]:  66%|██████▋   | 79/119 [01:14<00:56,  1.42s/batch]translate en->hi [nllb]:  67%|██████▋   | 80/119 [01:15<00:56,  1.45s/batch]translate en->hi [nllb]:  68%|██████▊   | 81/119 [01:17<00:56,  1.48s/batch]translate en->hi [nllb]:  69%|██████▉   | 82/119 [01:19<00:58,  1.58s/batch]translate en->hi [nllb]:  70%|██████▉   | 83/119 [01:20<00:56,  1.58s/batch]translate en->hi [nllb]:  71%|███████   | 84/119 [01:22<00:57,  1.63s/batch]translate en->hi [nllb]:  71%|███████▏  | 85/119 [01:24<00:57,  1.69s/batch]translate en->hi [nllb]:  72%|███████▏  | 86/119 [01:26<00:56,  1.70s/batch]translate en->hi [nllb]:  73%|███████▎  | 87/119 [01:27<00:54,  1.70s/batch]translate en->hi [nllb]:  74%|███████▍  | 88/119 [01:29<00:52,  1.71s/batch]translate en->hi [nllb]:  75%|███████▍  | 89/119 [01:31<00:50,  1.69s/batch]translate en->hi [nllb]:  76%|███████▌  | 90/119 [01:32<00:48,  1.68s/batch]translate en->hi [nllb]:  76%|███████▋  | 91/119 [01:34<00:48,  1.72s/batch]translate en->hi [nllb]:  77%|███████▋  | 92/119 [01:36<00:49,  1.82s/batch]translate en->hi [nllb]:  78%|███████▊  | 93/119 [01:38<00:48,  1.88s/batch]translate en->hi [nllb]:  79%|███████▉  | 94/119 [01:40<00:48,  1.93s/batch]translate en->hi [nllb]:  80%|███████▉  | 95/119 [01:42<00:46,  1.96s/batch]translate en->hi [nllb]:  81%|████████  | 96/119 [01:44<00:45,  1.98s/batch]translate en->hi [nllb]:  82%|████████▏ | 97/119 [01:46<00:42,  1.93s/batch]translate en->hi [nllb]:  82%|████████▏ | 98/119 [01:48<00:42,  2.03s/batch]translate en->hi [nllb]:  83%|████████▎ | 99/119 [01:51<00:42,  2.14s/batch]translate en->hi [nllb]:  84%|████████▍ | 100/119 [01:53<00:41,  2.17s/batch]translate en->hi [nllb]:  85%|████████▍ | 101/119 [01:55<00:39,  2.18s/batch]translate en->hi [nllb]:  86%|████████▌ | 102/119 [01:57<00:37,  2.19s/batch]translate en->hi [nllb]:  87%|████████▋ | 103/119 [02:00<00:36,  2.30s/batch]translate en->hi [nllb]:  87%|████████▋ | 104/119 [02:02<00:35,  2.38s/batch]translate en->hi [nllb]:  88%|████████▊ | 105/119 [02:05<00:33,  2.42s/batch]translate en->hi [nllb]:  89%|████████▉ | 106/119 [02:07<00:31,  2.44s/batch]translate en->hi [nllb]:  90%|████████▉ | 107/119 [02:10<00:28,  2.40s/batch]translate en->hi [nllb]:  91%|█████████ | 108/119 [02:12<00:26,  2.41s/batch]translate en->hi [nllb]:  92%|█████████▏| 109/119 [02:15<00:24,  2.44s/batch]translate en->hi [nllb]:  92%|█████████▏| 110/119 [02:17<00:22,  2.50s/batch]translate en->hi [nllb]:  93%|█████████▎| 111/119 [02:20<00:21,  2.66s/batch]translate en->hi [nllb]:  94%|█████████▍| 112/119 [02:23<00:18,  2.64s/batch]translate en->hi [nllb]:  95%|█████████▍| 113/119 [02:26<00:16,  2.70s/batch]translate en->hi [nllb]:  96%|█████████▌| 114/119 [02:29<00:13,  2.75s/batch]translate en->hi [nllb]:  97%|█████████▋| 115/119 [02:32<00:11,  2.88s/batch]translate en->hi [nllb]:  97%|█████████▋| 116/119 [02:35<00:08,  2.94s/batch]translate en->hi [nllb]:  98%|█████████▊| 117/119 [02:38<00:06,  3.11s/batch]translate en->hi [nllb]:  99%|█████████▉| 118/119 [02:42<00:03,  3.23s/batch]translate en->hi [nllb]: 100%|██████████| 119/119 [02:44<00:00,  2.86s/batch]translate en->hi [nllb]: 100%|██████████| 119/119 [02:44<00:00,  1.38s/batch]
+translate bn->en [nllb]:   0%|          | 0/22 [00:00<?, ?batch/s]translate bn->en [nllb]:   5%|▍         | 1/22 [00:00<00:07,  2.87batch/s]translate bn->en [nllb]:   9%|▉         | 2/22 [00:00<00:09,  2.14batch/s]translate bn->en [nllb]:  14%|█▎        | 3/22 [00:01<00:09,  2.11batch/s]translate bn->en [nllb]:  18%|█▊        | 4/22 [00:01<00:08,  2.13batch/s]translate bn->en [nllb]:  23%|██▎       | 5/22 [00:02<00:08,  1.94batch/s]translate bn->en [nllb]:  27%|██▋       | 6/22 [00:02<00:08,  1.90batch/s]translate bn->en [nllb]:  32%|███▏      | 7/22 [00:03<00:08,  1.86batch/s]translate bn->en [nllb]:  36%|███▋      | 8/22 [00:04<00:07,  1.82batch/s]translate bn->en [nllb]:  41%|████      | 9/22 [00:04<00:07,  1.67batch/s]translate bn->en [nllb]:  45%|████▌     | 10/22 [00:05<00:07,  1.65batch/s]translate bn->en [nllb]:  50%|█████     | 11/22 [00:06<00:06,  1.65batch/s]translate bn->en [nllb]:  55%|█████▍    | 12/22 [00:06<00:06,  1.58batch/s]translate bn->en [nllb]:  59%|█████▉    | 13/22 [00:07<00:05,  1.54batch/s]translate bn->en [nllb]:  64%|██████▎   | 14/22 [00:08<00:05,  1.50batch/s]translate bn->en [nllb]:  68%|██████▊   | 15/22 [00:09<00:05,  1.36batch/s]translate bn->en [nllb]:  73%|███████▎  | 16/22 [00:09<00:04,  1.27batch/s]translate bn->en [nllb]:  77%|███████▋  | 17/22 [00:10<00:04,  1.24batch/s]translate bn->en [nllb]:  82%|████████▏ | 18/22 [00:11<00:03,  1.13batch/s]translate bn->en [nllb]:  86%|████████▋ | 19/22 [00:12<00:02,  1.07batch/s]translate bn->en [nllb]:  91%|█████████ | 20/22 [00:14<00:02,  1.12s/batch]translate bn->en [nllb]:  95%|█████████▌| 21/22 [00:16<00:01,  1.50s/batch]translate bn->en [nllb]: 100%|██████████| 22/22 [00:18<00:00,  1.61s/batch]translate bn->en [nllb]: 100%|██████████| 22/22 [00:18<00:00,  1.17batch/s]
+translate en->bn [nllb]:   0%|          | 0/116 [00:00<?, ?batch/s]translate en->bn [nllb]:   1%|          | 1/116 [00:00<00:51,  2.23batch/s]translate en->bn [nllb]:   2%|▏         | 2/116 [00:00<00:50,  2.27batch/s]translate en->bn [nllb]:   3%|▎         | 3/116 [00:01<00:52,  2.17batch/s]translate en->bn [nllb]:   3%|▎         | 4/116 [00:01<00:58,  1.92batch/s]translate en->bn [nllb]:   4%|▍         | 5/116 [00:02<01:05,  1.71batch/s]translate en->bn [nllb]:   5%|▌         | 6/116 [00:03<01:07,  1.64batch/s]translate en->bn [nllb]:   6%|▌         | 7/116 [00:04<01:10,  1.55batch/s]translate en->bn [nllb]:   7%|▋         | 8/116 [00:04<01:15,  1.43batch/s]translate en->bn [nllb]:   8%|▊         | 9/116 [00:05<01:11,  1.50batch/s]translate en->bn [nllb]:   9%|▊         | 10/116 [00:06<01:08,  1.55batch/s]translate en->bn [nllb]:   9%|▉         | 11/116 [00:06<01:08,  1.53batch/s]translate en->bn [nllb]:  10%|█         | 12/116 [00:07<01:09,  1.50batch/s]translate en->bn [nllb]:  11%|█         | 13/116 [00:08<01:06,  1.55batch/s]translate en->bn [nllb]:  12%|█▏        | 14/116 [00:08<01:05,  1.56batch/s]translate en->bn [nllb]:  13%|█▎        | 15/116 [00:09<01:05,  1.54batch/s]translate en->bn [nllb]:  14%|█▍        | 16/116 [00:10<01:08,  1.46batch/s]translate en->bn [nllb]:  15%|█▍        | 17/116 [00:10<01:11,  1.38batch/s]translate en->bn [nllb]:  16%|█▌        | 18/116 [00:11<01:13,  1.34batch/s]translate en->bn [nllb]:  16%|█▋        | 19/116 [00:12<01:16,  1.26batch/s]translate en->bn [nllb]:  17%|█▋        | 20/116 [00:13<01:13,  1.30batch/s]translate en->bn [nllb]:  18%|█▊        | 21/116 [00:14<01:14,  1.27batch/s]translate en->bn [nllb]:  19%|█▉        | 22/116 [00:15<01:16,  1.23batch/s]translate en->bn [nllb]:  20%|█▉        | 23/116 [00:15<01:16,  1.21batch/s]translate en->bn [nllb]:  21%|██        | 24/116 [00:16<01:17,  1.18batch/s]translate en->bn [nllb]:  22%|██▏       | 25/116 [00:17<01:16,  1.19batch/s]translate en->bn [nllb]:  22%|██▏       | 26/116 [00:18<01:14,  1.20batch/s]translate en->bn [nllb]:  23%|██▎       | 27/116 [00:19<01:14,  1.19batch/s]translate en->bn [nllb]:  24%|██▍       | 28/116 [00:20<01:15,  1.17batch/s]translate en->bn [nllb]:  25%|██▌       | 29/116 [00:20<01:10,  1.24batch/s]translate en->bn [nllb]:  26%|██▌       | 30/116 [00:21<01:10,  1.23batch/s]translate en->bn [nllb]:  27%|██▋       | 31/116 [00:22<01:10,  1.20batch/s]translate en->bn [nllb]:  28%|██▊       | 32/116 [00:23<01:12,  1.16batch/s]translate en->bn [nllb]:  28%|██▊       | 33/116 [00:24<01:11,  1.15batch/s]translate en->bn [nllb]:  29%|██▉       | 34/116 [00:25<01:13,  1.11batch/s]translate en->bn [nllb]:  30%|███       | 35/116 [00:26<01:14,  1.09batch/s]translate en->bn [nllb]:  31%|███       | 36/116 [00:27<01:17,  1.03batch/s]translate en->bn [nllb]:  32%|███▏      | 37/116 [00:28<01:17,  1.01batch/s]translate en->bn [nllb]:  33%|███▎      | 38/116 [00:29<01:19,  1.02s/batch]translate en->bn [nllb]:  34%|███▎      | 39/116 [00:30<01:16,  1.01batch/s]translate en->bn [nllb]:  34%|███▍      | 40/116 [00:31<01:18,  1.03s/batch]translate en->bn [nllb]:  35%|███▌      | 41/116 [00:32<01:15,  1.01s/batch]translate en->bn [nllb]:  36%|███▌      | 42/116 [00:41<04:19,  3.51s/batch]translate en->bn [nllb]:  37%|███▋      | 43/116 [00:43<03:24,  2.80s/batch]translate en->bn [nllb]:  38%|███▊      | 44/116 [00:44<02:44,  2.29s/batch]translate en->bn [nllb]:  39%|███▉      | 45/116 [00:45<02:20,  1.97s/batch]translate en->bn [nllb]:  40%|███▉      | 46/116 [00:46<02:00,  1.72s/batch]translate en->bn [nllb]:  41%|████      | 47/116 [00:47<01:44,  1.52s/batch]translate en->bn [nllb]:  41%|████▏     | 48/116 [00:48<01:36,  1.41s/batch]translate en->bn [nllb]:  42%|████▏     | 49/116 [00:49<01:28,  1.32s/batch]translate en->bn [nllb]:  43%|████▎     | 50/116 [00:50<01:23,  1.27s/batch]translate en->bn [nllb]:  44%|████▍     | 51/116 [00:52<01:21,  1.25s/batch]translate en->bn [nllb]:  45%|████▍     | 52/116 [00:53<01:19,  1.23s/batch]translate en->bn [nllb]:  46%|████▌     | 53/116 [00:54<01:15,  1.21s/batch]translate en->bn [nllb]:  47%|████▋     | 54/116 [01:05<04:18,  4.17s/batch]translate en->bn [nllb]:  47%|████▋     | 55/116 [01:07<03:32,  3.48s/batch]translate en->bn [nllb]:  48%|████▊     | 56/116 [01:08<02:51,  2.86s/batch]translate en->bn [nllb]:  49%|████▉     | 57/116 [01:10<02:18,  2.35s/batch]translate en->bn [nllb]:  50%|█████     | 58/116 [01:11<01:55,  1.99s/batch]translate en->bn [nllb]:  51%|█████     | 59/116 [01:12<01:40,  1.76s/batch]translate en->bn [nllb]:  52%|█████▏    | 60/116 [01:13<01:32,  1.66s/batch]translate en->bn [nllb]:  53%|█████▎    | 61/116 [01:15<01:26,  1.58s/batch]translate en->bn [nllb]:  53%|█████▎    | 62/116 [01:16<01:22,  1.52s/batch]translate en->bn [nllb]:  54%|█████▍    | 63/116 [01:18<01:19,  1.50s/batch]translate en->bn [nllb]:  55%|█████▌    | 64/116 [01:19<01:16,  1.47s/batch]translate en->bn [nllb]:  56%|█████▌    | 65/116 [01:20<01:13,  1.44s/batch]translate en->bn [nllb]:  57%|█████▋    | 66/116 [01:22<01:11,  1.43s/batch]translate en->bn [nllb]:  58%|█████▊    | 67/116 [01:23<01:07,  1.37s/batch]translate en->bn [nllb]:  59%|█████▊    | 68/116 [01:24<01:08,  1.42s/batch]translate en->bn [nllb]:  59%|█████▉    | 69/116 [01:26<01:09,  1.47s/batch]translate en->bn [nllb]:  60%|██████    | 70/116 [01:28<01:10,  1.54s/batch]translate en->bn [nllb]:  61%|██████    | 71/116 [01:29<01:09,  1.54s/batch]translate en->bn [nllb]:  62%|██████▏   | 72/116 [01:31<01:07,  1.54s/batch]translate en->bn [nllb]:  63%|██████▎   | 73/116 [01:32<01:06,  1.55s/batch]translate en->bn [nllb]:  64%|██████▍   | 74/116 [01:34<01:08,  1.63s/batch]translate en->bn [nllb]:  65%|██████▍   | 75/116 [01:36<01:06,  1.62s/batch]translate en->bn [nllb]:  66%|██████▌   | 76/116 [01:38<01:08,  1.71s/batch]translate en->bn [nllb]:  66%|██████▋   | 77/116 [01:39<01:04,  1.67s/batch]translate en->bn [nllb]:  67%|██████▋   | 78/116 [01:41<01:06,  1.76s/batch]translate en->bn [nllb]:  68%|██████▊   | 79/116 [01:43<01:03,  1.72s/batch]translate en->bn [nllb]:  69%|██████▉   | 80/116 [01:45<01:00,  1.69s/batch]translate en->bn [nllb]:  70%|██████▉   | 81/116 [01:46<00:58,  1.67s/batch]translate en->bn [nllb]:  71%|███████   | 82/116 [01:48<01:00,  1.79s/batch]translate en->bn [nllb]:  72%|███████▏  | 83/116 [01:50<01:01,  1.86s/batch]translate en->bn [nllb]:  72%|███████▏  | 84/116 [01:52<00:59,  1.86s/batch]translate en->bn [nllb]:  73%|███████▎  | 85/116 [01:54<01:01,  1.98s/batch]translate en->bn [nllb]:  74%|███████▍  | 86/116 [01:56<00:58,  1.96s/batch]translate en->bn [nllb]:  75%|███████▌  | 87/116 [01:58<00:56,  1.93s/batch]translate en->bn [nllb]:  76%|███████▌  | 88/116 [02:00<00:54,  1.93s/batch]translate en->bn [nllb]:  77%|███████▋  | 89/116 [02:03<00:56,  2.09s/batch]translate en->bn [nllb]:  78%|███████▊  | 90/116 [02:05<00:53,  2.04s/batch]translate en->bn [nllb]:  78%|███████▊  | 91/116 [02:07<00:51,  2.04s/batch]translate en->bn [nllb]:  79%|███████▉  | 92/116 [02:09<00:48,  2.02s/batch]translate en->bn [nllb]:  80%|████████  | 93/116 [02:11<00:48,  2.10s/batch]translate en->bn [nllb]:  81%|████████  | 94/116 [02:13<00:47,  2.15s/batch]translate en->bn [nllb]:  82%|████████▏ | 95/116 [02:15<00:44,  2.13s/batch]translate en->bn [nllb]:  83%|████████▎ | 96/116 [02:17<00:42,  2.13s/batch]translate en->bn [nllb]:  84%|████████▎ | 97/116 [02:20<00:43,  2.30s/batch]translate en->bn [nllb]:  84%|████████▍ | 98/116 [02:22<00:41,  2.33s/batch]translate en->bn [nllb]:  85%|████████▌ | 99/116 [02:25<00:40,  2.37s/batch]translate en->bn [nllb]:  86%|████████▌ | 100/116 [02:27<00:37,  2.37s/batch]translate en->bn [nllb]:  87%|████████▋ | 101/116 [02:30<00:37,  2.48s/batch]translate en->bn [nllb]:  88%|████████▊ | 102/116 [02:33<00:35,  2.55s/batch]translate en->bn [nllb]:  89%|████████▉ | 103/116 [02:35<00:33,  2.59s/batch]translate en->bn [nllb]:  90%|████████▉ | 104/116 [02:38<00:30,  2.54s/batch]translate en->bn [nllb]:  91%|█████████ | 105/116 [02:41<00:28,  2.61s/batch]translate en->bn [nllb]:  91%|█████████▏| 106/116 [02:43<00:26,  2.67s/batch]translate en->bn [nllb]:  92%|█████████▏| 107/116 [02:47<00:25,  2.87s/batch]translate en->bn [nllb]:  93%|█████████▎| 108/116 [02:50<00:23,  2.89s/batch]translate en->bn [nllb]:  94%|█████████▍| 109/116 [02:53<00:20,  2.91s/batch]translate en->bn [nllb]:  95%|█████████▍| 110/116 [02:56<00:18,  3.14s/batch]translate en->bn [nllb]:  96%|█████████▌| 111/116 [02:59<00:15,  3.08s/batch]translate en->bn [nllb]:  97%|█████████▋| 112/116 [03:03<00:13,  3.31s/batch]translate en->bn [nllb]:  97%|█████████▋| 113/116 [03:07<00:10,  3.47s/batch]translate en->bn [nllb]:  98%|█████████▊| 114/116 [03:11<00:07,  3.58s/batch]translate en->bn [nllb]:  99%|█████████▉| 115/116 [03:14<00:03,  3.52s/batch]translate en->bn [nllb]: 100%|██████████| 116/116 [03:17<00:00,  3.37s/batch]translate en->bn [nllb]: 100%|██████████| 116/116 [03:17<00:00,  1.70s/batch]
+
+=== ablation plus_backtranslate: 23076 rows (train 19278) ===
+  fold 0: macro F1 0.6032 params={}
+  fold 1: macro F1 0.6245 params={}
+  fold 2: macro F1 0.6205 params={}
+  fold 3: macro F1 0.6219 params={}
+  fold 4: macro F1 0.6242 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_backtranslate.csv model.epochs=2 run_tag=ablation_plus_backtranslate out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 23076 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_backtranslate_s42 ===
+[train] epoch 1 step 200/1443 loss 1.0831 0.8 min
+[train] epoch 1 step 400/1443 loss 1.0557 1.6 min
+[train] epoch 1 step 600/1443 loss 1.0371 2.5 min
+[train] epoch 1 step 800/1443 loss 1.0231 3.3 min
+[train] epoch 1 step 1000/1443 loss 1.0105 4.1 min
+[train] epoch 1 step 1200/1443 loss 0.9980 4.9 min
+[train] epoch 1 step 1400/1443 loss 0.9869 5.7 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9836 minutes=5.8810 dev_macro_f1=0.4704 dev_accuracy=0.6862
+[train] epoch 2 step 200/1443 loss 0.8392 6.7 min
+[train] epoch 2 step 400/1443 loss 0.8275 7.6 min
+[train] epoch 2 step 600/1443 loss 0.8076 8.4 min
+[train] epoch 2 step 800/1443 loss 0.7977 9.2 min
+[train] epoch 2 step 1000/1443 loss 0.7861 10.0 min
+[train] epoch 2 step 1200/1443 loss 0.7760 10.8 min
+[train] epoch 2 step 1400/1443 loss 0.7690 11.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.7679 minutes=11.8043 dev_macro_f1=0.6494 dev_accuracy=0.7190
+dev macro F1 0.6494 | gold macro F1 0.6652 | challenge fail 0.272 | 12.1 min
+macro F1 0.6652  acc 0.6667  n=306
+  Favour   P 0.640 R 0.500 F1 0.561 (n=110)
+  Against  P 0.654 R 0.673 F1 0.664 (n=104)
+  None     P 0.699 R 0.859 F1 0.771 (n=92)
+  [bn] macro F1 0.6534 acc 0.6601 n=153
+  [hi] macro F1 0.6757 acc 0.6732 n=153
+
+=== ablation plus_english: 25667 rows (train 19278) ===
+  fold 0: macro F1 0.6169 params={}
+  fold 1: macro F1 0.6082 params={}
+  fold 2: macro F1 0.5911 params={}
+  fold 3: macro F1 0.6222 params={}
+  fold 4: macro F1 0.6313 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_english.csv model.epochs=2 run_tag=ablation_plus_english out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 25667 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_english_s42 ===
+[train] epoch 1 step 200/1605 loss 1.0847 0.8 min
+[train] epoch 1 step 400/1605 loss 1.0534 1.6 min
+[train] epoch 1 step 600/1605 loss 1.0482 2.4 min
+[train] epoch 1 step 800/1605 loss 1.0429 3.3 min
+[train] epoch 1 step 1000/1605 loss 1.0361 4.1 min
+[train] epoch 1 step 1200/1605 loss 1.0224 4.9 min
+[train] epoch 1 step 1400/1605 loss 1.0072 5.7 min
+[train] epoch 1 step 1600/1605 loss 0.9895 6.5 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9893 minutes=6.5328 dev_macro_f1=0.6247 dev_accuracy=0.7111
+[train] epoch 2 step 200/1605 loss 0.7928 7.4 min
+[train] epoch 2 step 400/1605 loss 0.7831 8.2 min
+[train] epoch 2 step 600/1605 loss 0.7790 9.0 min
+[train] epoch 2 step 800/1605 loss 0.7726 9.8 min
+[train] epoch 2 step 1000/1605 loss 0.7627 10.7 min
+[train] epoch 2 step 1200/1605 loss 0.7529 11.5 min
+[train] epoch 2 step 1400/1605 loss 0.7452 12.3 min
+[train] epoch 2 step 1600/1605 loss 0.7384 13.1 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.7384 minutes=13.1151 dev_macro_f1=0.6778 dev_accuracy=0.7425
+dev macro F1 0.6778 | gold macro F1 0.6953 | challenge fail 0.273 | 13.4 min
+macro F1 0.6953  acc 0.7026  n=306
+  Favour   P 0.862 R 0.455 F1 0.595 (n=110)
+  Against  P 0.779 R 0.779 F1 0.779 (n=104)
+  None     P 0.583 R 0.913 F1 0.712 (n=92)
+  [bn] macro F1 0.6887 acc 0.6928 n=153
+  [hi] macro F1 0.7031 acc 0.7124 n=153
+
+=== ablation plus_synthetic_x3: 22102 rows (train 19278) ===
+  fold 0: macro F1 0.7091 params={}
+  fold 1: macro F1 0.6901 params={}
+  fold 2: macro F1 0.7112 params={}
+  fold 3: macro F1 0.7054 params={}
+  fold 4: macro F1 0.6865 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_plus_synthetic_x3.csv model.epochs=2 run_tag=ablation_plus_synthetic_x3 out.save_model=false seeds=[42] model.formulation=single
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 22102 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_ablation_plus_synthetic_x3_s42 ===
+[train] epoch 1 step 200/1382 loss 1.0886 0.8 min
+[train] epoch 1 step 400/1382 loss 1.0504 1.6 min
+[train] epoch 1 step 600/1382 loss 0.9993 2.4 min
+[train] epoch 1 step 800/1382 loss 0.9494 3.3 min
+[train] epoch 1 step 1000/1382 loss 0.9065 4.1 min
+[train] epoch 1 step 1200/1382 loss 0.8734 4.9 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.8448 minutes=5.6282 dev_macro_f1=0.6373 dev_accuracy=0.7126
+[train] epoch 2 step 200/1382 loss 0.5959 6.5 min
+[train] epoch 2 step 400/1382 loss 0.5911 7.3 min
+[train] epoch 2 step 600/1382 loss 0.5879 8.1 min
+[train] epoch 2 step 800/1382 loss 0.5719 8.9 min
+[train] epoch 2 step 1000/1382 loss 0.5615 9.7 min
+[train] epoch 2 step 1200/1382 loss 0.5547 10.6 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.5478 minutes=11.2980 dev_macro_f1=0.6679 dev_accuracy=0.7290
+dev macro F1 0.6679 | gold macro F1 0.7564 | challenge fail 0.227 | 11.5 min
+macro F1 0.7564  acc 0.7582  n=306
+  Favour   P 0.827 R 0.609 F1 0.702 (n=110)
+  Against  P 0.771 R 0.808 F1 0.789 (n=104)
+  None     P 0.698 R 0.880 F1 0.779 (n=92)
+  [bn] macro F1 0.7500 acc 0.7516 n=153
+  [hi] macro F1 0.7634 acc 0.7647 n=153
+
+          ablation  rows sparse_model  sparse_cv_macro_f1  sparse_cv_std  sparse_gold_macro_f1  sparse_challenge_fail  sparse_seconds  tf_dev_macro_f1  tf_gold_macro_f1  tf_challenge_fail  tf_minutes  d_sparse_cv_macro_f1  d_sparse_gold_macro_f1  d_sparse_challenge_fail  d_tf_dev_macro_f1  d_tf_gold_macro_f1  d_tf_challenge_fail  keep_sparse  keep_tf
+              none 19278    tfidf_cnb              0.6265         0.0057                0.7318                 0.2869         35.1338           0.6738            0.7166             0.2721     10.2008                0.0000                  0.0000                   0.0000             0.0000              0.0000               0.0000        False    False
+      no_synthetic 17555    tfidf_cnb              0.5367         0.0168                0.4195                 0.4751         35.8217           0.6495            0.5038             0.3847      9.2326               -0.0897                 -0.3123                   0.1882            -0.0243             -0.2128               0.1125        False    False
+ no_transliterated 16113    tfidf_cnb              0.6342         0.0159                0.7037                 0.3026         30.8344           0.6577            0.7410             0.2140      8.4890                0.0077                 -0.0280                   0.0157            -0.0161              0.0244              -0.0581        False    False
+      no_codemixed 17558    tfidf_cnb              0.6303         0.0120                0.7218                 0.2804         33.0058           0.6754            0.7477             0.2592      9.2279                0.0039                 -0.0100                  -0.0065             0.0015              0.0311              -0.0129         True     True
+   plus_char_noise 23079    tfidf_cnb              0.6113         0.0080                0.7285                 0.2915         43.3608           0.6805            0.7391             0.2288     12.0243               -0.0152                 -0.0033                   0.0046             0.0067              0.0225              -0.0434        False     True
+  plus_drop_matras 23076    tfidf_cnb              0.6150         0.0092                0.7096                 0.3026         44.5183           0.6746            0.7456             0.2592     12.0744               -0.0115                 -0.0222                   0.0157             0.0007              0.0290              -0.0129        False     True
+ plus_repeat_chars 23079    tfidf_cnb              0.6126         0.0060                0.7145                 0.2887         43.0778           0.6682            0.6987             0.2574     12.0683               -0.0139                 -0.0173                   0.0018            -0.0056             -0.0179              -0.0148        False    False
+plus_negation_flip 19292    tfidf_cnb              0.6267         0.0058                0.7286                 0.2841         37.3962           0.6555            0.6947             0.2869     10.0753                0.0002                 -0.0032                  -0.0028            -0.0183             -0.0219               0.0148         True    False
+plus_backtranslate 23076    tfidf_cnb              0.6189         0.0080                0.7258                 0.3054         44.9163           0.6494            0.6652             0.2721     12.0989               -0.0076                 -0.0060                   0.0185            -0.0245             -0.0515               0.0000        False    False
+      plus_english 25667    tfidf_cnb              0.6139         0.0137                0.7246                 0.2934         49.5321           0.6778            0.6953             0.2731     13.3828               -0.0125                 -0.0072                   0.0065             0.0040             -0.0213               0.0009        False    False
+ plus_synthetic_x3 22102    tfidf_cnb              0.7004         0.0102                0.7565                 0.2703         39.9206           0.6679            0.7564             0.2269     11.5454                0.0740                  0.0247                  -0.0166            -0.0060              0.0398              -0.0452         True    False

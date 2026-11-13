@@ -1,0 +1,77 @@
+2026-11-11 16:38:48 WAIT run_transformers.py
+2026-11-11 16:57:41 WAIT jobs_phase3.txt
+2026-11-11 19:35:46 START sparse_rest
+2026-11-11 19:47:26 DONE sparse_rest rc=0 11.7min
+2026-11-11 19:47:26 START dense_nli_stack
+2026-11-11 21:20:17 DONE dense_nli_stack rc=0 92.8min
+2026-11-11 21:20:17 QUEUE FINISHED
+2026-11-11 21:20:41 START seeds_single
+2026-11-11 21:51:02 DONE seeds_single rc=0 30.4min
+2026-11-11 21:51:02 START seeds_pair_en
+2026-11-11 22:21:27 DONE seeds_pair_en rc=0 30.4min
+2026-11-11 22:21:27 START seeds_pair_bn
+2026-11-11 22:51:51 DONE seeds_pair_bn rc=0 30.4min
+2026-11-11 22:51:51 START llm
+2026-11-12 03:24:01 DONE llm rc=0 272.2min
+2026-11-12 03:24:01 START ablations
+2026-11-12 03:24:43 DONE ablations rc=1 0.7min
+2026-11-12 03:24:43 START final
+2026-11-12 03:25:40 WAIT jobs_phase4_11.txt
+2026-11-12 03:29:25 DONE final rc=1 4.7min
+2026-11-12 03:29:25 START robustness
+2026-11-12 03:29:30 DONE robustness rc=0 0.1min
+2026-11-12 03:29:30 START explain
+2026-11-12 03:30:04 DONE explain rc=0 0.6min
+2026-11-12 03:30:04 START errors
+2026-11-12 03:30:06 DONE errors rc=0 0.0min
+2026-11-12 03:30:06 START significance
+2026-11-12 03:32:39 DONE significance rc=0 2.6min
+2026-11-12 03:32:39 START eda
+2026-11-12 03:34:06 DONE eda rc=0 1.4min
+2026-11-12 03:34:06 START eda_notebook
+2026-11-12 03:34:16 DONE eda_notebook rc=0 0.2min
+2026-11-12 03:34:16 START tables
+2026-11-12 03:34:18 DONE tables rc=0 0.0min
+2026-11-12 03:34:18 START model_card
+2026-11-12 03:34:19 DONE model_card rc=0 0.0min
+2026-11-12 03:34:19 START report
+2026-11-12 03:34:20 DONE report rc=0 0.0min
+2026-11-12 03:34:20 QUEUE FINISHED
+2026-11-12 03:34:54 START ablations_rerun
+2026-11-12 03:35:58 START final_r2
+2026-11-12 03:36:48 DONE final_r2 rc=0 0.8min
+2026-11-12 03:36:48 START robustness_r2
+2026-11-12 03:36:52 DONE robustness_r2 rc=0 0.1min
+2026-11-12 03:36:52 START explain_r2
+2026-11-12 03:37:24 DONE explain_r2 rc=0 0.5min
+2026-11-12 03:37:24 START errors_r2
+2026-11-12 03:37:27 DONE errors_r2 rc=0 0.0min
+2026-11-12 03:37:27 START significance_r2
+2026-11-12 03:39:50 DONE significance_r2 rc=0 2.4min
+2026-11-12 03:39:50 START ablations_r2
+2026-11-12 03:43:49 WAIT jobs_rerun2.txt
+2026-11-12 05:56:58 DONE ablations_r2 rc=0 137.1min
+2026-11-12 05:56:58 START tables_r2
+2026-11-12 05:57:00 DONE tables_r2 rc=0 0.0min
+2026-11-12 05:57:00 START model_card_r2
+2026-11-12 05:57:01 DONE model_card_r2 rc=0 0.0min
+2026-11-12 05:57:01 START report_r2
+2026-11-12 05:57:02 DONE report_r2 rc=0 0.0min
+2026-11-12 05:57:02 QUEUE FINISHED
+2026-11-12 05:57:25 START final_r3
+2026-11-12 05:58:59 DONE final_r3 rc=0 1.6min
+2026-11-12 05:58:59 START robustness_r3
+2026-11-12 05:59:04 DONE robustness_r3 rc=0 0.1min
+2026-11-12 05:59:04 START explain_r3
+2026-11-12 05:59:37 DONE explain_r3 rc=0 0.6min
+2026-11-12 05:59:37 START errors_r3
+2026-11-12 05:59:39 DONE errors_r3 rc=0 0.0min
+2026-11-12 05:59:39 START significance_r3
+2026-11-12 06:02:08 DONE significance_r3 rc=0 2.5min
+2026-11-12 06:02:08 START tables_r3
+2026-11-12 06:02:10 DONE tables_r3 rc=0 0.0min
+2026-11-12 06:02:10 START model_card_r3
+2026-11-12 06:02:11 DONE model_card_r3 rc=0 0.0min
+2026-11-12 06:02:11 START report_r3
+2026-11-12 06:02:12 DONE report_r3 rc=0 0.0min
+2026-11-12 06:02:12 QUEUE FINISHED

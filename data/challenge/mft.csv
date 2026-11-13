@@ -1,0 +1,781 @@
+id,text,language,category,label,origin
+mft_negation_hi_0000,"क्लाइमेट चेंज ढकोसला नहीं है, ये हकीकत है।",hi,negation,Favour,seed_filled
+mft_negation_hi_0001,मैं ये नहीं मानता कि धरती का तापमान कोई खतरा है।,hi,negation,Against,seed_filled
+mft_negation_hi_0002,"ऐसा नहीं है कि जलवायु परिवर्तन से कुछ नहीं होगा, बहुत कुछ होगा।",hi,negation,Favour,seed_filled
+mft_negation_hi_0003,"जलवायु परिवर्तन को नकारने वाले गलत नहीं हैं, मौसम तो बदलता ही रहता है।",hi,negation,Against,seed_filled
+mft_negation_hi_0004,"कोई नहीं कह सकता कि जलवायु परिवर्तन स्कैम है, सबूत साफ हैं।",hi,negation,Favour,seed_filled
+mft_negation_hi_0005,"मुझे जलवायु परिवर्तन की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।",hi,negation,Against,seed_filled
+mft_negation_hi_0006,"ये ओलावृष्टि बिना वजह नहीं आ रही, ग्लोबल वार्मिंग असली है।",hi,negation,Favour,seed_filled
+mft_negation_hi_0007,"जलवायु परिवर्तन के नाम पर डरना बंद करो, कोई खतरा नहीं है।",hi,negation,Against,seed_filled
+mft_negation_hi_0008,"जलवायु परिवर्तन पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।",hi,negation,None,seed_filled
+mft_negation_hi_0009,"इस वीडियो में धरती का तापमान की बात नहीं हुई, सिर्फ खेती की।",hi,negation,None,seed_filled
+mft_negation_hi_0010,"ये नहीं कह सकते कि NGO गलत हैं, धरती सच में गर्म हो रही है।",hi,negation,Favour,seed_filled
+mft_negation_hi_0011,"न जलवायु परिवर्तन असली है न नेता की चेतावनी, सब झूठ।",hi,negation,Against,seed_filled
+mft_negation_hi_0012,"धरती का तापमान पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।",hi,negation,None,template
+mft_negation_hi_0013,"जलवायु परिवर्तन ढकोसला नहीं है, ये हकीकत है।",hi,negation,Favour,template
+mft_negation_hi_0014,"ये नहीं कह सकते कि अमीर देश गलत हैं, धरती सच में गर्म हो रही है।",hi,negation,Favour,template
+mft_negation_hi_0015,"इस वीडियो में जलवायु परिवर्तन की बात नहीं हुई, सिर्फ खेती की।",hi,negation,None,template
+mft_negation_hi_0016,"ग्लोबल वार्मिंग झूठ नहीं है, ये हकीकत है।",hi,negation,Favour,template
+mft_negation_hi_0017,"ग्लोबल वार्मिंग पर मेरी कोई राय नहीं है, मुझे जानकारी नहीं।",hi,negation,None,template
+mft_negation_hi_0018,"कोई नहीं कह सकता कि धरती का तापमान ढकोसला है, सबूत साफ हैं।",hi,negation,Favour,template
+mft_negation_hi_0019,"इस वीडियो में क्लाइमेट चेंज की बात नहीं हुई, सिर्फ खेती की।",hi,negation,None,template
+mft_negation_hi_0020,मैं ये नहीं मानता कि ग्लोबल वार्मिंग कोई खतरा है।,hi,negation,Against,template
+mft_negation_hi_0021,"इस वीडियो में ग्लोबल वार्मिंग की बात नहीं हुई, सिर्फ खेती की।",hi,negation,None,template
+mft_negation_hi_0022,"धरती का तापमान के नाम पर डरना बंद करो, कोई खतरा नहीं है।",hi,negation,Against,template
+mft_negation_hi_0023,"मुझे धरती का तापमान की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।",hi,negation,Against,template
+mft_negation_hi_0024,"मुझे क्लाइमेट चेंज की चिंता बिल्कुल नहीं है, कुछ नहीं होने वाला।",hi,negation,Against,template
+mft_negation_hi_0025,"ग्लोबल वार्मिंग को नकारने वाले गलत नहीं हैं, मौसम तो बदलता ही रहता है।",hi,negation,Against,template
+mft_negation_hi_0026,"न ग्लोबल वार्मिंग असली है न वैज्ञानिक की चेतावनी, सब ड्रामा।",hi,negation,Against,template
+mft_negation_hi_0027,"कोई नहीं कह सकता कि धरती का तापमान स्कैम है, सबूत साफ हैं।",hi,negation,Favour,template
+mft_negation_hi_0028,"न धरती का तापमान असली है न मीडिया की चेतावनी, सब ड्रामा।",hi,negation,Against,template
+mft_negation_hi_0029,मैं ये नहीं मानता कि जलवायु परिवर्तन कोई खतरा है।,hi,negation,Against,template
+mft_negation_bn_0030,"পৃথিবীর তাপমাত্রা ভাঁওতা না, এটা বাস্তব।",bn,negation,Favour,seed_filled
+mft_negation_bn_0031,আমি মানি না যে ক্লাইমেট চেঞ্জ কোনো বিপদ।,bn,negation,Against,seed_filled
+mft_negation_bn_0032,"এমন না যে গ্লোবাল ওয়ার্মিং-এ কিছু হবে না, অনেক কিছু হবে।",bn,negation,Favour,seed_filled
+mft_negation_bn_0033,"পৃথিবীর তাপমাত্রা অস্বীকারকারীরা ভুল না, আবহাওয়া তো বদলায়ই।",bn,negation,Against,seed_filled
+mft_negation_bn_0034,"কেউ বলতে পারবে না পৃথিবীর তাপমাত্রা মিথ্যা, প্রমাণ পরিষ্কার।",bn,negation,Favour,seed_filled
+mft_negation_bn_0035,"জলবায়ু পরিবর্তন নিয়ে আমার কোনো চিন্তা নেই, কিছুই হবে না।",bn,negation,Against,seed_filled
+mft_negation_bn_0036,"এই শিলাবৃষ্টি অকারণে হচ্ছে না, ক্লাইমেট চেঞ্জ আসল।",bn,negation,Favour,seed_filled
+mft_negation_bn_0037,"ক্লাইমেট চেঞ্জ-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।",bn,negation,Against,seed_filled
+mft_negation_bn_0038,"ক্লাইমেট চেঞ্জ নিয়ে আমার কোনো মত নেই, জানি না।",bn,negation,None,seed_filled
+mft_negation_bn_0039,"এই ভিডিওতে পৃথিবীর তাপমাত্রা নিয়ে কথা হয়নি, শুধু চাষের কথা।",bn,negation,None,seed_filled
+mft_negation_bn_0040,"এটা বলা যায় না যে বিদেশি শক্তি ভুল, পৃথিবী সত্যিই গরম হচ্ছে।",bn,negation,Favour,seed_filled
+mft_negation_bn_0041,"না পৃথিবীর তাপমাত্রা আসল, না বিজ্ঞানীরা-র সতর্কতা, সব মিথ্যা।",bn,negation,Against,seed_filled
+mft_negation_bn_0042,"কেউ বলতে পারবে না পৃথিবীর তাপমাত্রা প্রোপাগান্ডা, প্রমাণ পরিষ্কার।",bn,negation,Favour,template
+mft_negation_bn_0043,"এটা বলা যায় না যে বিজ্ঞানীরা ভুল, পৃথিবী সত্যিই গরম হচ্ছে।",bn,negation,Favour,template
+mft_negation_bn_0044,"ক্লাইমেট চেঞ্জ প্রোপাগান্ডা না, এটা বাস্তব।",bn,negation,Favour,template
+mft_negation_bn_0045,"এমন না যে জলবায়ু পরিবর্তন-এ কিছু হবে না, অনেক কিছু হবে।",bn,negation,Favour,template
+mft_negation_bn_0046,"জলবায়ু পরিবর্তন-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।",bn,negation,Against,template
+mft_negation_bn_0047,"ক্লাইমেট চেঞ্জ অস্বীকারকারীরা ভুল না, আবহাওয়া তো বদলায়ই।",bn,negation,Against,template
+mft_negation_bn_0048,"এই ঘূর্ণিঝড় অকারণে হচ্ছে না, পৃথিবীর তাপমাত্রা আসল।",bn,negation,Favour,template
+mft_negation_bn_0049,আমি মানি না যে গ্লোবাল ওয়ার্মিং কোনো বিপদ।,bn,negation,Against,template
+mft_negation_bn_0050,"পৃথিবীর তাপমাত্রা-এর নামে ভয় পাওয়া বন্ধ করো, কোনো বিপদ নেই।",bn,negation,Against,template
+mft_negation_bn_0051,"এমন না যে পৃথিবীর তাপমাত্রা-এ কিছু হবে না, অনেক কিছু হবে।",bn,negation,Favour,template
+mft_negation_bn_0052,"না পৃথিবীর তাপমাত্রা আসল, না মিডিয়া-র সতর্কতা, সব প্রোপাগান্ডা।",bn,negation,Against,template
+mft_negation_bn_0053,"এই খরা অকারণে হচ্ছে না, গ্লোবাল ওয়ার্মিং আসল।",bn,negation,Favour,template
+mft_negation_bn_0054,"এটা বলা যায় না যে নেতারা ভুল, পৃথিবী সত্যিই গরম হচ্ছে।",bn,negation,Favour,template
+mft_negation_bn_0055,"পৃথিবীর তাপমাত্রা নাটক না, এটা বাস্তব।",bn,negation,Favour,template
+mft_negation_bn_0056,"এমন না যে ক্লাইমেট চেঞ্জ-এ কিছু হবে না, অনেক কিছু হবে।",bn,negation,Favour,template
+mft_negation_bn_0057,"কেউ বলতে পারবে না জলবায়ু পরিবর্তন ভাঁওতা, প্রমাণ পরিষ্কার।",bn,negation,Favour,template
+mft_negation_bn_0058,"এই ভিডিওতে ক্লাইমেট চেঞ্জ নিয়ে কথা হয়নি, শুধু চাষের কথা।",bn,negation,None,template
+mft_negation_bn_0059,আমি মানি না যে পৃথিবীর তাপমাত্রা কোনো বিপদ।,bn,negation,Against,template
+mft_sarcasm_hi_0060,"वाह, इंदौर में नवंबर में बर्फ, बहुत ग्लोबल वार्मिंग है 🙄",hi,sarcasm,Against,seed_filled
+mft_sarcasm_hi_0061,"हाँ भाई, वैज्ञानिक ने कह दिया तो ग्लोबल वार्मिंग सच हो गया, बिलकुल 😂",hi,sarcasm,Against,seed_filled
+mft_sarcasm_hi_0062,"बढ़िया, बाढ़ आई तो ग्लोबल वार्मिंग, धूप निकली तो भी धरती का तापमान, क्या साइंस है।",hi,sarcasm,Against,seed_filled
+mft_sarcasm_hi_0063,"ग्लोबल वार्मिंग झूठ है? अच्छा, दिल्ली में 47 डिग्री में ये बोलकर दिखाओ 🙃",hi,sarcasm,Favour,seed_filled
+mft_sarcasm_hi_0064,"कितना सुकून है कि अक्टूबर में ही लू चल रही है, सब एकदम नॉर्मल है ना।",hi,sarcasm,Favour,seed_filled
+mft_sarcasm_hi_0065,"सही है, विदेशी ताकतें की हर बात मान लो, वो तो कभी गलत नहीं होते 🤡",hi,sarcasm,Against,seed_filled
+mft_sarcasm_hi_0066,"हाँ, बाढ़ तो बस संयोग है, लगातार पांचवें साल, संयोग ही होगा।",hi,sarcasm,Favour,seed_filled
+mft_sarcasm_hi_0067,"वाह क्या लॉजिक है, एक ठंडा दिन आया और जलवायु परिवर्तन खत्म 👏",hi,sarcasm,Favour,seed_filled
+mft_sarcasm_hi_0068,"हम तो बस चाय पी रहे हैं, धरती जले तो जले 😌",hi,sarcasm,Favour,seed
+mft_sarcasm_hi_0069,"हाँ जी, 2030 में दुनिया खत्म, 2000 में भी यही बोला था 🙄",hi,sarcasm,Against,seed
+mft_sarcasm_hi_0070,"वाह, चंडीगढ़ में मार्च में बर्फ, बहुत ग्लोबल वार्मिंग है 🙄",hi,sarcasm,Against,template
+mft_sarcasm_hi_0071,"हाँ भाई, मीडिया ने कह दिया तो जलवायु परिवर्तन सच हो गया, बिलकुल 😂",hi,sarcasm,Against,template
+mft_sarcasm_hi_0072,"हाँ भाई, नेता ने कह दिया तो धरती का तापमान सच हो गया, बिलकुल 😂",hi,sarcasm,Against,template
+mft_sarcasm_hi_0073,"बढ़िया, लू आई तो क्लाइमेट चेंज, धूप निकली तो भी क्लाइमेट चेंज, क्या साइंस है।",hi,sarcasm,Against,template
+mft_sarcasm_hi_0074,"हाँ भाई, NGO ने कह दिया तो धरती का तापमान सच हो गया, बिलकुल 😂",hi,sarcasm,Against,template
+mft_sarcasm_hi_0075,"वाह क्या लॉजिक है, एक ठंडा दिन आया और धरती का तापमान खत्म 👏",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0076,"कितना सुकून है कि फरवरी में ही लू चल रही है, सब एकदम नॉर्मल है ना।",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0077,"बढ़िया, बाढ़ आई तो क्लाइमेट चेंज, धूप निकली तो भी क्लाइमेट चेंज, क्या साइंस है।",hi,sarcasm,Against,template
+mft_sarcasm_hi_0078,"वाह क्या लॉजिक है, एक ठंडा दिन आया और ग्लोबल वार्मिंग खत्म 👏",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0079,"वाह, कानपुर में अक्टूबर में बर्फ, बहुत ग्लोबल वार्मिंग है 🙄",hi,sarcasm,Against,template
+mft_sarcasm_hi_0080,"बढ़िया, ओलावृष्टि आई तो जलवायु परिवर्तन, धूप निकली तो भी क्लाइमेट चेंज, क्या साइंस है।",hi,sarcasm,Against,template
+mft_sarcasm_hi_0081,"हाँ भाई, अमीर देश ने कह दिया तो क्लाइमेट चेंज सच हो गया, बिलकुल 😂",hi,sarcasm,Against,template
+mft_sarcasm_hi_0082,"सही है, नेता की हर बात मान लो, वो तो कभी गलत नहीं होते 🤡",hi,sarcasm,Against,template
+mft_sarcasm_hi_0083,"सही है, अमीर देश की हर बात मान लो, वो तो कभी गलत नहीं होते 🤡",hi,sarcasm,Against,template
+mft_sarcasm_hi_0084,"ग्लोबल वार्मिंग झूठ है? अच्छा, कानपुर में 47 डिग्री में ये बोलकर दिखाओ 🙃",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0085,"हाँ, सूखा तो बस संयोग है, लगातार पांचवें साल, संयोग ही होगा।",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0086,"धरती का तापमान झूठ है? अच्छा, नागपुर में 47 डिग्री में ये बोलकर दिखाओ 🙃",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0087,"वाह, दिल्ली में अक्टूबर में बर्फ, बहुत ग्लोबल वार्मिंग है 🙄",hi,sarcasm,Against,template
+mft_sarcasm_hi_0088,"वाह क्या लॉजिक है, एक ठंडा दिन आया और क्लाइमेट चेंज खत्म 👏",hi,sarcasm,Favour,template
+mft_sarcasm_hi_0089,"क्लाइमेट चेंज झूठ है? अच्छा, वाराणसी में 47 डिग्री में ये बोलकर दिखाओ 🙃",hi,sarcasm,Favour,template
+mft_sarcasm_bn_0090,"বাহ, শিলিগুড়ি-তে অক্টোবর মাসে বরফ, খুব গ্লোবাল ওয়ার্মিং 🙄",bn,sarcasm,Against,seed_filled
+mft_sarcasm_bn_0091,"হ্যাঁ ভাই, মিডিয়া বলেছে তাই জলবায়ু পরিবর্তন সত্যি হয়ে গেল, একদম 😂",bn,sarcasm,Against,seed_filled
+mft_sarcasm_bn_0092,"দারুণ, খরা হলে জলবায়ু পরিবর্তন, রোদ উঠলেও গ্লোবাল ওয়ার্মিং, কী সায়েন্স।",bn,sarcasm,Against,seed_filled
+mft_sarcasm_bn_0093,"পৃথিবীর তাপমাত্রা মিথ্যা? আচ্ছা, কুমিল্লা-তে ৪৫ ডিগ্রিতে দাঁড়িয়ে বলে দেখাও 🙃",bn,sarcasm,Favour,seed_filled
+mft_sarcasm_bn_0094,"কী শান্তি, অক্টোবর মাসেই লু বইছে, সব একদম স্বাভাবিক তাই না।",bn,sarcasm,Favour,seed_filled
+mft_sarcasm_bn_0095,"ঠিকই, নেতারা-র সব কথা মেনে নাও, তারা তো কখনো ভুল করে না 🤡",bn,sarcasm,Against,seed_filled
+mft_sarcasm_bn_0096,"হ্যাঁ, ঘূর্ণিঝড় তো শুধু কাকতালীয়, টানা পাঁচ বছর, কাকতালীয়ই হবে।",bn,sarcasm,Favour,seed_filled
+mft_sarcasm_bn_0097,"বাহ কী লজিক, একটা ঠান্ডা দিন এলো আর জলবায়ু পরিবর্তন শেষ 👏",bn,sarcasm,Favour,seed_filled
+mft_sarcasm_bn_0098,"আমরা তো চা খাচ্ছি, পৃথিবী পুড়লে পুড়ুক 😌",bn,sarcasm,Favour,seed
+mft_sarcasm_bn_0099,"হ্যাঁ জি, ২০৩০-এ দুনিয়া শেষ, ২০০০ সালেও এটাই বলেছিল 🙄",bn,sarcasm,Against,seed
+mft_sarcasm_bn_0100,"বাহ কী লজিক, একটা ঠান্ডা দিন এলো আর ক্লাইমেট চেঞ্জ শেষ 👏",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0101,"হ্যাঁ ভাই, ধনী দেশ বলেছে তাই জলবায়ু পরিবর্তন সত্যি হয়ে গেল, একদম 😂",bn,sarcasm,Against,template
+mft_sarcasm_bn_0102,"হ্যাঁ, খরা তো শুধু কাকতালীয়, টানা পাঁচ বছর, কাকতালীয়ই হবে।",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0103,"বাহ কী লজিক, একটা ঠান্ডা দিন এলো আর গ্লোবাল ওয়ার্মিং শেষ 👏",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0104,"হ্যাঁ, তাপপ্রবাহ তো শুধু কাকতালীয়, টানা পাঁচ বছর, কাকতালীয়ই হবে।",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0105,"হ্যাঁ ভাই, ধনী দেশ বলেছে তাই পৃথিবীর তাপমাত্রা সত্যি হয়ে গেল, একদম 😂",bn,sarcasm,Against,template
+mft_sarcasm_bn_0106,"বাহ কী লজিক, একটা ঠান্ডা দিন এলো আর পৃথিবীর তাপমাত্রা শেষ 👏",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0107,"হ্যাঁ ভাই, ধনী দেশ বলেছে তাই গ্লোবাল ওয়ার্মিং সত্যি হয়ে গেল, একদম 😂",bn,sarcasm,Against,template
+mft_sarcasm_bn_0108,"দারুণ, শিলাবৃষ্টি হলে গ্লোবাল ওয়ার্মিং, রোদ উঠলেও জলবায়ু পরিবর্তন, কী সায়েন্স।",bn,sarcasm,Against,template
+mft_sarcasm_bn_0109,"বাহ, শিলিগুড়ি-তে ফেব্রুয়ারি মাসে বরফ, খুব গ্লোবাল ওয়ার্মিং 🙄",bn,sarcasm,Against,template
+mft_sarcasm_bn_0110,"দারুণ, ঘূর্ণিঝড় হলে গ্লোবাল ওয়ার্মিং, রোদ উঠলেও গ্লোবাল ওয়ার্মিং, কী সায়েন্স।",bn,sarcasm,Against,template
+mft_sarcasm_bn_0111,"বাহ, ময়মনসিংহ-তে মার্চ মাসে বরফ, খুব গ্লোবাল ওয়ার্মিং 🙄",bn,sarcasm,Against,template
+mft_sarcasm_bn_0112,"কী শান্তি, মার্চ মাসেই লু বইছে, সব একদম স্বাভাবিক তাই না।",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0113,"ঠিকই, মিডিয়া-র সব কথা মেনে নাও, তারা তো কখনো ভুল করে না 🤡",bn,sarcasm,Against,template
+mft_sarcasm_bn_0114,"বাহ, কুমিল্লা-তে মার্চ মাসে বরফ, খুব গ্লোবাল ওয়ার্মিং 🙄",bn,sarcasm,Against,template
+mft_sarcasm_bn_0115,"দারুণ, ঘূর্ণিঝড় হলে জলবায়ু পরিবর্তন, রোদ উঠলেও জলবায়ু পরিবর্তন, কী সায়েন্স।",bn,sarcasm,Against,template
+mft_sarcasm_bn_0116,"ঠিকই, ধনী দেশ-র সব কথা মেনে নাও, তারা তো কখনো ভুল করে না 🤡",bn,sarcasm,Against,template
+mft_sarcasm_bn_0117,"কী শান্তি, ফেব্রুয়ারি মাসেই লু বইছে, সব একদম স্বাভাবিক তাই না।",bn,sarcasm,Favour,template
+mft_sarcasm_bn_0118,"হ্যাঁ ভাই, বিদেশি শক্তি বলেছে তাই পৃথিবীর তাপমাত্রা সত্যি হয়ে গেল, একদম 😂",bn,sarcasm,Against,template
+mft_sarcasm_bn_0119,"বাহ, ঢাকা-তে নভেম্বর মাসে বরফ, খুব গ্লোবাল ওয়ার্মিং 🙄",bn,sarcasm,Against,template
+mft_implicit_hi_0120,"पहले अक्टूबर में स्वेटर पहनते थे, अब पंखा चलता है।",hi,implicit,Favour,seed_filled
+mft_implicit_hi_0121,"चंडीगढ़ की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।",hi,implicit,Favour,seed_filled
+mft_implicit_hi_0122,"हर दस साल में ओलावृष्टि आती रही है, इसमें नया क्या है।",hi,implicit,Against,seed_filled
+mft_implicit_hi_0123,"नदी का पानी घटता जा रहा है, हर साल और कम।",hi,implicit,Favour,seed
+mft_implicit_hi_0124,"मेरे दादा के ज़माने में भी गर्मी पड़ती थी, वो भी जी गए, हम भी जी लेंगे।",hi,implicit,Against,seed
+mft_implicit_hi_0125,"सूरज अपनी मर्जी से चलता है, इंसान के बस में कुछ नहीं।",hi,implicit,Against,seed
+mft_implicit_hi_0126,"आम की फसल इस साल फिर मार्च की बारिश में बर्बाद, लगातार तीसरा साल।",hi,implicit,Favour,seed_filled
+mft_implicit_hi_0127,आज इंदौर में 36 डिग्री है।,hi,implicit,None,seed_filled
+mft_implicit_hi_0128,"हमने AC नया लिया है, बहुत अच्छा चलता है।",hi,implicit,None,seed
+mft_implicit_hi_0129,"लू से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।",hi,implicit,Favour,seed_filled
+mft_implicit_hi_0130,"ये सब टैक्स बढ़ाने का बहाना है, और कुछ नहीं।",hi,implicit,Against,seed
+mft_implicit_hi_0131,पहाड़ों पर बर्फ अब नवंबर में ही पिघल जाती है।,hi,implicit,Favour,seed_filled
+mft_implicit_hi_0132,आज चंडीगढ़ में 36 डिग्री है।,hi,implicit,None,template
+mft_implicit_hi_0133,आज कानपुर में 36 डिग्री है।,hi,implicit,None,template
+mft_implicit_hi_0134,"ओलावृष्टि से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।",hi,implicit,Favour,template
+mft_implicit_hi_0135,"वाराणसी की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।",hi,implicit,Favour,template
+mft_implicit_hi_0136,"पहले नवंबर में स्वेटर पहनते थे, अब पंखा चलता है।",hi,implicit,Favour,template
+mft_implicit_hi_0137,"आम की फसल इस साल फिर अक्टूबर की बारिश में बर्बाद, लगातार तीसरा साल।",hi,implicit,Favour,template
+mft_implicit_hi_0138,"पहले मार्च में स्वेटर पहनते थे, अब पंखा चलता है।",hi,implicit,Favour,template
+mft_implicit_hi_0139,"आम की फसल इस साल फिर फरवरी की बारिश में बर्बाद, लगातार तीसरा साल।",hi,implicit,Favour,template
+mft_implicit_hi_0140,"इंदौर की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।",hi,implicit,Favour,template
+mft_implicit_hi_0141,"हर दस साल में बाढ़ आती रही है, इसमें नया क्या है।",hi,implicit,Against,template
+mft_implicit_hi_0142,पहाड़ों पर बर्फ अब मार्च में ही पिघल जाती है।,hi,implicit,Favour,template
+mft_implicit_hi_0143,"नागपुर की झील सूख गई, दादाजी कहते हैं उनकी ज़िंदगी में पहली बार।",hi,implicit,Favour,template
+mft_implicit_hi_0144,"सूखा से इस बार 40 गांव डूब गए, पहले ऐसा नहीं होता था।",hi,implicit,Favour,template
+mft_implicit_hi_0145,"आम की फसल इस साल फिर नवंबर की बारिश में बर्बाद, लगातार तीसरा साल।",hi,implicit,Favour,template
+mft_implicit_hi_0146,"हर दस साल में चक्रवात आती रही है, इसमें नया क्या है।",hi,implicit,Against,template
+mft_implicit_hi_0147,आज वाराणसी में 36 डिग्री है।,hi,implicit,None,template
+mft_implicit_hi_0148,"पहले फरवरी में स्वेटर पहनते थे, अब पंखा चलता है।",hi,implicit,Favour,template
+mft_implicit_hi_0149,"हर दस साल में लू आती रही है, इसमें नया क्या है।",hi,implicit,Against,template
+mft_implicit_bn_0150,"আগে ফেব্রুয়ারি মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,implicit,Favour,seed_filled
+mft_implicit_bn_0151,"কুমিল্লা-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।",bn,implicit,Favour,seed_filled
+mft_implicit_bn_0152,"প্রতি দশ বছরে তাপপ্রবাহ হয়ে এসেছে, এতে নতুন কী।",bn,implicit,Against,seed_filled
+mft_implicit_bn_0153,"নদীর পানি কমে যাচ্ছে, প্রতি বছর আরো কম।",bn,implicit,Favour,seed
+mft_implicit_bn_0154,"আমার দাদার সময়েও গরম পড়ত, তারাও বেঁচেছিল, আমরাও বাঁচব।",bn,implicit,Against,seed
+mft_implicit_bn_0155,"সূর্য নিজের মর্জিতে চলে, মানুষের হাতে কিছু নেই।",bn,implicit,Against,seed
+mft_implicit_bn_0156,"আমের ফলন এবারও মার্চ-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।",bn,implicit,Favour,seed_filled
+mft_implicit_bn_0157,আজ যশোর-তে ৩৬ ডিগ্রি।,bn,implicit,None,seed_filled
+mft_implicit_bn_0158,"আমরা নতুন AC কিনেছি, খুব ভালো চলে।",bn,implicit,None,seed
+mft_implicit_bn_0159,"তাপপ্রবাহ-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না।",bn,implicit,Favour,seed_filled
+mft_implicit_bn_0160,"এসব ট্যাক্স বাড়ানোর অজুহাত, আর কিছু না।",bn,implicit,Against,seed
+mft_implicit_bn_0161,পাহাড়ের বরফ এখন নভেম্বর মাসেই গলে যায়।,bn,implicit,Favour,seed_filled
+mft_implicit_bn_0162,"বগুড়া-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।",bn,implicit,Favour,template
+mft_implicit_bn_0163,আজ বগুড়া-তে ৩৬ ডিগ্রি।,bn,implicit,None,template
+mft_implicit_bn_0164,"আমের ফলন এবারও অক্টোবর-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।",bn,implicit,Favour,template
+mft_implicit_bn_0165,"আগে অক্টোবর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,implicit,Favour,template
+mft_implicit_bn_0166,"আগে মার্চ মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,implicit,Favour,template
+mft_implicit_bn_0167,"আমের ফলন এবারও ফেব্রুয়ারি-র বৃষ্টিতে নষ্ট, টানা তৃতীয় বছর।",bn,implicit,Favour,template
+mft_implicit_bn_0168,"প্রতি দশ বছরে বন্যা হয়ে এসেছে, এতে নতুন কী।",bn,implicit,Against,template
+mft_implicit_bn_0169,"বন্যা-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না।",bn,implicit,Favour,template
+mft_implicit_bn_0170,পাহাড়ের বরফ এখন অক্টোবর মাসেই গলে যায়।,bn,implicit,Favour,template
+mft_implicit_bn_0171,পাহাড়ের বরফ এখন ফেব্রুয়ারি মাসেই গলে যায়।,bn,implicit,Favour,template
+mft_implicit_bn_0172,"প্রতি দশ বছরে শিলাবৃষ্টি হয়ে এসেছে, এতে নতুন কী।",bn,implicit,Against,template
+mft_implicit_bn_0173,আজ কুমিল্লা-তে ৩৬ ডিগ্রি।,bn,implicit,None,template
+mft_implicit_bn_0174,"প্রতি দশ বছরে ঘূর্ণিঝড় হয়ে এসেছে, এতে নতুন কী।",bn,implicit,Against,template
+mft_implicit_bn_0175,আজ শিলিগুড়ি-তে ৩৬ ডিগ্রি।,bn,implicit,None,template
+mft_implicit_bn_0176,"ময়মনসিংহ-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।",bn,implicit,Favour,template
+mft_implicit_bn_0177,"শিলাবৃষ্টি-এ এবার ৪০ গ্রাম ডুবে গেল, আগে এমন হতো না।",bn,implicit,Favour,template
+mft_implicit_bn_0178,"যশোর-র দিঘি শুকিয়ে গেছে, দাদু বলেন তার জীবনে প্রথমবার।",bn,implicit,Favour,template
+mft_implicit_bn_0179,"আগে নভেম্বর মাসে সোয়েটার পরতাম, এখন ফ্যান চলে।",bn,implicit,Favour,template
+mft_romanized_hi_0180,"climate change sach hai, इंदौर me नवंबर me hi 44 degree ho gaya",hi,romanized,Favour,seed_filled
+mft_romanized_hi_0181,"global warming sab draamaa hai bhai, kuch nahi hone wala",hi,romanized,Against,seed_filled
+mft_romanized_hi_0182,kal वाराणसी me baarish ka alert hai,hi,romanized,None,seed_filled
+mft_romanized_hi_0183,"jo olaavrrishti har saal aa rahi hai wo normal nahi hai, kuch karna padega",hi,romanized,Favour,seed_filled
+mft_romanized_hi_0184,"ye midiyaa log sirf dara rahe hai, paisa chahiye inko",hi,romanized,Against,seed_filled
+mft_romanized_hi_0185,global vaarming pe koi acchi book batao,hi,romanized,None,seed_filled
+mft_romanized_hi_0186,"bachpan wali thand ab nahi padti, dharti sach me garam ho rahi hai",hi,romanized,Favour,seed
+mft_romanized_hi_0187,"mausam hamesha badalta aaya hai, global vaarming ka drama band karo",hi,romanized,Against,seed_filled
+mft_romanized_hi_0188,is video ka editing kaun karta hai?,hi,romanized,None,seed
+mft_romanized_hi_0189,"agar abhi nahi jage to bachon ka kya hoga, klaaimet chenj asli hai",hi,romanized,Favour,seed_filled
+mft_romanized_hi_0190,"global vaarming ek videshi agenda hai, bharat ko rokne ke liye",hi,romanized,Against,seed_filled
+mft_romanized_hi_0191,global vaarming par webinar kal shaam 6 baje,hi,romanized,None,seed_filled
+mft_romanized_hi_0192,"mausam hamesha badalta aaya hai, klaaimet chenj ka drama band karo",hi,romanized,Against,template
+mft_romanized_hi_0193,"climate change sach hai, कानपुर me फरवरी me hi 44 degree ho gaya",hi,romanized,Favour,template
+mft_romanized_hi_0194,"global warming sab propegaindaa hai bhai, kuch nahi hone wala",hi,romanized,Against,template
+mft_romanized_hi_0195,"ye NGO log sirf dara rahe hai, paisa chahiye inko",hi,romanized,Against,template
+mft_romanized_hi_0196,kal दिल्ली me baarish ka alert hai,hi,romanized,None,template
+mft_romanized_hi_0197,"ye vaijnaanik log sirf dara rahe hai, paisa chahiye inko",hi,romanized,Against,template
+mft_romanized_hi_0198,"agar abhi nahi jage to bachon ka kya hoga, global vaarming asli hai",hi,romanized,Favour,template
+mft_romanized_hi_0199,kal नागपुर me baarish ka alert hai,hi,romanized,None,template
+mft_romanized_hi_0200,"agar abhi nahi jage to bachon ka kya hoga, jalvaayu parivartan asli hai",hi,romanized,Favour,template
+mft_romanized_hi_0201,klaaimet chenj pe koi acchi book batao,hi,romanized,None,template
+mft_romanized_hi_0202,"jo baadh har saal aa rahi hai wo normal nahi hai, kuch karna padega",hi,romanized,Favour,template
+mft_romanized_hi_0203,"ye netaa log sirf dara rahe hai, paisa chahiye inko",hi,romanized,Against,template
+mft_romanized_hi_0204,"climate change sach hai, नागपुर me नवंबर me hi 44 degree ho gaya",hi,romanized,Favour,template
+mft_romanized_hi_0205,"global warming sab aphavaah hai bhai, kuch nahi hone wala",hi,romanized,Against,template
+mft_romanized_hi_0206,"ye videshi taaktein log sirf dara rahe hai, paisa chahiye inko",hi,romanized,Against,template
+mft_romanized_hi_0207,"jo sukhaa har saal aa rahi hai wo normal nahi hai, kuch karna padega",hi,romanized,Favour,template
+mft_romanized_hi_0208,"jalvaayu parivartan ek videshi agenda hai, bharat ko rokne ke liye",hi,romanized,Against,template
+mft_romanized_hi_0209,"global warming sab skaim hai bhai, kuch nahi hone wala",hi,romanized,Against,template
+mft_romanized_bn_0210,"climate change sotti, dhaka te march e 42 degree hoye gelo",bn,romanized,Favour,seed_filled
+mft_romanized_bn_0211,"global warming sob gujb bhai, kichu hobe na",bn,romanized,Against,seed_filled
+mft_romanized_bn_0212,kal boguda te bristir alert ache,bn,romanized,None,seed_filled
+mft_romanized_bn_0213,"je bonya proti bochor hocche eta normal na, kichu korte hobe",bn,romanized,Favour,seed_filled
+mft_romanized_bn_0214,"ei NGO ra shudhu bhoy dekhay, taka chay era",bn,romanized,Against,seed_filled
+mft_romanized_bn_0215,jolbayu poriborton niye bhalo boi bolo,bn,romanized,None,seed_filled
+mft_romanized_bn_0216,"chotobelar thanda ar pore na, prithibi sotti gorom hocche",bn,romanized,Favour,seed
+mft_romanized_bn_0217,"abhawa sobsomoy bodlay, kloimet chenj er natok bondho koro",bn,romanized,Against,seed_filled
+mft_romanized_bn_0218,ei video r editing ke kore?,bn,romanized,None,seed
+mft_romanized_bn_0219,"ekhon na jagle bacchader ki hobe, kloimet chenj asol",bn,romanized,Favour,seed_filled
+mft_romanized_bn_0220,"global oyarmin ekta bideshi agenda, bangladesh ke atkanor jonno",bn,romanized,Against,seed_filled
+mft_romanized_bn_0221,jolbayu poriborton niye webinar kal shondha 6 tay,bn,romanized,None,seed_filled
+mft_romanized_bn_0222,global oyarmin niye webinar kal shondha 6 tay,bn,romanized,None,template
+mft_romanized_bn_0223,prrithibir tapmatra niye webinar kal shondha 6 tay,bn,romanized,None,template
+mft_romanized_bn_0224,prrithibir tapmatra niye bhalo boi bolo,bn,romanized,None,template
+mft_romanized_bn_0225,kal moymnsinh te bristir alert ache,bn,romanized,None,template
+mft_romanized_bn_0226,"climate change sotti, shiligudi te nobhembor e 42 degree hoye gelo",bn,romanized,Favour,template
+mft_romanized_bn_0227,"jolbayu poriborton ekta bideshi agenda, bangladesh ke atkanor jonno",bn,romanized,Against,template
+mft_romanized_bn_0228,"global warming sob mithya bhai, kichu hobe na",bn,romanized,Against,template
+mft_romanized_bn_0229,"climate change sotti, kumilla te aktobr e 42 degree hoye gelo",bn,romanized,Favour,template
+mft_romanized_bn_0230,"ekhon na jagle bacchader ki hobe, jolbayu poriborton asol",bn,romanized,Favour,template
+mft_romanized_bn_0231,"climate change sotti, shiligudi te march e 42 degree hoye gelo",bn,romanized,Favour,template
+mft_romanized_bn_0232,"climate change sotti, yoshor te phebruyari e 42 degree hoye gelo",bn,romanized,Favour,template
+mft_romanized_bn_0233,"global warming sob skyam bhai, kichu hobe na",bn,romanized,Against,template
+mft_romanized_bn_0234,"je khora proti bochor hocche eta normal na, kichu korte hobe",bn,romanized,Favour,template
+mft_romanized_bn_0235,"je ghurnijhod proti bochor hocche eta normal na, kichu korte hobe",bn,romanized,Favour,template
+mft_romanized_bn_0236,"ekhon na jagle bacchader ki hobe, prrithibir tapmatra asol",bn,romanized,Favour,template
+mft_romanized_bn_0237,"ei bijnanira ra shudhu bhoy dekhay, taka chay era",bn,romanized,Against,template
+mft_romanized_bn_0238,"global warming sob natk bhai, kichu hobe na",bn,romanized,Against,template
+mft_romanized_bn_0239,"ei dhoni desh ra shudhu bhoy dekhay, taka chay era",bn,romanized,Against,template
+mft_codemixed_hi_0240,"Climate change real है, इंदौर में अक्टूबर में 44 degree 🔥",hi,codemixed,Favour,seed_filled
+mft_codemixed_hi_0241,"ये सब ड्रामा है bro, scientists को funding चाहिए",hi,codemixed,Against,seed_filled
+mft_codemixed_hi_0242,Weather update: चंडीगढ़ में कल rain होगी,hi,codemixed,None,seed_filled
+mft_codemixed_hi_0243,"Honestly सूखा हर साल बढ़ रही है, we need to act",hi,codemixed,Favour,seed_filled
+mft_codemixed_hi_0244,"Climate change is a western agenda, India को रोकने के लिए",hi,codemixed,Against,seed
+mft_codemixed_hi_0245,"जलवायु परिवर्तन पर seminar है Sunday को, link bio में",hi,codemixed,None,seed_filled
+mft_codemixed_hi_0246,Frankly मुझे नहीं लगता धरती का तापमान से कोई danger है,hi,codemixed,Against,seed_filled
+mft_codemixed_hi_0247,"Sab log please पेड़ लगाओ, earth बचानी है",hi,codemixed,Favour,seed
+mft_codemixed_hi_0248,"Video quality thodi low है, 1080p में upload करो",hi,codemixed,None,seed
+mft_codemixed_hi_0249,"वैज्ञानिक सही बोल रहे हैं, the data is clear, धरती गर्म हो रही है",hi,codemixed,Favour,seed_filled
+mft_codemixed_hi_0250,"LOL धरती का तापमान, meanwhile नागपुर में फरवरी में ठंड ❄️",hi,codemixed,Against,seed_filled
+mft_codemixed_hi_0251,Kya koi ग्लोबल वार्मिंग का meaning simple words में बता सकता है?,hi,codemixed,None,seed_filled
+mft_codemixed_hi_0252,"LOL क्लाइमेट चेंज, meanwhile इंदौर में अक्टूबर में ठंड ❄️",hi,codemixed,Against,template
+mft_codemixed_hi_0253,"LOL धरती का तापमान, meanwhile वाराणसी में फरवरी में ठंड ❄️",hi,codemixed,Against,template
+mft_codemixed_hi_0254,"LOL जलवायु परिवर्तन, meanwhile नागपुर में नवंबर में ठंड ❄️",hi,codemixed,Against,template
+mft_codemixed_hi_0255,"LOL क्लाइमेट चेंज, meanwhile वाराणसी में मार्च में ठंड ❄️",hi,codemixed,Against,template
+mft_codemixed_hi_0256,"Honestly बाढ़ हर साल बढ़ रही है, we need to act",hi,codemixed,Favour,template
+mft_codemixed_hi_0257,"ये सब ढकोसला है bro, scientists को funding चाहिए",hi,codemixed,Against,template
+mft_codemixed_hi_0258,Kya koi क्लाइमेट चेंज का meaning simple words में बता सकता है?,hi,codemixed,None,template
+mft_codemixed_hi_0259,Frankly मुझे नहीं लगता ग्लोबल वार्मिंग से कोई danger है,hi,codemixed,Against,template
+mft_codemixed_hi_0260,"ये सब प्रोपेगैंडा है bro, scientists को funding चाहिए",hi,codemixed,Against,template
+mft_codemixed_hi_0261,Weather update: दिल्ली में कल rain होगी,hi,codemixed,None,template
+mft_codemixed_hi_0262,"LOL धरती का तापमान, meanwhile वाराणसी में अक्टूबर में ठंड ❄️",hi,codemixed,Against,template
+mft_codemixed_hi_0263,Weather update: वाराणसी में कल rain होगी,hi,codemixed,None,template
+mft_codemixed_hi_0264,Frankly मुझे नहीं लगता जलवायु परिवर्तन से कोई danger है,hi,codemixed,Against,template
+mft_codemixed_hi_0265,Frankly मुझे नहीं लगता क्लाइमेट चेंज से कोई danger है,hi,codemixed,Against,template
+mft_codemixed_hi_0266,"क्लाइमेट चेंज पर seminar है Sunday को, link bio में",hi,codemixed,None,template
+mft_codemixed_hi_0267,"NGO सही बोल रहे हैं, the data is clear, धरती गर्म हो रही है",hi,codemixed,Favour,template
+mft_codemixed_hi_0268,"ये सब स्कैम है bro, scientists को funding चाहिए",hi,codemixed,Against,template
+mft_codemixed_hi_0269,"मीडिया सही बोल रहे हैं, the data is clear, धरती गर्म हो रही है",hi,codemixed,Favour,template
+mft_codemixed_bn_0270,"Climate change real, ঢাকা-তে অক্টোবর-এ 42 degree 🔥",bn,codemixed,Favour,seed_filled
+mft_codemixed_bn_0271,"এসব মিথ্যা bro, scientists-দের funding লাগে",bn,codemixed,Against,seed_filled
+mft_codemixed_bn_0272,Weather update: ঢাকা-তে কাল rain হবে,bn,codemixed,None,seed_filled
+mft_codemixed_bn_0273,"Honestly তাপপ্রবাহ প্রতি বছর বাড়ছে, we need to act",bn,codemixed,Favour,seed_filled
+mft_codemixed_bn_0274,"Climate change is a western agenda, বাংলাদেশকে আটকানোর জন্য",bn,codemixed,Against,seed
+mft_codemixed_bn_0275,"গ্লোবাল ওয়ার্মিং নিয়ে seminar আছে Sunday, link bio-তে",bn,codemixed,None,seed_filled
+mft_codemixed_bn_0276,Frankly আমার মনে হয় না গ্লোবাল ওয়ার্মিং-এ কোনো danger আছে,bn,codemixed,Against,seed_filled
+mft_codemixed_bn_0277,"Sobai please গাছ লাগাও, earth বাঁচাতে হবে",bn,codemixed,Favour,seed
+mft_codemixed_bn_0278,"Video quality একটু low, 1080p-তে upload করো",bn,codemixed,None,seed
+mft_codemixed_bn_0279,"মিডিয়া ঠিক বলছে, the data is clear, পৃথিবী গরম হচ্ছে",bn,codemixed,Favour,seed_filled
+mft_codemixed_bn_0280,"LOL পৃথিবীর তাপমাত্রা, meanwhile বগুড়া-তে অক্টোবর-এ ঠান্ডা ❄️",bn,codemixed,Against,seed_filled
+mft_codemixed_bn_0281,Keu ki গ্লোবাল ওয়ার্মিং-এর meaning simple words-এ বলতে পারবে?,bn,codemixed,None,seed_filled
+mft_codemixed_bn_0282,Frankly আমার মনে হয় না পৃথিবীর তাপমাত্রা-এ কোনো danger আছে,bn,codemixed,Against,template
+mft_codemixed_bn_0283,"Climate change real, শিলিগুড়ি-তে নভেম্বর-এ 42 degree 🔥",bn,codemixed,Favour,template
+mft_codemixed_bn_0284,"NGO ঠিক বলছে, the data is clear, পৃথিবী গরম হচ্ছে",bn,codemixed,Favour,template
+mft_codemixed_bn_0285,Weather update: শিলিগুড়ি-তে কাল rain হবে,bn,codemixed,None,template
+mft_codemixed_bn_0286,"পৃথিবীর তাপমাত্রা নিয়ে seminar আছে Sunday, link bio-তে",bn,codemixed,None,template
+mft_codemixed_bn_0287,"Climate change real, বগুড়া-তে মার্চ-এ 42 degree 🔥",bn,codemixed,Favour,template
+mft_codemixed_bn_0288,Weather update: যশোর-তে কাল rain হবে,bn,codemixed,None,template
+mft_codemixed_bn_0289,"ক্লাইমেট চেঞ্জ নিয়ে seminar আছে Sunday, link bio-তে",bn,codemixed,None,template
+mft_codemixed_bn_0290,"ধনী দেশ ঠিক বলছে, the data is clear, পৃথিবী গরম হচ্ছে",bn,codemixed,Favour,template
+mft_codemixed_bn_0291,"LOL পৃথিবীর তাপমাত্রা, meanwhile ঢাকা-তে মার্চ-এ ঠান্ডা ❄️",bn,codemixed,Against,template
+mft_codemixed_bn_0292,"Honestly শিলাবৃষ্টি প্রতি বছর বাড়ছে, we need to act",bn,codemixed,Favour,template
+mft_codemixed_bn_0293,"LOL গ্লোবাল ওয়ার্মিং, meanwhile যশোর-তে অক্টোবর-এ ঠান্ডা ❄️",bn,codemixed,Against,template
+mft_codemixed_bn_0294,"LOL পৃথিবীর তাপমাত্রা, meanwhile কুমিল্লা-তে মার্চ-এ ঠান্ডা ❄️",bn,codemixed,Against,template
+mft_codemixed_bn_0295,"Honestly বন্যা প্রতি বছর বাড়ছে, we need to act",bn,codemixed,Favour,template
+mft_codemixed_bn_0296,Weather update: ময়মনসিংহ-তে কাল rain হবে,bn,codemixed,None,template
+mft_codemixed_bn_0297,Keu ki জলবায়ু পরিবর্তন-এর meaning simple words-এ বলতে পারবে?,bn,codemixed,None,template
+mft_codemixed_bn_0298,Frankly আমার মনে হয় না ক্লাইমেট চেঞ্জ-এ কোনো danger আছে,bn,codemixed,Against,template
+mft_codemixed_bn_0299,Frankly আমার মনে হয় না জলবায়ু পরিবর্তন-এ কোনো danger আছে,bn,codemixed,Against,template
+mft_typos_hi_0300,"जलवायु परिवरतन सच्च है, वाराणसी मे अक्टूबर मे ही लू चल रहि है",hi,typos,Favour,seed_filled
+mft_typos_hi_0301,"ग्लोबल वारमिंग सब झुठ है, विदेशी ताकतें का धंदा",hi,typos,Against,seed_filled
+mft_typos_hi_0302,कल नागपुर मे बारिष होगि,hi,typos,None,seed_filled
+mft_typos_hi_0303,"globl warmng sach h bhai, garmi bhot badh gyi",hi,typos,Favour,seed
+mft_typos_hi_0304,"climat chng sb jhoot h, kch nhi hoga",hi,typos,Against,seed
+mft_typos_hi_0305,"vdo acha h bhai, next vdo kb aayega",hi,typos,None,seed
+mft_typos_hi_0306,"धरती गरम हो रहि है, कुछ करो यार",hi,typos,Favour,seed
+mft_typos_hi_0307,"ये सब ढकोसला है, अमीर देश बेवकुफ बना रहे है",hi,typos,Against,seed_filled
+mft_typos_hi_0308,ग्लोबल वार्मिंग पर निबन्ध चाहिये स्कुल के लिये,hi,typos,None,seed_filled
+mft_typos_hi_0309,"हर साल बाढ़ बढ रही है, ये नारमल नही है",hi,typos,Favour,seed_filled
+mft_typos_hi_0310,कल कानपुर मे बारिष होगि,hi,typos,None,template
+mft_typos_hi_0311,"ये सब अफवाह है, अमीर देश बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_hi_0312,"ये सब अफवाह है, मीडिया बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_hi_0313,"जलवायु परिवरतन सच्च है, कानपुर मे फरवरी मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0314,"ये सब प्रोपेगैंडा है, NGO बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_hi_0315,धरती का तापमान पर निबन्ध चाहिये स्कुल के लिये,hi,typos,None,template
+mft_typos_hi_0316,"जलवायु परिवरतन सच्च है, दिल्ली मे नवंबर मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0317,"ये सब ढकोसला है, वैज्ञानिक बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_hi_0318,"ग्लोबल वारमिंग सब झुठ है, नेता का धंदा",hi,typos,Against,template
+mft_typos_hi_0319,"हर साल चक्रवात बढ रही है, ये नारमल नही है",hi,typos,Favour,template
+mft_typos_hi_0320,"जलवायु परिवरतन सच्च है, चंडीगढ़ मे फरवरी मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0321,"जलवायु परिवरतन सच्च है, कानपुर मे मार्च मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0322,जलवायु परिवर्तन पर निबन्ध चाहिये स्कुल के लिये,hi,typos,None,template
+mft_typos_hi_0323,"हर साल लू बढ रही है, ये नारमल नही है",hi,typos,Favour,template
+mft_typos_hi_0324,"ग्लोबल वारमिंग सब झुठ है, अमीर देश का धंदा",hi,typos,Against,template
+mft_typos_hi_0325,कल चंडीगढ़ मे बारिष होगि,hi,typos,None,template
+mft_typos_hi_0326,"जलवायु परिवरतन सच्च है, दिल्ली मे अक्टूबर मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0327,"ये सब स्कैम है, नेता बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_hi_0328,"जलवायु परिवरतन सच्च है, चंडीगढ़ मे अक्टूबर मे ही लू चल रहि है",hi,typos,Favour,template
+mft_typos_hi_0329,"ये सब स्कैम है, मीडिया बेवकुफ बना रहे है",hi,typos,Against,template
+mft_typos_bn_0330,"জলবায়ু পরিবরতন সত্তি, শিলিগুড়ি তে মার্চ এই লু বইছে",bn,typos,Favour,seed_filled
+mft_typos_bn_0331,"গ্লোবাল ওয়ারমিং সব মিথা, NGO র ব্যাবসা",bn,typos,Against,seed_filled
+mft_typos_bn_0332,কাল বগুড়া তে বৃস্টি হবে,bn,typos,None,seed_filled
+mft_typos_bn_0333,"globl warmng sotti bhai, gorom onek bere geche",bn,typos,Favour,seed
+mft_typos_bn_0334,"climat chng sb mitha, kichu hbe na",bn,typos,Against,seed
+mft_typos_bn_0335,"vdo valo bhai, next vdo kbe asbe",bn,typos,None,seed
+mft_typos_bn_0336,"প্রিথিবি গরম হচ্চে, কিছু করো ভাই",bn,typos,Favour,seed
+mft_typos_bn_0337,"এসব ভাঁওতা, বিদেশি শক্তি বোকা বানাচ্চে",bn,typos,Against,seed_filled
+mft_typos_bn_0338,গ্লোবাল ওয়ার্মিং নিয়ে রচনা লাগবে স্কুলের জন্নো,bn,typos,None,seed_filled
+mft_typos_bn_0339,"প্রতি বছর বন্যা বারছে, এটা নরমাল না",bn,typos,Favour,seed_filled
+mft_typos_bn_0340,"এসব প্রোপাগান্ডা, ধনী দেশ বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0341,কাল ঢাকা তে বৃস্টি হবে,bn,typos,None,template
+mft_typos_bn_0342,"জলবায়ু পরিবরতন সত্তি, কুমিল্লা তে নভেম্বর এই লু বইছে",bn,typos,Favour,template
+mft_typos_bn_0343,"প্রতি বছর ঘূর্ণিঝড় বারছে, এটা নরমাল না",bn,typos,Favour,template
+mft_typos_bn_0344,"জলবায়ু পরিবরতন সত্তি, ময়মনসিংহ তে মার্চ এই লু বইছে",bn,typos,Favour,template
+mft_typos_bn_0345,কাল কুমিল্লা তে বৃস্টি হবে,bn,typos,None,template
+mft_typos_bn_0346,"এসব মিথ্যা, ধনী দেশ বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0347,কাল শিলিগুড়ি তে বৃস্টি হবে,bn,typos,None,template
+mft_typos_bn_0348,"এসব স্ক্যাম, ধনী দেশ বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0349,"এসব ভাঁওতা, বিজ্ঞানীরা বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0350,জলবায়ু পরিবর্তন নিয়ে রচনা লাগবে স্কুলের জন্নো,bn,typos,None,template
+mft_typos_bn_0351,"গ্লোবাল ওয়ারমিং সব মিথা, মিডিয়া র ব্যাবসা",bn,typos,Against,template
+mft_typos_bn_0352,"গ্লোবাল ওয়ারমিং সব মিথা, নেতারা র ব্যাবসা",bn,typos,Against,template
+mft_typos_bn_0353,"এসব ভাঁওতা, মিডিয়া বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0354,পৃথিবীর তাপমাত্রা নিয়ে রচনা লাগবে স্কুলের জন্নো,bn,typos,None,template
+mft_typos_bn_0355,"এসব প্রোপাগান্ডা, বিজ্ঞানীরা বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0356,"এসব মিথ্যা, নেতারা বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0357,"জলবায়ু পরিবরতন সত্তি, বগুড়া তে মার্চ এই লু বইছে",bn,typos,Favour,template
+mft_typos_bn_0358,"এসব প্রোপাগান্ডা, মিডিয়া বোকা বানাচ্চে",bn,typos,Against,template
+mft_typos_bn_0359,"জলবায়ু পরিবরতন সত্তি, কুমিল্লা তে অক্টোবর এই লু বইছে",bn,typos,Favour,template
+mft_emoji_hi_0360,ग्लोबल वार्मिंग 😰🌡️🔥 कुछ करो 🙏,hi,emoji,Favour,seed_filled
+mft_emoji_hi_0361,ग्लोबल वार्मिंग 🤣🤣 सबसे बड़ा प्रोपेगैंडा 🤡,hi,emoji,Against,seed_filled
+mft_emoji_hi_0362,धरती का तापमान पर नया वीडियो 📺 कल 📅,hi,emoji,None,seed_filled
+mft_emoji_hi_0363,"🌍💔 हर साल बाढ़, कब जागेंगे 😢",hi,emoji,Favour,seed_filled
+mft_emoji_hi_0364,🙄 फिर वही क्लाइमेट चेंज का रोना 😴,hi,emoji,Against,seed_filled
+mft_emoji_hi_0365,🎬👍,hi,emoji,None,seed
+mft_emoji_hi_0366,"🌳🌳🌳 पेड़ लगाओ, धरती बचाओ 🌍",hi,emoji,Favour,seed
+mft_emoji_hi_0367,💸💸 धरती का तापमान = मीडिया का पैसा 💸,hi,emoji,Against,seed_filled
+mft_emoji_hi_0368,☀️🌧️ आज नागपुर का मौसम,hi,emoji,None,seed_filled
+mft_emoji_hi_0369,😡 NGO कुछ नहीं कर रहे और सूखा बढ़ती जा रही है 🌊,hi,emoji,Favour,seed_filled
+mft_emoji_hi_0370,जलवायु परिवर्तन 🤣🤣 सबसे बड़ा झूठ 🤡,hi,emoji,Against,template
+mft_emoji_hi_0371,🙄 फिर वही जलवायु परिवर्तन का रोना 😴,hi,emoji,Against,template
+mft_emoji_hi_0372,💸💸 धरती का तापमान = वैज्ञानिक का पैसा 💸,hi,emoji,Against,template
+mft_emoji_hi_0373,"🌍💔 हर साल चक्रवात, कब जागेंगे 😢",hi,emoji,Favour,template
+mft_emoji_hi_0374,💸💸 क्लाइमेट चेंज = NGO का पैसा 💸,hi,emoji,Against,template
+mft_emoji_hi_0375,जलवायु परिवर्तन 🤣🤣 सबसे बड़ा प्रोपेगैंडा 🤡,hi,emoji,Against,template
+mft_emoji_hi_0376,😡 नेता कुछ नहीं कर रहे और लू बढ़ती जा रही है 🌊,hi,emoji,Favour,template
+mft_emoji_hi_0377,☀️🌧️ आज कानपुर का मौसम,hi,emoji,None,template
+mft_emoji_hi_0378,☀️🌧️ आज दिल्ली का मौसम,hi,emoji,None,template
+mft_emoji_hi_0379,😡 वैज्ञानिक कुछ नहीं कर रहे और बाढ़ बढ़ती जा रही है 🌊,hi,emoji,Favour,template
+mft_emoji_hi_0380,🙄 फिर वही ग्लोबल वार्मिंग का रोना 😴,hi,emoji,Against,template
+mft_emoji_hi_0381,क्लाइमेट चेंज 🤣🤣 सबसे बड़ा स्कैम 🤡,hi,emoji,Against,template
+mft_emoji_hi_0382,क्लाइमेट चेंज 😰🌡️🔥 कुछ करो 🙏,hi,emoji,Favour,template
+mft_emoji_hi_0383,💸💸 क्लाइमेट चेंज = मीडिया का पैसा 💸,hi,emoji,Against,template
+mft_emoji_hi_0384,जलवायु परिवर्तन 😰🌡️🔥 कुछ करो 🙏,hi,emoji,Favour,template
+mft_emoji_hi_0385,धरती का तापमान 🤣🤣 सबसे बड़ा प्रोपेगैंडा 🤡,hi,emoji,Against,template
+mft_emoji_hi_0386,😡 NGO कुछ नहीं कर रहे और लू बढ़ती जा रही है 🌊,hi,emoji,Favour,template
+mft_emoji_hi_0387,☀️🌧️ आज वाराणसी का मौसम,hi,emoji,None,template
+mft_emoji_hi_0388,जलवायु परिवर्तन पर नया वीडियो 📺 कल 📅,hi,emoji,None,template
+mft_emoji_hi_0389,"🌍💔 हर साल लू, कब जागेंगे 😢",hi,emoji,Favour,template
+mft_emoji_bn_0390,ক্লাইমেট চেঞ্জ 😰🌡️🔥 কিছু করো 🙏,bn,emoji,Favour,seed_filled
+mft_emoji_bn_0391,পৃথিবীর তাপমাত্রা 🤣🤣 সবচেয়ে বড় স্ক্যাম 🤡,bn,emoji,Against,seed_filled
+mft_emoji_bn_0392,জলবায়ু পরিবর্তন নিয়ে নতুন ভিডিও 📺 কাল 📅,bn,emoji,None,seed_filled
+mft_emoji_bn_0393,"🌍💔 প্রতি বছর শিলাবৃষ্টি, কবে জাগব 😢",bn,emoji,Favour,seed_filled
+mft_emoji_bn_0394,🙄 আবার সেই গ্লোবাল ওয়ার্মিং-র কান্না 😴,bn,emoji,Against,seed_filled
+mft_emoji_bn_0395,🎬👍,bn,emoji,None,seed
+mft_emoji_bn_0396,"🌳🌳🌳 গাছ লাগাও, পৃথিবী বাঁচাও 🌍",bn,emoji,Favour,seed
+mft_emoji_bn_0397,💸💸 পৃথিবীর তাপমাত্রা = নেতারা-র টাকা 💸,bn,emoji,Against,seed_filled
+mft_emoji_bn_0398,☀️🌧️ আজ কুমিল্লা-র আবহাওয়া,bn,emoji,None,seed_filled
+mft_emoji_bn_0399,😡 NGO কিছুই করছে না আর বন্যা বেড়েই চলেছে 🌊,bn,emoji,Favour,seed_filled
+mft_emoji_bn_0400,পৃথিবীর তাপমাত্রা 😰🌡️🔥 কিছু করো 🙏,bn,emoji,Favour,template
+mft_emoji_bn_0401,💸💸 গ্লোবাল ওয়ার্মিং = NGO-র টাকা 💸,bn,emoji,Against,template
+mft_emoji_bn_0402,জলবায়ু পরিবর্তন 🤣🤣 সবচেয়ে বড় স্ক্যাম 🤡,bn,emoji,Against,template
+mft_emoji_bn_0403,গ্লোবাল ওয়ার্মিং 🤣🤣 সবচেয়ে বড় মিথ্যা 🤡,bn,emoji,Against,template
+mft_emoji_bn_0404,☀️🌧️ আজ যশোর-র আবহাওয়া,bn,emoji,None,template
+mft_emoji_bn_0405,😡 নেতারা কিছুই করছে না আর খরা বেড়েই চলেছে 🌊,bn,emoji,Favour,template
+mft_emoji_bn_0406,পৃথিবীর তাপমাত্রা নিয়ে নতুন ভিডিও 📺 কাল 📅,bn,emoji,None,template
+mft_emoji_bn_0407,😡 বিদেশি শক্তি কিছুই করছে না আর খরা বেড়েই চলেছে 🌊,bn,emoji,Favour,template
+mft_emoji_bn_0408,ক্লাইমেট চেঞ্জ 🤣🤣 সবচেয়ে বড় স্ক্যাম 🤡,bn,emoji,Against,template
+mft_emoji_bn_0409,🙄 আবার সেই ক্লাইমেট চেঞ্জ-র কান্না 😴,bn,emoji,Against,template
+mft_emoji_bn_0410,💸💸 ক্লাইমেট চেঞ্জ = ধনী দেশ-র টাকা 💸,bn,emoji,Against,template
+mft_emoji_bn_0411,"🌍💔 প্রতি বছর খরা, কবে জাগব 😢",bn,emoji,Favour,template
+mft_emoji_bn_0412,ক্লাইমেট চেঞ্জ নিয়ে নতুন ভিডিও 📺 কাল 📅,bn,emoji,None,template
+mft_emoji_bn_0413,"🌍💔 প্রতি বছর তাপপ্রবাহ, কবে জাগব 😢",bn,emoji,Favour,template
+mft_emoji_bn_0414,"🌍💔 প্রতি বছর বন্যা, কবে জাগব 😢",bn,emoji,Favour,template
+mft_emoji_bn_0415,😡 বিজ্ঞানীরা কিছুই করছে না আর বন্যা বেড়েই চলেছে 🌊,bn,emoji,Favour,template
+mft_emoji_bn_0416,"🌍💔 প্রতি বছর ঘূর্ণিঝড়, কবে জাগব 😢",bn,emoji,Favour,template
+mft_emoji_bn_0417,💸💸 জলবায়ু পরিবর্তন = মিডিয়া-র টাকা 💸,bn,emoji,Against,template
+mft_emoji_bn_0418,গ্লোবাল ওয়ার্মিং 😰🌡️🔥 কিছু করো 🙏,bn,emoji,Favour,template
+mft_emoji_bn_0419,🙄 আবার সেই জলবায়ু পরিবর্তন-র কান্না 😴,bn,emoji,Against,template
+mft_short_hi_0420,सच है।,hi,short,Favour,seed
+mft_short_hi_0421,झूठ।,hi,short,Against,seed_filled
+mft_short_hi_0422,कब?,hi,short,None,seed
+mft_short_hi_0423,बचाओ धरती,hi,short,Favour,seed
+mft_short_hi_0424,कोई खतरा नहीं,hi,short,Against,seed
+mft_short_hi_0425,लिंक?,hi,short,None,seed
+mft_short_hi_0426,क्लाइमेट चेंज असली,hi,short,Favour,seed_filled
+mft_short_hi_0427,ग्लोबल वार्मिंग झूठ,hi,short,Against,seed_filled
+mft_short_hi_0428,पहला,hi,short,None,seed
+mft_short_hi_0429,जागो लोगों,hi,short,Favour,seed
+mft_short_hi_0430,सब ड्रामा,hi,short,Against,seed
+mft_short_hi_0431,ओके,hi,short,None,seed
+mft_short_hi_0432,खतरा बड़ा है,hi,short,Favour,seed
+mft_short_hi_0433,डराना बंद,hi,short,Against,seed
+mft_short_hi_0434,कल बारिश,hi,short,None,seed
+mft_short_hi_0435,स्कैम।,hi,short,Against,template
+mft_short_hi_0436,ड्रामा।,hi,short,Against,template
+mft_short_hi_0437,धरती का तापमान असली,hi,short,Favour,template
+mft_short_hi_0438,क्लाइमेट चेंज ढकोसला,hi,short,Against,template
+mft_short_hi_0439,क्लाइमेट चेंज झूठ,hi,short,Against,template
+mft_short_hi_0440,अफवाह।,hi,short,Against,template
+mft_short_hi_0441,ग्लोबल वार्मिंग प्रोपेगैंडा,hi,short,Against,template
+mft_short_hi_0442,जलवायु परिवर्तन प्रोपेगैंडा,hi,short,Against,template
+mft_short_hi_0443,क्लाइमेट चेंज अफवाह,hi,short,Against,template
+mft_short_hi_0444,जलवायु परिवर्तन असली,hi,short,Favour,template
+mft_short_hi_0445,ग्लोबल वार्मिंग अफवाह,hi,short,Against,template
+mft_short_hi_0446,धरती का तापमान ढकोसला,hi,short,Against,template
+mft_short_hi_0447,ग्लोबल वार्मिंग असली,hi,short,Favour,template
+mft_short_hi_0448,प्रोपेगैंडा।,hi,short,Against,template
+mft_short_hi_0449,क्लाइमेट चेंज प्रोपेगैंडा,hi,short,Against,template
+mft_short_bn_0450,সত্যি।,bn,short,Favour,seed
+mft_short_bn_0451,নাটক।,bn,short,Against,seed_filled
+mft_short_bn_0452,কবে?,bn,short,None,seed
+mft_short_bn_0453,পৃথিবী বাঁচাও,bn,short,Favour,seed
+mft_short_bn_0454,কোনো বিপদ নেই,bn,short,Against,seed
+mft_short_bn_0455,লিংক?,bn,short,None,seed
+mft_short_bn_0456,গ্লোবাল ওয়ার্মিং আসল,bn,short,Favour,seed_filled
+mft_short_bn_0457,গ্লোবাল ওয়ার্মিং স্ক্যাম,bn,short,Against,seed_filled
+mft_short_bn_0458,প্রথম,bn,short,None,seed
+mft_short_bn_0459,জাগো সবাই,bn,short,Favour,seed
+mft_short_bn_0460,সব নাটক,bn,short,Against,seed
+mft_short_bn_0461,ওকে,bn,short,None,seed
+mft_short_bn_0462,বিপদ বড়,bn,short,Favour,seed
+mft_short_bn_0463,ভয় দেখানো বন্ধ,bn,short,Against,seed
+mft_short_bn_0464,কাল বৃষ্টি,bn,short,None,seed
+mft_short_bn_0465,গ্লোবাল ওয়ার্মিং মিথ্যা,bn,short,Against,template
+mft_short_bn_0466,গুজব।,bn,short,Against,template
+mft_short_bn_0467,জলবায়ু পরিবর্তন আসল,bn,short,Favour,template
+mft_short_bn_0468,পৃথিবীর তাপমাত্রা মিথ্যা,bn,short,Against,template
+mft_short_bn_0469,গ্লোবাল ওয়ার্মিং প্রোপাগান্ডা,bn,short,Against,template
+mft_short_bn_0470,ক্লাইমেট চেঞ্জ আসল,bn,short,Favour,template
+mft_short_bn_0471,ভাঁওতা।,bn,short,Against,template
+mft_short_bn_0472,প্রোপাগান্ডা।,bn,short,Against,template
+mft_short_bn_0473,মিথ্যা।,bn,short,Against,template
+mft_short_bn_0474,জলবায়ু পরিবর্তন প্রোপাগান্ডা,bn,short,Against,template
+mft_short_bn_0475,পৃথিবীর তাপমাত্রা আসল,bn,short,Favour,template
+mft_short_bn_0476,ক্লাইমেট চেঞ্জ প্রোপাগান্ডা,bn,short,Against,template
+mft_short_bn_0477,গ্লোবাল ওয়ার্মিং গুজব,bn,short,Against,template
+mft_short_bn_0478,পৃথিবীর তাপমাত্রা ভাঁওতা,bn,short,Against,template
+mft_short_bn_0479,স্ক্যাম।,bn,short,Against,template
+mft_long_hi_0480,"मैं वाराणसी में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि अक्टूबर का मौसम कैसे बदल गया है। जो बाढ़ पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि धरती का तापमान सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,seed_filled
+mft_long_hi_0481,"देखिए, मैं कोई विदेशी ताकतें नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर ओलावृष्टि को जलवायु परिवर्तन से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस झूठ को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,seed_filled
+mft_long_hi_0482,"इस वीडियो में ग्लोबल वार्मिंग के इतिहास, वैज्ञानिक की रिपोर्टों, और इंदौर जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा लू के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,seed_filled
+mft_long_hi_0483,"पहले मैं भी जलवायु परिवर्तन को झूठ मानता था, और विदेशी ताकतें की बातों पर हंसता था। फिर तीन साल तक लगातार वाराणसी में सूखा देखी, फरवरी में ऐसी गर्मी झेली जो मेरे बचपन में कभी नहीं थी, और अपने घर के बुज़ुर्गों से सुना कि उन्होंने भी ऐसा कभी नहीं देखा। अब मैं मानता हूं कि समस्या असली है, और जो लोग अब भी हंस रहे हैं वो कुछ सालों में समझ जाएंगे।",hi,long,Favour,seed_filled
+mft_long_hi_0484,"मुझे समझ नहीं आता कि इतना शोर क्यों है। दिल्ली में इस साल फरवरी में ठीक-ठाक ठंड पड़ी, बारिश भी समय पर हुई, और सूखा की जो खबरें आती हैं वो हर दशक में आती रही हैं। मेरे हिसाब से नेता को अपना एजेंडा चलाना है और मीडिया को व्यूज़ चाहिए, इसलिए हर छोटी चीज़ को धरती का तापमान बना दिया जाता है। मैं इस डर के माहौल का हिस्सा नहीं बनना चाहता।",hi,long,Against,seed_filled
+mft_long_hi_0485,"इस वीडियो में ग्लोबल वार्मिंग के इतिहास, अमीर देश की रिपोर्टों, और इंदौर जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा सूखा के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0486,"मैं नागपुर में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि अक्टूबर का मौसम कैसे बदल गया है। जो सूखा पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि क्लाइमेट चेंज सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0487,"मुझे समझ नहीं आता कि इतना शोर क्यों है। नागपुर में इस साल नवंबर में ठीक-ठाक ठंड पड़ी, बारिश भी समय पर हुई, और सूखा की जो खबरें आती हैं वो हर दशक में आती रही हैं। मेरे हिसाब से मीडिया को अपना एजेंडा चलाना है और मीडिया को व्यूज़ चाहिए, इसलिए हर छोटी चीज़ को धरती का तापमान बना दिया जाता है। मैं इस डर के माहौल का हिस्सा नहीं बनना चाहता।",hi,long,Against,template
+mft_long_hi_0488,"देखिए, मैं कोई विदेशी ताकतें नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर लू को ग्लोबल वार्मिंग से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस स्कैम को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0489,"इस वीडियो में जलवायु परिवर्तन के इतिहास, नेता की रिपोर्टों, और कानपुर जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा चक्रवात के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0490,"देखिए, मैं कोई अमीर देश नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर लू को क्लाइमेट चेंज से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस अफवाह को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0491,"देखिए, मैं कोई मीडिया नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर बाढ़ को जलवायु परिवर्तन से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस प्रोपेगैंडा को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0492,"इस वीडियो में धरती का तापमान के इतिहास, विदेशी ताकतें की रिपोर्टों, और चंडीगढ़ जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा ओलावृष्टि के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0493,"मैं नागपुर में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि नवंबर का मौसम कैसे बदल गया है। जो लू पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि क्लाइमेट चेंज सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0494,"पहले मैं भी क्लाइमेट चेंज को ड्रामा मानता था, और नेता की बातों पर हंसता था। फिर तीन साल तक लगातार नागपुर में लू देखी, फरवरी में ऐसी गर्मी झेली जो मेरे बचपन में कभी नहीं थी, और अपने घर के बुज़ुर्गों से सुना कि उन्होंने भी ऐसा कभी नहीं देखा। अब मैं मानता हूं कि समस्या असली है, और जो लोग अब भी हंस रहे हैं वो कुछ सालों में समझ जाएंगे।",hi,long,Favour,template
+mft_long_hi_0495,"पहले मैं भी ग्लोबल वार्मिंग को ढकोसला मानता था, और विदेशी ताकतें की बातों पर हंसता था। फिर तीन साल तक लगातार इंदौर में बाढ़ देखी, अक्टूबर में ऐसी गर्मी झेली जो मेरे बचपन में कभी नहीं थी, और अपने घर के बुज़ुर्गों से सुना कि उन्होंने भी ऐसा कभी नहीं देखा। अब मैं मानता हूं कि समस्या असली है, और जो लोग अब भी हंस रहे हैं वो कुछ सालों में समझ जाएंगे।",hi,long,Favour,template
+mft_long_hi_0496,"मुझे समझ नहीं आता कि इतना शोर क्यों है। नागपुर में इस साल अक्टूबर में ठीक-ठाक ठंड पड़ी, बारिश भी समय पर हुई, और ओलावृष्टि की जो खबरें आती हैं वो हर दशक में आती रही हैं। मेरे हिसाब से अमीर देश को अपना एजेंडा चलाना है और मीडिया को व्यूज़ चाहिए, इसलिए हर छोटी चीज़ को क्लाइमेट चेंज बना दिया जाता है। मैं इस डर के माहौल का हिस्सा नहीं बनना चाहता।",hi,long,Against,template
+mft_long_hi_0497,"मैं इंदौर में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि फरवरी का मौसम कैसे बदल गया है। जो सूखा पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि ग्लोबल वार्मिंग सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0498,"इस वीडियो में धरती का तापमान के इतिहास, NGO की रिपोर्टों, और चंडीगढ़ जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा लू के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0499,"मैं कानपुर में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि नवंबर का मौसम कैसे बदल गया है। जो सूखा पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि जलवायु परिवर्तन सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0500,"मैं दिल्ली में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि फरवरी का मौसम कैसे बदल गया है। जो ओलावृष्टि पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि क्लाइमेट चेंज सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0501,"इस वीडियो में जलवायु परिवर्तन के इतिहास, विदेशी ताकतें की रिपोर्टों, और नागपुर जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा ओलावृष्टि के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0502,"देखिए, मैं कोई NGO नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर ओलावृष्टि को क्लाइमेट चेंज से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस ड्रामा को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0503,"देखिए, मैं कोई नेता नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर लू को धरती का तापमान से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस ढकोसला को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0504,"देखिए, मैं कोई वैज्ञानिक नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर सूखा को ग्लोबल वार्मिंग से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस अफवाह को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0505,"मैं दिल्ली में पैदा हुआ, वहीं बड़ा हुआ, और मैंने अपनी आंखों से देखा है कि मार्च का मौसम कैसे बदल गया है। जो लू पहले कभी-कभार आती थी, अब हर साल आती है, और हर बार पिछली से ज्यादा नुकसान करती है। लोग कहते हैं कि धरती का तापमान सिर्फ किताबों की बात है, पर मेरे खेत, मेरे कुएं और मेरे बच्चों की खांसी कुछ और कहती है। हमें अभी कदम उठाने होंगे, वरना देर हो जाएगी।",hi,long,Favour,template
+mft_long_hi_0506,"इस वीडियो में जलवायु परिवर्तन के इतिहास, वैज्ञानिक की रिपोर्टों, और इंदौर जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा ओलावृष्टि के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0507,"इस वीडियो में धरती का तापमान के इतिहास, विदेशी ताकतें की रिपोर्टों, और चंडीगढ़ जैसे शहरों के तापमान के आंकड़ों को समझाया गया है। बीच में एक हिस्सा चक्रवात के प्रबंधन पर है और अंत में कुछ किताबों के नाम दिए गए हैं। वीडियो लगभग पच्चीस मिनट का है, आवाज़ साफ है और हिंदी में सबटाइटल भी हैं, इसलिए स्कूल और कॉलेज के छात्रों के लिए यह एक अच्छा संदर्भ बन सकता है।",hi,long,None,template
+mft_long_hi_0508,"देखिए, मैं कोई नेता नहीं हूं, पर इतिहास पढ़ा है। मध्यकाल में भी गर्मी थी, छोटा हिमयुग भी आया, और तब कोई फैक्ट्री नहीं थी। ये जो हर बाढ़ को जलवायु परिवर्तन से जोड़ने का फैशन है, ये विज्ञान नहीं बल्कि एक उद्योग है जिसमें अरबों का कारोबार है। मैं अपने टैक्स के पैसे से इस झूठ को फंड नहीं करना चाहता, और मुझे नहीं लगता कि आने वाले सौ साल में कुछ खास बदलने वाला है।",hi,long,Against,template
+mft_long_hi_0509,"मुझे समझ नहीं आता कि इतना शोर क्यों है। दिल्ली में इस साल नवंबर में ठीक-ठाक ठंड पड़ी, बारिश भी समय पर हुई, और सूखा की जो खबरें आती हैं वो हर दशक में आती रही हैं। मेरे हिसाब से नेता को अपना एजेंडा चलाना है और मीडिया को व्यूज़ चाहिए, इसलिए हर छोटी चीज़ को ग्लोबल वार्मिंग बना दिया जाता है। मैं इस डर के माहौल का हिस्सा नहीं बनना चाहता।",hi,long,Against,template
+mft_long_bn_0510,"আমি ঢাকা-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি ফেব্রুয়ারি মাসের আবহাওয়া কীভাবে বদলে গেছে। যে বন্যা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে গ্লোবাল ওয়ার্মিং শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,seed_filled
+mft_long_bn_0511,"দেখুন, আমি কোনো নেতারা না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা ঘূর্ণিঝড়-কে গ্লোবাল ওয়ার্মিং-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই নাটক ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,seed_filled
+mft_long_bn_0512,"এই ভিডিওতে পৃথিবীর তাপমাত্রা-এর ইতিহাস, বিদেশি শক্তি-র রিপোর্ট আর কুমিল্লা-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ শিলাবৃষ্টি ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,seed_filled
+mft_long_bn_0513,"আগে আমিও ক্লাইমেট চেঞ্জ-কে মিথ্যা ভাবতাম, মিডিয়া-র কথায় হাসতাম। তারপর তিন বছর টানা শিলিগুড়ি-তে বন্যা দেখলাম, নভেম্বর মাসে এমন গরম সহ্য করলাম যা আমার ছোটবেলায় কখনো ছিল না, আর বাড়ির মুরুব্বিদের কাছে শুনলাম তারাও এমন কখনো দেখেননি। এখন আমি মানি সমস্যাটা আসল, আর যারা এখনো হাসছে তারা কয়েক বছরে বুঝবে।",bn,long,Favour,seed_filled
+mft_long_bn_0514,"আমি বুঝি না এত হইচই কেন। শিলিগুড়ি-তে এ বছর ফেব্রুয়ারি মাসে ভালোই ঠান্ডা পড়েছে, বৃষ্টিও সময়মতো হয়েছে, আর ঘূর্ণিঝড়-র যে খবর আসে সেটা প্রতি দশকেই আসত। আমার মতে NGO-কে নিজের এজেন্ডা চালাতে হয় আর মিডিয়ার ভিউ লাগে, তাই প্রতিটা ছোট জিনিসকে পৃথিবীর তাপমাত্রা বানিয়ে দেওয়া হয়। আমি এই ভয়ের পরিবেশের অংশ হতে চাই না।",bn,long,Against,seed_filled
+mft_long_bn_0515,"আমি শিলিগুড়ি-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি নভেম্বর মাসের আবহাওয়া কীভাবে বদলে গেছে। যে খরা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে গ্লোবাল ওয়ার্মিং শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0516,"আমি ময়মনসিংহ-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি মার্চ মাসের আবহাওয়া কীভাবে বদলে গেছে। যে বন্যা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে জলবায়ু পরিবর্তন শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0517,"এই ভিডিওতে ক্লাইমেট চেঞ্জ-এর ইতিহাস, ধনী দেশ-র রিপোর্ট আর ঢাকা-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ তাপপ্রবাহ ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0518,"আমি বুঝি না এত হইচই কেন। শিলিগুড়ি-তে এ বছর নভেম্বর মাসে ভালোই ঠান্ডা পড়েছে, বৃষ্টিও সময়মতো হয়েছে, আর শিলাবৃষ্টি-র যে খবর আসে সেটা প্রতি দশকেই আসত। আমার মতে মিডিয়া-কে নিজের এজেন্ডা চালাতে হয় আর মিডিয়ার ভিউ লাগে, তাই প্রতিটা ছোট জিনিসকে ক্লাইমেট চেঞ্জ বানিয়ে দেওয়া হয়। আমি এই ভয়ের পরিবেশের অংশ হতে চাই না।",bn,long,Against,template
+mft_long_bn_0519,"দেখুন, আমি কোনো বিজ্ঞানীরা না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা শিলাবৃষ্টি-কে জলবায়ু পরিবর্তন-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই ভাঁওতা ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,template
+mft_long_bn_0520,"এই ভিডিওতে গ্লোবাল ওয়ার্মিং-এর ইতিহাস, ধনী দেশ-র রিপোর্ট আর কুমিল্লা-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ খরা ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0521,"এই ভিডিওতে গ্লোবাল ওয়ার্মিং-এর ইতিহাস, NGO-র রিপোর্ট আর ময়মনসিংহ-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ শিলাবৃষ্টি ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0522,"দেখুন, আমি কোনো NGO না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা শিলাবৃষ্টি-কে পৃথিবীর তাপমাত্রা-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই গুজব ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,template
+mft_long_bn_0523,"আমি বুঝি না এত হইচই কেন। শিলিগুড়ি-তে এ বছর ফেব্রুয়ারি মাসে ভালোই ঠান্ডা পড়েছে, বৃষ্টিও সময়মতো হয়েছে, আর বন্যা-র যে খবর আসে সেটা প্রতি দশকেই আসত। আমার মতে NGO-কে নিজের এজেন্ডা চালাতে হয় আর মিডিয়ার ভিউ লাগে, তাই প্রতিটা ছোট জিনিসকে গ্লোবাল ওয়ার্মিং বানিয়ে দেওয়া হয়। আমি এই ভয়ের পরিবেশের অংশ হতে চাই না।",bn,long,Against,template
+mft_long_bn_0524,"আমি বুঝি না এত হইচই কেন। ময়মনসিংহ-তে এ বছর মার্চ মাসে ভালোই ঠান্ডা পড়েছে, বৃষ্টিও সময়মতো হয়েছে, আর ঘূর্ণিঝড়-র যে খবর আসে সেটা প্রতি দশকেই আসত। আমার মতে বিদেশি শক্তি-কে নিজের এজেন্ডা চালাতে হয় আর মিডিয়ার ভিউ লাগে, তাই প্রতিটা ছোট জিনিসকে জলবায়ু পরিবর্তন বানিয়ে দেওয়া হয়। আমি এই ভয়ের পরিবেশের অংশ হতে চাই না।",bn,long,Against,template
+mft_long_bn_0525,"আমি বুঝি না এত হইচই কেন। কুমিল্লা-তে এ বছর মার্চ মাসে ভালোই ঠান্ডা পড়েছে, বৃষ্টিও সময়মতো হয়েছে, আর বন্যা-র যে খবর আসে সেটা প্রতি দশকেই আসত। আমার মতে বিজ্ঞানীরা-কে নিজের এজেন্ডা চালাতে হয় আর মিডিয়ার ভিউ লাগে, তাই প্রতিটা ছোট জিনিসকে জলবায়ু পরিবর্তন বানিয়ে দেওয়া হয়। আমি এই ভয়ের পরিবেশের অংশ হতে চাই না।",bn,long,Against,template
+mft_long_bn_0526,"আমি বগুড়া-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি মার্চ মাসের আবহাওয়া কীভাবে বদলে গেছে। যে তাপপ্রবাহ আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে গ্লোবাল ওয়ার্মিং শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0527,"আমি ঢাকা-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি ফেব্রুয়ারি মাসের আবহাওয়া কীভাবে বদলে গেছে। যে খরা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে জলবায়ু পরিবর্তন শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0528,"আমি শিলিগুড়ি-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি ফেব্রুয়ারি মাসের আবহাওয়া কীভাবে বদলে গেছে। যে বন্যা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে ক্লাইমেট চেঞ্জ শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0529,"দেখুন, আমি কোনো বিদেশি শক্তি না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা বন্যা-কে পৃথিবীর তাপমাত্রা-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই মিথ্যা ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,template
+mft_long_bn_0530,"দেখুন, আমি কোনো নেতারা না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা খরা-কে জলবায়ু পরিবর্তন-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই মিথ্যা ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,template
+mft_long_bn_0531,"আমি শিলিগুড়ি-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি ফেব্রুয়ারি মাসের আবহাওয়া কীভাবে বদলে গেছে। যে তাপপ্রবাহ আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে পৃথিবীর তাপমাত্রা শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0532,"আমি কুমিল্লা-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি ফেব্রুয়ারি মাসের আবহাওয়া কীভাবে বদলে গেছে। যে খরা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে ক্লাইমেট চেঞ্জ শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0533,"এই ভিডিওতে ক্লাইমেট চেঞ্জ-এর ইতিহাস, NGO-র রিপোর্ট আর ময়মনসিংহ-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ বন্যা ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0534,"এই ভিডিওতে ক্লাইমেট চেঞ্জ-এর ইতিহাস, মিডিয়া-র রিপোর্ট আর ঢাকা-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ তাপপ্রবাহ ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0535,"এই ভিডিওতে পৃথিবীর তাপমাত্রা-এর ইতিহাস, মিডিয়া-র রিপোর্ট আর বগুড়া-র মতো শহরের তাপমাত্রার তথ্য ব্যাখ্যা করা হয়েছে। মাঝে একটা অংশ বন্যা ব্যবস্থাপনা নিয়ে, আর শেষে কিছু বইয়ের নাম দেওয়া আছে। ভিডিওটা প্রায় পঁচিশ মিনিটের, শব্দ পরিষ্কার আর বাংলা সাবটাইটেলও আছে, তাই স্কুল-কলেজের ছাত্রদের জন্য ভালো রেফারেন্স হতে পারে।",bn,long,None,template
+mft_long_bn_0536,"আগে আমিও জলবায়ু পরিবর্তন-কে গুজব ভাবতাম, বিদেশি শক্তি-র কথায় হাসতাম। তারপর তিন বছর টানা ঢাকা-তে তাপপ্রবাহ দেখলাম, নভেম্বর মাসে এমন গরম সহ্য করলাম যা আমার ছোটবেলায় কখনো ছিল না, আর বাড়ির মুরুব্বিদের কাছে শুনলাম তারাও এমন কখনো দেখেননি। এখন আমি মানি সমস্যাটা আসল, আর যারা এখনো হাসছে তারা কয়েক বছরে বুঝবে।",bn,long,Favour,template
+mft_long_bn_0537,"আমি বগুড়া-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি মার্চ মাসের আবহাওয়া কীভাবে বদলে গেছে। যে বন্যা আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে ক্লাইমেট চেঞ্জ শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_long_bn_0538,"দেখুন, আমি কোনো NGO না, কিন্তু ইতিহাস পড়েছি। মধ্যযুগেও গরম ছিল, ছোট বরফযুগও এসেছিল, আর তখন কোনো কারখানা ছিল না। প্রতিটা বন্যা-কে গ্লোবাল ওয়ার্মিং-এর সাথে জোড়ার যে ফ্যাশন, সেটা বিজ্ঞান না, একটা ইন্ডাস্ট্রি যেখানে শত শত কোটি টাকার ব্যবসা। আমি আমার ট্যাক্সের টাকায় এই স্ক্যাম ফান্ড করতে চাই না, আর আমার মনে হয় না আগামী একশ বছরে বিশেষ কিছু বদলাবে।",bn,long,Against,template
+mft_long_bn_0539,"আমি ঢাকা-তে জন্মেছি, সেখানেই বড় হয়েছি, আর নিজের চোখে দেখেছি অক্টোবর মাসের আবহাওয়া কীভাবে বদলে গেছে। যে ঘূর্ণিঝড় আগে কালেভদ্রে হতো, এখন প্রতি বছর হয়, আর প্রতিবার আগের চেয়ে বেশি ক্ষতি করে। লোকে বলে জলবায়ু পরিবর্তন শুধু বইয়ের কথা, কিন্তু আমার ক্ষেত, আমার টিউবওয়েল আর আমার বাচ্চাদের কাশি অন্য কথা বলে। এখনই পদক্ষেপ নিতে হবে, নইলে দেরি হয়ে যাবে।",bn,long,Favour,template
+mft_neutral_topic_hi_0540,वाराणसी में कल अधिकतम तापमान 31 डिग्री रहेगा और हल्के बादल छाए रहेंगे।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0541,ग्लोबल वार्मिंग पर NGO की नई रिपोर्ट अक्टूबर में आएगी।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0542,क्लाइमेट चेंज पर इस हफ्ते चंडीगढ़ विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0543,मौसम विभाग ने कानपुर के लिए लू की चेतावनी जारी की है।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0544,ग्लोबल वार्मिंग का सिलेबस में कौन सा अध्याय है?,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0545,ग्लोबल वार्मिंग पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0546,नवंबर में कानपुर का औसत तापमान 28 डिग्री होता है।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0547,इस साल मानसून दिल्ली में तीन दिन देर से पहुंचा।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0548,अमीर देश की बैठक में जलवायु परिवर्तन एजेंडे में था।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0549,धरती का तापमान शब्द पहली बार 1970 के दशक में इस्तेमाल हुआ था।,hi,neutral_topic,None,seed_filled
+mft_neutral_topic_hi_0550,वैज्ञानिक की बैठक में क्लाइमेट चेंज एजेंडे में था।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0551,जलवायु परिवर्तन पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0552,नवंबर में इंदौर का औसत तापमान 28 डिग्री होता है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0553,धरती का तापमान पर अमीर देश की नई रिपोर्ट फरवरी में आएगी।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0554,क्लाइमेट चेंज का सिलेबस में कौन सा अध्याय है?,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0555,मार्च में वाराणसी का औसत तापमान 28 डिग्री होता है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0556,मौसम विभाग ने वाराणसी के लिए सूखा की चेतावनी जारी की है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0557,विदेशी ताकतें की बैठक में जलवायु परिवर्तन एजेंडे में था।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0558,क्लाइमेट चेंज पर एक डॉक्यूमेंट्री नेटफ्लिक्स पर आई है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0559,नेता की बैठक में धरती का तापमान एजेंडे में था।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0560,अमीर देश की बैठक में क्लाइमेट चेंज एजेंडे में था।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0561,धरती का तापमान पर इस हफ्ते वाराणसी विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0562,क्लाइमेट चेंज पर इस हफ्ते वाराणसी विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0563,मौसम विभाग ने चंडीगढ़ के लिए सूखा की चेतावनी जारी की है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0564,ग्लोबल वार्मिंग शब्द पहली बार 1970 के दशक में इस्तेमाल हुआ था।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0565,ग्लोबल वार्मिंग पर इस हफ्ते इंदौर विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0566,ग्लोबल वार्मिंग पर इस हफ्ते नागपुर विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0567,मौसम विभाग ने नागपुर के लिए बाढ़ की चेतावनी जारी की है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0568,जलवायु परिवर्तन पर इस हफ्ते कानपुर विश्वविद्यालय में व्याख्यान है।,hi,neutral_topic,None,template
+mft_neutral_topic_hi_0569,मार्च में कानपुर का औसत तापमान 28 डिग्री होता है।,hi,neutral_topic,None,template
+mft_neutral_topic_bn_0570,"ময়মনসিংহ-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে।",bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0571,ক্লাইমেট চেঞ্জ নিয়ে NGO-র নতুন রিপোর্ট অক্টোবর মাসে আসবে।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0572,গ্লোবাল ওয়ার্মিং নিয়ে এই সপ্তাহে ঢাকা বিশ্ববিদ্যালয়ে বক্তৃতা আছে।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0573,আবহাওয়া অফিস শিলিগুড়ি-র জন্য বন্যা-এর সতর্কতা জারি করেছে।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0574,ক্লাইমেট চেঞ্জ সিলেবাসের কোন অধ্যায়ে আছে?,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0575,গ্লোবাল ওয়ার্মিং নিয়ে একটা ডকুমেন্টারি নেটফ্লিক্সে এসেছে।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0576,নভেম্বর মাসে যশোর-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0577,এ বছর বর্ষা ঢাকা-তে তিন দিন দেরিতে এসেছে।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0578,বিজ্ঞানীরা-র বৈঠকে পৃথিবীর তাপমাত্রা এজেন্ডায় ছিল।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0579,পৃথিবীর তাপমাত্রা শব্দটা প্রথম ১৯৭০-এর দশকে ব্যবহার হয়।,bn,neutral_topic,None,seed_filled
+mft_neutral_topic_bn_0580,আবহাওয়া অফিস বগুড়া-র জন্য তাপপ্রবাহ-এর সতর্কতা জারি করেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0581,ক্লাইমেট চেঞ্জ নিয়ে এই সপ্তাহে বগুড়া বিশ্ববিদ্যালয়ে বক্তৃতা আছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0582,ফেব্রুয়ারি মাসে শিলিগুড়ি-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0583,আবহাওয়া অফিস যশোর-র জন্য শিলাবৃষ্টি-এর সতর্কতা জারি করেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0584,আবহাওয়া অফিস শিলিগুড়ি-র জন্য শিলাবৃষ্টি-এর সতর্কতা জারি করেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0585,আবহাওয়া অফিস শিলিগুড়ি-র জন্য খরা-এর সতর্কতা জারি করেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0586,পৃথিবীর তাপমাত্রা নিয়ে NGO-র নতুন রিপোর্ট অক্টোবর মাসে আসবে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0587,জলবায়ু পরিবর্তন সিলেবাসের কোন অধ্যায়ে আছে?,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0588,মার্চ মাসে যশোর-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0589,ক্লাইমেট চেঞ্জ নিয়ে এই সপ্তাহে যশোর বিশ্ববিদ্যালয়ে বক্তৃতা আছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0590,এ বছর বর্ষা যশোর-তে তিন দিন দেরিতে এসেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0591,"বগুড়া-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে।",bn,neutral_topic,None,template
+mft_neutral_topic_bn_0592,মার্চ মাসে শিলিগুড়ি-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0593,জলবায়ু পরিবর্তন নিয়ে একটা ডকুমেন্টারি নেটফ্লিক্সে এসেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0594,নভেম্বর মাসে ঢাকা-র গড় তাপমাত্রা ২৮ ডিগ্রি।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0595,নেতারা-র বৈঠকে গ্লোবাল ওয়ার্মিং এজেন্ডায় ছিল।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0596,পৃথিবীর তাপমাত্রা নিয়ে বিদেশি শক্তি-র নতুন রিপোর্ট মার্চ মাসে আসবে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0597,এ বছর বর্ষা বগুড়া-তে তিন দিন দেরিতে এসেছে।,bn,neutral_topic,None,template
+mft_neutral_topic_bn_0598,"শিলিগুড়ি-তে কাল সর্বোচ্চ তাপমাত্রা ৩১ ডিগ্রি থাকবে, হালকা মেঘ থাকবে।",bn,neutral_topic,None,template
+mft_neutral_topic_bn_0599,ক্লাইমেট চেঞ্জ নিয়ে একটা ডকুমেন্টারি নেটফ্লিক্সে এসেছে।,bn,neutral_topic,None,template
+mft_offtopic_hi_0600,वाराणसी में कौन सा रेस्टोरेंट अच्छा है?,hi,offtopic,None,seed_filled
+mft_offtopic_hi_0601,भाई इस गाने का नाम क्या है?,hi,offtopic,None,seed
+mft_offtopic_hi_0602,"कल इंदौर में क्रिकेट मैच है, टिकट मिल गया।",hi,offtopic,None,seed_filled
+mft_offtopic_hi_0603,"ये फोन नवंबर में लॉन्च होगा, कीमत कितनी होगी?",hi,offtopic,None,seed_filled
+mft_offtopic_hi_0604,मेरा इंटरनेट बहुत स्लो है आज।,hi,offtopic,None,seed
+mft_offtopic_hi_0605,"दीदी की शादी मार्च में है, बहुत काम है।",hi,offtopic,None,seed_filled
+mft_offtopic_hi_0606,"नया लैपटॉप लिया, बहुत बढ़िया है।",hi,offtopic,None,seed
+mft_offtopic_hi_0607,"सब्सक्राइब और लाइक कर दिया, बेल भी दबा दी।",hi,offtopic,None,seed
+mft_offtopic_hi_0608,"कल एग्ज़ाम है, पढ़ाई नहीं हुई 😭",hi,offtopic,None,seed
+mft_offtopic_hi_0609,इंदौर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,seed_filled
+mft_offtopic_hi_0610,"दीदी की शादी फरवरी में है, बहुत काम है।",hi,offtopic,None,template
+mft_offtopic_hi_0611,नागपुर से इंदौर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0612,नागपुर में कौन सा रेस्टोरेंट अच्छा है?,hi,offtopic,None,template
+mft_offtopic_hi_0613,दिल्ली में कौन सा रेस्टोरेंट अच्छा है?,hi,offtopic,None,template
+mft_offtopic_hi_0614,"दीदी की शादी नवंबर में है, बहुत काम है।",hi,offtopic,None,template
+mft_offtopic_hi_0615,"ये फोन अक्टूबर में लॉन्च होगा, कीमत कितनी होगी?",hi,offtopic,None,template
+mft_offtopic_hi_0616,कानपुर में कौन सा रेस्टोरेंट अच्छा है?,hi,offtopic,None,template
+mft_offtopic_hi_0617,कानपुर से वाराणसी जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0618,"कल कानपुर में क्रिकेट मैच है, टिकट मिल गया।",hi,offtopic,None,template
+mft_offtopic_hi_0619,इंदौर में कौन सा रेस्टोरेंट अच्छा है?,hi,offtopic,None,template
+mft_offtopic_hi_0620,"कल वाराणसी में क्रिकेट मैच है, टिकट मिल गया।",hi,offtopic,None,template
+mft_offtopic_hi_0621,"कल नागपुर में क्रिकेट मैच है, टिकट मिल गया।",hi,offtopic,None,template
+mft_offtopic_hi_0622,"ये फोन मार्च में लॉन्च होगा, कीमत कितनी होगी?",hi,offtopic,None,template
+mft_offtopic_hi_0623,"दीदी की शादी अक्टूबर में है, बहुत काम है।",hi,offtopic,None,template
+mft_offtopic_hi_0624,नागपुर से कानपुर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0625,दिल्ली से इंदौर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0626,दिल्ली से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0627,कानपुर से चंडीगढ़ जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0628,इंदौर से नागपुर जाने का सबसे अच्छा रास्ता कौन सा है?,hi,offtopic,None,template
+mft_offtopic_hi_0629,"कल चंडीगढ़ में क्रिकेट मैच है, टिकट मिल गया।",hi,offtopic,None,template
+mft_offtopic_bn_0630,ঢাকা-তে কোন রেস্টুরেন্ট ভালো?,bn,offtopic,None,seed_filled
+mft_offtopic_bn_0631,ভাই এই গানটার নাম কী?,bn,offtopic,None,seed
+mft_offtopic_bn_0632,"কাল শিলিগুড়ি-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।",bn,offtopic,None,seed_filled
+mft_offtopic_bn_0633,"এই ফোনটা নভেম্বর মাসে লঞ্চ হবে, দাম কত হবে?",bn,offtopic,None,seed_filled
+mft_offtopic_bn_0634,আমার ইন্টারনেট আজ খুব স্লো।,bn,offtopic,None,seed
+mft_offtopic_bn_0635,"আপুর বিয়ে ফেব্রুয়ারি মাসে, অনেক কাজ।",bn,offtopic,None,seed_filled
+mft_offtopic_bn_0636,"নতুন ল্যাপটপ নিলাম, দারুণ।",bn,offtopic,None,seed
+mft_offtopic_bn_0637,"সাবস্ক্রাইব আর লাইক করলাম, বেলও বাজিয়ে দিলাম।",bn,offtopic,None,seed
+mft_offtopic_bn_0638,"কাল পরীক্ষা, পড়া হয়নি 😭",bn,offtopic,None,seed
+mft_offtopic_bn_0639,বগুড়া থেকে ঢাকা যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,seed_filled
+mft_offtopic_bn_0640,"কাল কুমিল্লা-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।",bn,offtopic,None,template
+mft_offtopic_bn_0641,"আপুর বিয়ে নভেম্বর মাসে, অনেক কাজ।",bn,offtopic,None,template
+mft_offtopic_bn_0642,ঢাকা থেকে যশোর যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0643,"আপুর বিয়ে মার্চ মাসে, অনেক কাজ।",bn,offtopic,None,template
+mft_offtopic_bn_0644,বগুড়া থেকে শিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0645,কুমিল্লা-তে কোন রেস্টুরেন্ট ভালো?,bn,offtopic,None,template
+mft_offtopic_bn_0646,যশোর থেকে শিলিগুড়ি যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0647,"এই ফোনটা ফেব্রুয়ারি মাসে লঞ্চ হবে, দাম কত হবে?",bn,offtopic,None,template
+mft_offtopic_bn_0648,বগুড়া-তে কোন রেস্টুরেন্ট ভালো?,bn,offtopic,None,template
+mft_offtopic_bn_0649,শিলিগুড়ি-তে কোন রেস্টুরেন্ট ভালো?,bn,offtopic,None,template
+mft_offtopic_bn_0650,যশোর থেকে যশোর যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0651,"কাল ঢাকা-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।",bn,offtopic,None,template
+mft_offtopic_bn_0652,"এই ফোনটা অক্টোবর মাসে লঞ্চ হবে, দাম কত হবে?",bn,offtopic,None,template
+mft_offtopic_bn_0653,"আপুর বিয়ে অক্টোবর মাসে, অনেক কাজ।",bn,offtopic,None,template
+mft_offtopic_bn_0654,ময়মনসিংহ থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0655,"এই ফোনটা মার্চ মাসে লঞ্চ হবে, দাম কত হবে?",bn,offtopic,None,template
+mft_offtopic_bn_0656,"কাল বগুড়া-তে ক্রিকেট ম্যাচ, টিকিট পেয়ে গেছি।",bn,offtopic,None,template
+mft_offtopic_bn_0657,বগুড়া থেকে বগুড়া যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0658,শিলিগুড়ি থেকে ঢাকা যাওয়ার সবচেয়ে ভালো রাস্তা কোনটা?,bn,offtopic,None,template
+mft_offtopic_bn_0659,ময়মনসিংহ-তে কোন রেস্টুরেন্ট ভালো?,bn,offtopic,None,template
+mft_conspiracy_hi_0660,ग्लोबल वार्मिंग मीडिया की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0661,"ये सब विदेशी ताकतें का खेल है, असली मकसद हमें गुलाम बनाना है।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0662,"क्लाइमेट चेंज का डर दिखाकर मीडिया अरबों कमा रहे हैं, जागो।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0663,मौसम को मशीनों से बदला जा रहा है और नाम ग्लोबल वार्मिंग का दिया जा रहा है।,hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0664,"NGO को पहले से पता था, ये बाढ़ प्लान किया हुआ है, क्लाइमेट चेंज बहाना है।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0665,"जलवायु परिवर्तन एक वैश्विक अफवाह है, डेटा के साथ छेड़छाड़ होती है।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0666,जिनको इलेक्ट्रिक कार बेचनी है वही जलवायु परिवर्तन चिल्ला रहे हैं।,hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0667,"NGO चाहते हैं कि गरीब देश विकास न करें, इसलिए जलवायु परिवर्तन का नारा।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0668,जलवायु परिवर्तन के पीछे असली एजेंडा जनसंख्या नियंत्रण है।,hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0669,"हर चक्रवात के बाद विदेशी ताकतें को फंड मिलता है, समझो गणित।",hi,conspiracy,Against,seed_filled
+mft_conspiracy_hi_0670,जिनको इलेक्ट्रिक कार बेचनी है वही धरती का तापमान चिल्ला रहे हैं।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0671,"ये सब वैज्ञानिक का खेल है, असली मकसद हमें गुलाम बनाना है।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0672,जिनको इलेक्ट्रिक कार बेचनी है वही ग्लोबल वार्मिंग चिल्ला रहे हैं।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0673,"ये सब अमीर देश का खेल है, असली मकसद हमें गुलाम बनाना है।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0674,"नेता चाहते हैं कि गरीब देश विकास न करें, इसलिए ग्लोबल वार्मिंग का नारा।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0675,धरती का तापमान वैज्ञानिक की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0676,जलवायु परिवर्तन वैज्ञानिक की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0677,मौसम को मशीनों से बदला जा रहा है और नाम जलवायु परिवर्तन का दिया जा रहा है।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0678,"धरती का तापमान का डर दिखाकर वैज्ञानिक अरबों कमा रहे हैं, जागो।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0679,"अमीर देश को पहले से पता था, ये ओलावृष्टि प्लान किया हुआ है, ग्लोबल वार्मिंग बहाना है।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0680,"अमीर देश चाहते हैं कि गरीब देश विकास न करें, इसलिए ग्लोबल वार्मिंग का नारा।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0681,क्लाइमेट चेंज अमीर देश की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0682,"जलवायु परिवर्तन का डर दिखाकर मीडिया अरबों कमा रहे हैं, जागो।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0683,धरती का तापमान के पीछे असली एजेंडा जनसंख्या नियंत्रण है।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0684,"अमीर देश चाहते हैं कि गरीब देश विकास न करें, इसलिए क्लाइमेट चेंज का नारा।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0685,जलवायु परिवर्तन अमीर देश की चाल है ताकि हम पर कार्बन टैक्स लगाया जा सके।,hi,conspiracy,Against,template
+mft_conspiracy_hi_0686,"हर बाढ़ के बाद NGO को फंड मिलता है, समझो गणित।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0687,"मीडिया को पहले से पता था, ये ओलावृष्टि प्लान किया हुआ है, ग्लोबल वार्मिंग बहाना है।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0688,"विदेशी ताकतें चाहते हैं कि गरीब देश विकास न करें, इसलिए जलवायु परिवर्तन का नारा।",hi,conspiracy,Against,template
+mft_conspiracy_hi_0689,"क्लाइमेट चेंज एक वैश्विक ड्रामा है, डेटा के साथ छेड़छाड़ होती है।",hi,conspiracy,Against,template
+mft_conspiracy_bn_0690,পৃথিবীর তাপমাত্রা NGO-র চাল যাতে আমাদের উপর কার্বন ট্যাক্স বসানো যায়।,bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0691,"এসব ধনী দেশ-র খেলা, আসল উদ্দেশ্য আমাদের গোলাম বানানো।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0692,"গ্লোবাল ওয়ার্মিং-এর ভয় দেখিয়ে নেতারা শত শত কোটি কামাচ্ছে, জাগো।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0693,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে জলবায়ু পরিবর্তন।,bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0694,"মিডিয়া আগে থেকেই জানত, এই খরা প্ল্যান করা, পৃথিবীর তাপমাত্রা অজুহাত।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0695,"পৃথিবীর তাপমাত্রা একটা বৈশ্বিক গুজব, ডেটা নিয়ে কারসাজি হয়।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0696,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই পৃথিবীর তাপমাত্রা বলে চিৎকার করছে।,bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0697,"মিডিয়া চায় গরিব দেশ উন্নতি না করুক, তাই ক্লাইমেট চেঞ্জ-এর স্লোগান।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0698,ক্লাইমেট চেঞ্জ-এর পেছনে আসল এজেন্ডা জনসংখ্যা নিয়ন্ত্রণ।,bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0699,"প্রতিটা তাপপ্রবাহ-এর পর বিজ্ঞানীরা ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,seed_filled
+mft_conspiracy_bn_0700,"প্রতিটা শিলাবৃষ্টি-এর পর মিডিয়া ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0701,"প্রতিটা বন্যা-এর পর নেতারা ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0702,"প্রতিটা তাপপ্রবাহ-এর পর বিদেশি শক্তি ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0703,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই গ্লোবাল ওয়ার্মিং বলে চিৎকার করছে।,bn,conspiracy,Against,template
+mft_conspiracy_bn_0704,"মিডিয়া চায় গরিব দেশ উন্নতি না করুক, তাই জলবায়ু পরিবর্তন-এর স্লোগান।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0705,"ক্লাইমেট চেঞ্জ একটা বৈশ্বিক স্ক্যাম, ডেটা নিয়ে কারসাজি হয়।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0706,"প্রতিটা বন্যা-এর পর মিডিয়া ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0707,"গ্লোবাল ওয়ার্মিং-এর ভয় দেখিয়ে মিডিয়া শত শত কোটি কামাচ্ছে, জাগো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0708,পৃথিবীর তাপমাত্রা-এর পেছনে আসল এজেন্ডা জনসংখ্যা নিয়ন্ত্রণ।,bn,conspiracy,Against,template
+mft_conspiracy_bn_0709,"জলবায়ু পরিবর্তন একটা বৈশ্বিক নাটক, ডেটা নিয়ে কারসাজি হয়।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0710,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে ক্লাইমেট চেঞ্জ।,bn,conspiracy,Against,template
+mft_conspiracy_bn_0711,"প্রতিটা বন্যা-এর পর ধনী দেশ ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0712,"প্রতিটা বন্যা-এর পর NGO ফান্ড পায়, হিসাবটা বোঝো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0713,"বিদেশি শক্তি চায় গরিব দেশ উন্নতি না করুক, তাই জলবায়ু পরিবর্তন-এর স্লোগান।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0714,"এসব নেতারা-র খেলা, আসল উদ্দেশ্য আমাদের গোলাম বানানো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0715,যাদের ইলেকট্রিক গাড়ি বেচতে হবে তারাই ক্লাইমেট চেঞ্জ বলে চিৎকার করছে।,bn,conspiracy,Against,template
+mft_conspiracy_bn_0716,"বিদেশি শক্তি চায় গরিব দেশ উন্নতি না করুক, তাই গ্লোবাল ওয়ার্মিং-এর স্লোগান।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0717,মেশিন দিয়ে আবহাওয়া বদলানো হচ্ছে আর নাম দেওয়া হচ্ছে গ্লোবাল ওয়ার্মিং।,bn,conspiracy,Against,template
+mft_conspiracy_bn_0718,"ক্লাইমেট চেঞ্জ-এর ভয় দেখিয়ে মিডিয়া শত শত কোটি কামাচ্ছে, জাগো।",bn,conspiracy,Against,template
+mft_conspiracy_bn_0719,"পৃথিবীর তাপমাত্রা একটা বৈশ্বিক মিথ্যা, ডেটা নিয়ে কারসাজি হয়।",bn,conspiracy,Against,template
+mft_different_target_hi_0720,"ग्लोबल वार्मिंग असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।",hi,different_target,Favour,seed_filled
+mft_different_target_hi_0721,"मुझे ये एक्टिविस्ट पसंद नहीं, पर क्लाइमेट चेंज को लेकर वो गलत नहीं हैं।",hi,different_target,Favour,seed_filled
+mft_different_target_hi_0722,पेरिस समझौता बेकार है।,hi,different_target,None,seed
+mft_different_target_hi_0723,"सोलर सब्सिडी में घोटाला है, जांच हो।",hi,different_target,None,seed
+mft_different_target_hi_0724,"सरकार जलवायु परिवर्तन पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।",hi,different_target,Favour,seed_filled
+mft_different_target_hi_0725,"कार्बन टैक्स गरीबों पर बोझ है, पर क्लाइमेट चेंज से लड़ना ज़रूरी है।",hi,different_target,Favour,seed_filled
+mft_different_target_hi_0726,मीडिया को हमारे देश में दखल नहीं देना चाहिए।,hi,different_target,None,seed_filled
+mft_different_target_hi_0727,"इलेक्ट्रिक गाड़ियां अभी महंगी हैं, ये समाधान नहीं।",hi,different_target,None,seed
+mft_different_target_hi_0728,"चंडीगढ़ नगर निगम ने पेड़ काटे, ये गलत है, जलवायु परिवर्तन के दौर में ऐसा?",hi,different_target,Favour,seed_filled
+mft_different_target_hi_0729,"COP बैठकें सिर्फ फोटो खिंचवाने के लिए हैं, काम कुछ नहीं होता।",hi,different_target,None,seed
+mft_different_target_hi_0730,"प्लास्टिक बैन से छोटे दुकानदार परेशान हैं, पर पर्यावरण बचाना भी ज़रूरी है।",hi,different_target,Favour,seed
+mft_different_target_hi_0731,"ये वैज्ञानिक खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।",hi,different_target,None,seed_filled
+mft_different_target_hi_0732,"ये विदेशी ताकतें खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।",hi,different_target,None,template
+mft_different_target_hi_0733,"कार्बन टैक्स गरीबों पर बोझ है, पर ग्लोबल वार्मिंग से लड़ना ज़रूरी है।",hi,different_target,Favour,template
+mft_different_target_hi_0734,"सरकार क्लाइमेट चेंज पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।",hi,different_target,Favour,template
+mft_different_target_hi_0735,"कार्बन टैक्स गरीबों पर बोझ है, पर जलवायु परिवर्तन से लड़ना ज़रूरी है।",hi,different_target,Favour,template
+mft_different_target_hi_0736,"सरकार ग्लोबल वार्मिंग पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।",hi,different_target,Favour,template
+mft_different_target_hi_0737,"मुझे ये एक्टिविस्ट पसंद नहीं, पर धरती का तापमान को लेकर वो गलत नहीं हैं।",hi,different_target,Favour,template
+mft_different_target_hi_0738,"जलवायु परिवर्तन असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।",hi,different_target,Favour,template
+mft_different_target_hi_0739,"ये अमीर देश खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।",hi,different_target,None,template
+mft_different_target_hi_0740,"कार्बन टैक्स गरीबों पर बोझ है, पर धरती का तापमान से लड़ना ज़रूरी है।",hi,different_target,Favour,template
+mft_different_target_hi_0741,"वाराणसी नगर निगम ने पेड़ काटे, ये गलत है, जलवायु परिवर्तन के दौर में ऐसा?",hi,different_target,Favour,template
+mft_different_target_hi_0742,"दिल्ली नगर निगम ने पेड़ काटे, ये गलत है, क्लाइमेट चेंज के दौर में ऐसा?",hi,different_target,Favour,template
+mft_different_target_hi_0743,"दिल्ली नगर निगम ने पेड़ काटे, ये गलत है, धरती का तापमान के दौर में ऐसा?",hi,different_target,Favour,template
+mft_different_target_hi_0744,"ये नेता खुद प्राइवेट जेट में घूमते हैं, हमें उपदेश देते हैं।",hi,different_target,None,template
+mft_different_target_hi_0745,"कानपुर नगर निगम ने पेड़ काटे, ये गलत है, ग्लोबल वार्मिंग के दौर में ऐसा?",hi,different_target,Favour,template
+mft_different_target_hi_0746,"क्लाइमेट चेंज असली है, पर ये ऑड-ईवन नियम बेकार है, सरकार कुछ ठोस करे।",hi,different_target,Favour,template
+mft_different_target_hi_0747,वैज्ञानिक को हमारे देश में दखल नहीं देना चाहिए।,hi,different_target,None,template
+mft_different_target_hi_0748,"सरकार धरती का तापमान पर बहुत धीमी है, खतरा हर दिन बढ़ रहा है।",hi,different_target,Favour,template
+mft_different_target_hi_0749,विदेशी ताकतें को हमारे देश में दखल नहीं देना चाहिए।,hi,different_target,None,template
+mft_different_target_bn_0750,"পৃথিবীর তাপমাত্রা আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।",bn,different_target,Favour,seed_filled
+mft_different_target_bn_0751,"আমার এই অ্যাক্টিভিস্টকে পছন্দ না, কিন্তু জলবায়ু পরিবর্তন নিয়ে সে ভুল না।",bn,different_target,Favour,seed_filled
+mft_different_target_bn_0752,প্যারিস চুক্তি অকেজো।,bn,different_target,None,seed
+mft_different_target_bn_0753,"সোলার ভর্তুকিতে কেলেঙ্কারি, তদন্ত হোক।",bn,different_target,None,seed
+mft_different_target_bn_0754,"সরকার পৃথিবীর তাপমাত্রা নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে।",bn,different_target,Favour,seed_filled
+mft_different_target_bn_0755,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু ক্লাইমেট চেঞ্জ-এর সাথে লড়াই জরুরি।",bn,different_target,Favour,seed_filled
+mft_different_target_bn_0756,মিডিয়া-র আমাদের দেশে নাক গলানো উচিত না।,bn,different_target,None,seed_filled
+mft_different_target_bn_0757,"ইলেকট্রিক গাড়ি এখনো দামি, এটা সমাধান না।",bn,different_target,None,seed
+mft_different_target_bn_0758,"ময়মনসিংহ সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?",bn,different_target,Favour,seed_filled
+mft_different_target_bn_0759,"COP বৈঠক শুধু ছবি তোলার জন্য, কাজ কিছু হয় না।",bn,different_target,None,seed
+mft_different_target_bn_0760,"প্লাস্টিক নিষেধাজ্ঞায় ছোট দোকানদাররা বিপদে, কিন্তু পরিবেশ বাঁচানোও জরুরি।",bn,different_target,Favour,seed
+mft_different_target_bn_0761,"এই বিজ্ঞানীরা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়।",bn,different_target,None,seed_filled
+mft_different_target_bn_0762,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু গ্লোবাল ওয়ার্মিং-এর সাথে লড়াই জরুরি।",bn,different_target,Favour,template
+mft_different_target_bn_0763,"এই নেতারা নিজেরা প্রাইভেট জেটে ঘোরে, আমাদের উপদেশ দেয়।",bn,different_target,None,template
+mft_different_target_bn_0764,"ঢাকা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0765,"কুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, জলবায়ু পরিবর্তন-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0766,"আমার এই অ্যাক্টিভিস্টকে পছন্দ না, কিন্তু গ্লোবাল ওয়ার্মিং নিয়ে সে ভুল না।",bn,different_target,Favour,template
+mft_different_target_bn_0767,"ক্লাইমেট চেঞ্জ আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।",bn,different_target,Favour,template
+mft_different_target_bn_0768,"কুমিল্লা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, পৃথিবীর তাপমাত্রা-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0769,"সরকার ক্লাইমেট চেঞ্জ নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে।",bn,different_target,Favour,template
+mft_different_target_bn_0770,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু জলবায়ু পরিবর্তন-এর সাথে লড়াই জরুরি।",bn,different_target,Favour,template
+mft_different_target_bn_0771,"ময়মনসিংহ সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0772,"সরকার গ্লোবাল ওয়ার্মিং নিয়ে খুব ধীর, বিপদ প্রতিদিন বাড়ছে।",bn,different_target,Favour,template
+mft_different_target_bn_0773,"ঢাকা সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0774,"যশোর সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0775,"কার্বন ট্যাক্স গরিবের বোঝা, কিন্তু পৃথিবীর তাপমাত্রা-এর সাথে লড়াই জরুরি।",bn,different_target,Favour,template
+mft_different_target_bn_0776,"গ্লোবাল ওয়ার্মিং আসল, কিন্তু এই জোড়-বিজোড় নিয়ম অকেজো, সরকার কিছু শক্ত করুক।",bn,different_target,Favour,template
+mft_different_target_bn_0777,বিজ্ঞানীরা-র আমাদের দেশে নাক গলানো উচিত না।,bn,different_target,None,template
+mft_different_target_bn_0778,"শিলিগুড়ি সিটি কর্পোরেশন গাছ কেটেছে, এটা ভুল, গ্লোবাল ওয়ার্মিং-এর যুগে এমন?",bn,different_target,Favour,template
+mft_different_target_bn_0779,NGO-র আমাদের দেশে নাক গলানো উচিত না।,bn,different_target,None,template

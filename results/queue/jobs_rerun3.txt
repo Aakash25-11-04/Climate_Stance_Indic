@@ -1,0 +1,8 @@
+final_r3 | .venv\Scripts\python.exe -u scripts\build_final.py --config configs\final.yaml
+robustness_r3 | .venv\Scripts\python.exe -u scripts\run_robustness.py
+explain_r3 | .venv\Scripts\python.exe -u scripts\explain.py --model auto --sparse models\tfidf_lr.pkl
+errors_r3 | .venv\Scripts\python.exe -u scripts\error_analysis.py
+significance_r3 | .venv\Scripts\python.exe -u scripts\significance.py --reference auto
+tables_r3 | .venv\Scripts\python.exe -u scripts\make_tables.py
+model_card_r3 | .venv\Scripts\python.exe -u scripts\write_model_card.py
+report_r3 | .venv\Scripts\python.exe -u scripts\write_report.py

@@ -1,0 +1,14 @@
+# Default preprocessing used by every model unless an experiment overrides it.
+preprocessing:
+  unicode_nfc: true
+  indic_normalize: true
+  remove_zero_width: true
+  lowercase_latin: true
+  url_token: "URL"
+  mention_token: "@user"
+  keep_hashtag_text: true
+  number_token: null
+  emoji_mode: keep          # ablation: keep | demojize | remove
+  reduce_elongation: true
+  reduce_punct_repeat: true
+  transliterate_romanized: false   # ablation flag (Phase 3e / Phase 6)

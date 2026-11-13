@@ -1,0 +1,18 @@
+[loaders] tweet_eval_climate: 564 rows, labels={'Favour': 335, 'None': 203, 'Against': 26}
+[loaders] gwsd: 2245 rows, labels={'None': 1012, 'Favour': 846, 'Against': 387}
+[loaders] climatestance: 3580 rows, labels={'Favour': 2863, 'None': 387, 'Against': 330}
+[loaders] dhoroni: 1461 rows, labels={'None': 934, 'Favour': 527}
+[translate] en->hi: 6389 rows
+[translate] hi->en back-translation
+[translate] en->bn: 6389 rows
+[translate] bn->en back-translation
+[translate] scoring 12778 rows with LaBSE
+[translate] kept 11888/12778 (threshold 0.75)
+[translate] bn->hi for 1461 Dhoroni rows
+[build] wrote C:\Users\aakas\Desktop\HTTP\data\processed\train.csv (19281 rows)
+[build] wrote C:\Users\aakas\Desktop\HTTP\data\processed\dev.csv (1402 rows)
+[build] wrote C:\Users\aakas\Desktop\HTTP\data\gold\test_handcrafted.csv (306 rows)
+[build] stats -> data/processed/build_stats.json
+[build] done in 39.3 min
+{'rows': {'train': 19281, 'dev': 1402, 'gold': 306}, 'train_label_counts': {'Favour': 10984, 'None': 6071, 'Against': 2226}, 'train_source_type_counts': {'translated': 11374, 'transliterated': 3165, 'synthetic': 1724, 'codemixed': 1720, 'original': 1298}, 'synthetic_share': 0.08941444945801566}
+BUILD_EXIT=0

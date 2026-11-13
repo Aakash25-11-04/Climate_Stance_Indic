@@ -1,1 +1,2 @@
-"""Stance detection toward climate change for Hindi and Bengali YouTube comments."""
+"""Indic Climate Stance Challenge - research codebase."""
+__version__ = "0.1.0"

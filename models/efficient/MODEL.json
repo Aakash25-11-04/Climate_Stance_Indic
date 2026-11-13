@@ -1,0 +1,5 @@
+{
+  "type": "quantized",
+  "path": "models/muril_pair_claim-en_weighted_ce",
+  "calibration": null
+}

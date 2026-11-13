@@ -1,0 +1,17 @@
+[errors] final=results/predictions/gold_muril_pair_claim-en_weighted_ce_s42.csv baseline=results/predictions/gold_tfidf_cnb.csv dev=results/predictions/dev_muril_pair_claim-en_weighted_ce_s42.csv
+                   n  baseline_errors  final_errors  fixed_by_final  broken_by_final  disagree
+codemixed         22                6             2               5                1         6
+conspiracy        14                7             2               5                0         7
+different_target  16                5             5               4                4         8
+emoji             16                2             3               1                2         4
+explicit          46                8            12               4                8        12
+implicit          30               10            18               1                9        17
+long               8                3             3               2                2         5
+negation          22                7             8               5                6        11
+neutral_topic     30               13             5               8                0         8
+offtopic          16                3             0               3                0         3
+romanized         32                8             9               3                4        11
+sarcasm           20                4             4               4                4         8
+short             18                5             5               4                4         9
+typos             16                1             3               0                2         2
+{'n_errors_total_categorised': 150, 'n_gold_errors': 79, 'tag_counts': {'implicit': 69, 'translation_artefact?': 66, 'negation': 50, 'romanized': 10, 'long': 10, 'sarcasm': 6, 'neutral_topic': 5, 'short': 5, 'different_target': 5, 'codemixed': 3, 'typos': 3, 'emoji': 3, 'conspiracy': 2, 'other': 2}, 'top_confusions_final': {'Favour->None': 32, 'Favour->Against': 20, 'Against->None': 13, 'Against->Favour': 5, 'None->Favour': 5, 'None->Against': 4}, 'disagreement_rate_final_vs_baseline': 0.3627450980392157, 'both_wrong': 33, 'only_final_wrong': 46, 'only_baseline_wrong': 49}

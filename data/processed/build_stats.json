@@ -1,0 +1,216 @@
+{
+  "seed": 42,
+  "sources": {
+    "climatestance": 3580,
+    "gwsd": 2245,
+    "dhoroni": 1461,
+    "tweet_eval_climate": 564
+  },
+  "english_after_cleaning": 6389,
+  "source_label_counts": {
+    "climatestance/Against": 330,
+    "climatestance/Favour": 2863,
+    "climatestance/None": 387,
+    "dhoroni/Favour": 527,
+    "dhoroni/None": 934,
+    "gwsd/Against": 387,
+    "gwsd/Favour": 846,
+    "gwsd/None": 1012,
+    "tweet_eval_climate/Against": 26,
+    "tweet_eval_climate/Favour": 335,
+    "tweet_eval_climate/None": 203
+  },
+  "translation_backend": "nllb",
+  "translation_models": [
+    "facebook/nllb-200-distilled-600M"
+  ],
+  "translation": {
+    "threshold": 0.75,
+    "n_translated": 12778,
+    "n_kept": 11888,
+    "kept_share": 0.9303490374080451,
+    "per_lang_kept": {
+      "hi": 0.9499139145406167,
+      "bn": 0.9107841602754735
+    },
+    "sim_mean": 0.9066810702226064
+  },
+  "dhoroni_bn_to_hi": {
+    "n": 1461,
+    "kept": 1347
+  },
+  "dedup": {
+    "input_rows": 15002,
+    "dropped_too_short": 0,
+    "dropped_exact": 596,
+    "dropped_near": 26,
+    "output_rows": 14380,
+    "near_threshold": 0.85,
+    "example_near_pairs": [
+      [
+        1064,
+        763
+      ],
+      [
+        1216,
+        1035
+      ],
+      [
+        1748,
+        763
+      ],
+      [
+        3591,
+        3438
+      ],
+      [
+        4184,
+        4157
+      ],
+      [
+        4796,
+        4382
+      ],
+      [
+        5031,
+        3420
+      ],
+      [
+        5285,
+        4168
+      ],
+      [
+        5399,
+        3593
+      ],
+      [
+        5471,
+        4711
+      ]
+    ]
+  },
+  "gold_rows_after_dedup": 306,
+  "split_before_augmentation": {
+    "train": 12672,
+    "dev": 1402
+  },
+  "synthetic_rows": 1724,
+  "dedup_after_augmentation": {
+    "input_rows": 20093,
+    "dropped_too_short": 0,
+    "dropped_exact": 346,
+    "dropped_near": 466,
+    "output_rows": 19281,
+    "near_threshold": 0.85,
+    "example_near_pairs": [
+      [
+        15845,
+        8267
+      ],
+      [
+        15866,
+        7252
+      ],
+      [
+        15876,
+        8664
+      ],
+      [
+        15880,
+        5548
+      ],
+      [
+        15882,
+        11163
+      ],
+      [
+        15883,
+        9965
+      ],
+      [
+        15886,
+        11115
+      ],
+      [
+        15915,
+        9845
+      ],
+      [
+        15916,
+        9307
+      ],
+      [
+        15922,
+        6408
+      ]
+    ]
+  },
+  "leakage_train_vs_dev": {
+    "exact": 0,
+    "near_or_exact": 0,
+    "n_other": 1402
+  },
+  "leakage_train_vs_gold": {
+    "exact": 0,
+    "near_or_exact": 0,
+    "n_other": 306
+  },
+  "train_label_counts": {
+    "Favour": 10984,
+    "None": 6071,
+    "Against": 2226
+  },
+  "train_language_counts": {
+    "hi": 9789,
+    "bn": 9492
+  },
+  "train_source_type_counts": {
+    "translated": 11374,
+    "transliterated": 3165,
+    "synthetic": 1724,
+    "codemixed": 1720,
+    "original": 1298
+  },
+  "train_script_counts": {
+    "devanagari": 7280,
+    "bengali": 7090,
+    "latin": 3449,
+    "mixed": 1462
+  },
+  "synthetic_share": 0.08941444945801566,
+  "dev_label_counts": {
+    "Favour": 825,
+    "None": 447,
+    "Against": 130
+  },
+  "dev_language_counts": {
+    "hi": 712,
+    "bn": 690
+  },
+  "gold_label_counts": {
+    "Favour": 110,
+    "Against": 104,
+    "None": 92
+  },
+  "gold_category_counts": {
+    "explicit": 46,
+    "romanized": 32,
+    "neutral_topic": 30,
+    "implicit": 30,
+    "negation": 22,
+    "codemixed": 22,
+    "sarcasm": 20,
+    "short": 18,
+    "typos": 16,
+    "emoji": 16,
+    "offtopic": 16,
+    "different_target": 16,
+    "conspiracy": 14,
+    "long": 8
+  },
+  "rows": {
+    "train": 19281,
+    "dev": 1402,
+    "gold": 306
+  }
+}

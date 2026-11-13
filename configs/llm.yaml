@@ -1,0 +1,14 @@
+# Phase 5: local LLM (Tier C+: Qwen2.5-1.5B-Instruct fp16 fits the 4 GB GPU).
+seed: 42
+data:
+  train: data/processed/train.csv
+  dev: data/processed/dev.csv
+  gold: data/gold/test_handcrafted.csv
+  challenge_dir: data/challenge
+llm:
+  model_name: Qwen/Qwen2.5-1.5B-Instruct
+  load_in_4bit: false
+  k_shots: [0, 4]           # zero-shot and kNN few-shot (LaBSE retrieval)
+  dev_rows: 300             # dev subsample (LLM scoring is slow)
+  max_eval_rows: null       # debugging cap
+  rationales: 40            # number of gold rows to write rationales for

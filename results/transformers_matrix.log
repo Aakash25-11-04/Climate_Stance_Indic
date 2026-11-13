@@ -1,0 +1,49 @@
+
+### muril_single_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=single model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/muril_single_weighted_ce seeds=[42]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0880 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0564 1.7 min
+[train] epoch 1 step 600/1205 loss 1.0280 2.5 min
+[train] epoch 1 step 800/1205 loss 1.0002 3.3 min
+[train] epoch 1 step 1000/1205 loss 0.9766 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.9493 5.0 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9485 minutes=5.0320 dev_macro_f1=0.5667 dev_accuracy=0.6961
+[train] epoch 2 step 200/1205 loss 0.7796 5.9 min
+[train] epoch 2 step 400/1205 loss 0.7684 6.7 min
+[train] epoch 2 step 600/1205 loss 0.7513 7.6 min
+[train] epoch 2 step 800/1205 loss 0.7365 8.4 min
+[train] epoch 2 step 1000/1205 loss 0.7258 9.2 min
+[train] epoch 2 step 1200/1205 loss 0.7146 10.1 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.7142 minutes=10.1055 dev_macro_f1=0.6454 dev_accuracy=0.6983
+[train] epoch 3 step 200/1205 loss 0.5960 11.0 min
+[train] epoch 3 step 400/1205 loss 0.5760 11.8 min
+[train] epoch 3 step 600/1205 loss 0.5678 12.7 min
+[train] epoch 3 step 800/1205 loss 0.5636 13.5 min
+[train] epoch 3 step 1000/1205 loss 0.5568 14.3 min
+[train] epoch 3 step 1200/1205 loss 0.5551 15.2 min
+[train] muril_single epoch 3: epoch=3 train_loss=0.5553 minutes=15.2033 dev_macro_f1=0.6660 dev_accuracy=0.7190
+dev macro F1 0.6660 | gold macro F1 0.7827 | challenge fail 0.262 | 15.5 min
+macro F1 0.7827  acc 0.7843  n=306
+  Favour   P 0.809 R 0.655 F1 0.724 (n=110)
+  Against  P 0.835 R 0.875 F1 0.854 (n=104)
+  None     P 0.713 R 0.837 F1 0.770 (n=92)
+  [bn] macro F1 0.7439 acc 0.7451 n=153
+  [hi] macro F1 0.8215 acc 0.8235 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_single_weighted_ce
+[skip] muril_pair_claim-auto_weighted_ce exists
+
+### muril_pair_claim-en_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=pair model.claim_lang=en model.loss=weighted_ce out.model_dir=models/muril_pair_claim-en_weighted_ce seeds=[42]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-en_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0872 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0551 1.7 min
+[train] epoch 1 step 600/1205 loss 1.0342 2.5 min

@@ -1,0 +1,67 @@
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_single_weighted_ce_s43 ===
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[train] epoch 1 step 200/1205 loss 1.0873 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0639 1.6 min
+[train] epoch 1 step 600/1205 loss 1.0390 2.5 min
+[train] epoch 1 step 800/1205 loss 1.0142 3.3 min
+[train] epoch 1 step 1000/1205 loss 0.9988 4.1 min
+[train] epoch 1 step 1200/1205 loss 0.9854 4.9 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9845 minutes=4.9215 dev_macro_f1=0.4800 dev_accuracy=0.7033
+[train] epoch 2 step 200/1205 loss 0.8942 5.8 min
+[train] epoch 2 step 400/1205 loss 0.8718 6.6 min
+[train] epoch 2 step 600/1205 loss 0.8467 7.4 min
+[train] epoch 2 step 800/1205 loss 0.8366 8.2 min
+[train] epoch 2 step 1000/1205 loss 0.8214 9.0 min
+[train] epoch 2 step 1200/1205 loss 0.8076 9.9 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.8071 minutes=9.8741 dev_macro_f1=0.6605 dev_accuracy=0.7282
+[train] epoch 3 step 200/1205 loss 0.6811 10.7 min
+[train] epoch 3 step 400/1205 loss 0.6795 11.5 min
+[train] epoch 3 step 600/1205 loss 0.6702 12.4 min
+[train] epoch 3 step 800/1205 loss 0.6666 13.2 min
+[train] epoch 3 step 1000/1205 loss 0.6607 14.0 min
+[train] epoch 3 step 1200/1205 loss 0.6529 14.8 min
+[train] muril_single epoch 3: epoch=3 train_loss=0.6529 minutes=14.8261 dev_macro_f1=0.6454 dev_accuracy=0.7118
+dev macro F1 0.6605 | gold macro F1 0.6039 | challenge fail 0.320 | 15.1 min
+macro F1 0.6039  acc 0.6078  n=306
+  Favour   P 0.580 R 0.464 F1 0.515 (n=110)
+  Against  P 0.655 R 0.548 F1 0.597 (n=104)
+  None     P 0.595 R 0.848 F1 0.700 (n=92)
+  [bn] macro F1 0.5392 acc 0.5490 n=153
+  [hi] macro F1 0.6669 acc 0.6667 n=153
+
+=== muril_single_weighted_ce_s44 ===
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[train] epoch 1 step 200/1205 loss 1.0896 0.8 min
+[train] epoch 1 step 400/1205 loss 1.0610 1.6 min
+[train] epoch 1 step 600/1205 loss 1.0308 2.5 min
+[train] epoch 1 step 800/1205 loss 0.9996 3.3 min
+[train] epoch 1 step 1000/1205 loss 0.9687 4.1 min
+[train] epoch 1 step 1200/1205 loss 0.9450 4.9 min
+[train] muril_single epoch 1: epoch=1 train_loss=0.9440 minutes=4.9223 dev_macro_f1=0.6465 dev_accuracy=0.7240
+[train] epoch 2 step 200/1205 loss 0.7465 5.8 min
+[train] epoch 2 step 400/1205 loss 0.7272 6.6 min
+[train] epoch 2 step 600/1205 loss 0.7107 7.4 min
+[train] epoch 2 step 800/1205 loss 0.6970 8.2 min
+[train] epoch 2 step 1000/1205 loss 0.6890 9.1 min
+[train] epoch 2 step 1200/1205 loss 0.6815 9.9 min
+[train] muril_single epoch 2: epoch=2 train_loss=0.6804 minutes=9.8873 dev_macro_f1=0.6616 dev_accuracy=0.7111
+[train] epoch 3 step 200/1205 loss 0.5302 10.7 min
+[train] epoch 3 step 400/1205 loss 0.5217 11.6 min
+[train] epoch 3 step 600/1205 loss 0.5139 12.4 min
+[train] epoch 3 step 800/1205 loss 0.5105 13.2 min
+[train] epoch 3 step 1000/1205 loss 0.5092 14.0 min
+[train] epoch 3 step 1200/1205 loss 0.5031 14.8 min
+[train] muril_single epoch 3: epoch=3 train_loss=0.5029 minutes=14.8414 dev_macro_f1=0.6699 dev_accuracy=0.7268
+dev macro F1 0.6699 | gold macro F1 0.7685 | challenge fail 0.233 | 15.0 min
+macro F1 0.7685  acc 0.7712  n=306
+  Favour   P 0.815 R 0.600 F1 0.691 (n=110)
+  Against  P 0.744 R 0.894 F1 0.812 (n=104)
+  None     P 0.770 R 0.837 F1 0.802 (n=92)
+  [bn] macro F1 0.7387 acc 0.7451 n=153
+  [hi] macro F1 0.7991 acc 0.7974 n=153
+
+seeds summary: dev 0.6652±0.0066 gold 0.6862±0.1164 challenge-fail 0.277±0.061

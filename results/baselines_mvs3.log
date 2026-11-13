@@ -1,0 +1,26 @@
+train 19485  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+[resume] kept majority (gold 0.1763)
+[resume] kept stratified_random (gold 0.3342)
+[resume] kept lexicon (gold 0.5752)
+[resume] kept tfidf_lr (gold 0.6397)
+[resume] kept emb_labse_lr (gold 0.6024)
+
+=== stack_best: tfidf_lr + emb_labse_lr ===
+stack CV(meta OOF) 0.6538 | dev 0.6393 | gold 0.6214 | challenge fail 0.307
+macro F1 0.6214  acc 0.6405  n=306
+  Favour   P 0.735 R 0.327 F1 0.453 (n=110)
+  Against  P 0.664 R 0.817 F1 0.733 (n=104)
+  None     P 0.581 R 0.815 F1 0.679 (n=92)
+  [bn] macro F1 0.5843 acc 0.6078 n=153
+  [hi] macro F1 0.6585 acc 0.6732 n=153
+
+            model family  cv_macro_f1_mean  cv_macro_f1_std  oof_f1_hi  oof_f1_bn  dev_macro_f1  gold_macro_f1  gold_accuracy  gold_f1_hi  gold_f1_bn  challenge_fail_rate  train_seconds  cpu_ms_per_example                                          params
+         majority sparse            0.2419           0.0017     0.2422     0.2416        0.2470         0.1763         0.3595      0.1763      0.1763               0.5415         0.9413              0.0003                                              {}
+stratified_random sparse            0.3382           0.0069     0.3355     0.3409        0.3152         0.3342         0.3562      0.3855      0.2833               0.5387         0.9891              0.0013                                              {}
+          lexicon sparse            0.3369           0.0063     0.3323     0.3391        0.3175         0.5752         0.6078      0.5595      0.5907               0.3690         5.1542              0.2064                                              {}
+         tfidf_lr sparse            0.6598           0.0115     0.6635     0.6565        0.6195         0.6397         0.6405      0.6520      0.6282               0.3247      1113.0876              0.3134                                      {"C": 1.0}
+     emb_labse_lr  dense            0.6038           0.0195     0.6051     0.6027        0.5928         0.6024         0.6242      0.5819      0.6241               0.3054       957.7927              0.1158                                      {"C": 8.0}
+       stack_best hybrid            0.6538              NaN     0.6548     0.6528        0.6393         0.6214         0.6405      0.6585      0.5843               0.3072        81.7485              0.4085 {"sparse": "tfidf_lr", "dense": "emb_labse_lr"}
+
+BASELINE TO BEAT (by gold macro F1, tie-break CV): tfidf_lr gold 0.6397 CV 0.6598
+EXIT=0

@@ -1,0 +1,3 @@
+[explain] transformer: muril_pair_claim-en_weighted_ce_s42 -> C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-en_weighted_ce
+The tokenizer you are loading from 'C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-en_weighted_ce' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+-> C:\Users\aakas\Desktop\HTTP\results\explanations\index.html

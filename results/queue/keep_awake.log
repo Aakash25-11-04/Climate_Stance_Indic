@@ -1,0 +1,4 @@
+2026-11-11 17:14:37 START keeping system awake while any of ['run_transformers.py', 'job_queue.py', 'train.py'] runs
+2026-11-12 06:12:37 STOP no watched job left; normal sleep settings apply again
+2026-11-12 09:15:37 START keeping system awake while any of ['build_dataset.py', 'build_challenge.py', 'run_baselines.py', 'train.py', 'build_final.py', 'predict.py'] runs
+2026-11-12 09:21:45 STOP no watched job left; normal sleep settings apply again

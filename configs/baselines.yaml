@@ -1,0 +1,43 @@
+# Phase 3: baselines. `python scripts/run_baselines.py --config configs/baselines.yaml`
+seed: 42
+data:
+  train: data/processed/train.csv
+  dev: data/processed/dev.csv
+  gold: data/gold/test_handcrafted.csv
+  challenge_dir: data/challenge          # evaluated if it exists
+  cv_rows: null                          # cap rows used for CV (debugging)
+cv:
+  n_splits: 5
+  inner_splits: 3
+# which baselines to run (keys of the registry in scripts/run_baselines.py)
+models:
+  - majority
+  - stratified_random
+  - lexicon
+  - tfidf_lr
+  - tfidf_svm
+  - tfidf_cnb
+  - nbsvm
+  - tfidf_lr_translit
+  - nbsvm_translit
+  - emb_labse_lr
+  - emb_e5base_lr
+  - emb_bgem3_lr
+  - emb_labse_target_lr
+  - emb_e5base_target_lr
+  - zeroshot_nli
+  - stack_best
+grids:
+  tfidf_lr: {C: [0.5, 1.0, 4.0]}
+  tfidf_svm: {C: [0.1, 0.5, 1.0]}
+  tfidf_cnb: {C: [0.3, 1.0, 3.0]}       # alpha for CNB
+  nbsvm: {C: [0.5, 1.0, 4.0]}
+  emb_lr: {C: [0.5, 2.0, 8.0]}
+stacking:
+  # best sparse + best dense chosen automatically by CV macro F1 unless fixed here
+  sparse: auto
+  dense: auto
+out:
+  table: results/baselines.csv
+  oof_dir: results/oof
+  predictions_dir: results/predictions
