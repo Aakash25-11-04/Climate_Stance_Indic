@@ -25,6 +25,10 @@ in `results/`; interpretation is in [reports/discussion.md](reports/discussion.m
 
 ## Quick start
 
+**On a new computer:** follow [RUN_ON_NEW_PC.md](RUN_ON_NEW_PC.md). It clones this repo and downloads the trained model from
+[Hugging Face](https://huggingface.co/Aakash25-11-04/Climate_Stance_Indic), so no training is needed.
+
+
 ```powershell
 # Windows (PowerShell). Linux/macOS: use the Makefile (`make all`).
 python -m venv .venv ; .venv\Scripts\activate
