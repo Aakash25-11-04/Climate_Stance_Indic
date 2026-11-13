@@ -1,0 +1,19 @@
+﻿id,text,language,label,p_Favour,p_Against,p_None
+1,Bhai summer me 45 degree ho raha hai aur log bolte hai global warming fake hai 🙄 wake up guys!,hi,Against,0.2136844133228882,0.6500208433925775,0.1362947423532116
+2,"Amader gram e bonna protibochhor barche, eta global warming er effect chara ar ki? 😔",bn,Against,0.3392105082595265,0.5633873723904298,0.09740212586930391
+3,"Climate change is real yaar, glaciers pighal rahe hai… ab bhi kuch nahi kiya toh future generation kya karegi?",hi,Favour,0.635288246136354,0.2106584170851019,0.15405331815209317
+4,"Ekhon theke plastic kom use korun, gach lagan 🌱 global warming thamatei hobe #SaveEarth",bn,Favour,0.5132218261489085,0.343765892934357,0.1430122920926085
+5,"ग्लोबल वार्मिंग सच है, बारिश का pattern पूरा बदल गया है। Farmers सबसे ज्यादा suffer कर रहे हैं 💔",hi,Favour,0.48960322979850407,0.31180834792529594,0.19858843531471534
+6,"গরম এত বেড়েছে যে AC ছাড়া থাকা যায় না, global warming is no joke bro 🔥",bn,Against,0.29871252941362825,0.572678079518307,0.12860939293071308
+7,"Global warming sab propaganda hai bhai, pehle bhi garmi padti thi 😂",hi,Against,0.07027372767145729,0.8766245679567544,0.05310172858617429
+8,"Ei sob climate drama western countries er, nijera pollution kore ar amader lecture dey 🙄",bn,Favour,0.42523732085480637,0.29730288685416345,0.27745978111516195
+9,"Weather toh hamesha change hota hai, isme panic karne wali kya baat hai? Totally overhyped topic",hi,Against,0.14201482166699814,0.7426445539609299,0.11534065510571714
+10,"Ekdin thanda ekdin gorom, eta normal natural cycle… global warming bole kichu nei imo 🤷",bn,Against,0.12421828827161202,0.7735026297712342,0.10227906891863756
+11,"सब funding का खेल है, scientists को grant चाहिए इसलिए लोगों को डराते हैं 🤷‍♂️",hi,Against,0.1919012536221138,0.7382612448011546,0.06983750111107084
+12,"এবার শীতে এত ঠান্ডা পড়লো, কোথায় গেল তোমার global warming? 😏",bn,Against,0.06634234462995481,0.8350528856754467,0.09860473896095488
+13,"Global warming pe dono side ke arguments sune hai, honestly abhi tak confused hu 🤔",hi,Against,0.1861210250614949,0.4529447523819418,0.36093422535052827
+14,"Keu bolche real, keu bolche fake… kon ta thik ke jane, dekhi ki hoy",bn,None,0.16356907948142857,0.21417349802543226,0.622257436462979
+15,Anyone got a good documentary on climate change? Dono side ka dekhna hai,hi,None,0.31004088444541644,0.1113088282497609,0.5786503003433419
+16,"Aaj ka temperature 38 degree hai. Just sharing, koi opinion nahi 😅",hi,None,0.15221196595894282,0.30989354542432557,0.5378945268009545
+17,"ग्लोबल वार्मिंग पर कल school में debate है, कोई points दो please 🙏",hi,None,0.15382849995953335,0.13222723148529766,0.7139442489973914
+18,"আজকে college এ climate change নিয়ে একটা seminar ছিল, বেশ interesting discussion হলো",bn,None,0.3204906304613878,0.11615175486746684,0.5633576090832119

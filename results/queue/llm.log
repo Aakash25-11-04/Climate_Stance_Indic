@@ -1,0 +1,27 @@
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--Qwen--Qwen2.5-1.5B-Instruct. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+
+=== llm_Qwen2.5-1.5B-Instruct_0shot ===
+macro F1 0.4810  acc 0.5065  n=306
+  Favour   P 0.568 R 0.609 F1 0.588 (n=110)
+  Against  P 0.579 R 0.212 F1 0.310 (n=104)
+  None     P 0.440 R 0.717 F1 0.545 (n=92)
+  [bn] macro F1 0.4573 acc 0.4837 n=153
+  [hi] macro F1 0.5043 acc 0.5294 n=153
+challenge fail 0.493 | 357 ms/ex | 3.28 GB
+
+=== llm_Qwen2.5-1.5B-Instruct_4shot ===
+macro F1 0.4143  acc 0.4510  n=306
+  Favour   P 0.453 R 0.745 F1 0.564 (n=110)
+  Against  P 0.613 R 0.183 F1 0.281 (n=104)
+  None     P 0.394 R 0.402 F1 0.398 (n=92)
+  [bn] macro F1 0.4046 acc 0.4444 n=153
+  [hi] macro F1 0.4227 acc 0.4575 n=153
+challenge fail 0.551 | 9675 ms/ex | 5.57 GB
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+rationales -> results/llm_rationales.csv
+                          model  k_shots  dev_macro_f1  gold_macro_f1  gold_f1_hi  gold_f1_bn  challenge_fail_rate  ms_per_example_gpu  peak_gpu_gb
+llm_Qwen2.5-1.5B-Instruct_0shot        0        0.4330         0.4810      0.5043      0.4573               0.4926            357.0348       3.2814
+llm_Qwen2.5-1.5B-Instruct_4shot        4        0.4580         0.4143      0.4227      0.4046               0.5507           9675.0264       5.5712

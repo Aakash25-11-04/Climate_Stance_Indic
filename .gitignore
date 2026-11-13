@@ -1,0 +1,46 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+# model weights and large artefacts
+# trained weights live in the top-level models/ only (never src/stance/models, which is code);
+# the small selection specs of the final and efficient models are tracked
+/models/*
+!/models/final/
+!/models/efficient/
+/models/final/*
+/models/efficient/*
+!/models/final/MODEL.json
+!/models/final/ensemble.json
+!/models/efficient/MODEL.json
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+# caches
+data/cache/
+data/raw/
+data/official/*.zip
+.cache/
+hf_cache/
+# large data
+*.parquet
+*.npy
+*.npz
+results/predictions/*.npz
+# secrets
+.env
+*.key
+# OS
+Thumbs.db
+.DS_Store
+
+# build artefacts
+src/*.egg-info/
+space/
+reports/explainer_fig/project_explained.html

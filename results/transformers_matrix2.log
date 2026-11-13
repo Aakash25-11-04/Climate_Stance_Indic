@@ -1,0 +1,358 @@
+[skip] muril_single_weighted_ce exists
+[skip] muril_pair_claim-auto_weighted_ce exists
+
+### muril_pair_claim-en_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=pair model.claim_lang=en model.loss=weighted_ce out.model_dir=models/muril_pair_claim-en_weighted_ce seeds=[42]
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /google/muril-base-cased/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11002] getaddrinfo failed)"))'), '(Request ID: bd75180d-ec6a-4fc4-b442-04870768e20b)')' thrown while requesting HEAD https://huggingface.co/google/muril-base-cased/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /google/muril-base-cased/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11002] getaddrinfo failed)"))'), '(Request ID: ef01aa1b-e62f-44fe-bce4-d2bd3abfea3b)')' thrown while requesting HEAD https://huggingface.co/google/muril-base-cased/resolve/main/tokenizer_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /google/muril-base-cased/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11002] getaddrinfo failed)"))'), '(Request ID: 3f409819-26c0-4520-9496-83440fa6e583)')' thrown while requesting HEAD https://huggingface.co/google/muril-base-cased/resolve/main/tokenizer_config.json
+Retrying in 4s [Retry 3/5].
+'(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: cf679d9c-b4d8-4dc4-bba1-3c147159dcbe)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/google/muril-base-cased/afd9f36c7923d54e97903922ff1b260d091d202f/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-en_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0872 0.9 min
+[train] epoch 1 step 400/1205 loss 1.0525 1.7 min
+[train] epoch 1 step 600/1205 loss 1.0246 2.6 min
+[train] epoch 1 step 800/1205 loss 0.9976 3.4 min
+[train] epoch 1 step 1000/1205 loss 0.9679 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.9400 5.1 min
+[train] muril_pair_claim-en epoch 1: epoch=1 train_loss=0.9393 minutes=5.0809 dev_macro_f1=0.6331 dev_accuracy=0.7140
+[train] epoch 2 step 200/1205 loss 0.7324 6.0 min
+[train] epoch 2 step 400/1205 loss 0.7193 6.8 min
+[train] epoch 2 step 600/1205 loss 0.6982 7.6 min
+[train] epoch 2 step 800/1205 loss 0.6827 8.5 min
+[train] epoch 2 step 1000/1205 loss 0.6735 9.3 min
+[train] epoch 2 step 1200/1205 loss 0.6646 10.1 min
+[train] muril_pair_claim-en epoch 2: epoch=2 train_loss=0.6641 minutes=10.1330 dev_macro_f1=0.6576 dev_accuracy=0.7068
+[train] epoch 3 step 200/1205 loss 0.5329 11.0 min
+[train] epoch 3 step 400/1205 loss 0.5170 11.8 min
+[train] epoch 3 step 600/1205 loss 0.5066 12.9 min
+[train] epoch 3 step 800/1205 loss 0.5045 13.9 min
+[train] epoch 3 step 1000/1205 loss 0.4992 15.0 min
+[train] epoch 3 step 1200/1205 loss 0.4978 16.0 min
+[train] muril_pair_claim-en epoch 3: epoch=3 train_loss=0.4977 minutes=16.0076 dev_macro_f1=0.6830 dev_accuracy=0.7325
+dev macro F1 0.6830 | gold macro F1 0.7367 | challenge fail 0.220 | 17.5 min
+macro F1 0.7367  acc 0.7418  n=306
+  Favour   P 0.853 R 0.527 F1 0.652 (n=110)
+  Against  P 0.782 R 0.827 F1 0.804 (n=104)
+  None     P 0.648 R 0.902 F1 0.755 (n=92)
+  [bn] macro F1 0.7036 acc 0.7124 n=153
+  [hi] macro F1 0.7685 acc 0.7712 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-en_weighted_ce
+
+### muril_pair_claim-hi_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=pair model.claim_lang=hi model.loss=weighted_ce out.model_dir=models/muril_pair_claim-hi_weighted_ce seeds=[42]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-hi_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0877 1.1 min
+[train] epoch 1 step 400/1205 loss 1.0520 2.1 min
+[train] epoch 1 step 600/1205 loss 1.0356 3.1 min
+[train] epoch 1 step 800/1205 loss 1.0155 4.4 min
+[train] epoch 1 step 1000/1205 loss 0.9933 5.6 min
+[train] epoch 1 step 1200/1205 loss 0.9685 6.9 min
+[train] muril_pair_claim-hi epoch 1: epoch=1 train_loss=0.9677 minutes=6.9109 dev_macro_f1=0.6333 dev_accuracy=0.7126
+[train] epoch 2 step 200/1205 loss 0.7866 8.2 min
+[train] epoch 2 step 400/1205 loss 0.7770 9.3 min
+[train] epoch 2 step 600/1205 loss 0.7544 10.6 min
+[train] epoch 2 step 800/1205 loss 0.7391 11.8 min
+[train] epoch 2 step 1000/1205 loss 0.7274 13.0 min
+[train] epoch 2 step 1200/1205 loss 0.7167 14.1 min
+[train] muril_pair_claim-hi epoch 2: epoch=2 train_loss=0.7163 minutes=14.0909 dev_macro_f1=0.6364 dev_accuracy=0.6847
+[train] epoch 3 step 200/1205 loss 0.5841 15.5 min
+[train] epoch 3 step 400/1205 loss 0.5705 16.6 min
+[train] epoch 3 step 600/1205 loss 0.5577 17.8 min
+[train] epoch 3 step 800/1205 loss 0.5532 18.8 min
+[train] epoch 3 step 1000/1205 loss 0.5489 19.9 min
+[train] epoch 3 step 1200/1205 loss 0.5456 20.9 min
+[train] muril_pair_claim-hi epoch 3: epoch=3 train_loss=0.5458 minutes=20.9206 dev_macro_f1=0.6600 dev_accuracy=0.7190
+dev macro F1 0.6600 | gold macro F1 0.7284 | challenge fail 0.246 | 21.6 min
+macro F1 0.7284  acc 0.7353  n=306
+  Favour   P 0.885 R 0.491 F1 0.632 (n=110)
+  Against  P 0.798 R 0.837 F1 0.817 (n=104)
+  None     P 0.618 R 0.913 F1 0.737 (n=92)
+  [bn] macro F1 0.7106 acc 0.7190 n=153
+  [hi] macro F1 0.7461 acc 0.7516 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-hi_weighted_ce
+
+### muril_pair_claim-bn_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=pair model.claim_lang=bn model.loss=weighted_ce out.model_dir=models/muril_pair_claim-bn_weighted_ce seeds=[42]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-bn_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0872 1.0 min
+[train] epoch 1 step 400/1205 loss 1.0520 2.1 min
+[train] epoch 1 step 600/1205 loss 1.0299 3.1 min
+[train] epoch 1 step 800/1205 loss 1.0070 4.2 min
+[train] epoch 1 step 1000/1205 loss 0.9807 5.2 min
+[train] epoch 1 step 1200/1205 loss 0.9540 6.3 min
+[train] muril_pair_claim-bn epoch 1: epoch=1 train_loss=0.9534 minutes=6.2770 dev_macro_f1=0.5616 dev_accuracy=0.6897
+[train] epoch 2 step 200/1205 loss 0.7624 7.4 min
+[train] epoch 2 step 400/1205 loss 0.7426 8.6 min
+[train] epoch 2 step 600/1205 loss 0.7239 9.7 min
+[train] epoch 2 step 800/1205 loss 0.7060 10.8 min
+[train] epoch 2 step 1000/1205 loss 0.6935 11.8 min
+[train] epoch 2 step 1200/1205 loss 0.6831 12.9 min
+[train] muril_pair_claim-bn epoch 2: epoch=2 train_loss=0.6826 minutes=12.9532 dev_macro_f1=0.6357 dev_accuracy=0.6819
+[train] epoch 3 step 200/1205 loss 0.5445 14.1 min
+[train] epoch 3 step 400/1205 loss 0.5359 15.2 min
+[train] epoch 3 step 600/1205 loss 0.5228 16.3 min
+[train] time budget reached (170 min); stopping
+[train] muril_pair_claim-bn epoch 3: epoch=3 train_loss=0.5185 minutes=269.2166 dev_macro_f1=0.6717 dev_accuracy=0.7361
+dev macro F1 0.6717 | gold macro F1 0.7772 | challenge fail 0.245 | 269.8 min
+macro F1 0.7772  acc 0.7778  n=306
+  Favour   P 0.798 R 0.645 F1 0.714 (n=110)
+  Against  P 0.848 R 0.808 F1 0.828 (n=104)
+  None     P 0.703 R 0.902 F1 0.790 (n=92)
+  [bn] macro F1 0.7775 acc 0.7778 n=153
+  [hi] macro F1 0.7769 acc 0.7778 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-bn_weighted_ce
+
+### muril_pair_claim-auto_focal
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=muril model.formulation=pair model.claim_lang=auto model.loss=focal out.model_dir=models/muril_pair_claim-auto_focal seeds=[42]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-auto_focal_s42 ===
+[train] epoch 1 step 200/1205 loss 0.3954 0.9 min
+[train] epoch 1 step 400/1205 loss 0.3812 1.7 min
+[train] epoch 1 step 600/1205 loss 0.3762 2.6 min
+[train] epoch 1 step 800/1205 loss 0.3676 3.4 min
+[train] epoch 1 step 1000/1205 loss 0.3603 4.3 min
+[train] epoch 1 step 1200/1205 loss 0.3515 5.1 min
+[train] muril_pair_claim-auto epoch 1: epoch=1 train_loss=0.3511 minutes=5.1464 dev_macro_f1=0.5040 dev_accuracy=0.6940
+[train] epoch 2 step 200/1205 loss 0.2846 6.1 min
+[train] epoch 2 step 400/1205 loss 0.2794 6.9 min
+[train] epoch 2 step 600/1205 loss 0.2719 7.8 min
+[train] epoch 2 step 800/1205 loss 0.2648 8.6 min
+[train] epoch 2 step 1000/1205 loss 0.2606 9.5 min
+[train] epoch 2 step 1200/1205 loss 0.2555 10.3 min
+[train] muril_pair_claim-auto epoch 2: epoch=2 train_loss=0.2552 minutes=10.3111 dev_macro_f1=0.6667 dev_accuracy=0.7204
+[train] epoch 3 step 200/1205 loss 0.2018 11.2 min
+[train] epoch 3 step 400/1205 loss 0.1947 12.1 min
+[train] epoch 3 step 600/1205 loss 0.1910 12.9 min
+[train] epoch 3 step 800/1205 loss 0.1894 13.7 min
+[train] epoch 3 step 1000/1205 loss 0.1874 14.6 min
+[train] epoch 3 step 1200/1205 loss 0.1868 15.4 min
+[train] muril_pair_claim-auto epoch 3: epoch=3 train_loss=0.1868 minutes=15.4455 dev_macro_f1=0.6718 dev_accuracy=0.7354
+dev macro F1 0.6718 | gold macro F1 0.7324 | challenge fail 0.271 | 15.9 min
+macro F1 0.7324  acc 0.7353  n=306
+  Favour   P 0.795 R 0.564 F1 0.660 (n=110)
+  Against  P 0.769 R 0.798 F1 0.783 (n=104)
+  None     P 0.667 R 0.870 F1 0.755 (n=92)
+  [bn] macro F1 0.7294 acc 0.7320 n=153
+  [hi] macro F1 0.7355 acc 0.7386 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-auto_focal
+
+### indicbert_pair_claim-auto_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=indicbert model.formulation=pair model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/indicbert_pair_claim-auto_weighted_ce seeds=[42]
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--ai4bharat--IndicBERTv2-MLM-only. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at ai4bharat/IndicBERTv2-MLM-only and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== indicbert_pair_claim-auto_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0589 0.9 min
+[train] epoch 1 step 400/1205 loss 0.9768 1.7 min
+[train] epoch 1 step 600/1205 loss 0.9143 2.6 min
+[train] epoch 1 step 800/1205 loss 0.8734 3.4 min
+[train] epoch 1 step 1000/1205 loss 0.8424 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.8136 5.1 min
+[train] indicbert_pair_claim-auto epoch 1: epoch=1 train_loss=0.8127 minutes=5.0833 dev_macro_f1=0.6530 dev_accuracy=0.7247
+[train] epoch 2 step 200/1205 loss 0.5956 6.0 min
+[train] epoch 2 step 400/1205 loss 0.5808 6.8 min
+[train] epoch 2 step 600/1205 loss 0.5646 7.7 min
+[train] epoch 2 step 800/1205 loss 0.5528 8.5 min
+[train] epoch 2 step 1000/1205 loss 0.5490 9.3 min
+[train] epoch 2 step 1200/1205 loss 0.5439 10.2 min
+[train] indicbert_pair_claim-auto epoch 2: epoch=2 train_loss=0.5438 minutes=10.1929 dev_macro_f1=0.6667 dev_accuracy=0.7218
+[train] epoch 3 step 200/1205 loss 0.4171 11.1 min
+[train] epoch 3 step 400/1205 loss 0.4080 12.0 min
+[train] epoch 3 step 600/1205 loss 0.3963 12.8 min
+[train] epoch 3 step 800/1205 loss 0.3982 13.6 min
+[train] epoch 3 step 1000/1205 loss 0.3907 14.5 min
+[train] epoch 3 step 1200/1205 loss 0.3897 15.3 min
+[train] indicbert_pair_claim-auto epoch 3: epoch=3 train_loss=0.3897 minutes=15.3134 dev_macro_f1=0.6641 dev_accuracy=0.7247
+dev macro F1 0.6667 | gold macro F1 0.7740 | challenge fail 0.210 | 37.8 min
+macro F1 0.7740  acc 0.7778  n=306
+  Favour   P 0.825 R 0.600 F1 0.695 (n=110)
+  Against  P 0.832 R 0.904 F1 0.866 (n=104)
+  None     P 0.690 R 0.848 F1 0.761 (n=92)
+  [bn] macro F1 0.7689 acc 0.7712 n=153
+  [hi] macro F1 0.7788 acc 0.7843 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\indicbert_pair_claim-auto_weighted_ce
+
+### xlmr_pair_claim-auto_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=xlmr model.formulation=pair model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/xlmr_pair_claim-auto_weighted_ce seeds=[42]
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--FacebookAI--xlm-roberta-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at FacebookAI/xlm-roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== xlmr_pair_claim-auto_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0528 0.9 min
+[train] epoch 1 step 400/1205 loss 1.0233 1.7 min
+[train] epoch 1 step 600/1205 loss 0.9999 2.6 min
+[train] epoch 1 step 800/1205 loss 0.9668 3.4 min
+[train] epoch 1 step 1000/1205 loss 0.9355 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.9080 5.1 min
+[train] xlmr_pair_claim-auto epoch 1: epoch=1 train_loss=0.9070 minutes=5.1002 dev_macro_f1=0.6177 dev_accuracy=0.7118
+[train] epoch 2 step 200/1205 loss 0.7010 6.0 min
+[train] epoch 2 step 400/1205 loss 0.6965 6.9 min
+[train] epoch 2 step 600/1205 loss 0.6778 7.7 min
+[train] epoch 2 step 800/1205 loss 0.6668 8.5 min
+[train] epoch 2 step 1000/1205 loss 0.6637 9.4 min
+[train] epoch 2 step 1200/1205 loss 0.6567 10.2 min
+[train] xlmr_pair_claim-auto epoch 2: epoch=2 train_loss=0.6564 minutes=10.2498 dev_macro_f1=0.6709 dev_accuracy=0.7225
+[train] epoch 3 step 200/1205 loss 0.5317 11.2 min
+[train] epoch 3 step 400/1205 loss 0.5158 12.0 min
+[train] epoch 3 step 600/1205 loss 0.5095 12.9 min
+[train] epoch 3 step 800/1205 loss 0.5088 13.7 min
+[train] epoch 3 step 1000/1205 loss 0.5058 14.6 min
+[train] epoch 3 step 1200/1205 loss 0.5040 15.4 min
+[train] xlmr_pair_claim-auto epoch 3: epoch=3 train_loss=0.5040 minutes=15.4160 dev_macro_f1=0.6556 dev_accuracy=0.7204
+dev macro F1 0.6709 | gold macro F1 0.7762 | challenge fail 0.256 | 30.3 min
+macro F1 0.7762  acc 0.7778  n=306
+  Favour   P 0.831 R 0.627 F1 0.715 (n=110)
+  Against  P 0.765 R 0.846 F1 0.804 (n=104)
+  None     P 0.750 R 0.880 F1 0.810 (n=92)
+  [bn] macro F1 0.7488 acc 0.7516 n=153
+  [hi] macro F1 0.8033 acc 0.8039 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\xlmr_pair_claim-auto_weighted_ce
+
+### mbert_pair_claim-auto_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=mbert model.formulation=pair model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/mbert_pair_claim-auto_weighted_ce seeds=[42]
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--google-bert--bert-base-multilingual-cased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== mbert_pair_claim-auto_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.0230 0.9 min
+[train] epoch 1 step 400/1205 loss 0.9778 1.7 min
+[train] epoch 1 step 600/1205 loss 0.9451 2.6 min
+[train] epoch 1 step 800/1205 loss 0.9232 3.4 min
+[train] epoch 1 step 1000/1205 loss 0.9008 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.8797 5.1 min
+[train] mbert_pair_claim-auto epoch 1: epoch=1 train_loss=0.8789 minutes=5.0872 dev_macro_f1=0.5359 dev_accuracy=0.6783
+[train] epoch 2 step 200/1205 loss 0.7052 6.0 min
+[train] epoch 2 step 400/1205 loss 0.6941 6.9 min
+[train] epoch 2 step 600/1205 loss 0.6788 7.7 min
+[train] epoch 2 step 800/1205 loss 0.6709 8.5 min
+[train] epoch 2 step 1000/1205 loss 0.6663 9.4 min
+[train] epoch 2 step 1200/1205 loss 0.6597 10.2 min
+[train] mbert_pair_claim-auto epoch 2: epoch=2 train_loss=0.6595 minutes=10.2374 dev_macro_f1=0.6003 dev_accuracy=0.6662
+[train] epoch 3 step 200/1205 loss 0.5082 11.2 min
+[train] epoch 3 step 400/1205 loss 0.5071 12.0 min
+[train] epoch 3 step 600/1205 loss 0.4993 12.8 min
+[train] epoch 3 step 800/1205 loss 0.5003 13.7 min
+[train] epoch 3 step 1000/1205 loss 0.4940 14.5 min
+[train] epoch 3 step 1200/1205 loss 0.4911 15.4 min
+[train] mbert_pair_claim-auto epoch 3: epoch=3 train_loss=0.4916 minutes=15.3818 dev_macro_f1=0.6089 dev_accuracy=0.6783
+dev macro F1 0.6089 | gold macro F1 0.6416 | challenge fail 0.352 | 22.5 min
+macro F1 0.6416  acc 0.6471  n=306
+  Favour   P 0.671 R 0.518 F1 0.585 (n=110)
+  Against  P 0.695 R 0.548 F1 0.613 (n=104)
+  None     P 0.604 R 0.913 F1 0.727 (n=92)
+  [bn] macro F1 0.6438 acc 0.6471 n=153
+  [hi] macro F1 0.6389 acc 0.6471 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\mbert_pair_claim-auto_weighted_ce
+
+### banglabert_pair_claim-auto_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=banglabert model.formulation=pair model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/banglabert_pair_claim-auto_weighted_ce seeds=[42] data.languages=[bn]
+C:\Users\aakas\Desktop\HTTP\.venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aakas\.cache\huggingface\hub\models--csebuetnlp--banglabert. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Some weights of ElectraForSequenceClassification were not initialized from the model checkpoint at csebuetnlp/banglabert and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+train 9490 dev 690 gold 153 challenge ['mft', 'invariance', 'directional']
+
+=== banglabert_pair_claim-auto_weighted_ce_s42 ===
+[train] epoch 1 step 200/594 loss 1.0048 0.9 min
+[train] epoch 1 step 400/594 loss 0.9143 1.9 min
+[train] banglabert_pair_claim-auto epoch 1: epoch=1 train_loss=0.8578 minutes=2.7834 dev_macro_f1=0.6747 dev_accuracy=0.7203
+[train] epoch 2 step 200/594 loss 0.6101 3.8 min
+[train] epoch 2 step 400/594 loss 0.6096 4.7 min
+[train] banglabert_pair_claim-auto epoch 2: epoch=2 train_loss=0.5960 minutes=5.5943 dev_macro_f1=0.6821 dev_accuracy=0.7348
+[train] epoch 3 step 200/594 loss 0.4613 6.6 min
+[train] epoch 3 step 400/594 loss 0.4401 7.5 min
+[train] banglabert_pair_claim-auto epoch 3: epoch=3 train_loss=0.4333 minutes=8.4041 dev_macro_f1=0.6757 dev_accuracy=0.7319
+dev macro F1 0.6821 | gold macro F1 0.7967 | challenge fail 0.201 | 11.3 min
+macro F1 0.7967  acc 0.7974  n=153
+  Favour   P 0.921 R 0.636 F1 0.753 (n=55)
+  Against  P 0.882 R 0.865 F1 0.874 (n=52)
+  None     P 0.656 R 0.913 F1 0.764 (n=46)
+  [bn] macro F1 0.7967 acc 0.7974 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\banglabert_pair_claim-auto_weighted_ce
+
+### mdeberta-xnli_pair_claim-auto_weighted_ce
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set model.name=mdeberta-xnli model.formulation=pair model.claim_lang=auto model.loss=weighted_ce out.model_dir=models/mdeberta-xnli_pair_claim-auto_weighted_ce seeds=[42] model.lr=1e-05
+C:\Users\aakas\anaconda3\envs\stance\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+C:\Users\aakas\Desktop\HTTP\src\stance\models\transformer.py:168: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sched.step()
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== mdeberta-xnli_pair_claim-auto_weighted_ce_s42 ===
+[train] epoch 1 step 200/1205 loss 1.3719 3.3 min
+[train] epoch 1 step 400/1205 loss 1.1160 6.7 min
+[train] epoch 1 step 600/1205 loss 1.0053 10.0 min
+[train] epoch 1 step 800/1205 loss 0.9435 13.4 min
+[train] epoch 1 step 1000/1205 loss 0.8979 16.7 min
+[train] epoch 1 step 1200/1205 loss 0.8587 20.1 min
+[train] mdeberta-xnli_pair_claim-auto epoch 1: epoch=1 train_loss=0.8579 minutes=20.1601 dev_macro_f1=0.6486 dev_accuracy=0.7297
+[train] epoch 2 step 200/1205 loss 0.6011 23.8 min
+[train] epoch 2 step 400/1205 loss 0.5894 27.1 min
+[train] epoch 2 step 600/1205 loss 0.5821 30.4 min
+[train] epoch 2 step 800/1205 loss 0.5689 33.8 min
+[train] epoch 2 step 1000/1205 loss 0.5685 37.1 min
+[train] epoch 2 step 1200/1205 loss 0.5615 40.5 min
+[train] mdeberta-xnli_pair_claim-auto epoch 2: epoch=2 train_loss=0.5612 minutes=40.5527 dev_macro_f1=0.6435 dev_accuracy=0.6947
+[train] epoch 3 step 200/1205 loss 0.4367 44.1 min
+[train] epoch 3 step 400/1205 loss 0.4364 47.5 min
+[train] epoch 3 step 600/1205 loss 0.4356 50.8 min
+[train] epoch 3 step 800/1205 loss 0.4366 54.1 min
+[train] epoch 3 step 1000/1205 loss 0.4327 57.5 min
+[train] epoch 3 step 1200/1205 loss 0.4315 60.8 min
+[train] mdeberta-xnli_pair_claim-auto epoch 3: epoch=3 train_loss=0.4319 minutes=60.9100 dev_macro_f1=0.6438 dev_accuracy=0.7004
+[train] early stopping
+dev macro F1 0.6486 | gold macro F1 0.7000 | challenge fail 0.252 | 61.6 min
+macro F1 0.7000  acc 0.6993  n=306
+  Favour   P 0.624 R 0.755 F1 0.683 (n=110)
+  Against  P 0.763 R 0.558 F1 0.644 (n=104)
+  None     P 0.753 R 0.793 F1 0.772 (n=92)
+  [bn] macro F1 0.6854 acc 0.6863 n=153
+  [hi] macro F1 0.7138 acc 0.7124 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\mdeberta-xnli_pair_claim-auto_weighted_ce
+
+                                          run  dev_macro_f1  gold_macro_f1  gold_accuracy  gold_f1_hi  gold_f1_bn  challenge_fail_rate  epochs  train_minutes  params_m
+   banglabert_pair_claim-auto_weighted_ce_s42        0.6821         0.7967         0.7974         NaN      0.7967               0.2011       3        11.3318  110.6197
+                 muril_single_weighted_ce_s42        0.6660         0.7827         0.7843      0.8215      0.7439               0.2620       3        15.4781  237.5585
+          muril_pair_claim-bn_weighted_ce_s42        0.6717         0.7772         0.7778      0.7769      0.7775               0.2454       3       269.7877  237.5585
+         xlmr_pair_claim-auto_weighted_ce_s42        0.6709         0.7762         0.7778      0.8033      0.7488               0.2565       3        30.2572  278.0460
+    indicbert_pair_claim-auto_weighted_ce_s42        0.6667         0.7740         0.7778      0.7788      0.7689               0.2103       3        37.8044  278.0437
+          muril_pair_claim-en_weighted_ce_s42        0.6830         0.7367         0.7418      0.7685      0.7036               0.2196       3        17.4666  237.5585
+              muril_pair_claim-auto_focal_s42        0.6718         0.7324         0.7353      0.7355      0.7294               0.2712       3        15.8543  237.5585
+          muril_pair_claim-hi_weighted_ce_s42        0.6600         0.7284         0.7353      0.7461      0.7106               0.2463       3        21.6096  237.5585
+mdeberta-xnli_pair_claim-auto_weighted_ce_s42        0.6486         0.7000         0.6993      0.7138      0.6854               0.2518       3        61.6135  278.8117
+  muril_pair_claim-auto_weighted_ce_e6lr3_s42        0.6562         0.6866         0.6928      0.6647      0.7086               0.2749       5        25.6770  237.5585
+        muril_pair_claim-auto_weighted_ce_s42        0.6543         0.6740         0.6830      0.6899      0.6578               0.2906       3        15.5090  237.5585
+        mbert_pair_claim-auto_weighted_ce_s42        0.6089         0.6416         0.6471      0.6389      0.6438               0.3524       3        22.4510  177.8557
+EXIT=done  

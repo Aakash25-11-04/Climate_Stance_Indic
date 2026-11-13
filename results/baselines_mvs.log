@@ -1,0 +1,71 @@
+train 19485  dev 1402  gold 306  challenge files ['mft', 'invariance', 'directional']
+
+=== majority ===
+  fold 0: macro F1 0.2437 params={}
+  fold 1: macro F1 0.2442 params={}
+  fold 2: macro F1 0.2398 params={}
+  fold 3: macro F1 0.2405 params={}
+  fold 4: macro F1 0.2413 params={}
+CV macro F1 0.2419 ± 0.0017 | dev 0.2470 | gold 0.1763 (hi 0.176 bn 0.176) | challenge fail 0.542 | 0.0 ms/ex
+macro F1 0.1763  acc 0.3595  n=306
+  Favour   P 0.359 R 1.000 F1 0.529 (n=110)
+  Against  P 0.000 R 0.000 F1 0.000 (n=104)
+  None     P 0.000 R 0.000 F1 0.000 (n=92)
+  [bn] macro F1 0.1763 acc 0.3595 n=153
+  [hi] macro F1 0.1763 acc 0.3595 n=153
+
+=== stratified_random ===
+  fold 0: macro F1 0.3353 params={}
+  fold 1: macro F1 0.3421 params={}
+  fold 2: macro F1 0.3279 params={}
+  fold 3: macro F1 0.3372 params={}
+  fold 4: macro F1 0.3486 params={}
+CV macro F1 0.3382 ± 0.0069 | dev 0.3152 | gold 0.3342 (hi 0.386 bn 0.283) | challenge fail 0.539 | 0.0 ms/ex
+macro F1 0.3342  acc 0.3562  n=306
+  Favour   P 0.350 R 0.564 F1 0.432 (n=110)
+  Against  P 0.500 R 0.173 F1 0.257 (n=104)
+  None     P 0.312 R 0.315 F1 0.314 (n=92)
+  [bn] macro F1 0.2833 acc 0.3072 n=153
+  [hi] macro F1 0.3855 acc 0.4052 n=153
+
+=== lexicon ===
+  fold 0: macro F1 0.3444 params={}
+  fold 1: macro F1 0.3327 params={}
+  fold 2: macro F1 0.3383 params={}
+  fold 3: macro F1 0.3270 params={}
+  fold 4: macro F1 0.3420 params={}
+CV macro F1 0.3369 ± 0.0063 | dev 0.3175 | gold 0.5752 (hi 0.559 bn 0.591) | challenge fail 0.369 | 0.2 ms/ex
+macro F1 0.5752  acc 0.6078  n=306
+  Favour   P 0.673 R 0.655 F1 0.664 (n=110)
+  Against  P 0.839 R 0.250 F1 0.385 (n=104)
+  None     P 0.524 R 0.957 F1 0.677 (n=92)
+  [bn] macro F1 0.5907 acc 0.6209 n=153
+  [hi] macro F1 0.5595 acc 0.5948 n=153
+
+=== tfidf_lr ===
+  fold 0: macro F1 0.6638 params={'C': 1.0}
+  fold 1: macro F1 0.6380 params={'C': 1.0}
+  fold 2: macro F1 0.6722 params={'C': 1.0}
+  fold 3: macro F1 0.6611 params={'C': 0.5}
+  fold 4: macro F1 0.6638 params={'C': 1.0}
+CV macro F1 0.6598 ± 0.0115 | dev 0.6195 | gold 0.6397 (hi 0.652 bn 0.628) | challenge fail 0.325 | 0.3 ms/ex
+macro F1 0.6397  acc 0.6405  n=306
+  Favour   P 0.696 R 0.500 F1 0.582 (n=110)
+  Against  P 0.744 R 0.644 F1 0.691 (n=104)
+  None     P 0.540 R 0.804 F1 0.646 (n=92)
+  [bn] macro F1 0.6282 acc 0.6275 n=153
+  [hi] macro F1 0.6520 acc 0.6536 n=153
+
+=== emb_labse_lr ===
+  fold 0: macro F1 0.6086 params={'C': 8.0}
+  fold 1: macro F1 0.5658 params={'C': 8.0}
+  fold 2: macro F1 0.6134 params={'C': 8.0}
+  fold 3: macro F1 0.6110 params={'C': 8.0}
+  fold 4: macro F1 0.6207 params={'C': 8.0}
+Traceback (most recent call last):
+  File "C:\Users\aakas\Desktop\HTTP\scripts\run_baselines.py", line 262, in <module>
+    main()
+  File "C:\Users\aakas\Desktop\HTTP\scripts\run_baselines.py", line 176, in main
+    pickle.dump(final, f)
+TypeError: cannot pickle 'sqlite3.Connection' object
+EXIT=1

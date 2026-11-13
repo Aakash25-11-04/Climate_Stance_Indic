@@ -1,0 +1,42 @@
+members: ['muril_pair_claim-en_weighted_ce', 'muril_pair_claim-auto_focal', 'tfidf_cnb', 'emb_bgem3_lr']
+The tokenizer you are loading from 'C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-en_weighted_ce' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+The tokenizer you are loading from 'C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-auto_focal' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+member inference on 3096 texts: 19s
+muril_pair_claim-en_weighted_ce          dev 0.6830 gold 0.7367 challenge-fail 0.220 score 0.6269
+muril_pair_claim-auto_focal              dev 0.6718 gold 0.7324 challenge-fail 0.271 score 0.5968
+tfidf_cnb                                dev 0.5781 gold 0.7318 challenge-fail 0.287 score 0.5883
+emb_bgem3_lr                             dev 0.6342 gold 0.7193 challenge-fail 0.266 score 0.5864
+avg_all                                  dev 0.6856 gold 0.7662 challenge-fail 0.209 score 0.6615
+weighted_dev                             dev 0.6991 gold 0.7246 challenge-fail 0.211 score 0.6190
+stack_dev                                dev 0.6722 gold 0.6836 challenge-fail 0.232 score 0.5674
+hybrid_baseline                          dev 0.6376 gold 0.6704 challenge-fail 0.300 score 0.5205
+avg_all+cal                              dev 0.7003 gold 0.7398 challenge-fail 0.241 score 0.6194
+muril_pair_claim-en_weighted_ce+cal      dev 0.6854 gold 0.7304 challenge-fail 0.218 score 0.6215
+weighted_dev+cal                         dev 0.6993 gold 0.7313 challenge-fail 0.220 score 0.6211
+
+                          candidate                                                                            members  dev_macro_f1  dev_ece  gold_macro_f1  gold_accuracy  gold_f1_hi  gold_f1_bn  challenge_fail_rate  calibrated  score
+                            avg_all muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr        0.6856   0.0649         0.7662         0.7712      0.8005      0.7320               0.2094       False 0.6615
+    muril_pair_claim-en_weighted_ce                                                    muril_pair_claim-en_weighted_ce        0.6830   0.0897         0.7367         0.7418      0.7685      0.7036               0.2196       False 0.6269
+muril_pair_claim-en_weighted_ce+cal                                                    muril_pair_claim-en_weighted_ce        0.6854   0.0464         0.7304         0.7353      0.7622      0.6975               0.2177        True 0.6215
+                   weighted_dev+cal muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr        0.6993   0.0315         0.7313         0.7353      0.7688      0.6931               0.2205        True 0.6211
+                        avg_all+cal muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr        0.7003   0.0278         0.7398         0.7418      0.7687      0.7112               0.2408        True 0.6194
+                       weighted_dev muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr        0.6991   0.0638         0.7246         0.7320      0.7602      0.6879               0.2113       False 0.6190
+        muril_pair_claim-auto_focal                                                        muril_pair_claim-auto_focal        0.6718   0.1214         0.7324         0.7353      0.7355      0.7294               0.2712       False 0.5968
+                          tfidf_cnb                                                                          tfidf_cnb        0.5781   0.1442         0.7318         0.7320      0.7266      0.7378               0.2869       False 0.5883
+                       emb_bgem3_lr                                                                       emb_bgem3_lr        0.6342   0.0394         0.7193         0.7255      0.7217      0.7158               0.2657       False 0.5864
+                          stack_dev muril_pair_claim-en_weighted_ce+muril_pair_claim-auto_focal+tfidf_cnb+emb_bgem3_lr        0.6722   0.0415         0.6836         0.7026      0.7175      0.6510               0.2325       False 0.5674
+                    hybrid_baseline                                                                    hybrid_baseline        0.6376   0.0281         0.6704         0.6863      0.7151      0.6249               0.2998       False 0.5205
+The tokenizer you are loading from 'C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-en_weighted_ce' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+C:\Users\aakas\anaconda3\envs\stance\Lib\site-packages\torch\ao\nn\quantized\modules\utils.py:72: UserWarning: torch.quantize_per_tensor, torch.quantize_per_channel and other quantized tensor creation functions that produce tensors with dtype torch.quint8, torch.qint8, and torch.qint32 are deprecated and will be removed in a future PyTorch release. Please see https://github.com/pytorch/pytorch/issues/184982 for more information. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\quantized\Quantizer.cpp:116.)
+  qweight = torch.quantize_per_tensor(
+The tokenizer you are loading from 'C:\Users\aakas\Desktop\HTTP\models\muril_pair_claim-auto_focal' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+
+accuracy vs cost:
+                                                           model  gold_macro_f1  challenge_fail_rate  size_mb  cpu_ms_per_example
+                                                       tfidf_cnb          0.732                0.287   19.142               0.171
+                                             hybrid_baseline (j)          0.670                0.300   23.130             118.207
+                      muril_pair_claim-en_weighted_ce (fp32 cpu)          0.737                0.220  959.833              17.028
+muril_pair_claim-en_weighted_ce (int8 dynamic, attention layers)          0.715                0.223      NaN              14.319
+                                              ensemble (avg_all)          0.766                0.209 1938.823             196.774
+
+FINAL: avg_all -> C:\Users\aakas\Desktop\HTTP\models\final\MODEL.json; efficient -> C:\Users\aakas\Desktop\HTTP\models\efficient\MODEL.json

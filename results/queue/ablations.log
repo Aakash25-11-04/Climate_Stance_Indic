@@ -1,0 +1,15 @@
+sparse baseline to beat: tfidf_cnb {'C': 0.3}
+
+=== ablation none: 19278 rows (train 19278) ===
+  fold 0: macro F1 0.6214 params={}
+  fold 1: macro F1 0.6334 params={}
+  fold 2: macro F1 0.6266 params={}
+  fold 3: macro F1 0.6188 params={}
+  fold 4: macro F1 0.6320 params={}
+Traceback (most recent call last):
+  File "C:\Users\aakas\Desktop\HTTP\scripts\run_ablations.py", line 150, in <module>
+    main()
+  File "C:\Users\aakas\Desktop\HTTP\scripts\run_ablations.py", line 112, in main
+    gold_m = evaluate(gold["label"], m.predict(gold["text"].tolist(), gold["language"].tolist()), gold["language"])
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.predict() takes 2 positional arguments but 3 were given

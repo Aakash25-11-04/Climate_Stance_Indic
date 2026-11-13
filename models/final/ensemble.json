@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "name": "muril_pair_claim-en_weighted_ce",
+      "type": "transformer",
+      "path": "models/muril_pair_claim-en_weighted_ce"
+    },
+    {
+      "name": "muril_pair_claim-auto_focal",
+      "type": "transformer",
+      "path": "models/muril_pair_claim-auto_focal"
+    },
+    {
+      "name": "tfidf_cnb",
+      "type": "pickle",
+      "path": "models/tfidf_cnb.pkl"
+    },
+    {
+      "name": "emb_bgem3_lr",
+      "type": "pickle",
+      "path": "models/emb_bgem3_lr.pkl"
+    }
+  ],
+  "method": "average"
+}

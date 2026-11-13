@@ -1,0 +1,9 @@
+sparse baseline to beat: tfidf_cnb {'C': 0.3}
+
+=== ablation none: 19278 rows (train 19278) ===
+  fold 0: macro F1 0.6214 params={}
+  fold 1: macro F1 0.6334 params={}
+  fold 2: macro F1 0.6266 params={}
+  fold 3: macro F1 0.6188 params={}
+  fold 4: macro F1 0.6320 params={}
+C:\Users\aakas\Desktop\HTTP\.venv\Scripts\python.exe C:\Users\aakas\Desktop\HTTP\scripts\train.py --config configs/transformer_muril_pair.yaml --set data.train=C:/Users/aakas/Desktop/HTTP/data/cache/ablation_none.csv model.epochs=2 run_tag=ablation_none out.save_model=false seeds=[42] model.formulation=single

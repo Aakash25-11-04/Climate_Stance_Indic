@@ -1,0 +1,4 @@
+ablations_rerun | .venv\Scripts\python.exe -u scripts\run_ablations.py --config configs\ablations.yaml
+tables_rerun | .venv\Scripts\python.exe -u scripts\make_tables.py
+model_card_rerun | .venv\Scripts\python.exe -u scripts\write_model_card.py
+report_rerun | .venv\Scripts\python.exe -u scripts\write_report.py

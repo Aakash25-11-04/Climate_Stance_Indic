@@ -1,0 +1,15 @@
+torch>=2.2
+transformers>=4.46,<5
+sentence-transformers>=3.3
+scikit-learn>=1.5
+pandas>=2.2
+numpy>=1.26
+gradio>=5.0
+captum>=0.7
+lime>=0.2.0.1
+emoji>=2.12
+regex>=2024.9
+indic-nlp-library>=0.92
+indic-transliteration>=2.3
+pyyaml>=6.0
+huggingface_hub>=0.26

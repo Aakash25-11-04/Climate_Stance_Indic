@@ -1,0 +1,3 @@
+# Phase 3 remainder (runs after the transformer matrix frees the GPU)
+sparse_rest | .venv\Scripts\python.exe -u scripts\run_baselines.py --config configs\baselines.yaml --set models=[tfidf_lr_translit,nbsvm_translit,tfidf_svm]
+dense_nli_stack | .venv\Scripts\python.exe -u scripts\run_baselines.py --config configs\baselines.yaml --set models=[emb_labse_lr,emb_e5base_lr,emb_labse_target_lr,emb_e5base_target_lr,emb_bgem3_lr,zeroshot_nli,stack_best]

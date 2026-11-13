@@ -1,0 +1,35 @@
+train 19278 dev 1402 gold 306 challenge ['mft', 'invariance', 'directional']
+
+=== muril_pair_claim-auto_weighted_ce_s42 ===
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google/muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[train] epoch 1 step 200/1205 loss 1.0879 0.9 min
+[train] epoch 1 step 400/1205 loss 1.0540 1.7 min
+[train] epoch 1 step 600/1205 loss 1.0343 2.5 min
+[train] epoch 1 step 800/1205 loss 1.0182 3.4 min
+[train] epoch 1 step 1000/1205 loss 1.0066 4.2 min
+[train] epoch 1 step 1200/1205 loss 0.9946 5.0 min
+[train] muril_pair_claim-auto epoch 1: epoch=1 train_loss=0.9941 minutes=5.0651 dev_macro_f1=0.4463 dev_accuracy=0.6869
+[train] epoch 2 step 200/1205 loss 0.9177 6.0 min
+[train] epoch 2 step 400/1205 loss 0.9068 6.8 min
+[train] epoch 2 step 600/1205 loss 0.8919 7.6 min
+[train] epoch 2 step 800/1205 loss 0.8703 8.5 min
+[train] epoch 2 step 1000/1205 loss 0.8562 9.3 min
+[train] epoch 2 step 1200/1205 loss 0.8421 10.1 min
+[train] muril_pair_claim-auto epoch 2: epoch=2 train_loss=0.8415 minutes=10.1616 dev_macro_f1=0.6407 dev_accuracy=0.7004
+[train] epoch 3 step 200/1205 loss 0.7247 11.1 min
+[train] epoch 3 step 400/1205 loss 0.7100 11.9 min
+[train] epoch 3 step 600/1205 loss 0.7003 12.7 min
+[train] epoch 3 step 800/1205 loss 0.6951 13.6 min
+[train] epoch 3 step 1000/1205 loss 0.6896 14.4 min
+[train] epoch 3 step 1200/1205 loss 0.6860 15.2 min
+[train] muril_pair_claim-auto epoch 3: epoch=3 train_loss=0.6860 minutes=15.2519 dev_macro_f1=0.6543 dev_accuracy=0.7190
+dev macro F1 0.6543 | gold macro F1 0.6740 | challenge fail 0.291 | 15.5 min
+macro F1 0.6740  acc 0.6830  n=306
+  Favour   P 0.681 R 0.427 F1 0.525 (n=110)
+  Against  P 0.704 R 0.779 F1 0.740 (n=104)
+  None     P 0.664 R 0.880 F1 0.757 (n=92)
+  [bn] macro F1 0.6578 acc 0.6667 n=153
+  [hi] macro F1 0.6899 acc 0.6993 n=153
+saved -> C:\Users\aakas\Desktop\HTTP\models\muril_pair
+EXIT=0

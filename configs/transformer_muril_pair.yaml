@@ -1,0 +1,33 @@
+# Phase 4 / MVS: MuRIL, target-aware pair input [claim] [SEP] [text], claim in the comment's language.
+#   python scripts/train.py --config configs/transformer_muril_pair.yaml
+seed: 42
+data:
+  train: data/processed/train.csv
+  dev: data/processed/dev.csv
+  gold: data/gold/test_handcrafted.csv
+  challenge_dir: data/challenge
+  max_train_rows: null          # subsample for quick runs
+  exclude_source_types: []      # e.g. [synthetic] for the synthetic ablation
+model:
+  name: muril                   # muril | indicbert | xlmr | mbert | banglabert | mdeberta-xnli | any HF id
+  formulation: pair             # single | pair
+  claim_lang: auto              # auto (comment language) | en | hi | bn
+  max_length: 128
+  batch_size: 16
+  grad_accum: 1
+  lr: 2.0e-5
+  epochs: 3
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  loss: weighted_ce             # weighted_ce | focal
+  focal_gamma: 2.0
+  class_weight_power: 0.5       # 0 = no weighting, 1 = full inverse frequency
+  patience: 2
+  fp16: true
+  freeze_embeddings: true     # required on 4 GB VRAM for large-vocabulary encoders (see ASSUMPTIONS #12)
+  max_train_minutes: 170
+seeds: [42]                     # Tier C+: 1 seed by default (3 seeds only for the final config)
+out:
+  model_dir: models/muril_pair
+  predictions_dir: results/predictions
+  save_model: true
