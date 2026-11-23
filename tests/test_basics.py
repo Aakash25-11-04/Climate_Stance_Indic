@@ -14,7 +14,13 @@ from stance.data.transliterate import native_to_roman, romanized_to_native
 from stance.evaluation.metrics import evaluate
 from stance.models.calibration import apply_calibration, fit_class_bias, fit_temperature
 from stance.models.sparse import LexiconModel, TfidfModel
-from stance.preprocessing.normalize import Preprocessor, code_mix_ratio, detect_script
+from stance.preprocessing.normalize import (
+    Preprocessor,
+    code_mix_ratio,
+    detect_script,
+    script_ratio,
+    strip_for_dedup
+)
 from stance.utils import LABELS, load_config
 
 
@@ -99,3 +105,23 @@ def test_metrics_and_calibration():
 def test_config_overrides():
     cfg = load_config("configs/dataset.yaml", ["dataset.dev_share=0.2", "seed=7"])
     assert cfg["dataset"]["dev_share"] == 0.2 and cfg["seed"] == 7 and cfg["claim"]["en"]
+def test_script_ratio():
+    ratios = script_ratio("abcक")
+
+    assert ratios["latin"] == 0.75
+    assert ratios["devanagari"] == 0.25
+    assert ratios["bengali"] == 0.0
+    assert abs(sum(ratios.values()) - 1.0) < 1e-9
+
+
+def test_strip_for_dedup_removes_social_media_noise():
+    text = "Climate!!! @modi https://example.com 🔥 Change"
+
+    result = strip_for_dedup(text)
+
+    assert result == "climate change"
+
+
+def test_strip_for_dedup_handles_empty_input():
+    assert strip_for_dedup("") == ""
+    assert strip_for_dedup(None) == ""
