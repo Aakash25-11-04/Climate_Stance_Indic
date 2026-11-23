@@ -125,3 +125,21 @@ def test_strip_for_dedup_removes_social_media_noise():
 def test_strip_for_dedup_handles_empty_input():
     assert strip_for_dedup("") == ""
     assert strip_for_dedup(None) == ""
+def test_unicode_nfc_normalization():
+    p = Preprocessor(indic_normalize=False)
+
+    text = "cafe\u0301"
+    result = p(text)
+
+    assert result == "café"
+    assert result == "café".encode("utf-8").decode("utf-8")
+
+
+def test_zero_width_character_removal():
+    p = Preprocessor(indic_normalize=False)
+
+    text = "clima\u200bte change"
+    result = p(text)
+
+    assert result == "climate change"
+    assert "\u200b" not in result
